@@ -39,7 +39,13 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#608b4e"
+				"foreground": "#505050"
+			}
+        },
+		{
+			"scope": "punctuation.definition.comment.js",
+			"settings": {
+				"foreground": "#404040"
 			}
 		},
 		{
@@ -49,9 +55,7 @@
 			}
 		},
 		{
-			"scope": [
-				"constant.numeric"
-			],
+			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#b5cea8"
 			}
@@ -461,76 +465,35 @@
 		},
 		{
 			"scope": "token.info-token",
-			"settings": {
-				"foreground": "#6796e6"
-			}
+			"settings": { "foreground": "#6796e6" }
 		},
 		{
 			"scope": "token.warn-token",
-			"settings": {
-				"foreground": "#cd9731"
-			}
+			"settings": { "foreground": "#cd9731" }
 		},
 		{
 			"scope": "token.error-token",
-			"settings": {
-				"foreground": "#f44747"
-			}
+			"settings": { "foreground": "#f44747" }
 		},
 		{
 			"scope": "token.debug-token",
-			"settings": {
-				"foreground": "#b267e6"
-			}
-		},
-		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "punctuation.definition.comment.js",
-			"settings": {
-				"foreground": "#404040"
-			}
-		},
-		{
-			"scope": "meta.structure.dictionary.json",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "punctuation.terminator.statement.js",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "meta.property-list.scss",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "punctuation.terminator.rule.css",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "punctuation.section.property-list.begin.bracket.curly.css",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "punctuation.section.property-list.end.bracket.curly.css",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
+			"settings": { "foreground": "#b267e6" }
+        },
+        {
+            "name": "Curly Braces, etc.",
+            "scope": [
+                "meta.structure.dictionary.json",
+                "punctuation.terminator.statement.js",
+                "meta.property-list.scss",
+                "punctuation.terminator.rule.css",
+                "punctuation.section.property-list.begin.bracket.curly.css",
+                "punctuation.section.property-list.end.bracket.curly.css",
+                "punctuation.definition.string.begin.markdown",
+                "punctuation.definition.string.end.markdown",
+                "punctuation.definition.metadata.markdown"
+            ],
+            "settings": { "foreground": "#505050" }
+        },
 		{
 			"scope": "constant.character.entity.html",
 			"settings": {
@@ -541,24 +504,6 @@
 			"scope": "invalid.illegal.bad-angle-bracket.html",
 			"settings": {
 				"foreground": "#D4D4D4"
-			}
-		},
-		{
-			"scope": "punctuation.definition.metadata.markdown",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "punctuation.definition.string.begin.markdown",
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
-			"scope": "punctuation.definition.string.end.markdown",
-			"settings": {
-				"foreground": "#505050"
 			}
 		},
 		{
@@ -588,7 +533,7 @@
 		{
 			"scope": "meta.interpolation.stylus",
 			"settings": {
-				"foreground": "inherit"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
@@ -598,9 +543,7 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.interpolation.stylus meta.brace.curly"
-			],
+			"scope": "meta.interpolation.stylus meta.brace.curly",
 			"settings": {
 				"foreground": "#569CD6"
 			}
@@ -611,16 +554,16 @@
 				"foreground": "#9CDCFE"
 			}
 		},
+        {
+            "scope": "constant.other.character-class.regexp",
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
 		{
 			"scope": "entity.other.attribute-name.parent-selector-suffix.stylus",
 			"settings": {
 				"foreground": "#D7BA7D"
-			}
-		},
-		{
-			"scope": "constant.other.character-class.regexp",
-			"settings": {
-				"foreground": "#4EC9B0"
 			}
 		}
 	]
