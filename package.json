@@ -1,0 +1,22 @@
+{
+    "name": "dark-plus-syntax",
+    "displayName": "dark-plus-syntax",
+    "description": "VS Code's default dark theme, with some improvements tossed in",
+    "version": "0.0.1",
+    "publisher": "dunstontc",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "dark-plus-syntax",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-plus-syntax-color-theme.json"
+            }
+        ]
+    }
+}
