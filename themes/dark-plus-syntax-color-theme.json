@@ -483,6 +483,8 @@
             "name": "Curly Braces, etc.",
             "scope": [
                 "meta.structure.dictionary.json",
+                "punctuation.definition.array.begin.json",
+                "punctuation.separator.array.json",
                 "punctuation.terminator.statement.js",
                 "meta.property-list.scss",
                 "punctuation.terminator.rule.css",
@@ -490,7 +492,8 @@
                 "punctuation.section.property-list.end.bracket.curly.css",
                 "punctuation.definition.string.begin.markdown",
                 "punctuation.definition.string.end.markdown",
-                "punctuation.definition.metadata.markdown"
+                "punctuation.definition.metadata.markdown",
+                "invalid.illegal.bad-comments-or-CDATA.html"
             ],
             "settings": { "foreground": "#505050" }
         },
