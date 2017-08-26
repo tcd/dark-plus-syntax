@@ -85,6 +85,7 @@
 			}
 		},
 		{
+            "name": "Style Selectors",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
@@ -277,6 +278,7 @@
 			}
 		},
 		{
+            "name" : "Variables",
 			"scope": [
 				"support.type.vendored.property-name",
 				"support.type.property-name",
@@ -287,6 +289,21 @@
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
+			}
+        },
+		{
+			"scope": "meta.object-literal.key.js string.quoted.double.js",
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"scope": [
+                "punctuation.definition.string.end.js",
+                "punctuation.definition.string.begin.js"
+            ],    
+			"settings": {
+				"foreground": "#404040"
 			}
 		},
 		{
