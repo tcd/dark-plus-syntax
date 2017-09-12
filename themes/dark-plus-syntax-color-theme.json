@@ -592,20 +592,23 @@
 		},
 		{
 			"scope": [
-				"punctuation.separator.period.python",
+				"meta.function-call.arguments.python",
 				"keyword.operator.assignment.python",
+				"punctuation.separator.period.python",
 				"punctuation.separator.element.python",
 				"punctuation.separator.dict.python",
 				"punctuation.separator.parameters.python",
-				"meta.function-call.arguments.python",
+				"punctuation.section.class.begin.python",
 				"punctuation.section.function.begin.python",
 				"punctuation.section.function.end.python",
+				"punctuation.definition.inheritance.begin.python",
+				"punctuation.definition.inheritance.end.python",
 				"punctuation.definition.parameters.begin.python",
 				"punctuation.definition.parameters.end.python",
-				"meta.function.parameters.begin.python",
-				"meta.function.parameters.end.python",
 				"punctuation.definition.arguments.begin.python",
-				"punctuation.definition.arguments.end.python"
+				"punctuation.definition.arguments.end.python",
+				"meta.function.parameters.begin.python",
+				"meta.function.parameters.end.python"
 			],
 			"settings": {
 				"foreground": "#D4D4D4"

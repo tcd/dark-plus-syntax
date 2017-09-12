@@ -1,10 +1,10 @@
 const writeJsonFile = require('write-json-file');
-const defaults = require('./partials/defaults');
-const custom   = require('./partials/custom');
-const markup   = require('./partials/markdown');
-const python   = require('./partials/python');
-const ruby     = require('./partials/ruby');
-const stylus   = require('./partials/stylus');
+const defaults = require('./src/partials/defaults');
+const custom   = require('./src/partials/custom');
+const markup   = require('./src/partials/markdown');
+const python   = require('./src/partials/python');
+const ruby     = require('./src/partials/ruby');
+const stylus   = require('./src/partials/stylus');
 
 let nothing = [];
 
@@ -34,6 +34,6 @@ const base = {
     "tokenColors": tokenz
 }
 
-writeJsonFile('./test.json', base).then(() => {
+writeJsonFile('./themes/dark-plus-syntax-color-theme.json', base).then(() => {
 	console.log('done');
 });
