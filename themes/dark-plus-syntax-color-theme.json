@@ -524,6 +524,15 @@
 			}
 		},
 		{
+			"scope": [
+				"entity.name.variable.property.cs",
+				"entity.name.variable.parameter.cs"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
 			"scope": "emphasis",
 			"settings": {
 				"fontStyle": "italic"

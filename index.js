@@ -1,5 +1,6 @@
 const writeJsonFile = require('write-json-file');
 const defaults = require('./src/partials/defaults');
+const cs       = require('./src/partials/cs');
 const custom   = require('./src/partials/custom');
 const markup   = require('./src/partials/markdown');
 const python   = require('./src/partials/python');
@@ -11,6 +12,7 @@ let nothing = [];
 let tokenz = nothing.concat(
     defaults,
     custom,
+    cs,
     markup,
     python,
     ruby,
