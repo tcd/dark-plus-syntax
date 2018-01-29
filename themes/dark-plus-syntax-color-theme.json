@@ -533,6 +533,12 @@
 			}
 		},
 		{
+			"scope": "keyword.operator.arrow.cs",
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
 			"scope": "emphasis",
 			"settings": {
 				"fontStyle": "italic"

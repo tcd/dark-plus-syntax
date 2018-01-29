@@ -6,6 +6,12 @@ module.exports = [
     ],
     "settings": {
         "foreground": "#569cd6"
+    },
+    },
+    {
+        "scope": "keyword.operator.arrow.cs",
+        "settings": {
+            "foreground": "#c586c0"
+        }
     }
-}
 ]
