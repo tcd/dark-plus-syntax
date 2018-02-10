@@ -8,4 +8,4 @@
 
 **Enjoy!**
 
-[dawd](dawd)
+## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
