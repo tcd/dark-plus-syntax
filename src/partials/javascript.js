@@ -2,14 +2,21 @@ module.exports = [
     {
         "scope": [
             "comment.block.documentation.js",
-            "punctuation.quasi.element.end.js"
+            "punctuation.definition.comment.js"
         ],
         "settings": {
             "foreground": "#608b4e"
         }
     },
     {
+        "scope": "comment.line.double-slash.js",
+        "settings": {
+            "foreground": "#505050"
+        }
+    },
+    {
         "scope": [
+            "support.type.object.module.js",
             "punctuation.quasi.element.begin.js",
             "punctuation.quasi.element.end.js"
         ],

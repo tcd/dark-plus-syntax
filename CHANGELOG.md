@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.7
+- Fixed JS comment highlights.
+- Highlight JS keyword "module"
+
 ## 0.0.6
 - Highlight JS doc comments.
 
