@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.3
+- Color brackets in JS interpolation.
+
 ## 0.0.2
 - Improved Markdown support.
 

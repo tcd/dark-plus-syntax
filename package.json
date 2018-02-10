@@ -2,7 +2,7 @@
     "name": "dark-plus-syntax",
     "displayName": "dark-plus-syntax",
     "description": "VS Code's default dark theme, with some improvements tossed in",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "dunstontc",
     "repository": {
         "type": "git",

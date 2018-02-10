@@ -240,7 +240,7 @@ module.exports = [
     {
         "scope": "meta.object-literal.key.js string.quoted.double.js",
         "settings": {
-            "foreground": "#9CDCFE"
+            "foreground": "#9cdcfe"
         }
     },
     {
@@ -307,16 +307,12 @@ module.exports = [
             "variable.language.wildcard.java",
             "storage.modifier.package.java"
         ],
-        "settings": {
-            "foreground": "#d4d4d4"
-        }
+        "settings": {"foreground": "#d4d4d4"}
     },
     {
         "name": "this.self",
         "scope": "variable.language",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": {"foreground": "#569cd6"}
     },
     {
         "name": "Function declarations",
@@ -325,9 +321,7 @@ module.exports = [
             "support.function",
             "support.constant.handlebars"
         ],
-        "settings": {
-            "foreground": "#DCDCAA"
-        }
+        "settings": {"foreground": "#dcdcaa"}
     },
     {
         "name": "Types declaration and references",
@@ -356,9 +350,7 @@ module.exports = [
             "storage.type.primitive.array.groovy",
             "storage.type.primitive.groovy"
         ],
-        "settings": {
-            "foreground": "#4EC9B0"
-        }
+        "settings": {"foreground": "#4ec9b0"}
     },
     {
         "name": "Types declaration and references, TS grammar specific",
@@ -370,16 +362,12 @@ module.exports = [
             "support.constant.json",
             "entity.other.inherited-class"
         ],
-        "settings": {
-            "foreground": "#4EC9B0"
-        }
+        "settings": {"foreground": "#4ec9b0"}
     },
     {
         "name": "Control flow keywords",
         "scope": "keyword.control",
-        "settings": {
-            "foreground": "#C586C0"
-        }
+        "settings": {"foreground": "#C586C0"}
     },
     {
         "name": "Variable and parameter name",
@@ -388,9 +376,7 @@ module.exports = [
             "meta.definition.variable.name",
             "support.variable"
         ],
-        "settings": {
-            "foreground": "#9CDCFE"
-        }
+        "settings": {"foreground": "#9cdcfe"}
     },
     {
         "name": "Object keys, TS grammar specific",
@@ -398,9 +384,7 @@ module.exports = [
             "meta.object-literal.key"
             // "meta.object-literal.key entity.name.function"
         ],
-        "settings": {
-            "foreground": "#9CDCFE"
-        }
+        "settings": {"foreground": "#9cdcfe"}
     },
     {
         "name": "CSS property value",
@@ -414,7 +398,7 @@ module.exports = [
             "support.constant.color"
         ],
         "settings": {
-            "foreground": "#CE9178"
+            "foreground": "#ce9178"
         }
     },
     {
