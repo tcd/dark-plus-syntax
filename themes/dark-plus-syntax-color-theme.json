@@ -454,7 +454,7 @@
 		{
 			"settings": {
 				"foreground": "#d4d4d4ff",
-				// "background": "#1e1e1eff"
+				"background": "#1e1e1eff"
 			}
 		},
 		{
@@ -553,7 +553,7 @@
 		{
 			"scope": "header",
 			"settings": {
-				"foreground": "#000080"
+				"foreground": "#c586c0"
 			}
 		},
 		{
@@ -570,11 +570,10 @@
 		},
 		{
 			"scope": [
-				"meta.link.inline.markdown",
 				"markup.underline.link.markdown"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
