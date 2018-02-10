@@ -1,55 +1,58 @@
 module.exports = [
     {
         "scope": "emphasis",
-        "settings": {
-            "fontStyle": "italic"
-        }
+        "settings": {"fontStyle": "italic"}
     },
     {
         "scope": "strong",
+        "settings": {"fontStyle": "bold"}
+    },
+    {
+        "scope": "markup.italic.markdown",
         "settings": {
-            "fontStyle": "bold"
+            "fontStyle": "italic",
+            "foreground": "#9cdcfe"
         }
     },
     {
-        "scope": "header",
+        "scope": ["markup.bold.markdown"],
         "settings": {
-            "foreground": "#c586c0"
+            "fontStyle": "bold",
+            "foreground": "#569cd6"
         }
+    },
+    {
+        "scope": [
+            "entity.name.section.markdown",
+            "punctuation.definition.heading.markdown",
+        ],
+        "settings": {"foreground": "#c586c0"}
     },
     {
         "scope": "beginning.punctuation.definition.quote.markdown",
-        "settings": {
-            "foreground": "#608b4e"
-        }
+        "settings": {"foreground": "#608b4e"}
     },
     {
         "scope": "beginning.punctuation.definition.list.markdown",
-        "settings": {
-            "foreground": "#6796e6"
-        }
+        "settings": {"foreground": "#6796e6"}
     },
     // {
     //     "scope": [
     //         "meta.link.inline.markdown"
     //     ],
-    //     "settings": {
-    //         "foreground": "#9CDCFE"
-    //     }
+    //     "settings": {"foreground": "#9cdcfe"}
     // },
     {
         "scope": [
-            "markup.underline.link.markdown"
+            "markup.underline.link.markdown",
+            "punctuation.definition.italic.markdown",
+            "punctuation.definition.bold.markdown"
         ],
-        "settings": {
-            "foreground": "#9CDCFE"
-        }
+        "settings": {"foreground": "#505050"}
     },
     {
         "scope": "string.other.link.title.markdown",
-        "settings": {
-            "foreground": "#9CDCFE"
-        }
+        "settings": {"foreground": "#9cdcfe"}
     },
     {
         "scope": [
@@ -57,14 +60,10 @@ module.exports = [
             "meta.link.reference.markdown",
             "punctuation.definition.constant.begin.markdown"
         ],
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": {"foreground": "#569cd6"}
     },
     {
         "scope": "meta.separator.markdown",
-        "settings": {
-            "foreground": "#6796e6"
-        }
+        "settings": {"foreground": "#007acc"}
     },
 ]
