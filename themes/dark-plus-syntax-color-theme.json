@@ -621,6 +621,15 @@
 		},
 		{
 			"scope": [
+				"comment.block.documentation.js",
+				"punctuation.quasi.element.end.js"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.quasi.element.begin.js",
 				"punctuation.quasi.element.end.js"
 			],
