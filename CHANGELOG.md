@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.5
+- Fixed compile error.
+
 ## 0.0.4
 - Highlight JS operators.
 - Added supported languages in readme.
