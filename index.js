@@ -21,7 +21,6 @@ let tokenz = nothing.concat(
     stylus,
 )
 
-
 const base = {
     "name": "dark-plus-syntax",
     "type": "dark",
