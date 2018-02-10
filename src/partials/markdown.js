@@ -14,7 +14,7 @@ module.exports = [
     {
         "scope": "header",
         "settings": {
-            "foreground": "#000080"
+            "foreground": "#c586c0"
         }
     },
     {
@@ -29,13 +29,20 @@ module.exports = [
             "foreground": "#6796e6"
         }
     },
+    // {
+    //     "scope": [
+    //         "meta.link.inline.markdown"
+    //     ],
+    //     "settings": {
+    //         "foreground": "#9CDCFE"
+    //     }
+    // },
     {
         "scope": [
-            "meta.link.inline.markdown",
             "markup.underline.link.markdown"
         ],
         "settings": {
-            "foreground": "#CE9178"
+            "foreground": "#9CDCFE"
         }
     },
     {
