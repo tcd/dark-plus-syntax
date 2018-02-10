@@ -454,7 +454,7 @@
 		{
 			"settings": {
 				"foreground": "#d4d4d4ff",
-				"background": "#1e1e1eff"
+				// "background": "#1e1e1eff"
 			}
 		},
 		{
