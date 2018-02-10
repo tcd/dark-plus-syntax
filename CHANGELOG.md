@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.4
+- Highlight JS operators.
+- Added supported languages in readme.
+
 ## 0.0.3
 - Color brackets in JS interpolation.
 

@@ -8,4 +8,12 @@
 
 **Enjoy!**
 
+## Languages with Additions
+- C#
+- JavaScript
+- Markdown
+- Python
+- Ruby
+- Stylus
+
 ## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
