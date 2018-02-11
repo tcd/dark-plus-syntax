@@ -44,4 +44,12 @@ module.exports = [
             "foreground": "#c586c0"
         }
     },
+    {
+        "scope": [
+            "constant.other.object.key.js"
+        ],
+        "settings": {
+            "foreground": "#9cdcfe"
+        }
+    }
 ]

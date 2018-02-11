@@ -2,6 +2,8 @@
 
 ## 0.0.11
 - Added badges for license, issues, and downloads to the readme.
+- Highlight JS object props as variables.
+- Added C# flow control highlights.
 
 ## 0.0.10
 - Highlight `=` like all other operators in JS.
