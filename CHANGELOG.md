@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.11
+- Added badges for license, issues, and downloads to the readme.
+
 ## 0.0.10
 - Highlight `=` like all other operators in JS.
 
