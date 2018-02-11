@@ -643,7 +643,6 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.assignment.js",
 				"punctuation.quasi.element.begin.js",
 				"punctuation.quasi.element.end.js"
 			],
@@ -657,6 +656,7 @@
 				"keyword.operator.logical.js",
 				"keyword.operator.in.js",
 				"keyword.operator.arithmetic.js",
+				"keyword.operator.assignment.js",
 				"keyword.operator.comparison.js",
 				"keyword.operator.relational.js"
 			],

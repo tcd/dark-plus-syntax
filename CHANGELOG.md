@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.10
+- Highlight `=` like all other operators in JS.
+
 ## 0.0.9
 - Highlight parens in JS interpolation normally.
 

@@ -23,7 +23,6 @@ module.exports = [
     {
         "scope": [
             // "support.type.object.module.js",
-            "keyword.operator.assignment.js",
             "punctuation.quasi.element.begin.js",
             "punctuation.quasi.element.end.js"
         ],
@@ -37,6 +36,7 @@ module.exports = [
             "keyword.operator.logical.js",
             "keyword.operator.in.js",
             "keyword.operator.arithmetic.js",
+            "keyword.operator.assignment.js",
             "keyword.operator.comparison.js",
             "keyword.operator.relational.js",
         ],
