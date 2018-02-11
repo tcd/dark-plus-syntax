@@ -17,8 +17,13 @@ module.exports = [
         }
     },
     {
+        "scope": "entity.quasi.element.js",
+        "settings": { "foreground": "#d4d4d4" }
+    },
+    {
         "scope": [
             // "support.type.object.module.js",
+            "keyword.operator.assignment.js",
             "punctuation.quasi.element.begin.js",
             "punctuation.quasi.element.end.js"
         ],

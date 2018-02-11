@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.9
+- Highlight parens in JS interpolation normally.
+
 ## 0.0.8
 - Fixed JS comment highlight. Again.
 
