@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.12
+- Slight changes to C# Highlighting.
+- Italicize C# types.
+
 ## 0.0.11
 - Added badges for license, issues, and downloads to the readme.
 - Highlight JS object props as variables.
