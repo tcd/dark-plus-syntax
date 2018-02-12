@@ -4,6 +4,7 @@ module.exports = [
             "entity.name.variable.property.cs",
             "entity.name.variable.parameter.cs",
             "entity.name.variable.field.cs",
+            "entity.name.variable.local.cs",
         ],
         "settings": { "foreground": "#9cdcfe" },
     },

@@ -4,17 +4,13 @@ module.exports = [
             "comment.block.documentation.js",
             // "punctuation.definition.comment.js"
         ],
-        "settings": {
-            "foreground": "#608b4e"
-        }
+        "settings": { "foreground": "#608b4e" }
     },
     {
         "scope": [
             "comment.line.double-slash.js",
         ],
-        "settings": {
-            "foreground": "#505050"
-        }
+        "settings": { "foreground": "#505050" }
     },
     {
         "scope": "entity.quasi.element.js",
@@ -26,9 +22,7 @@ module.exports = [
             "punctuation.quasi.element.begin.js",
             "punctuation.quasi.element.end.js"
         ],
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": [
@@ -40,16 +34,12 @@ module.exports = [
             "keyword.operator.comparison.js",
             "keyword.operator.relational.js",
         ],
-        "settings": {
-            "foreground": "#c586c0"
-        }
+        "settings": { "foreground": "#c586c0" }
     },
     {
         "scope": [
             "constant.other.object.key.js"
         ],
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     }
 ]

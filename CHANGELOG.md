@@ -1,4 +1,7 @@
-# Change Log
+# ChangeLog
+
+## 0.0.13
+- Highlight JS object keys.
 
 ## 0.0.12
 - Slight changes to C# Highlighting.
