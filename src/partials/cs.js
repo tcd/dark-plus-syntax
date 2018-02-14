@@ -35,5 +35,11 @@ module.exports = [
             "keyword.other.await.cs",
         ],
         "settings": { "foreground": "#c586c0" }
-    }
+    },
+    {
+        "scope": [
+            "string.bracers.round.cshtml"
+        ],
+        "settings": { "foreground": "#d4d4d4" },
+    },
 ]

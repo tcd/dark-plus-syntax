@@ -19,4 +19,8 @@
 - Ruby
 - Stylus
 
+## Tested with
+- [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)
+
+
 ## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
