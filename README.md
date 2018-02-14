@@ -21,6 +21,9 @@
 
 ## Tested with
 - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)
+- [joshpeng/Sublime-Babel-VSCode](https://github.com/joshpeng/Sublime-Babel-VSCode)
+
+
 
 
 ## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)

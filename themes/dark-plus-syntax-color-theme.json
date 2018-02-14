@@ -561,6 +561,14 @@
 			}
 		},
 		{
+			"scope": [
+				"string.bracers.round.cshtml"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
 			"scope": "emphasis",
 			"settings": {
 				"fontStyle": "italic"
@@ -674,6 +682,16 @@
 		},
 		{
 			"scope": [
+				"meta.function-call.method.with-arguments.js",
+				"variable.function.js"
+			],
+			"settings": {
+				"foreground": "#dcdcaa"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.js",
 				"keyword.operator.typeof.js",
 				"keyword.operator.logical.js",
 				"keyword.operator.in.js",
@@ -688,7 +706,9 @@
 		},
 		{
 			"scope": [
-				"constant.other.object.key.js"
+				"constant.other.object.key.js",
+				"constant.other.object.key.js",
+				"meta.property.object.js"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"

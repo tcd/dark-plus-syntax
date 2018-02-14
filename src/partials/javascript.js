@@ -26,6 +26,14 @@ module.exports = [
     },
     {
         "scope": [
+            "meta.function-call.method.with-arguments.js",
+            "variable.function.js"
+        ],
+        "settings": { "foreground": "#dcdcaa" }
+    },
+    {
+        "scope": [
+            "keyword.operator.js",
             "keyword.operator.typeof.js",
             "keyword.operator.logical.js",
             "keyword.operator.in.js",
@@ -38,7 +46,9 @@ module.exports = [
     },
     {
         "scope": [
-            "constant.other.object.key.js"
+            "constant.other.object.key.js",
+            "constant.other.object.key.js",
+            "meta.property.object.js"
         ],
         "settings": { "foreground": "#9cdcfe" }
     }

@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.14
+- Looking into UI styling.
+- Began adding support for @joshpeng/Sublime-Babel-VSCode
+
 ## 0.0.13
 - Highlight JS object keys.
 
