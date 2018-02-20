@@ -76,7 +76,11 @@ module.exports = [
         }
     },
     {
-        "scope": "support.constant.handlebars",
+        "scope": [
+            "support.constant.handlebars",
+            "expression.embedded.vue",
+            "punctuation.decorator.js"
+        ],
         "settings": {
             "foreground": "#c586c0"
         }
@@ -84,8 +88,12 @@ module.exports = [
     {
         "scope": [
             "support.constant.handlebars",
+            "keyword.annotation.handlebars",
+            "meta.function.inline.other.handlebars",
             "meta.function.block.start.handlebars",
-            "meta.function.block.end.handlebars"
+            "meta.function.block.end.handlebars",
+            "punctuation.definition.generic.begin.html",
+            "punctuation.definition.generic.end.html",
         ],
         "settings": {
             "foreground": "#569cd6"

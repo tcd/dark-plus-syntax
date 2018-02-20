@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.16 (Feb 20, 2018)
+- Added highlighting for vue-html files.
+- Added vuejs/vetur to supported plugins list in readme.
+
 ## 0.0.15 (Feb 20, 2018)
 - Added handlebars highlighting.
 
