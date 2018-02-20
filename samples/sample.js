@@ -2,6 +2,7 @@
 /* Normal Comments */
 /**
  * Doc Comments
+ * param:
  * @param {*function} g Lorem Ipsum Explain Yadda Yadda
  */
 function coroutine(g) {

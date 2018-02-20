@@ -13,21 +13,24 @@ module.exports = [
         "settings": { "foreground": "#505050" }
     },
     {
-        "scope": "entity.quasi.element.js",
+        "scope": [
+            "punctuation.separator.key-value.js",
+            "entity.quasi.element.js",
+        ],
         "settings": { "foreground": "#d4d4d4" }
     },
     {
         "scope": [
             // "support.type.object.module.js",
             "punctuation.quasi.element.begin.js",
-            "punctuation.quasi.element.end.js"
+            "punctuation.quasi.element.end.js",
         ],
         "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": [
             "meta.function-call.method.with-arguments.js",
-            "variable.function.js"
+            "variable.function.js",
         ],
         "settings": { "foreground": "#dcdcaa" }
     },
@@ -47,8 +50,8 @@ module.exports = [
     {
         "scope": [
             "constant.other.object.key.js",
-            "constant.other.object.key.js",
-            "meta.property.object.js"
+            "string.unquoted.label.js",
+            "meta.property.object.js",
         ],
         "settings": { "foreground": "#9cdcfe" }
     }

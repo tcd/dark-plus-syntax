@@ -41,34 +41,58 @@ module.exports = [
     {
         "scope": "constant.character.escape.js",
         "settings": {
-            "foreground": "#9CDCFE"
+            "foreground": "#9cdcfe"
         }
     },
     {
         "scope": "constant.character.escape.backslash.regexp",
         "settings": {
-            "foreground": "#9CDCFE"
+            "foreground": "#9cdcfe"
         }
     },
     {
         "scope": "constant.other.character-class.regexp",
         "settings": {
-            "foreground": "#4EC9B0"
+            "foreground": "#4ec9b0"
         }
     },
     {
         "scope": "constant.character.entity.html",
         "settings": {
-            "foreground": "#DCDCAA"
+            "foreground": "#dcdcaa"
         }
     },
     {
         "name": "ejs and erb",
         "scope": "invalid.illegal.bad-angle-bracket.html",
         "settings": {
-            "foreground": "#D4D4D4"
+            "foreground": "#d4d4d4"
         }
     },
+    {
+        "scope": "variable.parameter.handlebars",
+        "settings": {
+            "foreground": "#9cdcfe"
+        }
+    },
+    {
+        "scope": "support.constant.handlebars",
+        "settings": {
+            "foreground": "#c586c0"
+        }
+    },
+    {
+        "scope": [
+            "support.constant.handlebars",
+            "meta.function.block.start.handlebars",
+            "meta.function.block.end.handlebars"
+        ],
+        "settings": {
+            "foreground": "#569cd6"
+        }
+    },
+
+
     // {
     //     "scope": "meta.embedded.line.erb",
     //     "settings": {
