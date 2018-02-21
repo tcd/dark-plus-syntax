@@ -79,7 +79,8 @@ module.exports = [
         "scope": [
             "support.constant.handlebars",
             "expression.embedded.vue",
-            "punctuation.decorator.js"
+            "punctuation.decorator.js",
+            "meta.function.inline.other.handlebars"
         ],
         "settings": {
             "foreground": "#c586c0"
@@ -89,7 +90,6 @@ module.exports = [
         "scope": [
             "support.constant.handlebars",
             "keyword.annotation.handlebars",
-            "meta.function.inline.other.handlebars",
             "meta.function.block.start.handlebars",
             "meta.function.block.end.handlebars",
             "punctuation.definition.generic.begin.html",

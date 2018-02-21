@@ -7,6 +7,13 @@ module.exports = [
         "settings": { "foreground": "#608b4e" }
     },
     {
+        "scope": "variable.language.this.js",
+        "settings": {
+            "foreground": "#569cd6",
+            "fontStyle": "italic",
+        }
+    },
+    {
         "scope": [
             "comment.line.double-slash.js",
         ],
