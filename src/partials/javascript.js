@@ -29,8 +29,10 @@ module.exports = [
     {
         "scope": [
             // "support.type.object.module.js",
-            "punctuation.quasi.element.begin.js",
             "punctuation.quasi.element.end.js",
+            "punctuation.quasi.element.begin.js",
+            "punctuation.section.embedded.begin.jsx",
+            "punctuation.section.embedded.end.jsx",
         ],
         "settings": { "foreground": "#569cd6" }
     },
@@ -56,9 +58,10 @@ module.exports = [
     },
     {
         "scope": [
-            "constant.other.object.key.js",
+            "string.unquoted.js",
             "string.unquoted.label.js",
             "meta.property.object.js",
+            "constant.other.object.key.js",
         ],
         "settings": { "foreground": "#9cdcfe" }
     }

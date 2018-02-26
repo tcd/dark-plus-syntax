@@ -1,39 +1,27 @@
 module.exports = [
     {
         "scope": "constant.language",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "constant.numeric",
-        "settings": {
-            "foreground": "#b5cea8"
-        }
+        "settings": { "foreground": "#b5cea8" }
     },
     {
         "scope": "constant.regexp",
-        "settings": {
-            "foreground": "#646695"
-        }
+        "settings": { "foreground": "#646695" }
     },
     {
         "scope": "entity.name.tag",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "entity.name.tag.css",
-        "settings": {
-            "foreground": "#d7ba7d"
-        }
+        "settings": { "foreground": "#d7ba7d" }
     },
     {
         "scope": "entity.other.attribute-name",
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "name": "Style Selectors",
@@ -48,15 +36,11 @@ module.exports = [
             "entity.other.attribute-name.attribute.scss",
             "entity.other.attribute-name.scss"
         ],
-        "settings": {
-            "foreground": "#d7ba7d"
-        }
+        "settings": { "foreground": "#d7ba7d" }
     },
     {
         "scope": "invalid",
-        "settings": {
-            "foreground": "#f44747"
-        }
+        "settings": { "foreground": "#f44747" }
     },
 // SECTION: markup
     {
@@ -87,118 +71,80 @@ module.exports = [
     },
     {
         "scope": "markup.inserted",
-        "settings": {
-            "foreground": "#b5cea8"
-        }
+        "settings": { "foreground": "#b5cea8" }
     },
     {
         "scope": "markup.deleted",
-        "settings": {
-            "foreground": "#ce9178"
-        }
+        "settings": { "foreground": "#ce9178" }
     },
     {
         "scope": "markup.changed",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "markup.inline.raw",
-        "settings": {
-            "foreground": "#ce9178"
-        }
+        "settings": { "foreground": "#ce9178" }
     },
     {
         "scope": "fenced_code.block.language",
-        "settings": {
-            "foreground": "#4EC9B0"
-        }
+        "settings": { "foreground": "#4EC9B0" }
     },
     {
         "scope": "meta.selector",
-        "settings": {
-            "foreground": "#d7ba7d"
-        }
+        "settings": { "foreground": "#d7ba7d" }
     },
     {
         "name": "brackets of XML/HTML tags",
         "scope": "punctuation.definition.tag",
-        "settings": {
-            "foreground": "#808080"
-        }
+        "settings": { "foreground": "#808080" }
     },
     {
         "scope": "meta.preprocessor",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "meta.preprocessor.string",
-        "settings": {
-            "foreground": "#ce9178"
-        }
+        "settings": { "foreground": "#ce9178" }
     },
     {
         "scope": "meta.preprocessor.numeric",
-        "settings": {
-            "foreground": "#b5cea8"
-        }
+        "settings": { "foreground": "#b5cea8" }
     },
     {
         "scope": "meta.structure.dictionary.key.python",
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": "meta.diff.header",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "storage",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "storage.type",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "storage.modifier",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "string",
-        "settings": {
-            "foreground": "#ce9178"
-        }
+        "settings": { "foreground": "#ce9178" }
     },
     {
         "scope": "string.tag",
-        "settings": {
-            "foreground": "#ce9178"
-        }
+        "settings": { "foreground": "#ce9178" }
     },
     {
         "scope": "string.value",
-        "settings": {
-            "foreground": "#ce9178"
-        }
+        "settings": { "foreground": "#ce9178" }
     },
     {
         "scope": "string.regexp",
-        "settings": {
-            "foreground": "#d16969"
-        }
+        "settings": { "foreground": "#d16969" }
     },
     {
         "name": "JavaScript string interpolation ${}",
@@ -209,9 +155,7 @@ module.exports = [
             "punctuation.definition.template-expression.end.js",
             "punctuation.section.embedded.coffee"
         ],
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "name": "Reset JavaScript string interpolation expression",
@@ -219,9 +163,7 @@ module.exports = [
             "meta.template.expression.js",
             "meta.template.expression.ts"
         ],
-        "settings": {
-            "foreground": "#d4d4d4"
-        }
+        "settings": { "foreground": "#d4d4d4" }
     },
     {
         "name" : "Variables",
@@ -233,33 +175,23 @@ module.exports = [
             "variable.other.less",
             "source.coffee.embedded"
         ],
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": "meta.object-literal.key.js string.quoted.double.js",
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": "keyword",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "keyword.control",
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "keyword.operator",
-        "settings": {
-            "foreground": "#d4d4d4"
-        }
+        "settings": { "foreground": "#d4d4d4" }
     },
     {
         "scope": [
@@ -269,36 +201,26 @@ module.exports = [
             "keyword.operator.sizeof",
             "keyword.operator.logical.python"
         ],
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "keyword.other.unit",
-        "settings": {
-            "foreground": "#b5cea8"
-        }
+        "settings": { "foreground": "#b5cea8" }
     },
     {
         "scope": [
             "punctuation.section.embedded.begin.php",
             "punctuation.section.embedded.end.php"
         ],
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "support.function.git-rebase",
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": "constant.sha.git-rebase",
-        "settings": {
-            "foreground": "#b5cea8"
-        }
+        "settings": { "foreground": "#b5cea8" }
     },
     {
         "name": "coloring of the Java import and package identifiers",
@@ -397,9 +319,7 @@ module.exports = [
             "constant.other.rgb-value",
             "support.constant.color"
         ],
-        "settings": {
-            "foreground": "#ce9178"
-        }
+        "settings": { "foreground": "#ce9178" }
     },
     {
         "scope": "token.info-token",

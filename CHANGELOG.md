@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.18 (Feb 26, 2018)
+- Added JSX specific object key highlighting.
+- Added partial UI colors.
+
 ## 0.0.17 (Feb 21, 2018)
 - Italicize `this` in JS.
 

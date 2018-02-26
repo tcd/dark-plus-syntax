@@ -5,11 +5,24 @@
 		"list.dropBackground": "#383b3d",
 		"editor.background": "#1e1e1e",
 		"editor.foreground": "#d4d4d4",
-		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editor.selectionHighlightBackground": "#add6ff26",
+		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editorIndentGuide.background": "#404040",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"diffEditor.insertedTextBorder": "#608b4e",
+		"diffEditor.removedTextBorder": "#d16969",
+		"editorGutter.addedBackground": "#608b4e",
+		"editorGutter.modifiedBackground": "#d7ba7d",
+		"editorGutter.deletedBackground": "#d16969",
+		"editorOverviewRuler.addedForeground": "#608b4e",
+		"editorOverviewRuler.modifiedForeground": "#d7ba7d",
+		"editorOverviewRuler.deletedForeground": "#d16969",
+		"gitDecoration.modifiedResourceForeground": "#608b4e",
+		"gitDecoration.deletedResourceForeground": "#d7ba7d",
+		"gitDecoration.untrackedResourceForeground": "#d7ba7d",
+		"gitDecoration.ignoredResourceForeground": "#808080",
+		"gitDecoration.conflictingResourceForeground": "#d16969"
 	},
 	"tokenColors": [
 		{
@@ -713,8 +726,10 @@
 		},
 		{
 			"scope": [
+				"punctuation.quasi.element.end.js",
 				"punctuation.quasi.element.begin.js",
-				"punctuation.quasi.element.end.js"
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -746,9 +761,10 @@
 		},
 		{
 			"scope": [
-				"constant.other.object.key.js",
+				"string.unquoted.js",
 				"string.unquoted.label.js",
-				"meta.property.object.js"
+				"meta.property.object.js",
+				"constant.other.object.key.js"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"

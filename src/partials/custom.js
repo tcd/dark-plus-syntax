@@ -7,15 +7,11 @@ module.exports = [
     },
     {
         "scope": "comment",
-        "settings": {
-            "foreground": "#505050"
-        }
+        "settings": { "foreground": "#505050" }
     },
     {
         "scope": "punctuation.definition.comment.js",
-        "settings": {
-            "foreground": "#404040"
-        }
+        "settings": { "foreground": "#404040" }
     },
     {
         "name": "Curly Braces, etc.",
@@ -40,40 +36,28 @@ module.exports = [
     },
     {
         "scope": "constant.character.escape.js",
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": "constant.character.escape.backslash.regexp",
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": "constant.other.character-class.regexp",
-        "settings": {
-            "foreground": "#4ec9b0"
-        }
+        "settings": { "foreground": "#4ec9b0" }
     },
     {
         "scope": "constant.character.entity.html",
-        "settings": {
-            "foreground": "#dcdcaa"
-        }
+        "settings": { "foreground": "#dcdcaa" }
     },
     {
         "name": "ejs and erb",
         "scope": "invalid.illegal.bad-angle-bracket.html",
-        "settings": {
-            "foreground": "#d4d4d4"
-        }
+        "settings": { "foreground": "#d4d4d4" }
     },
     {
         "scope": "variable.parameter.handlebars",
-        "settings": {
-            "foreground": "#9cdcfe"
-        }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": [
@@ -82,9 +66,7 @@ module.exports = [
             "punctuation.decorator.js",
             "meta.function.inline.other.handlebars"
         ],
-        "settings": {
-            "foreground": "#c586c0"
-        }
+        "settings": { "foreground": "#c586c0" }
     },
     {
         "scope": [
@@ -95,9 +77,7 @@ module.exports = [
             "punctuation.definition.generic.begin.html",
             "punctuation.definition.generic.end.html",
         ],
-        "settings": {
-            "foreground": "#569cd6"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
 
 
