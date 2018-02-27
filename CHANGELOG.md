@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.19 (Feb 27, 2018)
+- Added highlighting for Go operators.
+- Updated readme.
+
 ## 0.0.18 (Feb 26, 2018)
 - Added JSX specific object key highlighting.
 - Added partial UI colors.
