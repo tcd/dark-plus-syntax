@@ -19,7 +19,7 @@ module.exports = [{
         ],
         "settings": {
             "foreground": "#4ec9b0",
-            "fontStyle": "italic"
+            // "fontStyle": "italic"
         }
     },
     {

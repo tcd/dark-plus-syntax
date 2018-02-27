@@ -631,8 +631,7 @@
 				"storage.type.boolean.go"
 			],
 			"settings": {
-				"foreground": "#4ec9b0",
-				"fontStyle": "italic"
+				"foreground": "#4ec9b0"
 			}
 		},
 		{

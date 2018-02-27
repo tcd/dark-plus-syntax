@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.23 (Feb 27, 2018)
+- Removed some italics.
+
 ## 0.0.22 (Feb 27, 2018)
 - Highlight builtin Go types.
 
