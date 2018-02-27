@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.22 (Feb 27, 2018)
+- Highlight builtin Go types.
+
 ## 0.0.21 (Feb 27, 2018)
 - Various other Go highlights.
 
