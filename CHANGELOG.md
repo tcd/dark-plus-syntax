@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.21 (Feb 27, 2018)
+- Various other Go highlights.
+
 ## 0.0.20 (Feb 27, 2018)
 - Included all Go operators.
 - Included Go string formatting.
