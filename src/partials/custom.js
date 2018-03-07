@@ -76,6 +76,7 @@ module.exports = [
             "meta.function.block.end.handlebars",
             "punctuation.definition.generic.begin.html",
             "punctuation.definition.generic.end.html",
+            "support.type.object.module.js",
         ],
         "settings": { "foreground": "#569cd6" }
     },

@@ -1,7 +1,11 @@
 # ChangeLog
 
+## 0.0.25 (March 06, 2018)
+- Tweaked the aforementioned Ruby highlights.
+- Highlight `module` keyword in JavaScript.
+
 ## 0.0.24 (March 06, 2018)
-- Added highlights for ruby operators & other elements.
+- Added highlights for Ruby operators & other elements.
 - Added various samples for testing.
 
 ## 0.0.23 (Feb 27, 2018)
