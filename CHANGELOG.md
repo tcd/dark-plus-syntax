@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.24 (March 06, 2018)
+- Added highlights for ruby operators & other elements.
+- Added various samples for testing.
+
 ## 0.0.23 (Feb 27, 2018)
 - Removed some italics.
 

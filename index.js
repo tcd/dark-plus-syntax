@@ -9,9 +9,9 @@ const python        = require('./src/partials/python');
 const ruby          = require('./src/partials/ruby');
 const stylus        = require('./src/partials/stylus');
 
-let nothing = [];
+let nop = [];
 
-let tokenz = nothing.concat(
+let tokenz = nop.concat(
     defaults,
     custom,
     cs,
@@ -88,6 +88,8 @@ const base = {
     "tokenColors": tokenz
 }
 
-writeJsonFile('./themes/dark-plus-syntax-color-theme.json', base).then(() => {
-    console.log('done');
+let output = './themes/dark-plus-syntax-color-theme.json';
+
+writeJsonFile(output, base).then(() => {
+    console.log('Done!');
 });
