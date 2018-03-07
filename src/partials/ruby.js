@@ -16,18 +16,22 @@ module.exports = [
     },
     {
         "scope": [
+            "keyword.operator.other.ruby",
             "keyword.operator.assignment.ruby",
             "punctuation.definition.constant.ruby",
-            "keyword.control.class.ruby",
-            "keyword.control.def.ruby",
+            "punctuation.separator.arguments.ruby",
+            "punctuation.section.array.begin.ruby",
+            "punctuation.section.array.begin.ruby",
+
         ],
         "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": [
+            "keyword.control.def.ruby",
+            "keyword.control.class.ruby",
             "keyword.operator.comparison.ruby",
             "keyword.operator.arithmetic.ruby",
-            "keyword.operator.other.ruby",
         ],
         "settings": { "foreground": "#c586c0" }
     },
@@ -35,6 +39,9 @@ module.exports = [
         "scope": [
             "punctuation.separator.method.ruby",
             "punctuation.separator.object.ruby",
+            "punctuation.section.function.ruby",
+            "punctuation.section.scope.begin.ruby",
+            "punctuation.section.scope.end.ruby",
         ],
         "settings": { "foreground": "#808080" }
     },

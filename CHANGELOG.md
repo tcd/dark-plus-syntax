@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.26 (March 06, 2018)
+- Final touches on Ruby.
+
 ## 0.0.25 (March 06, 2018)
 - Tweaked the aforementioned Ruby highlights.
 - Highlight `module` keyword in JavaScript.
