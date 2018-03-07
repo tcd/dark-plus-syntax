@@ -19,9 +19,8 @@ module.exports = [
             "keyword.operator.other.ruby",
             "keyword.operator.assignment.ruby",
             "punctuation.definition.constant.ruby",
-            "punctuation.separator.arguments.ruby",
-            "punctuation.section.array.begin.ruby",
-            "punctuation.section.array.begin.ruby",
+            "keyword.control.pseudo-method.ruby",
+
 
         ],
         "settings": { "foreground": "#569cd6" }
@@ -39,9 +38,12 @@ module.exports = [
         "scope": [
             "punctuation.separator.method.ruby",
             "punctuation.separator.object.ruby",
+            "punctuation.separator.arguments.ruby",
             "punctuation.section.function.ruby",
             "punctuation.section.scope.begin.ruby",
             "punctuation.section.scope.end.ruby",
+            "punctuation.section.array.begin.ruby",
+            "punctuation.section.array.end.ruby",
         ],
         "settings": { "foreground": "#808080" }
     },

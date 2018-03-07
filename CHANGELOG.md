@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.27 (March 06, 2018)
+- I lied; Ruby *now* finalized.
+
 ## 0.0.26 (March 06, 2018)
 - Final touches on Ruby.
 
