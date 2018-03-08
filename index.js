@@ -1,6 +1,7 @@
 const writeJsonFile = require('write-json-file');
 const defaults      = require('./src/partials/defaults');
 const cs            = require('./src/partials/cs');
+const css           = require('./src/partials/css');
 const go            = require('./src/partials/go');
 const custom        = require('./src/partials/custom');
 const markup        = require('./src/partials/markdown');
@@ -15,6 +16,7 @@ let tokenz = nop.concat(
     defaults,
     custom,
     cs,
+    css,
     go,
     markup,
     javasctipt,

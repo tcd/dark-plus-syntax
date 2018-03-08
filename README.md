@@ -13,6 +13,7 @@
 
 ## Languages with Additions
 - C#
+- CSS
 - Go
 - JavaScript
 - Markdown

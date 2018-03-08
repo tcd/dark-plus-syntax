@@ -1,0 +1,70 @@
+ * {
+     display: border-box;
+     border: solid 1px white;
+     display: inherit;
+ }
+
+ html,
+ body,
+ style {
+     margin: 0;
+     padding: 0;
+ }
+
+ style {
+     display: none;
+ }
+
+ body {
+     background-color: #1e1e1e;
+     color: #d4d4d4;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ ul {
+     list-style-type: none;
+ }
+
+ img {
+     width: 100px;
+     height: 100px;
+     background-color: blue;
+ }
+
+ li.post {
+     list-style-type: none;
+     display: grid;
+     grid-template-columns: 1fr 3fr 1fr;
+     grid-template-rows: 20% 20% 20% 20% 20%;
+ }
+
+ .post-content {
+     background-color: green;
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: space-between;
+ }
+
+ .post-avatar {
+     display: flex;
+     justify-content: center;
+ }
+
+ .post-people {
+     background-color: red;
+ }
+
+ .post-description {
+     background-color: orange;
+ }
+
+ .post-stats {
+     background-color: yellow;
+ }
+
+ div.post-timestamp {
+     background-color: blue;
+ }

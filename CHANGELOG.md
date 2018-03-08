@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.28 (March 07, 2018)
+- Highlighted tag names in CSS to match HTML.
+
 ## 0.0.27 (March 06, 2018)
 - I lied; Ruby *now* finalized.
 

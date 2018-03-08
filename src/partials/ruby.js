@@ -23,7 +23,8 @@ module.exports = [
 
 
         ],
-        "settings": { "foreground": "#569cd6" }
+        // "settings": { "foreground": "#569cd6" }
+        "settings": { "foreground": "#c586c0" }
     },
     {
         "scope": [
