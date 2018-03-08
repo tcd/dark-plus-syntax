@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.29 (March 08, 2018)
+- Fixed commas in CSS.
+
 ## 0.0.28 (March 07, 2018)
 - Highlighted tag names in CSS to match HTML.
 
