@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.32 (March 16, 2018)
+- Added sensible Makefile highlights.
+- Added default highlight for escaped characters.
+
 ## 0.0.31 (March 15, 2018)
 - Even more Groovy.
 

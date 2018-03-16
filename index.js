@@ -10,6 +10,7 @@ const javascript    = require('./src/partials/javascript');
 const python        = require('./src/partials/python');
 const ruby          = require('./src/partials/ruby');
 const stylus        = require('./src/partials/stylus');
+const misc          = require('./src/partials/misc');
 
 let nop = [];
 
@@ -25,6 +26,7 @@ let tokenz = nop.concat(
     python,
     ruby,
     stylus,
+    misc,
 )
 
 const base = {
@@ -95,5 +97,5 @@ const base = {
 let output = './themes/dark-plus-syntax-color-theme.json';
 
 writeJsonFile(output, base).then(() => {
-    console.log('Done!');
+    console.log('=== Done! ===\n');
 });

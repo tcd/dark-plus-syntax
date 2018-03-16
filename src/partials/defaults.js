@@ -278,6 +278,10 @@ module.exports = [
         "settings": {"foreground": "#9cdcfe"}
     },
     {
+        "scope": "constant.character.escape",
+        "settings": {"foreground": "#d7ba7d"}
+    },
+    {
         "scope": "token.info-token",
         "settings": { "foreground": "#6796e6" }
     },
