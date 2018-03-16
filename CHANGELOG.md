@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.31 (March 15, 2018)
+- Even more Groovy.
+
 ## 0.0.30 (March 15, 2018)
 - Fixed typo in index.js.
 - Added highlighting for Groovy.

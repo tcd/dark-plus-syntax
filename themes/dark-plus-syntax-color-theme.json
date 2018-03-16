@@ -736,7 +736,9 @@
 			}
 		},
 		{
-			"scope": "constant.other.key.groovy",
+			"scope": [
+				"source.groovy.embedded.source"
+			],
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
@@ -744,7 +746,8 @@
 		{
 			"scope": [
 				"keyword.operator.assignment.groovy",
-				"keyword.operator.arithmetic.groovy"
+				"keyword.operator.arithmetic.groovy",
+				"keyword.control.exception.groovy"
 			],
 			"settings": {
 				"foreground": "#c586c0"
@@ -752,6 +755,7 @@
 		},
 		{
 			"scope": [
+				"punctuation.section.embedded.groovy",
 				"constant.other.groovy"
 			],
 			"settings": {
@@ -760,11 +764,16 @@
 		},
 		{
 			"scope": [
-				"meta.method.groovy",
-				"meta.method-call.groovy"
+				"meta.method.groovy"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
+			}
+		},
+		{
+			"scope": "constant.character.escape.groovy",
+			"settings": {
+				"foreground": "#d7ba7d"
 			}
 		},
 		{
