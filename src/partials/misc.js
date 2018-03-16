@@ -10,7 +10,7 @@ module.exports = [
     {
         "scope": [ "variable.language.makefile" ],
         "settings": {
-            "foreground": "#9cdcfe",
+            "foreground": "#569cd6",
             // "fontStyle": "italic"
         }
     },

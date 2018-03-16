@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.34 (March 16, 2018)
+- Final touch for Makefile highlights.
+
 ## 0.0.33 (March 16, 2018)
 - Slight Makefile highlight revision.
 
