@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.33 (March 16, 2018)
+- Slight Makefile highlight revision.
+
 ## 0.0.32 (March 16, 2018)
 - Added sensible Makefile highlights.
 - Added default highlight for escaped characters.

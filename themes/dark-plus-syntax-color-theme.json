@@ -1016,6 +1016,14 @@
 		},
 		{
 			"scope": [
+				"comment.line.number-sign.makefile"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"scope": [
 				"variable.other.makefile"
 			],
 			"settings": {
@@ -1027,8 +1035,7 @@
 				"variable.language.makefile"
 			],
 			"settings": {
-				"foreground": "#9cdcfe",
-				"fontStyle": "italic"
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
@@ -1043,10 +1050,7 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.definition.variable.makefile",
-				"variable.language.makefile"
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#569cd6"
 			}

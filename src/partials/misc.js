@@ -1,5 +1,9 @@
 module.exports = [
     {
+        "scope": [ "comment.line.number-sign.makefile" ],
+        "settings": { "foreground": "#608b4e" }
+    },
+    {
         "scope": [ "variable.other.makefile" ],
         "settings": { "foreground": "#9cdcfe" }
     },
@@ -7,7 +11,7 @@ module.exports = [
         "scope": [ "variable.language.makefile" ],
         "settings": {
             "foreground": "#9cdcfe",
-            "fontStyle": "italic"
+            // "fontStyle": "italic"
         }
     },
     {
@@ -22,8 +26,8 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.definition.variable.makefile",
-            "variable.language.makefile",
+            // "punctuation.definition.variable.makefile",
+            // "variable.language.makefile",
         ],
         "settings": { "foreground": "#569cd6" }
     },
