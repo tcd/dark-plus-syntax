@@ -15,6 +15,7 @@
 - C#
 - CSS
 - Go
+- Groovy
 - JavaScript
 - Markdown
 - Python

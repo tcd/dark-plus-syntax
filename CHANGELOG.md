@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.30 (March 15, 2018)
+- Fixed typo in index.js.
+- Added highlighting for Groovy.
+
 ## 0.0.29 (March 08, 2018)
 - Fixed commas in CSS.
 

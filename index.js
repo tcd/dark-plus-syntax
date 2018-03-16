@@ -5,7 +5,8 @@ const css           = require('./src/partials/css');
 const go            = require('./src/partials/go');
 const custom        = require('./src/partials/custom');
 const markup        = require('./src/partials/markdown');
-const javasctipt    = require('./src/partials/javascript');
+const java          = require('./src/partials/java');
+const javascript    = require('./src/partials/javascript');
 const python        = require('./src/partials/python');
 const ruby          = require('./src/partials/ruby');
 const stylus        = require('./src/partials/stylus');
@@ -19,7 +20,8 @@ let tokenz = nop.concat(
     css,
     go,
     markup,
-    javasctipt,
+    java,
+    javascript,
     python,
     ruby,
     stylus,
