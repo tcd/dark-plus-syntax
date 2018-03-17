@@ -288,25 +288,6 @@
 			}
 		},
 		{
-			"name": "coloring of the Java import and package identifiers",
-			"scope": [
-				"storage.modifier.import.java",
-				"variable.language.wildcard.java",
-				"storage.modifier.package.java"
-			],
-			"settings": {
-				"foreground": "#d4d4d4"
-			}
-		},
-		{
-			"name": "this.self",
-			"scope": "variable.language",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"name": "Function declarations",
 			"scope": [
 				"entity.name.function",
 				"support.function",
@@ -742,6 +723,17 @@
 			}
 		},
 		{
+			"name": "coloring of the Java import and package identifiers",
+			"scope": [
+				"storage.modifier.import.java",
+				"variable.language.wildcard.java",
+				"storage.modifier.package.java"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
 			"scope": [
 				"source.groovy.embedded.source"
 			],
@@ -863,7 +855,13 @@
 		{
 			"scope": "source.python",
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": "string.quoted.docstring.multi.python",
+			"settings": {
+				"foreground": "#608b4e"
 			}
 		},
 		{
@@ -887,7 +885,7 @@
 				"meta.function.parameters.end.python"
 			],
 			"settings": {
-				"foreground": "#D4D4D4"
+				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -899,7 +897,7 @@
 				"punctuation.separator.colon.python"
 			],
 			"settings": {
-				"foreground": "#D4D4D4"
+				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -908,7 +906,7 @@
 				"meta.function-call.generic.python"
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#dcdcaa"
 			}
 		},
 		{
@@ -916,7 +914,16 @@
 				"constant.character.escape.python"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.comparison.python",
+				"keyword.operator.assignment.python"
+			],
+			"settings": {
+				"foreground": "#c586c0"
 			}
 		},
 		{

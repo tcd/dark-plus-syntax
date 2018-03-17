@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.35 (March 17, 2018)
+- Added highlighting for Python operators & docstrings. 
+
 ## 0.0.34 (March 16, 2018)
 - Final touch for Makefile highlights.
 

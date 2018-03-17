@@ -17,10 +17,12 @@
 - Go
 - Groovy
 - JavaScript
+- Makefile
 - Markdown
 - Python
 - Ruby
 - Stylus
+- Vagrant
 
 ## Tested with
 - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)

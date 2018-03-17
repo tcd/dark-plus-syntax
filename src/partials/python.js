@@ -1,7 +1,11 @@
 module.exports = [
     {
         "scope": "source.python",
-        "settings": { "foreground": "#9CDCFE" }
+        "settings": { "foreground": "#9cdcfe" }
+    },
+    {
+        "scope": "string.quoted.docstring.multi.python",
+        "settings": { "foreground": "#608b4e" }
     },
     {
         "scope": [
@@ -24,7 +28,7 @@ module.exports = [
             "meta.function.parameters.end.python",
             // "meta.function.parameters.python",
         ],
-        "settings": { "foreground": "#D4D4D4" }
+        "settings": { "foreground": "#d4d4d4" }
     },
     {
         "scope": [
@@ -34,29 +38,26 @@ module.exports = [
             "punctuation.definition.dict.end.python",
             "punctuation.separator.colon.python"
         ],
-        "settings": { "foreground": "#D4D4D4" }
+        "settings": { "foreground": "#d4d4d4" }
     },
     {
         "scope": [
             "meta.function-call.python",
             "meta.function-call.generic.python"
         ],
-        "settings": { "foreground": "#DCDCAA" }
+        "settings": { "foreground": "#dcdcaa" }
     },
-    // {
-    //     "scope": [
-    //         "support.function.builtin.python"
-    //         // "meta.function-call.generic.python"
-    //     ],
-    //     "settings": {
-    //         "foreground": "#D7BA7D"
-    //     }
-    // },
     {
         "scope": [
             "constant.character.escape.python"
-            // "meta.function-call.generic.python"
         ],
-        "settings": { "foreground": "#9CDCFE" }
+        "settings": { "foreground": "#9cdcfe" }
+    },
+    {
+        "scope": [
+            "keyword.operator.comparison.python",
+            "keyword.operator.assignment.python"
+        ],
+        "settings": { "foreground": "#c586c0" }
     }
 ]

@@ -1,5 +1,14 @@
 module.exports = [
     {
+        "name": "coloring of the Java import and package identifiers",
+        "scope": [
+            "storage.modifier.import.java",
+            "variable.language.wildcard.java",
+            "storage.modifier.package.java"
+        ],
+        "settings": {"foreground": "#d4d4d4"}
+    },
+    {
         "scope": [
             // "constant.other.key.groovy",
             "source.groovy.embedded.source",

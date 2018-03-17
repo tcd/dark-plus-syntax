@@ -22,10 +22,6 @@ module.exports = [
         ],
         "settings": { "foreground": "#dcdcaa" },
     },
-    // {
-    //     "scope": [""],
-    //     "settings": { "foreground": "#9cdcfe" },
-    // },
     {
         "scope": [
             "keyword.operator.arrow.cs",

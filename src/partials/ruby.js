@@ -20,10 +20,7 @@ module.exports = [
             "keyword.operator.assignment.ruby",
             "punctuation.definition.constant.ruby",
             "keyword.control.pseudo-method.ruby",
-
-
         ],
-        // "settings": { "foreground": "#569cd6" }
         "settings": { "foreground": "#c586c0" }
     },
     {
