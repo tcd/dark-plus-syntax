@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 0.0.36 (March 17, 2018)
+- Tweaked variable highlighting in Python.
+- Also italicized `self` (in Python).
+- Added todo.txt.
+
 ## 0.0.35 (March 17, 2018)
 - Added highlighting for Python operators & docstrings. 
 

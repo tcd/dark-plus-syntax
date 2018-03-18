@@ -1,0 +1,2 @@
+2018-03-17 Look into optional settings.
+2018-03-17 Language support for todo.txt. No wonder this editor still has problems.
