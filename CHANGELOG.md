@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.37 (March 17, 2018)
+- Normalized comma highlighting in Python.
+
 ## 0.0.36 (March 17, 2018)
 - Tweaked variable highlighting in Python.
 - Also italicized `self` (in Python).

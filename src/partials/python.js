@@ -22,6 +22,7 @@ module.exports = [
             "punctuation.separator.element.python",
             "punctuation.separator.dict.python",
             "punctuation.separator.parameters.python",
+            "punctuation.separator.arguments.python",
             "punctuation.section.class.begin.python",
             "punctuation.section.function.begin.python",
             "punctuation.section.function.end.python",
