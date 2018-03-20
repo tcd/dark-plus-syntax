@@ -23,6 +23,7 @@
 - Ruby
 - Stylus
 - Terraform
+- TypeScript
 - Twig
 - Vagrant
 

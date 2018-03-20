@@ -5,6 +5,7 @@ module.exports = [
             "comment.block.js",
             "meta.tag.ts",
             "comment.line.triple-slash.directive.ts",
+            "comment.block.documentation.ts",
             // "punctuation.definition.comment.js"
         ],
         "settings": { "foreground": "#608b4e" }
@@ -53,6 +54,8 @@ module.exports = [
     {
         "name": "JavaScript string interpolation ${}",
         "scope": [
+            "punctuation.definition.string.template.begin.ts",
+            "punctuation.definition.string.template.end.ts",
             "punctuation.definition.template-expression.begin.js",
             "punctuation.definition.template-expression.begin.ts",
             "punctuation.definition.template-expression.end.ts",
