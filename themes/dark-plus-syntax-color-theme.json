@@ -38,12 +38,13 @@
 			}
 		},
 		{
-			"name": "Curly Braces, etc.",
+			"name": "Curly Braces, Semicolons, etc.",
 			"scope": [
 				"meta.structure.dictionary.json",
 				"punctuation.definition.array.begin.json",
 				"punctuation.separator.array.json",
 				"punctuation.terminator.statement.js",
+				"punctuation.terminator.statement.ts",
 				"punctuation.separator.statement.ruby",
 				"meta.property-list.scss",
 				"punctuation.terminator.rule.css",
@@ -170,15 +171,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php"
-			],
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": [
 				"entity.name.function",
 				"support.function",
 				"support.constant.handlebars"
@@ -248,15 +240,6 @@
 				"variable",
 				"meta.definition.variable.name",
 				"support.variable"
-			],
-			"settings": {
-				"foreground": "#9cdcfe"
-			}
-		},
-		{
-			"name": "Object keys, TS grammar specific",
-			"scope": [
-				"meta.object-literal.key"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -527,7 +510,10 @@
 		},
 		{
 			"scope": [
-				"comment.block.documentation.js"
+				"comment.block.documentation.js",
+				"comment.block.js",
+				"meta.tag.ts",
+				"comment.line.triple-slash.directive.ts"
 			],
 			"settings": {
 				"foreground": "#608b4e"
@@ -563,6 +549,7 @@
 		{
 			"scope": [
 				"punctuation.separator.key-value.js",
+				"meta.brace.square.js",
 				"entity.quasi.element.js"
 			],
 			"settings": {
@@ -573,8 +560,9 @@
 			"scope": [
 				"support.type.object.module.js",
 				"storage.type.function.arrow.js",
-				"new.expr.js",
-				"meta.arrow.js"
+				"keyword.operator.new.js",
+				"meta.arrow.js",
+				"keyword.control.as.ts"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -610,7 +598,8 @@
 		{
 			"scope": [
 				"meta.function-call.method.with-arguments.js",
-				"variable.function.js"
+				"variable.function.js",
+				"keyword.control.require.ts"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
@@ -618,6 +607,8 @@
 		},
 		{
 			"scope": [
+				"punctuation.decorator.js",
+				"punctuation.accessor.js",
 				"keyword.operator.js",
 				"keyword.operator.typeof.js",
 				"keyword.operator.logical.js",
@@ -643,6 +634,23 @@
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"name": "Object keys, TS grammar specific",
+			"scope": [
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.type.annotation.ts"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
 			}
 		},
 		{
@@ -1032,7 +1040,10 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"meta.tag.sgml.doctype.html"
+			],
 			"settings": {
 				"foreground": "#808080"
 			}
@@ -1047,10 +1058,15 @@
 			"scope": [
 				"entity.tag",
 				"entity.name.tag",
+				"string.interpolated.jade",
 				"support.constant.handlebars",
 				"keyword.annotation.handlebars",
 				"meta.function.block.start.handlebars",
 				"meta.function.block.end.handlebars",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
+				"meta.tag.template.value.twig",
+				"punctuation.section.tag.twig",
 				"punctuation.definition.generic.begin.html",
 				"punctuation.definition.generic.end.html"
 			],
@@ -1081,9 +1097,10 @@
 			"scope": [
 				"meta.directive.vue",
 				"expression.embedded.vue",
-				"punctuation.decorator.js",
 				"support.constant.handlebars",
-				"meta.function.inline.other.handlebars"
+				"meta.function.inline.other.handlebars",
+				"meta.first-class.jade",
+				"meta.control.flow.jade"
 			],
 			"settings": {
 				"foreground": "#c586c0"

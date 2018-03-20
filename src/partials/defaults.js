@@ -10,12 +10,13 @@ module.exports = [
         "settings": { "foreground": "#505050" }
     },
     {
-        "name": "Curly Braces, etc.",
+        "name": "Curly Braces, Semicolons, etc.",
         "scope": [
             "meta.structure.dictionary.json",
             "punctuation.definition.array.begin.json",
             "punctuation.separator.array.json",
             "punctuation.terminator.statement.js",
+            "punctuation.terminator.statement.ts",
             "punctuation.separator.statement.ruby",
             "meta.property-list.scss",
             "punctuation.terminator.rule.css",
@@ -110,13 +111,6 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.section.embedded.begin.php",
-            "punctuation.section.embedded.end.php"
-        ],
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
-        "scope": [
             "entity.name.function",
             "support.function",
             "support.constant.handlebars"
@@ -178,14 +172,6 @@ module.exports = [
             "variable",
             "meta.definition.variable.name",
             "support.variable"
-        ],
-        "settings": {"foreground": "#9cdcfe"}
-    },
-    {
-        "name": "Object keys, TS grammar specific",
-        "scope": [
-            "meta.object-literal.key"
-            // "meta.object-literal.key entity.name.function"
         ],
         "settings": {"foreground": "#9cdcfe"}
     },

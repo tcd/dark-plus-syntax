@@ -2,6 +2,9 @@ module.exports = [
     {
         "scope": [
             "comment.block.documentation.js",
+            "comment.block.js",
+            "meta.tag.ts",
+            "comment.line.triple-slash.directive.ts",
             // "punctuation.definition.comment.js"
         ],
         "settings": { "foreground": "#608b4e" }
@@ -30,6 +33,7 @@ module.exports = [
     {
         "scope": [
             "punctuation.separator.key-value.js",
+            "meta.brace.square.js",
             "entity.quasi.element.js",
         ],
         "settings": { "foreground": "#d4d4d4" }
@@ -38,8 +42,10 @@ module.exports = [
         "scope": [
             "support.type.object.module.js",
             "storage.type.function.arrow.js",
-            "new.expr.js",
+            "keyword.operator.new.js",
+            // "new.expr.js",
             "meta.arrow.js",
+            "keyword.control.as.ts",
 
         ],
         "settings": { "foreground": "#569cd6" }
@@ -71,11 +77,14 @@ module.exports = [
         "scope": [
             "meta.function-call.method.with-arguments.js",
             "variable.function.js",
+            "keyword.control.require.ts",
         ],
         "settings": { "foreground": "#dcdcaa" }
     },
     {
         "scope": [
+            "punctuation.decorator.js",
+            "punctuation.accessor.js",
             "keyword.operator.js",
             "keyword.operator.typeof.js",
             "keyword.operator.logical.js",
@@ -99,4 +108,19 @@ module.exports = [
         ],
         "settings": { "foreground": "#9cdcfe" }
     },
+    {
+        "name": "Object keys, TS grammar specific",
+        "scope": [
+            "meta.object-literal.key"
+            // "meta.object-literal.key entity.name.function"
+        ],
+        "settings": {"foreground": "#9cdcfe"}
+    },
+    {
+        "scope": [
+            "keyword.operator.type.annotation.ts",
+            // "storage.type.namespace.ts",
+        ],
+        "settings": { "foreground": "#4ec9b0"}
+    }
 ]

@@ -1,6 +1,9 @@
 module.exports = [
     {
-        "scope": "punctuation.definition.tag",
+        "scope": [
+            "punctuation.definition.tag",
+            "meta.tag.sgml.doctype.html",
+        ],
         "settings": { "foreground": "#808080" }
     },
     {
@@ -11,10 +14,15 @@ module.exports = [
         "scope": [
             "entity.tag",
             "entity.name.tag",
+            "string.interpolated.jade",
             "support.constant.handlebars",
             "keyword.annotation.handlebars",
             "meta.function.block.start.handlebars",
             "meta.function.block.end.handlebars",
+            "punctuation.section.embedded.begin.php",
+            "punctuation.section.embedded.end.php",
+            "meta.tag.template.value.twig",
+            "punctuation.section.tag.twig",
             "punctuation.definition.generic.begin.html",
             "punctuation.definition.generic.end.html",
         ],
@@ -37,9 +45,11 @@ module.exports = [
         "scope": [
             "meta.directive.vue",
             "expression.embedded.vue",
-            "punctuation.decorator.js",
             "support.constant.handlebars",
-            "meta.function.inline.other.handlebars"
+            "meta.function.inline.other.handlebars",
+            "meta.first-class.jade",
+            "meta.control.flow.jade",
+            // "storage.type.function.jade",
         ],
         "settings": { "foreground": "#c586c0" }
     },
@@ -77,10 +87,4 @@ module.exports = [
     //         "foreground": "#d4d4d4"
     //     }
     // },
-    // {
-    //     "scope": "string.interpolated.jade",
-    //     "settings": {
-    //         "foreground": "#569cd6" //#9cdcfe
-    //     }
-    // }
 ]

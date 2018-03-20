@@ -23,6 +23,7 @@
 - Ruby
 - Stylus
 - Terraform
+- Twig
 - Vagrant
 
 ## Tested with
@@ -32,6 +33,7 @@
 - [Microsoft/vscode-go](https://github.com/Microsoft/vscode-go)
 - [dunstontc/viml](https://github.com/dunstontc/viml)
 - [mauve/vscode-terraform](https://github.com/mauve/vscode-terraform)
+- [Digitalbrainstem/ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar)
 
 
 

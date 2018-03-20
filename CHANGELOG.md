@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.43 (March 20, 2018)
+- More work on templating languages. (Jade, Twig, EJS).
+- Also tuned up TypeScript storage keywords.
+
 ## 0.0.42 (March 20, 2018)
 - *Improved* assorted HTML-embedded languages.
 - Polished up some JavaScript as well.
