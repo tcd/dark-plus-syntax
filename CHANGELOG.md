@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 0.0.41 (March , 2018)
+- Added VimL support to readme.
+- Tweaked Terraform a bit.
+
+
 ## 0.0.40 (March 20, 2018)
 - Added highlighting for *storage.type*.
 - Minor C# updates.

@@ -996,18 +996,49 @@
 			}
 		},
 		{
-			"scope": [],
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
 			"scope": [
 				"entity.name.function.target.makefile",
 				"constant.character.escape.continuation.makefile"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.section.terraform"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.section.begin.terraform",
+				"keyword.other.section.end.terraform",
+				"keyword.other.function.inline.terraform"
+			],
+			"settings": {
+				"foreground": "#dcdcaa"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.function.terraform",
+				"entity.tag.embedded.start.terraform",
+				"entity.tag.embedded.end.terraform"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.terraform",
+				"source.terraform.embedded.source"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
@@ -1018,12 +1049,6 @@
 			}
 		},
 		{
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -1031,6 +1056,8 @@
 		},
 		{
 			"scope": [
+				"entity.tag",
+				"entity.name.tag",
 				"support.constant.handlebars",
 				"keyword.annotation.handlebars",
 				"meta.function.block.start.handlebars",

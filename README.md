@@ -17,11 +17,12 @@
 - Go
 - Groovy
 - JavaScript
-- Makefile
+- Make
 - Markdown
 - Python
 - Ruby
 - Stylus
+- Terraform
 - Vagrant
 
 ## Tested with
@@ -29,6 +30,8 @@
 - [joshpeng/Sublime-Babel-VSCode](https://github.com/joshpeng/Sublime-Babel-VSCode)
 - [vuejs/vetur](https://github.com/vuejs/vetur)
 - [Microsoft/vscode-go](https://github.com/Microsoft/vscode-go)
+- [dunstontc/viml](https://github.com/dunstontc/viml)
+- [mauve/vscode-terraform](https://github.com/mauve/vscode-terraform)
 
 
 

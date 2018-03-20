@@ -5,15 +5,13 @@ module.exports = [
         "settings": { "foreground": "#808080" }
     },
     {
-        "scope": "entity.name.tag",
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
         "scope": "entity.other.attribute-name",
         "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": [
+            "entity.tag",
+            "entity.name.tag",
             "support.constant.handlebars",
             "keyword.annotation.handlebars",
             "meta.function.block.start.handlebars",
