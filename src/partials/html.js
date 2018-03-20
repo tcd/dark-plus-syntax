@@ -1,6 +1,5 @@
 module.exports = [
     {
-        "name": "brackets of XML/HTML tags",
         "scope": "punctuation.definition.tag",
         "settings": { "foreground": "#808080" }
     },
@@ -36,12 +35,20 @@ module.exports = [
     },
     {
         "scope": [
-            "support.constant.handlebars",
+            "meta.directive.vue",
             "expression.embedded.vue",
             "punctuation.decorator.js",
+            "support.constant.handlebars",
             "meta.function.inline.other.handlebars"
         ],
         "settings": { "foreground": "#c586c0" }
+    },
+    {
+        "scope": [
+            "punctuation.definition.string.begin.html",
+            "punctuation.definition.string.end.html",
+        ],
+        "settings": { "foreground": "#ce9178" }
     },
     // {
     //     "scope": "meta.embedded.line.erb",

@@ -1,9 +1,12 @@
 # ChangeLog
 
-## 0.0.41 (March , 2018)
+## 0.0.42 (March 20, 2018)
+- *Improved* assorted HTML-embedded languages.
+- Polished up some JavaScript as well.
+
+## 0.0.41 (March 20, 2018)
 - Added VimL support to readme.
 - Tweaked Terraform a bit.
-
 
 ## 0.0.40 (March 20, 2018)
 - Added highlighting for *storage.type*.

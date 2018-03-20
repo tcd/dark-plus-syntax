@@ -33,15 +33,11 @@ module.exports = [
     },
     {
         "scope": "constant.character.escape.backslash.regexp",
-        "settings": { "foreground": "#9cdcfe" }
+        "settings": { "foreground": "#d7ba7d" }
     },
     {
         "scope": "constant.other.character-class.regexp",
         "settings": { "foreground": "#4ec9b0" }
-    },
-    {
-        "scope": "constant.language",
-        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "constant.numeric",
@@ -72,14 +68,6 @@ module.exports = [
         "settings": { "foreground": "#569cd6" }
     },
     {
-        "scope": "storage",
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
-        "scope": "storage.modifier",
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
         "scope": [
             "string",
             "string.tag",
@@ -94,8 +82,12 @@ module.exports = [
     },
     {
         "scope": [
+            "storage",
+            "storage.type",
+            "storage.modifier",
             "keyword",
-            "keyword.control"
+            "keyword.control",
+            "constant.language",
         ],
         "settings": { "foreground": "#569cd6" }
     },
@@ -124,14 +116,6 @@ module.exports = [
         "settings": { "foreground": "#569cd6" }
     },
     {
-        "scope": "support.function.git-rebase",
-        "settings": { "foreground": "#9cdcfe" }
-    },
-    {
-        "scope": "constant.sha.git-rebase",
-        "settings": { "foreground": "#b5cea8" }
-    },
-    {
         "scope": [
             "entity.name.function",
             "support.function",
@@ -145,7 +129,6 @@ module.exports = [
             "meta.return-type",
             "support.class",
             "support.type",
-            "storage.type",
             "entity.name.type",
             "entity.name.class",
             "storage.type.cs",
@@ -205,6 +188,14 @@ module.exports = [
             // "meta.object-literal.key entity.name.function"
         ],
         "settings": {"foreground": "#9cdcfe"}
+    },
+    {
+        "scope": "support.function.git-rebase",
+        "settings": { "foreground": "#9cdcfe" }
+    },
+    {
+        "scope": "constant.sha.git-rebase",
+        "settings": { "foreground": "#b5cea8" }
     },
     {
         "scope": "constant.character.escape",

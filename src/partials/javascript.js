@@ -11,6 +11,12 @@ module.exports = [
         "settings": { "foreground": "#404040" }
     },
     {
+        "scope": [
+            "comment.line.double-slash.js",
+        ],
+        "settings": { "foreground": "#505050" }
+    },
+    {
         "scope": "variable.language.this.js",
         "settings": {
             "foreground": "#569cd6",
@@ -23,12 +29,6 @@ module.exports = [
     },
     {
         "scope": [
-            "comment.line.double-slash.js",
-        ],
-        "settings": { "foreground": "#505050" }
-    },
-    {
-        "scope": [
             "punctuation.separator.key-value.js",
             "entity.quasi.element.js",
         ],
@@ -37,6 +37,10 @@ module.exports = [
     {
         "scope": [
             "support.type.object.module.js",
+            "storage.type.function.arrow.js",
+            "new.expr.js",
+            "meta.arrow.js",
+
         ],
         "settings": { "foreground": "#569cd6" }
     },
@@ -80,6 +84,8 @@ module.exports = [
             "keyword.operator.assignment.js",
             "keyword.operator.comparison.js",
             "keyword.operator.relational.js",
+            "keyword.operator.expression.of.js",
+            "keyword.operator.expression.in.js"
         ],
         "settings": { "foreground": "#c586c0" }
     },
