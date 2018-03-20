@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.40 (March 20, 2018)
+- Added highlighting for *storage.type*.
+- Minor C# updates.
+
 ## 0.0.39 (March 20, 2018)
 - Big Refactor.
 - Highlight all operators most default.

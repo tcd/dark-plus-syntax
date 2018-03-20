@@ -10,7 +10,6 @@ const markup        = require('./src/partials/markdown');
 const misc          = require('./src/partials/misc');
 const python        = require('./src/partials/python');
 const ruby          = require('./src/partials/ruby');
-const stylus        = require('./src/partials/stylus');
 
 let nop = [];
 
@@ -24,7 +23,6 @@ let tokenz = nop.concat(
     markup,
     python,
     ruby,
-    stylus,
     misc,
     html,
 )

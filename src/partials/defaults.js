@@ -76,10 +76,6 @@ module.exports = [
         "settings": { "foreground": "#569cd6" }
     },
     {
-        "scope": "storage.type",
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
         "scope": "storage.modifier",
         "settings": { "foreground": "#569cd6" }
     },
@@ -149,6 +145,7 @@ module.exports = [
             "meta.return-type",
             "support.class",
             "support.type",
+            "storage.type",
             "entity.name.type",
             "entity.name.class",
             "storage.type.cs",

@@ -11,7 +11,7 @@ module.exports = [
     {
         "scope": "keyword.type.cs",
         "settings": {
-            "foreground": "#569cd6",
+            "foreground": "#4ec9b0",
             "fontStyle": "italic"
         }
     },

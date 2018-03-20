@@ -128,12 +128,6 @@
 			}
 		},
 		{
-			"scope": "storage.type",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
 			"scope": "storage.modifier",
 			"settings": {
 				"foreground": "#569cd6"
@@ -225,6 +219,7 @@
 				"meta.return-type",
 				"support.class",
 				"support.type",
+				"storage.type",
 				"entity.name.type",
 				"entity.name.class",
 				"storage.type.cs",
@@ -338,7 +333,7 @@
 		{
 			"scope": "keyword.type.cs",
 			"settings": {
-				"foreground": "#569cd6",
+				"foreground": "#4ec9b0",
 				"fontStyle": "italic"
 			}
 		},
@@ -420,6 +415,36 @@
 			],
 			"settings": {
 				"foreground": "#ce9178"
+			}
+		},
+		{
+			"scope": "punctuation.definition.keyword.stylus",
+			"settings": {
+				"foreground": "#C586C0"
+			}
+		},
+		{
+			"scope": "meta.interpolation.stylus",
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"scope": "variable.stylus",
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name.parent-selector-suffix.stylus",
+			"settings": {
+				"foreground": "#D7BA7D"
+			}
+		},
+		{
+			"scope": "meta.interpolation.stylus meta.brace.curly",
+			"settings": {
+				"foreground": "#569CD6"
 			}
 		},
 		{
@@ -927,36 +952,6 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.keyword.stylus",
-			"settings": {
-				"foreground": "#C586C0"
-			}
-		},
-		{
-			"scope": "meta.interpolation.stylus",
-			"settings": {
-				"foreground": "#9CDCFE"
-			}
-		},
-		{
-			"scope": "variable.stylus",
-			"settings": {
-				"foreground": "#4EC9B0"
-			}
-		},
-		{
-			"scope": "entity.other.attribute-name.parent-selector-suffix.stylus",
-			"settings": {
-				"foreground": "#D7BA7D"
-			}
-		},
-		{
-			"scope": "meta.interpolation.stylus meta.brace.curly",
-			"settings": {
-				"foreground": "#569CD6"
-			}
-		},
-		{
 			"scope": [
 				"entity.other.document.begin.yaml"
 			],
@@ -993,7 +988,8 @@
 				"punctuation.separator.key-value.makefile",
 				"support.function.foreach.makefile",
 				"keyword.control.ifeq.makefile",
-				"keyword.control.endif.makefile"
+				"keyword.control.endif.makefile",
+				"constant.character.escape.continuation.makefile"
 			],
 			"settings": {
 				"foreground": "#c586c0"

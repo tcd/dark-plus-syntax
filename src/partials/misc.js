@@ -21,7 +21,7 @@ module.exports = [
             "support.function.foreach.makefile",
             "keyword.control.ifeq.makefile",
             "keyword.control.endif.makefile",
-            // "constant.character.escape.continuation.makefile",
+            "constant.character.escape.continuation.makefile",
         ],
         "settings": { "foreground": "#c586c0" }
     },
