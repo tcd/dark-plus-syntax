@@ -7,11 +7,19 @@ module.exports = [
         "settings": { "foreground": "#608b4e" }
     },
     {
+        "scope": "punctuation.definition.comment.js",
+        "settings": { "foreground": "#404040" }
+    },
+    {
         "scope": "variable.language.this.js",
         "settings": {
             "foreground": "#569cd6",
             "fontStyle": "italic",
         }
+    },
+    {
+        "scope": "constant.character.escape.js",
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": [
@@ -28,13 +36,32 @@ module.exports = [
     },
     {
         "scope": [
-            // "support.type.object.module.js",
+            "support.type.object.module.js",
+        ],
+        "settings": { "foreground": "#569cd6" }
+    },
+    {
+        "name": "JavaScript string interpolation ${}",
+        "scope": [
+            "punctuation.definition.template-expression.begin.js",
+            "punctuation.definition.template-expression.begin.ts",
+            "punctuation.definition.template-expression.end.ts",
+            "punctuation.definition.template-expression.end.js",
             "punctuation.quasi.element.end.js",
             "punctuation.quasi.element.begin.js",
             "punctuation.section.embedded.begin.jsx",
             "punctuation.section.embedded.end.jsx",
+            "punctuation.section.embedded.coffee"
         ],
         "settings": { "foreground": "#569cd6" }
+    },
+    {
+        "name": "Reset JavaScript string interpolation expression",
+        "scope": [
+            "meta.template.expression.js",
+            "meta.template.expression.ts"
+        ],
+        "settings": { "foreground": "#d4d4d4" }
     },
     {
         "scope": [
@@ -62,7 +89,8 @@ module.exports = [
             "string.unquoted.label.js",
             "meta.property.object.js",
             "constant.other.object.key.js",
+            "meta.object-literal.key.js string.quoted.double.js",
         ],
         "settings": { "foreground": "#9cdcfe" }
-    }
+    },
 ]

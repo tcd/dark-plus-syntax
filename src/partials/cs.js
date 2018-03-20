@@ -26,7 +26,7 @@ module.exports = [
         "scope": [
             "keyword.operator.arrow.cs",
             // "keyword.other.using.cs",
-            // "keyword.operator.assignment.cs
+            "keyword.operator.assignment.cs",
             "keyword.operator.comparison.cs",
             "keyword.other.await.cs",
         ],

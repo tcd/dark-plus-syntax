@@ -1,5 +1,12 @@
 # ChangeLog
 
+## 0.0.39 (March 20, 2018)
+- Big Refactor.
+- Highlight all operators most default.
+
+## 0.0.38 (March 17, 2018)
+- Added highlighting storage colons in Python. (EOL following `class` & `def`).
+
 ## 0.0.37 (March 17, 2018)
 - Normalized comma highlighting in Python.
 

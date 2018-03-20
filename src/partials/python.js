@@ -50,6 +50,14 @@ module.exports = [
     },
     {
         "scope": [
+            "punctuation.section.function.begin.python",
+            "punctuation.section.class.begin.python",
+            "keyword.operator.logical.python",
+        ],
+        "settings": { "foreground": "#569cd6" }
+    },
+    {
+        "scope": [
             "meta.function-call.python",
             "meta.function-call.generic.python"
         ],
@@ -58,6 +66,7 @@ module.exports = [
     {
         "scope": [
             "variable.parameter.function-call.python",
+            "meta.structure.dictionary.key.python",
             "meta.function-call.arguments.python",
             "meta.function.parameters.python",
             "constant.other.caps.python",

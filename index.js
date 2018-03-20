@@ -1,32 +1,32 @@
 const writeJsonFile = require('write-json-file');
-const defaults      = require('./src/partials/defaults');
 const cs            = require('./src/partials/cs');
 const css           = require('./src/partials/css');
+const defaults      = require('./src/partials/defaults');
 const go            = require('./src/partials/go');
-const custom        = require('./src/partials/custom');
-const markup        = require('./src/partials/markdown');
+const html          = require('./src/partials/html');
 const java          = require('./src/partials/java');
 const javascript    = require('./src/partials/javascript');
+const markup        = require('./src/partials/markdown');
+const misc          = require('./src/partials/misc');
 const python        = require('./src/partials/python');
 const ruby          = require('./src/partials/ruby');
 const stylus        = require('./src/partials/stylus');
-const misc          = require('./src/partials/misc');
 
 let nop = [];
 
 let tokenz = nop.concat(
     defaults,
-    custom,
     cs,
     css,
     go,
-    markup,
     java,
     javascript,
+    markup,
     python,
     ruby,
     stylus,
     misc,
+    html,
 )
 
 const base = {

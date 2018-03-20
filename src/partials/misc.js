@@ -1,5 +1,9 @@
 module.exports = [
     {
+        "scope": [ "entity.other.document.begin.yaml" ],
+        "settings": { "foreground": "#c586c0" }
+    },
+    {
         "scope": [ "comment.line.number-sign.makefile" ],
         "settings": { "foreground": "#608b4e" }
     },
@@ -9,10 +13,7 @@ module.exports = [
     },
     {
         "scope": [ "variable.language.makefile" ],
-        "settings": {
-            "foreground": "#569cd6",
-            // "fontStyle": "italic"
-        }
+        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": [
@@ -35,7 +36,6 @@ module.exports = [
         "scope": [
             "entity.name.function.target.makefile",
             "constant.character.escape.continuation.makefile",
-
         ],
         "settings": { "foreground": "#dcdcaa" }
     },

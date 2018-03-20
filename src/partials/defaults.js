@@ -1,5 +1,45 @@
 module.exports = [
     {
+        "settings": {
+            "foreground": "#d4d4d4ff",
+            "background": "#1e1e1eff"
+        }
+    },
+    {
+        "scope": "comment",
+        "settings": { "foreground": "#505050" }
+    },
+    {
+        "name": "Curly Braces, etc.",
+        "scope": [
+            "meta.structure.dictionary.json",
+            "punctuation.definition.array.begin.json",
+            "punctuation.separator.array.json",
+            "punctuation.terminator.statement.js",
+            "punctuation.separator.statement.ruby",
+            "meta.property-list.scss",
+            "punctuation.terminator.rule.css",
+            "punctuation.separator.list.comma.css",
+            "punctuation.section.property-list.begin.bracket.curly.css",
+            "punctuation.section.property-list.end.bracket.curly.css",
+            "punctuation.definition.string.begin.markdown",
+            "punctuation.definition.string.end.markdown",
+            "punctuation.definition.metadata.markdown",
+            "invalid.illegal.bad-comments-or-CDATA.html",
+            "punctuation.definition.italic.markdown",
+            "punctuation.definition.bold.markdown"
+        ],
+        "settings": { "foreground": "#505050" }
+    },
+    {
+        "scope": "constant.character.escape.backslash.regexp",
+        "settings": { "foreground": "#9cdcfe" }
+    },
+    {
+        "scope": "constant.other.character-class.regexp",
+        "settings": { "foreground": "#4ec9b0" }
+    },
+    {
         "scope": "constant.language",
         "settings": { "foreground": "#569cd6" }
     },
@@ -9,91 +49,23 @@ module.exports = [
     },
     {
         "scope": "constant.regexp",
-        "settings": { "foreground": "#646695" }
-    },
-    {
-        "scope": "entity.name.tag",
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
-        "scope": "entity.other.attribute-name",
-        "settings": { "foreground": "#9cdcfe" }
+        "settings": { "foreground": "#d16969" }
     },
     {
         "scope": "invalid",
         "settings": { "foreground": "#f44747" }
-    },
-// SECTION: markup
-    {
-        "scope": "markup.underline",
-        "settings": {
-            "fontStyle": "underline"
-        }
-    },
-    {
-        "scope": "markup.bold",
-        "settings": {
-            "fontStyle": "bold"
-            // "foreground": "#569cd6"
-        }
-    },
-    {
-        "scope": "markup.heading",
-        "settings": {
-            "fontStyle": "bold",
-            "foreground": "#569cd6"
-        }
-    },
-    {
-        "scope": "markup.italic",
-        "settings": {
-            "fontStyle": "italic"
-        }
-    },
-    {
-        "scope": "markup.inserted",
-        "settings": { "foreground": "#b5cea8" }
-    },
-    {
-        "scope": "markup.deleted",
-        "settings": { "foreground": "#ce9178" }
-    },
-    {
-        "scope": "markup.changed",
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
-        "scope": "markup.inline.raw",
-        "settings": { "foreground": "#ce9178" }
-    },
-    {
-        "scope": "fenced_code.block.language",
-        "settings": { "foreground": "#4EC9B0" }
     },
     {
         "scope": "meta.selector",
         "settings": { "foreground": "#d7ba7d" }
     },
     {
-        "name": "brackets of XML/HTML tags",
-        "scope": "punctuation.definition.tag",
-        "settings": { "foreground": "#808080" }
-    },
-    {
         "scope": "meta.preprocessor",
         "settings": { "foreground": "#569cd6" }
     },
     {
-        "scope": "meta.preprocessor.string",
-        "settings": { "foreground": "#ce9178" }
-    },
-    {
         "scope": "meta.preprocessor.numeric",
         "settings": { "foreground": "#b5cea8" }
-    },
-    {
-        "scope": "meta.structure.dictionary.key.python",
-        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": "meta.diff.header",
@@ -112,15 +84,12 @@ module.exports = [
         "settings": { "foreground": "#569cd6" }
     },
     {
-        "scope": "string",
-        "settings": { "foreground": "#ce9178" }
-    },
-    {
-        "scope": "string.tag",
-        "settings": { "foreground": "#ce9178" }
-    },
-    {
-        "scope": "string.value",
+        "scope": [
+            "string",
+            "string.tag",
+            "string.value",
+            "meta.preprocessor.string",
+        ],
         "settings": { "foreground": "#ce9178" }
     },
     {
@@ -128,34 +97,10 @@ module.exports = [
         "settings": { "foreground": "#d16969" }
     },
     {
-        "name": "JavaScript string interpolation ${}",
         "scope": [
-            "punctuation.definition.template-expression.begin.js",
-            "punctuation.definition.template-expression.begin.ts",
-            "punctuation.definition.template-expression.end.ts",
-            "punctuation.definition.template-expression.end.js",
-            "punctuation.section.embedded.coffee"
+            "keyword",
+            "keyword.control"
         ],
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
-        "name": "Reset JavaScript string interpolation expression",
-        "scope": [
-            "meta.template.expression.js",
-            "meta.template.expression.ts"
-        ],
-        "settings": { "foreground": "#d4d4d4" }
-    },
-    {
-        "scope": "meta.object-literal.key.js string.quoted.double.js",
-        "settings": { "foreground": "#9cdcfe" }
-    },
-    {
-        "scope": "keyword",
-        "settings": { "foreground": "#569cd6" }
-    },
-    {
-        "scope": "keyword.control",
         "settings": { "foreground": "#569cd6" }
     },
     {
@@ -167,8 +112,7 @@ module.exports = [
             "keyword.operator.new",
             "keyword.operator.expression",
             "keyword.operator.cast",
-            "keyword.operator.sizeof",
-            "keyword.operator.logical.python"
+            "keyword.operator.sizeof"
         ],
         "settings": { "foreground": "#569cd6" }
     },
@@ -242,7 +186,10 @@ module.exports = [
     },
     {
         "name": "Control flow keywords",
-        "scope": "keyword.control",
+        "scope": [
+            "keyword.control",
+            "keyword.operator"
+        ],
         "settings": {"foreground": "#C586C0"}
     },
     {
