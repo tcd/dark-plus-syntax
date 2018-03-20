@@ -3,6 +3,7 @@ module.exports = [
         "scope": [
             "punctuation.definition.tag",
             "meta.tag.sgml.doctype.html",
+            "meta.tag.sgml.html",
         ],
         "settings": { "foreground": "#808080" }
     },
@@ -49,7 +50,8 @@ module.exports = [
             "meta.function.inline.other.handlebars",
             "meta.first-class.jade",
             "meta.control.flow.jade",
-            // "storage.type.function.jade",
+            "storage.type.function.jade",
+            "storage.type.import.include.jade",
         ],
         "settings": { "foreground": "#c586c0" }
     },

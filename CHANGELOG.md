@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.44 (March 20, 2018)
+- Fixed persistent Jade mismatch.
+
 ## 0.0.43 (March 20, 2018)
 - More work on templating languages. (Jade, Twig, EJS).
 - Also tuned up TypeScript storage keywords.
