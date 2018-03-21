@@ -29,14 +29,14 @@ module.exports = [
         }
     },
     {
-        // "scope": "constant.character.escape.js",
-        "settings": { "foreground": "#9cdcfe" }
+        "scope": "constant.character.escape.js",
+        "settings": { "foreground": "#d7ba7d" }
     },
     {
         "scope": [
             "punctuation.separator.key-value.js",
-            "keyword.operator.accessor.js",
-            "meta.brace.square.js",
+            // "keyword.operator.accessor.js",
+            // "meta.brace.square.js",
             "entity.quasi.element.js",
         ],
         "settings": { "foreground": "#d4d4d4" }
@@ -46,7 +46,7 @@ module.exports = [
             "support.type.object.module.js",
             "storage.type.function.arrow.js",
             "keyword.operator.new.js",
-            // "new.expr.js",
+            "new.expr.js",
             "meta.arrow.js",
             "keyword.control.as.ts",
 
@@ -120,7 +120,6 @@ module.exports = [
         "name": "Object keys, TS grammar specific",
         "scope": [
             "meta.object-literal.key"
-            // "meta.object-literal.key entity.name.function"
         ],
         "settings": {"foreground": "#9cdcfe"}
     },

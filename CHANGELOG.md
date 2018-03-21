@@ -1,6 +1,9 @@
 # ChangeLog
 
-## 0.0.4% (March 20, 2018)
+## 0.0.46 (March 20, 2018)
+- Fixed a stray comment.
+
+## 0.0.45 (March 20, 2018)
 - Treat single & double quoted object keys as object keys in JavaScript.
 
 ## 0.0.44 (March 20, 2018)

@@ -1,6 +1,5 @@
 module.exports = [
     {
-        "name": "coloring of the Java import and package identifiers",
         "scope": [
             "storage.modifier.import.java",
             "variable.language.wildcard.java",

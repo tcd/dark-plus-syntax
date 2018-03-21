@@ -1,6 +1,5 @@
 module.exports = [
     {
-        "name": "Style Selectors",
         "scope": [
             "entity.other.attribute-name.class.css",
             "entity.other.attribute-name.class.mixin.css",

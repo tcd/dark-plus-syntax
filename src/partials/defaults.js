@@ -97,10 +97,10 @@ module.exports = [
         ],
         "settings": { "foreground": "#569cd6" }
     },
-    {
-        "scope": "keyword.operator",
-        "settings": { "foreground": "#d4d4d4" }
-    },
+    // {
+    //     "scope": "keyword.operator",
+    //     "settings": { "foreground": "#d4d4d4" }
+    // },
     {
         "scope": "keyword.other.unit",
         "settings": { "foreground": "#b5cea8" }
@@ -114,7 +114,7 @@ module.exports = [
         "settings": {"foreground": "#dcdcaa"}
     },
     {
-        "name": "Types declaration and references",
+        "name": "Type declaration and references",
         "scope": [
             "meta.return-type",
             "support.class",
@@ -163,11 +163,10 @@ module.exports = [
         "settings": {"foreground": "#C586C0"}
     },
     {
-        "name": "Variable and parameter name",
         "scope": [
             "variable",
+            "support.variable",
             "meta.definition.variable.name",
-            "support.variable"
         ],
         "settings": {"foreground": "#9cdcfe"}
     },

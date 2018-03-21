@@ -1,12 +1,8 @@
 module.exports = {
-    "root": "true",
-    "extends": "eslint:recommended",
+    "root": true,
     "env": {
       "browser": true,
       "node": true,
-    },
-    "settings": {
-      "sharedData": "Hello"
     },
     "parserOptions": {
       "ecmaVersion": 2017,

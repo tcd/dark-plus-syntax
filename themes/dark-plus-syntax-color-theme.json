@@ -152,12 +152,6 @@
 			}
 		},
 		{
-			"scope": "keyword.operator",
-			"settings": {
-				"foreground": "#d4d4d4"
-			}
-		},
-		{
 			"scope": "keyword.other.unit",
 			"settings": {
 				"foreground": "#b5cea8"
@@ -174,7 +168,7 @@
 			}
 		},
 		{
-			"name": "Types declaration and references",
+			"name": "Type declaration and references",
 			"scope": [
 				"meta.return-type",
 				"support.class",
@@ -229,11 +223,10 @@
 			}
 		},
 		{
-			"name": "Variable and parameter name",
 			"scope": [
 				"variable",
-				"meta.definition.variable.name",
-				"support.variable"
+				"support.variable",
+				"meta.definition.variable.name"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -328,7 +321,6 @@
 			}
 		},
 		{
-			"name": "Style Selectors",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
@@ -451,7 +443,6 @@
 			}
 		},
 		{
-			"name": "coloring of the Java import and package identifiers",
 			"scope": [
 				"storage.modifier.import.java",
 				"variable.language.wildcard.java",
@@ -537,15 +528,14 @@
 			}
 		},
 		{
+			"scope": "constant.character.escape.js",
 			"settings": {
-				"foreground": "#9cdcfe"
+				"foreground": "#d7ba7d"
 			}
 		},
 		{
 			"scope": [
 				"punctuation.separator.key-value.js",
-				"keyword.operator.accessor.js",
-				"meta.brace.square.js",
 				"entity.quasi.element.js"
 			],
 			"settings": {
@@ -557,6 +547,7 @@
 				"support.type.object.module.js",
 				"storage.type.function.arrow.js",
 				"keyword.operator.new.js",
+				"new.expr.js",
 				"meta.arrow.js",
 				"keyword.control.as.ts"
 			],
