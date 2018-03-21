@@ -89,21 +89,17 @@ module.exports = [
             "keyword",
             "keyword.control",
             "constant.language",
+            "keyword.control.anchor.regexp",
+            "keyword.operator.new",
+            "keyword.operator.expression",
+            "keyword.operator.cast",
+            "keyword.operator.sizeof",
         ],
         "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "keyword.operator",
         "settings": { "foreground": "#d4d4d4" }
-    },
-    {
-        "scope": [
-            "keyword.operator.new",
-            "keyword.operator.expression",
-            "keyword.operator.cast",
-            "keyword.operator.sizeof"
-        ],
-        "settings": { "foreground": "#569cd6" }
     },
     {
         "scope": "keyword.other.unit",

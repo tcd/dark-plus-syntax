@@ -6,6 +6,7 @@ module.exports = [
             "meta.tag.ts",
             "comment.line.triple-slash.directive.ts",
             "comment.block.documentation.ts",
+            "comment.line.shebang.js",
             // "punctuation.definition.comment.js"
         ],
         "settings": { "foreground": "#608b4e" }
@@ -28,12 +29,13 @@ module.exports = [
         }
     },
     {
-        "scope": "constant.character.escape.js",
+        // "scope": "constant.character.escape.js",
         "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": [
             "punctuation.separator.key-value.js",
+            "keyword.operator.accessor.js",
             "meta.brace.square.js",
             "entity.quasi.element.js",
         ],
@@ -107,7 +109,10 @@ module.exports = [
             "string.unquoted.label.js",
             "meta.property.object.js",
             "constant.other.object.key.js",
+            "meta.object-literal.key.js string.quoted.single.js",
             "meta.object-literal.key.js string.quoted.double.js",
+            "string.quoted.single.js meta.object-literal.key.js ",
+            "string.quoted.double.js meta.object-literal.key.js ",
         ],
         "settings": { "foreground": "#9cdcfe" }
     },
