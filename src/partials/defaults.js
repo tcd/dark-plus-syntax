@@ -6,8 +6,27 @@ module.exports = [
         }
     },
     {
-        "scope": "comment",
+        "scope": [
+            "comment",
+            "comment.line.double-slash.js",
+        ],
         "settings": { "foreground": "#505050" }
+    },
+    {
+        "name": "Special Comments",
+        "scope": [
+            "meta.tag.sgml.html",
+            "meta.tag.sgml.doctype.html",
+            "comment.block.js",
+            "comment.line.shebang.js",
+            "comment.block.documentation.js",
+            "comment.line.number-sign.ruby",
+            "punctuation.definition.comment.ruby",
+            // "meta.tag.ts",
+            "comment.block.documentation.ts",
+            // "comment.line.triple-slash.directive.ts",
+        ],
+        "settings": { "foreground": "#608b4e" }
     },
     {
         "name": "Curly Braces, Semicolons, etc.",

@@ -1,3 +1,5 @@
 2018-03-17 Look into optional settings.
 2018-03-17 Language support for todo.txt. No wonder this editor still has problems.
 2018-03-20 Find better highlighting for embedded languages in HTML.
+2018-03-21 Poll for embedded template color.
+

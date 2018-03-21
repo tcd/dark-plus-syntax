@@ -1,5 +1,11 @@
 # ChangeLog
 
+## 0.0.47 (March 21, 2018)
+- Some refactoring.
+- Magentafied embedded expressions in HTML. Need to poll to see thoughts on this.
+- Added Green highlight to *special* comments.
+- Improved highlighting for ERB along with some Ruby
+
 ## 0.0.46 (March 20, 2018)
 - Fixed a stray comment.
 

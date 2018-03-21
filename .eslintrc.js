@@ -12,8 +12,7 @@ module.exports = {
       "sourceType": "module"
     },
     "rules": {
-    //   "comma-dangle": ["error", "always"], // I don't like this one
-      "comma-dangle": "off",
+      "comma-dangle": ["error", "always"], // I don't like this one
       "curly": "error",
       "eqeqeq": "off",
       "id-length": ["error", { "min": 4 }],
@@ -21,7 +20,7 @@ module.exports = {
       "linebreak-style": ["error", "unix"],
       "no-inline-comments": "off",
       "no-console": "off",
-    //   "quotes": ["warn", "single"],
+      "quotes": "off",
       "semi": ["error", "always"],
     }
   }
