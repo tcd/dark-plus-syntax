@@ -1,0 +1,25 @@
+<div class="post">
+  {{> userMessage tagName="h1" }}
+
+  <h1>Comments</h1>
+
+  {{#each comments}}
+    {{> userMessage tagName="h2" }}
+  {{/each}}
+</div>
+
+<div class="entry">
+  {{!-- only output author name if an author exists --}}
+  {{#if author}}
+    <h1>{{author.firstName}} {{author.lastName}}</h1>
+  {{/if}}
+</div>
+
+<h1>Comments</h1>
+
+<div id="comments">
+  {{#each comments}}
+  <h2><a href="/posts/{{../permalink}}#{{id}}">{{title}}</a></h2>
+  <div>{{body}}</div>
+  {{/each}}
+</div>

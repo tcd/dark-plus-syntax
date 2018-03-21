@@ -1,0 +1,26 @@
+<% if (user) { %>
+  <h2><%= user.name %></h2>
+<% } %>
+
+<ul>
+  <% users.forEach(function(user){ %>
+    <% include user/show %>
+  <% }) %>
+</ul>
+
+
+<% include head %>
+<h1>Title</h1>
+<p>My page</p>
+<% include foot %>
+
+<% include ../partials/nav %>
+<section name=”jumbotron” >
+ <div class=”jumbotron text-center”>
+ <h1>CodePrep.io Presents</h1>
+ <p>Using EJS templating with Node.js</p>
+ </div>
+ </section>
+<% include ../partials/3columns %>
+<% include ../partials/footer %>
+<% include ../partials/scripts %>
