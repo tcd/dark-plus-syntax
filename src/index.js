@@ -1,15 +1,15 @@
 const writeJsonFile = require('write-json-file');
-const cs            = require('./src/partials/cs');
-const css           = require('./src/partials/css');
-const defaults      = require('./src/partials/defaults');
-const go            = require('./src/partials/go');
-const html          = require('./src/partials/html');
-const java          = require('./src/partials/java');
-const javascript    = require('./src/partials/javascript');
-const markup        = require('./src/partials/markdown');
-const misc          = require('./src/partials/misc');
-const python        = require('./src/partials/python');
-const ruby          = require('./src/partials/ruby');
+const cs            = require('./partials/cs');
+const css           = require('./partials/css');
+const defaults      = require('./partials/defaults');
+const go            = require('./partials/go');
+const html          = require('./partials/html');
+const java          = require('./partials/java');
+const javascript    = require('./partials/javascript');
+const markup        = require('./partials/markdown');
+const misc          = require('./partials/misc');
+const python        = require('./partials/python');
+const ruby          = require('./partials/ruby');
 
 let nop = [];
 
@@ -92,7 +92,7 @@ const base = {
     "tokenColors": tokenz
 }
 
-let output = './themes/dark-plus-syntax-color-theme.json';
+let output = '../themes/dark-plus-syntax-color-theme.json';
 
 writeJsonFile(output, base).then(() => {
     console.log('=== Done! ===\n');

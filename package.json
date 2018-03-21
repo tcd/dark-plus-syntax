@@ -2,7 +2,7 @@
 	"name": "dark-plus-syntax",
 	"displayName": "dark-plus-syntax",
 	"description": "VS Code's default dark theme, but just a little bit better.",
-	"version": "0.0.46",
+	"version": "0.0.47",
 	"publisher": "dunstontc",
 	"repository": {
 		"type": "git",
@@ -21,7 +21,7 @@
 		"write-json-file": "^2.2.0"
 	},
 	"scripts": {
-		"build": "node index.js"
+		"build": "node src/index.js"
 	},
 	"galleryBanner": {
 		"color": "#569cd6",
