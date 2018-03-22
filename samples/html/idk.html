@@ -1,0 +1,33 @@
+{% extends 'layouts/default.html' %}
+
+{% block content %}
+    Hello {{name}} - Say hello to <a href="{{ url_for('hello', {"name": "Jane"}) }}">Jane</a>
+{% endblock %}
+
+{% macro input(type, model, property, name, label, placeholder) %}
+
+{% set invalid = '' %}
+
+{% if model.getMessageFor(property) %}
+    {% set invalid = ' error' %}
+    {% set message = model.getMessageFor(property) %}
+{% endif %}
+
+{% set id = name ~ "." ~ property %}
+
+<div class="control-group{{ invalid }}">
+    <label for="{{ id }}" class="control-label">{{ label }}</label>
+    <div class="controls">
+        {% if type == "textarea" %}
+        <textarea rows="5" name="{{ name }}[{{ property }}]">{{ attribute(model, property) }}</textarea>
+        {% else %}
+        <input type="{{ type }}" placeholder="{{ placeholder|default(property) }}" value="{{ attribute(model, property) }}" class="input-xlarge" id="{{ id }}" name="{{ name }}[{{ property }}]" />
+        {% endif %}
+        {% if invalid %}
+        <p class="help-block error">
+            {{ message }}
+        </p>
+        {% endif %}
+    </div>
+</div>
+{% endmacro %}

@@ -1,0 +1,85 @@
+mixin book(name)
+  div&attributes(attributes)= name
+
++book("Book A")#first
++book("Book B")(title="book b")
++book("Book C").last
+
+case name
+  when "Bob"
+    p Hi Bob!
+  when "Alice"
+    p Howdy Alice!
+  default
+    p Hello #{name}!
+
+<!--[if IE 8]>
+script(src='/ie.js')
+<![endif]-->
+
+unless user.isAnonymous
+  p You're logged in as #{user.name}
+
+//-------------------------------------------------------
+- var user = { description: 'foo bar baz' }
+- var authorised = false
+#user
+  if user.description
+    h2.green Description
+    p.description= user.description
+  else if authorised
+    h2.blue Description
+    p.description.
+      User has no description,
+      why not add one...
+  else
+    h2.red Description
+    p.description User has no description
+//- //-------------------------------------------------------
+//- //- index.pug
+//- doctype html
+//- html
+//-   head
+//-     style
+//-       include style.css
+//-   body
+//-     h1 My Site
+//-     p Welcome to my super lame site.
+//-     script
+//-       include script.js
+//-------------------------------------------------------
+mixin link(href, name)
+  //- attributes == {class: "btn"}
+  a(class!=attributes.class href=href)= name
+
++link('/foo', 'foo')(class="btn")
+//-------------------------------------------------------
+mixin link(href, name)
+  a(href=href)&attributes(attributes)= name
+
++link('/foo', 'foo')(class="btn")
+//-------------------------------------------------------
+mixin list(id, ...items)
+  ul(id=id)
+    each item in items
+      li= item
+
++list('my-list', 1, 2, 3, 4)
+//-------------------------------------------------------
+- var user = {}
+- user.admin = Math.random()>0.5
+if user.admin
+    button(class="launch") Launch Spacecraft
+else
+    button(class="login") Log in
+//-------------------------------------------------------
+- var user = {}
+- user.admin = Math.random()>0.5
+if user.admin
+    button(class="launch") Launch Spacecraft
+else
+    button(class="login") Log in
+//-------------------------------------------------------
+ul#books
+  li: a(href="#book-a") Book A
+  li: a(href="#book-b") Book B

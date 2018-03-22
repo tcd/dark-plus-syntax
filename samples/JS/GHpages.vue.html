@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Clay Dunston </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' type="text/css" />
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.css" />
+  <link rel="stylesheet" href="./styles/vuetify.custom.css" type="text/css" />
+  <link rel="icon" type="image/png" href="./assets/favicon.png" sizes="32x32" />
+</head>
+<body>
+  <div id="app">
+    <v-app dark>
+      <v-navigation-drawer
+        temporary
+        v-model="drawer">
+        <v-list>
+          <v-subheader> Pages </v-subheader>
+          <v-list-tile
+            v-for="i in itemz"
+            :key="i"
+            @click="snackbar = true">
+            <v-list-tile-action>
+              <v-icon v-html="i.icon"></v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title v-text="i.title"></v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-divider></v-divider>
+          <v-subheader> Projects </v-subheader>
+          <v-list-tile
+            v-for="i in projects"
+            :key="i"
+            :href="i.link">
+              <v-list-tile-action>
+                <v-icon v-html="i.icon"></v-icon>
+              </v-list-tile-action>
+              <v-list-tile-content>
+                <v-list-tile-title v-text="i.title"></v-list-tile-title>
+              </v-list-tile-content>
+            </v-list-tile>
+        </v-list>
+      </v-navigation-drawer>
+      <v-toolbar>
+        <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+        <v-toolbar-title v-text="title"></v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-toolbar-items class="hidden-sm-and-down">
+          <v-btn flat class="primary--text" @click="snackbar = true"> Home </v-btn>
+          <!-- <v-btn flat class="primary--text"> My Resume </v-btn> -->
+          <!-- <v-btn flat> About </v-btn> -->
+          <!-- <v-btn flat> Contact </v-btn> -->
+          <!-- <v-btn flat> ᕕ( ᐛ )ᕗ </v-btn> -->
+        </v-toolbar-items>
+      </v-toolbar>
+      <main>
+        <br>
+        <v-container fluid>
+<!-- ================================================================= -->
+          <v-layout row align-center justify-center>
+            <v-flex xs12 sm12 m12 lg12 xl12>
+              <v-parallax class="elevation-1" :src="imgSrc">
+                <v-layout column align-center justify-center>
+                  <h1 class="primary--text text-xs-center"> Clay Dunston </h1>
+                </v-layout>
+              </v-parallax>
+            </v-flex>
+          </v-layout>
+<!-- ======================================================================= -->
+          <v-layout row align-center justify-center>
+              <v-flex xs12 sm12 md8 class="mt-5">
+                <v-card class="elevation-1">
+                  <v-toolbar class="primary elevation-1">
+                    <v-toolbar-title class="secondary--text"> What I've Been Up To </v-toolbar-title>
+                  </v-toolbar>
+                  <v-container>
+                      <v-container>
+                        <figure><embed src="https://wakatime.com/share/@dunstontc/b1d612f5-12f9-4eee-ad2e-e816e32061f4.svg"></embed></figure>
+                        <br/>
+                        <figure><embed src="https://wakatime.com/share/@dunstontc/7f49ca15-91d7-47b4-8219-9d8b4c989a94.svg"></embed></figure>
+                      </v-container>
+                  </v-container>
+                </v-card>
+              </v-flex>
+            </v-layout>
+<!-- ======================================================================= -->
+          <v-layout row align-center justify-center>
+              <v-flex xs12 sm12 md10 lg10 class="mt-5">
+                <v-card class="grid">
+                  <v-toolbar class="primary elevation-1">
+                    <v-toolbar-title class="secondary--text"> Technology </v-toolbar-title>
+                    <v-spacer></v-spacer>
+                    <v-btn icon light>
+                      <v-icon class="secondary--text">search</v-icon>
+                    </v-btn>
+                  </v-toolbar>
+                  <v-container fluid grid-list-md class="mt-4">
+                    <v-layout row wrap class="logos-container">
+                        <div class="svg-container" v-for="i of logos" :key="i">
+                          <a :id="i.id"
+                             :alt="i.title"
+                             :title="i.title"
+                             v-bind:href="i.link">
+                            <div v-html="i.content">
+                                {{Lorem}} ipsum dolor sit amet {{consectetur}} adipisicing elit.
+                                Nisi, nulla {{dicta}} ipsam corrupti quam sed nam iure saepe.
+                                {{Tempore}} itaque ipsum fugiat eveniet sequi quae odio! {{Veritatis}} officia adipisci sit.
+                            </div>
+                          </a>
+                        </div>
+                    </v-layout>
+                  </v-container>
+                  <v-footer class="primary mt-2"></v-footer>
+                </v-card>
+              </v-flex>
+            </v-layout>
+<!-- ======================================================================= -->
+            <v-layout row align-center justify-center>
+              <v-flex xs12 sm12 md8 class="mt-5">
+                <v-card>
+                  <v-toolbar class="primary">
+                    <v-toolbar-title class="secondary--text"> Leave a Message </v-toolbar-title>
+                  </v-toolbar>
+                  <v-card-text>
+                    <v-text-field
+                      class="mt-3"
+                      label="Your Name"
+                      v-model="contactName">
+                    </v-text-field>
+                    <v-text-field
+                      label="Your Email"
+                      type="email"
+                      v-model="contactEmail">
+                      <!-- :rules="[rules.email]"> -->
+                    </v-text-field>
+                    <v-text-field
+                      label="Subject"
+                      hint="You can leave this field blank if you'd like"
+                      v-model="contactSubject">
+                    </v-text-field>
+                    <v-text-field
+                      label="Message"
+                      v-model="contactMessage"
+                      multi-line>
+                    </v-text-field>
+                    <!-- <small>*indicates required field</small> -->
+                    <v-layout column nowrap align-center class="pb-2">
+                      <v-btn disabled class="text-xs-center"> Send </v-btn>
+                    </v-layout>
+                  </v-card-text>
+                </v-card>
+              </v-flex>
+            </v-layout>
+<!-- ======================================================================= -->
+          <v-layout row align-center justify-center>
+              <v-flex xs12 sm12 md8 class="mt-5">
+                <v-card class="elevation-1">
+                    <v-layout justify-space-around>
+                      <span class="group">
+                          <v-btn
+                              v-for="i in accounts" :key="i"
+                              icon tag="a" :href="i.url"
+                              class="ml-3 mr-3">
+                              <v-icon medium class="primary--text">
+                                {{i.icon}}
+                              </v-icon>
+                          </v-btn>
+                      </span>
+                    </v-layout>
+                  </v-container>
+                </v-card>
+              </v-flex>
+            </v-layout>
+          </v-container>
+      </main>
+<!-- ======================================================================= -->
+      <v-footer class="pa-3 mt-5 primary secondary--text">
+        <a href="https://vuetifyjs.com/" class="mt-1 secondary--text" target="_blank" alt="Vuetify" title="Vuetify">
+          created with &nbsp;
+        </a>
+        <!-- <div  class="pt-1"> -->
+          <a href="https://vuetifyjs.com/" class="mt-1" target="_blank" alt="Vuetify" title="Vuetify">
+            <svg id="vuetify-logo" viewBox="0 0 262.5 300" height="20px" xmlns="http://www.w3.org/2000/svg">
+              <polyline fill="#1697f6" points="131.67 3 71.55 3 131.67 145.1" />
+              <polyline fill="#7bc6ff" points="131.67 186.81 131.67 297.1 3 45.89 70.4 45.89" />
+              <polyline fill="#1867c0" points="131.67 3 191.79 3 131.67 145.1" />
+              <polyline fill="#aeddff" points="131.67 186.81 131.67 297.1 260.34 45.89 192.94 45.89" />
+            </svg>
+          </a>
+        <!-- </div> -->
+        <v-spacer></v-spacer>
+        <div> <v-icon light alt="Hosted" title="Hosted">mdi-cloud</v-icon> with <v-icon light alt="Love" title="Love">mdi-heart</v-icon> by </div>
+        &nbsp;
+        <a href="https://github.com/" target="_blank" alt="GitHub" title="GitHub"><v-icon light>mdi-github-circle</v-icon></a>
+        <!-- <v-spacer></v-spacer> -->
+        <!-- <div> &copy; {{ new Date().getFullYear() }} </div> -->
+      </v-footer>
+<!-- ======================================================================= -->
+      <v-snackbar
+        timeout="2000"
+        top
+        vertical
+        class="primary mt-2"
+        v-model="snackbar">
+        <div>
+          <v-btn flat class="secondary--text" @click.native="snackbar = false"> Welcome Home <3 </v-btn>
+        </div>
+      </v-snackbar>
+    </v-app>
+  </div>
+
+  <script src="./scripts/vue.min.js"></script>
+  <script src="./scripts/vuetify.min.js"></script>
+  <script src="./scripts/logos.js"></script>
+
+  <script>
+// var url = "https://api.nasa.gov/planetary/apod?api_key=NNKOjkoul8n1CH18TWA9gwngW1s1SmjESPjNoUFo";
+
+
+// $.ajax({
+//   url: url,
+//   success: function(result){
+//   if("copyright" in result) {
+//     $("#copyright").text("Image Credits: " + result.copyright);
+//   }
+//   else {
+//     $("#copyright").text("Image Credits: " + "Public Domain");
+//   }
+
+//   if(result.media_type == "video") {
+//     $("#apod_img_id").css("display", "none");
+//     $("#apod_vid_id").attr("src", result.url);
+//   }
+//   else {
+//     $("#apod_vid_id").css("display", "none");
+//     $("#apod_img_id").attr("src", result.url);
+//   }
+//   $("#reqObject").text(url);
+//   $("#returnObject").text(JSON.stringify(result, null, 4));
+//   $("#apod_explaination").text(result.explanation);
+//   $("#apod_title").text(result.title);
+// }
+// });
+
+    Vue.component('page', {
+      template: '#page'
+    })
+
+    new Vue({
+      el: '#app',
+      data: {
+        title   : ' ',
+        drawer  : false,
+        snackbar: false,
+        logos   : logoArray,
+        // logos   : logoArray.sort(() => Math.random() - 0.5),
+        resume  : 'https://drive.google.com/open?id=0B4VVqr5z6UhjVmY1WmtJb2xqeE0',
+        imgSrc  : 'https://raw.githubusercontent.com/dunstontc/assets/master/images/Above-Ho-Chi-Minh-City-Vietnam.jpg',
+        accounts: [
+          { icon: 'mdi-linkedin-box',    title: 'LinkedIn', url: "https://www.linkedin.com/in/clay-dunston/" },
+          { icon: 'mdi-github-circle',   title: 'GitHub',   url: "https://github.com/dunstontc" },
+          { icon: 'mdi-codepen',         title: 'Codepen',  url: "https://codepen.io/dunstontc" },
+          { icon: 'mdi-facebook-box',    title: 'Facebook', url: "https://www.facebook.com/clay.dunston" },
+        ],
+        itemz   : [
+          { icon: 'home',                     title: 'Home', url: '' },
+          // { icon: 'mdi-certificate',          title: 'Resume' },
+          // { icon: 'mdi-certificate',          title: 'Certifications' },
+          // { icon: 'mdi-gmail',                title: 'Email' },
+          // { icon: 'mdi-account-card-details', title: 'Contact Info' },
+          // { icon: 'mdi-clippy',               title: 'Help' },
+        ],
+        projects: [
+          {
+            icon       : 'mdi-code-braces',
+            title      : 'Atom VS Code Syntax',
+            link       : 'https://atom.io/themes/dark-plus-syntax',
+            description: 'VS Code\'s \'Dark+\' (default dark) theme on Atom'
+          },
+          {
+            icon       : 'mdi-emoticon-cool',
+            title      : 'Awesome Sauce',
+            link       : 'https://github.com/dunstontc/awesome-sauce',
+            description: ''
+          },
+          {
+            icon       : 'mdi-github-face',
+            title      : 'GitHub Pages',
+            link       : 'https://github.com/dunstontc/dunstontc.github.io',
+            description: ''
+          },
+        ],
+        contactName   : '',
+        contactEmail  : '',
+        contactSubject: '',
+        contactMessage: '',
+        rules         : {
+          required: (value) => !!value || 'Required.',
+          email: (value) => {
+            const pattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+            return pattern.test(value) || 'Invalid e-mail.'
+          }
+        }
+      }
+    })
+  </script>
+</body>
+</html>

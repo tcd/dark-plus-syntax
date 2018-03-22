@@ -1,0 +1,159 @@
+@import "reset.css"
+
+$my-var1 = red
+$my-var2 = 1px 1px 3px #eee
+
+// TODO:
+$color-wheel = {
+  '1': red,
+  '2': rgba(255,255,255,0),
+  '3': rgb(255,255,255),
+  '4': hsl(255,255,255),
+  '5': #ddd
+}
+
+.test
+  color: $my-var1
+  color: #fff
+  color: springgreen
+  box-shadow: 1px 1px 3px #eee
+  background: red
+  color: rgb(255, 255, 255)
+  color: #fff
+  color: rgba(255, 255, 255)
+
+.color
+  color: black
+
+.color
+  color: #fff
+
+.test
+  color: $my-var1
+  color: #fff
+  color: springgreen
+
+  .sub-test-class
+    $color2 = green
+    background: red
+
+    #test
+      padding: 20px
+
+    &__item
+      background: $color2
+
+      img
+        width: 100%
+
+  @media (max-width: 780px) and (min-width: 520px)
+    background-color: red
+
+    transform: translateX(10px)
+
+@keyframes pulse
+  0%
+    opacity: 0;
+
+  20%
+    opacity: 0.2;
+
+  40%
+    opacity: 0.4;
+
+  60%
+    opacity: 0.6;
+
+  80%
+    opacity: 0.8;
+
+  100%
+    opacity: 1;
+
+box-shadow()
+  -webkit-box-shadow arguments
+  -moz-box-shadow arguments
+  box-shadow arguments
+  html.ie8 &,
+  html.ie7 &,
+  html.ie6 &
+    border 2px solid arguments[length(arguments) - 1]
+
+body
+  #login
+    box-shadow 1px 1px 3px #eee
+
+.foo,
+.bar
+  &__bar
+    width: 10px
+
+  ^[0]:hover &
+    width: 20px
+
+textarea,
+input
+  color #A7A7A7
+
+  &:hover,
+  /.is-hovered
+    color #000
+
+.foo
+  selector('.bar')
+
+.foo
+  selector('&:hover')
+
+table
+  for row in 1 2 3 4 5
+    tr:nth-child({row})
+      height: 10px * row
+
+mySelectors = '#foo,#bar,.baz'
+
+{mySelectors}
+  background: #000
+
+border-radius(n)
+  support-for-ie ?= true
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+form input[type=button]
+  border-radius(5px)
+
+@font-face
+  font-family Geo
+  font-style normal
+  src url(fonts/geo_sans_light/GensansLight.ttf)
+
+foo = {
+  bar: baz,
+  'baz': raz,
+  '0': raz
+}
+
+@viewport
+  color: #00f
+
+@supports (display: flex)
+  div
+    display: flex
+
+@page :blank
+  @top-center
+    content: none
+
+foo = @block {
+  width: 20px
+  height: 20px
+}
+
+@css {
+  .ie-opacity {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=25);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=25)";
+  }
+}
