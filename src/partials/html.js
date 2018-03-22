@@ -135,7 +135,9 @@ module.exports = [
     // =========================================================================
     {
         "scope": [
-            "keyword.begin.tag.ejs"
+            "keyword.begin.tag.ejs",
+            // "text.html.ejs keyword.begin.tag.ejs punctuation.accessor.js",
+            // "text.html.ejs keyword.begin.tag.ejs keyword.operator.arithmetic.js",
         ],
         "settings": { "foreground": "#569cd6" }
     },

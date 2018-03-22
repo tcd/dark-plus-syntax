@@ -1,7 +1,7 @@
 # ChangeLog
 
-## 0.0.49 ()
-- 
+## 0.0.49 (March 22, 2018)
+- Highlighted JS/TS decorators & module keywords.
 
 ## 0.0.48 (March 22, 2018)
 - Normalized JavaScript in `text.html.jinja`.

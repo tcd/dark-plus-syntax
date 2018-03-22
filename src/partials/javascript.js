@@ -44,6 +44,8 @@ module.exports = [
     {
         "scope": [
             "support.type.object.module.js",
+            "keyword.operator.module.all.js",
+            "keyword.control.module.reference.js",
             "storage.type.function.arrow.js",
             "keyword.operator.new.js",
             "new.expr.js",
@@ -105,6 +107,7 @@ module.exports = [
     },
     {
         "scope": [
+            "meta.object-literal.key",
             "string.unquoted.js",
             "string.unquoted.label.js",
             "meta.property.object.js",
@@ -117,16 +120,11 @@ module.exports = [
         "settings": { "foreground": "#9cdcfe" }
     },
     {
-        "name": "Object keys, TS grammar specific",
-        "scope": [
-            "meta.object-literal.key"
-        ],
-        "settings": {"foreground": "#9cdcfe"}
-    },
-    {
         "scope": [
             "keyword.operator.type.annotation.ts",
             // "storage.type.namespace.ts",
+            "punctuation.decorator.ts",
+            "meta.decorator.ts",
         ],
         "settings": { "foreground": "#4ec9b0"}
     }
