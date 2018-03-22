@@ -68,3 +68,70 @@
  div.post-timestamp {
      background-color: blue;
  }
+
+ a[href^=http] {
+    padding-right: 10px;
+    background: url(arrow.png) right no-repeat;
+}
+
+input[type=text] { width: 200px; }
+
+@media screen and (orientation: landscape) {
+
+    #nav { float: left }
+
+}
+
+@media screen and (orientation: portrait) {
+
+    #nav { float: none }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content { width: 100% }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #nav { float: none }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #content aside {
+        float: none;
+        display: block;
+    }
+
+}
+.wrapper {
+    clip-path: url('#clipPolygon');
+    background: url('mountains.jpg');
+}
+
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body,
+  .wrapper {
+    height: 100%;
+    margin: 0;
+  }
+  h1 {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 30em;
+    padding-top: .29em;
+    margin: 0;
+    clip-path: polygon(1px 261px,1px 168px,1225px 158px,1225px 405px,1225px 519px,1214px 556px,1195px 566px,1177px 588px,1157px 610px,1145px 617px,1132px 615px,1126px 615px,1111px 621px,1101px 625px,1094px 626px,1084px 622px,1068px 614px,1055px 620px,1036px 630px,1014px 640px,1005px 645px,990px 649px,968px 649px,951px 641px,940px 633px,925px 626px,913px 632px,899px 638px,889px 637px,876px 634px,858px 623px,848px 622px,833px 626px,821px 619px,814px 619px,804px 614px,792px 610px,778px 602px,767px 590px,755px 583px,744px 580px,734px 582px,723px 579px,711px 577px,698px 567px,684px 565px,674px 556px,665px 544px,656px 536px,646px 527px,641px 524px,628px 515px,618px 514px,605px 519px,594px 527px,579px 539px,566px 540px,557px 541px,540px 537px,519px 540px,508px 539px,492px 539px,482px 537px,476px 534px,467px 528px,461px 522px,451px 516px,439px 511px,411px 497px,397px 481px,382px 472px,368px 461px,357px 456px,351px 455px,340px 452px,335px 452px,326px 449px,308px 449px,302px 451px,297px 452px,289px 457px,277px 460px,269px 468px,265px 478px,259px 479px,249px 483px,237px 490px,225px 494px,219px 495px,213px 498px,206px 497px,203px 499px,190px 502px,179px 498px,175px 499px,169px 501px,160px 501px,156px 505px,148px 505px,139px 497px,131px 490px,123px 489px,115px 492px,108px 493px,101px 492px,92px 488px,81px 485px,74px 490px,68px 493px,54px 486px,50px 488px,44px 495px,34px 491px,22px 493px,3px 502px);
+    -webkit-filter: drop-shadow(2px 2px 5px rgba(0,0,0, .5));
+  }
+  .wrapper {
+    background: url('https://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/blog/mask-demo-lg.jpg');
+    background-repeat: no-repeat;
+  }

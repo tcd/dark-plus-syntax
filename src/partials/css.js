@@ -25,9 +25,17 @@ module.exports = [
             "variable.css",
             "variable.scss",
             "variable.other.less",
-            "source.coffee.embedded"
         ],
         "settings": { "foreground": "#9cdcfe" }
+    },
+    {
+        "name" : "Variables",
+        "scope": [
+            "support.type.property-name.media.css",
+            "meta.attribute-selector.css",
+            "support.type.vendored.property-name.css",
+        ],
+        "settings": { "foreground": "#4ec9b0" }
     },
     {
         "name": "CSS property value",
@@ -43,23 +51,33 @@ module.exports = [
         "settings": { "foreground": "#ce9178" }
     },
     {
+        "scope": [
+        "punctuation.definition.entity.begin.bracket.square.css",
+        "punctuation.definition.entity.end.bracket.square.css",
+        ],
+        "settings": { "foreground": "#c586c0" }
+    },
+    // =========================================================================
+    // Stylus
+    // =========================================================================
+    {
         "scope": "punctuation.definition.keyword.stylus",
-        "settings": { "foreground": "#C586C0" }
+        "settings": { "foreground": "#c586c0" }
     },
     {
         "scope": "meta.interpolation.stylus",
-        "settings": { "foreground": "#9CDCFE" }
+        "settings": { "foreground": "#9cdcfe" }
     },
     {
         "scope": "variable.stylus",
-        "settings": { "foreground": "#4EC9B0" }
+        "settings": { "foreground": "#4ec9b0" }
     },
     {
         "scope": "entity.other.attribute-name.parent-selector-suffix.stylus",
-        "settings": { "foreground": "#D7BA7D" }
+        "settings": { "foreground": "#d7ba7d" }
     },
     {
         "scope": "meta.interpolation.stylus meta.brace.curly",
-        "settings": { "foreground": "#569CD6" }
+        "settings": { "foreground": "#569cd6" }
     },
 ]
