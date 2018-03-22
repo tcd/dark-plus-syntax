@@ -1,7 +1,11 @@
 # ChangeLog
 
-## 0.0.47 (March 22, 2018)
+## 0.0.49 ()
+- 
+
+## 0.0.48 (March 22, 2018)
 - Normalized JavaScript in `text.html.jinja`.
+
 ## 0.0.47 (March 21, 2018)
 - Added Cyan highlight to template tags in assorted languages.
 - Added Green highlight to *special* comments.
