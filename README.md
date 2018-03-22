@@ -16,11 +16,15 @@
 - CSS
 - Go
 - Groovy
+- HTML
+  - EJS
+  - Handlebars
+  - Jinja2
+  - Pug/Jade
 - JavaScript
 - Make
 - Markdown
 - Python
-- Ruby
 - Stylus
 - Terraform
 - TypeScript
@@ -35,7 +39,6 @@
 - [dunstontc/viml](https://github.com/dunstontc/viml)
 - [mauve/vscode-terraform](https://github.com/mauve/vscode-terraform)
 - [Digitalbrainstem/ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar)
-- [bung87/vscode-rails](https://github.com/bung87/vscode-rails)
 
 
 

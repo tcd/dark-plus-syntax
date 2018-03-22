@@ -36,7 +36,7 @@ module.exports = [
             "punctuation.separator.array.json",
             "punctuation.terminator.statement.js",
             "punctuation.terminator.statement.ts",
-            "punctuation.separator.statement.ruby",
+            // "punctuation.separator.statement.ruby",
             "meta.property-list.scss",
             "punctuation.terminator.rule.css",
             "punctuation.separator.list.comma.css",

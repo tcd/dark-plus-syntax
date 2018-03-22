@@ -1103,6 +1103,15 @@
 		},
 		{
 			"scope": [
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"scope": [
 				"entity.tag",
 				"entity.name.tag",
 				"string.interpolated.jade",
@@ -1120,6 +1129,18 @@
 			}
 		},
 		{
+			"scope": [
+				"text.html.basic punctuation.separator.comma.js",
+				"text.html.basic punctuation.definition.block.js",
+				"text.html.basic meta.brace.square.js meta.brace.round.js",
+				"text.html.basic meta.brace.round.js",
+				"text.html.basic meta.brace.square.js"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
 			"scope": "constant.character.entity.html",
 			"settings": {
 				"foreground": "#dcdcaa"
@@ -1133,6 +1154,57 @@
 			}
 		},
 		{
+			"name": "Mustaches",
+			"scope": [
+				"meta.directive.vue",
+				"expression.embedded.vue",
+				"punctuation.definition.generic.begin.html",
+				"punctuation.definition.generic.end.html"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"name": "Mustaches",
+			"scope": [
+				"string.interpolated.jade"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"meta.control.flow.jade",
+				"meta.first-class.jade",
+				"storage.type.function.jade",
+				"storage.type.import.include.jade"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"meta.function.block.start.handlebars",
+				"meta.function.block.end.handlebars",
+				"meta.function.block.start.handlebars support.constant.handlebars",
+				"meta.function.block.end.handlebars support.constant.handlebars"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"support.constant.handlebars"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
 			"scope": [
 				"variable.parameter.handlebars"
 			],
@@ -1141,18 +1213,28 @@
 			}
 		},
 		{
-			"name": "Mustaches",
 			"scope": [
-				"punctuation.definition.generic.begin.html",
-				"punctuation.definition.generic.end.html",
-				"meta.function.inline.other.handlebars",
-				"support.constant.handlebars",
-				"expression.embedded.vue",
-				"meta.directive.vue",
-				"storage.type.import.include.jade",
-				"storage.type.function.jade",
-				"meta.control.flow.jade",
-				"meta.first-class.jade"
+				"keyword.begin.tag.ejs"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"text.html.ejs meta.brace.round.js",
+				"text.html.ejs meta.brace.square.js",
+				"text.html.ejs punctuation.definition.parameters.begin.js",
+				"text.html.ejs punctuation.definition.parameters.end.js"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
+				"text.html.ejs keyword.operator.expression.typeof.js",
+				"text.html.ejs keyword.operator.expression.instanceof.js"
 			],
 			"settings": {
 				"foreground": "#c586c0"
@@ -1160,11 +1242,59 @@
 		},
 		{
 			"scope": [
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.end.html"
+				"text.html.vue-html meta.brace.round.js"
 			],
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
+				"text.html.vue-html meta.tag.other.html"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
+				"text.html.vue-html source.directive.vue punctuation.definition.string.begin.html",
+				"text.html.vue-html source.directive.vue punctuation.definition.string.end.html"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.jinja.delimiter.tag"
+			],
+			"settings": {
+				"foreground": "#606060"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.jinja.delimiter.variable"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.jinja"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"variable.language.jinja"
+			],
+			"settings": {
+				"foreground": "#569cd6"
 			}
 		}
 	]
