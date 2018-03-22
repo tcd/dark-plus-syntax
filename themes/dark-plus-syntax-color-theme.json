@@ -32,9 +32,28 @@
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": [
+				"comment",
+				"comment.line.double-slash.js"
+			],
 			"settings": {
 				"foreground": "#505050"
+			}
+		},
+		{
+			"name": "Special Comments",
+			"scope": [
+				"meta.tag.sgml.html",
+				"meta.tag.sgml.doctype.html",
+				"comment.block.js",
+				"comment.line.shebang.js",
+				"comment.block.documentation.js",
+				"comment.line.number-sign.ruby",
+				"punctuation.definition.comment.ruby",
+				"comment.block.documentation.ts"
+			],
+			"settings": {
+				"foreground": "#608b4e"
 			}
 		},
 		{
@@ -45,7 +64,6 @@
 				"punctuation.separator.array.json",
 				"punctuation.terminator.statement.js",
 				"punctuation.terminator.statement.ts",
-				"punctuation.separator.statement.ruby",
 				"meta.property-list.scss",
 				"punctuation.terminator.rule.css",
 				"punctuation.separator.list.comma.css",
@@ -877,7 +895,9 @@
 			}
 		},
 		{
-			"scope": "meta.section.attributes.plain.haml constant.other.symbol.ruby",
+			"scope": [
+				"variable.other.ruby"
+			],
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
@@ -889,7 +909,9 @@
 			}
 		},
 		{
-			"scope": "variable.language.self.ruby",
+			"scope": [
+				"variable.language.self.ruby"
+			],
 			"settings": {
 				"foreground": "#569cd6",
 				"fontStyle": "italic"
@@ -897,19 +919,42 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.other.ruby",
-				"keyword.operator.assignment.ruby",
+				"variable.language.ruby",
+				"constant.other.symbol.ruby",
+				"punctuation.separator.method.ruby",
+				"constant.other.symbol.hashkey.ruby",
 				"punctuation.definition.constant.ruby",
-				"keyword.control.pseudo-method.ruby"
+				"punctuation.definition.variable.ruby",
+				"constant.language.symbol.ruby",
+				"string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
+				"string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby"
 			],
 			"settings": {
-				"foreground": "#c586c0"
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"meta.class.ruby",
+				"support.class.ruby",
+				"entity.name.type.class.ruby",
+				"entity.other.inherited-class.ruby",
+				"punctuation.separator.namespace.ruby",
+				"punctuation.separator.inheritance.ruby"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
 			}
 		},
 		{
 			"scope": [
 				"keyword.control.def.ruby",
 				"keyword.control.class.ruby",
+				"keyword.operator.other.ruby",
+				"keyword.operator.assignment.ruby",
+				"punctuation.definition.constant.ruby",
+				"punctuation.separator.other.ruby",
+				"keyword.control.pseudo-method.ruby",
 				"keyword.operator.comparison.ruby",
 				"keyword.operator.arithmetic.ruby"
 			],
@@ -919,7 +964,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.separator.method.ruby",
 				"punctuation.separator.object.ruby",
 				"punctuation.separator.arguments.ruby",
 				"punctuation.section.function.ruby",
@@ -929,16 +973,28 @@
 				"punctuation.section.array.end.ruby"
 			],
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": "meta.section.attributes.plain.haml constant.other.symbol.ruby",
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": "meta.embedded.line.erb",
+			"settings": {
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
 			"scope": [
-				"comment.line.number-sign.ruby",
-				"punctuation.definition.comment.ruby"
+				"text.html.erb punctuation.section.embedded.begin.erb",
+				"text.html.erb punctuation.section.embedded.end.erb"
 			],
 			"settings": {
-				"foreground": "#608b4e"
+				"foreground": "#808080"
 			}
 		},
 		{
@@ -1033,9 +1089,7 @@
 		},
 		{
 			"scope": [
-				"punctuation.definition.tag",
-				"meta.tag.sgml.doctype.html",
-				"meta.tag.sgml.html"
+				"punctuation.definition.tag"
 			],
 			"settings": {
 				"foreground": "#808080"
@@ -1059,9 +1113,7 @@
 				"punctuation.section.embedded.begin.php",
 				"punctuation.section.embedded.end.php",
 				"meta.tag.template.value.twig",
-				"punctuation.section.tag.twig",
-				"punctuation.definition.generic.begin.html",
-				"punctuation.definition.generic.end.html"
+				"punctuation.section.tag.twig"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -1074,28 +1126,33 @@
 			}
 		},
 		{
-			"name": "ejs and erb",
+			"name": "don't highlight ejs and erb as errors",
 			"scope": "invalid.illegal.bad-angle-bracket.html",
 			"settings": {
 				"foreground": "#d4d4d4"
 			}
 		},
 		{
-			"scope": "variable.parameter.handlebars",
+			"scope": [
+				"variable.parameter.handlebars"
+			],
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
 		},
 		{
+			"name": "Mustaches",
 			"scope": [
-				"meta.directive.vue",
-				"expression.embedded.vue",
-				"support.constant.handlebars",
+				"punctuation.definition.generic.begin.html",
+				"punctuation.definition.generic.end.html",
 				"meta.function.inline.other.handlebars",
-				"meta.first-class.jade",
-				"meta.control.flow.jade",
+				"support.constant.handlebars",
+				"expression.embedded.vue",
+				"meta.directive.vue",
+				"storage.type.import.include.jade",
 				"storage.type.function.jade",
-				"storage.type.import.include.jade"
+				"meta.control.flow.jade",
+				"meta.first-class.jade"
 			],
 			"settings": {
 				"foreground": "#c586c0"

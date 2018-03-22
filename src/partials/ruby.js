@@ -21,7 +21,12 @@ module.exports = [
             "variable.language.ruby",
             "constant.other.symbol.ruby",
             "punctuation.separator.method.ruby",
+            "constant.other.symbol.hashkey.ruby",
             "punctuation.definition.constant.ruby",
+            "punctuation.definition.variable.ruby",
+            "constant.language.symbol.ruby",
+            "string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
+            "string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
         ],
         "settings": { "foreground": "#569cd6" }
     },
@@ -37,19 +42,20 @@ module.exports = [
             "support.class.ruby",
             "entity.name.type.class.ruby",
             "entity.other.inherited-class.ruby",
+            "punctuation.separator.namespace.ruby",
             "punctuation.separator.inheritance.ruby",
         ],
         "settings": { "foreground": "#4ec9b0" }
     },
-    {
-        "scope": [
+    // {
+    // "scope": [
+    // ],
+    // "settings": { "foreground": "#c586c0" }
+    // },
+        {
+            "scope": [
             "keyword.control.def.ruby",
             "keyword.control.class.ruby",
-        ],
-        "settings": { "foreground": "#c586c0" }
-    },
-    {
-        "scope": [
             "keyword.operator.other.ruby",
             "keyword.operator.assignment.ruby",
             "punctuation.definition.constant.ruby",
@@ -62,7 +68,6 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.separator.method.ruby",
             "punctuation.separator.object.ruby",
             "punctuation.separator.arguments.ruby",
             "punctuation.section.function.ruby",
@@ -71,7 +76,7 @@ module.exports = [
             "punctuation.section.array.begin.ruby",
             "punctuation.section.array.end.ruby",
         ],
-        "settings": { "foreground": "#808080" }
+        "settings": { "foreground": "#d4d4d4" }
     },
     {
         "scope": "meta.section.attributes.plain.haml constant.other.symbol.ruby",
@@ -88,23 +93,36 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.section.embedded.begin.erb",
-            "punctuation.section.embedded.end.erb"
+            "text.html.erb punctuation.section.embedded.begin.erb",
+            "text.html.erb punctuation.section.embedded.end.erb",
+            // "text.html.erb string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
+            // "text.html.erb string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
         ],
         "settings": {
-            "foreground": "#569cd6"
+            "foreground": "#808080"
         }
     },
     // {
-        //     "scope": [
-    //         "text.html.erb",
-    //         "text.haml",
-    //         "punctuation.separator.object.ruby",
-    //         "punctuation.separator.other.ruby"
+    //     "scope": [
+    //         "text.html.erb string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
+    //         "text.html.erb string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
     //     ],
     //     "settings": {
-        //         "foreground": "#d4d4d4"
-        //     }
-        // },
+    //         "foreground": "#808080"
+    //     }
+    // },
+    // {
+    //         "scope": [
+    //         // "text.html.erb",
+    //         // "text.haml",
+    //         // "punctuation.separator.object.ruby",
+    //         // "punctuation.separator.other.ruby"
+    //         // "text.html.erb keyword.control.ruby"
+    //     ],
+    //     "settings": {
+    //             "foreground": "#d4d4d4",
+    //             "fontStyle": "italic",
+    //         }
+    //     },
 
     ]
