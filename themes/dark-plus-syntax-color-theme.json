@@ -367,11 +367,21 @@
 				"support.type.property-name",
 				"variable.css",
 				"variable.scss",
-				"variable.other.less",
-				"source.coffee.embedded"
+				"variable.other.less"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"support.type.property-name.media.css",
+				"meta.attribute-selector.css",
+				"support.type.vendored.property-name.css"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
 			}
 		},
 		{
@@ -390,33 +400,42 @@
 			}
 		},
 		{
+			"scope": [
+				"punctuation.definition.entity.begin.bracket.square.css",
+				"punctuation.definition.entity.end.bracket.square.css"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
 			"scope": "punctuation.definition.keyword.stylus",
 			"settings": {
-				"foreground": "#C586C0"
+				"foreground": "#c586c0"
 			}
 		},
 		{
 			"scope": "meta.interpolation.stylus",
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
 			"scope": "variable.stylus",
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#4ec9b0"
 			}
 		},
 		{
 			"scope": "entity.other.attribute-name.parent-selector-suffix.stylus",
 			"settings": {
-				"foreground": "#D7BA7D"
+				"foreground": "#d7ba7d"
 			}
 		},
 		{
 			"scope": "meta.interpolation.stylus meta.brace.curly",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -1130,11 +1149,18 @@
 		},
 		{
 			"scope": [
+				"text.html.basic meta.brace.round.js",
+				"text.html.basic meta.brace.square.js",
 				"text.html.basic punctuation.separator.comma.js",
 				"text.html.basic punctuation.definition.block.js",
-				"text.html.basic meta.brace.square.js meta.brace.round.js",
-				"text.html.basic meta.brace.round.js",
-				"text.html.basic meta.brace.square.js"
+				"text.html.basic punctuation.definition.parameters.begin.js",
+				"text.html.basic punctuation.definition.parameters.end.js",
+				"text.html.jinja punctuation.definition.parameters.begin.js",
+				"text.html.jinja punctuation.definition.parameters.end.js",
+				"text.html.jinja meta.brace.round.js",
+				"text.html.jinja meta.brace.square.js",
+				"text.html.jinja punctuation.definition.block.js",
+				"text.html.jinja punctuation.separator.comma.js"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"

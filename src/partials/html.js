@@ -34,11 +34,20 @@ module.exports = [
     },
     {
         "scope": [
-            "text.html.basic punctuation.separator.comma.js",
-            "text.html.basic punctuation.definition.block.js",
-            "text.html.basic meta.brace.square.js meta.brace.round.js",
+            // JS in html
             "text.html.basic meta.brace.round.js",
             "text.html.basic meta.brace.square.js",
+            "text.html.basic punctuation.separator.comma.js",
+            "text.html.basic punctuation.definition.block.js",
+            "text.html.basic punctuation.definition.parameters.begin.js",
+            "text.html.basic punctuation.definition.parameters.end.js",
+            // JS in jinja
+            "text.html.jinja punctuation.definition.parameters.begin.js",
+            "text.html.jinja punctuation.definition.parameters.end.js",
+            "text.html.jinja meta.brace.round.js",
+            "text.html.jinja meta.brace.square.js",
+            "text.html.jinja punctuation.definition.block.js",
+            "text.html.jinja punctuation.separator.comma.js",
         ],
         "settings": { "foreground": "#d4d4d4" }
     },
