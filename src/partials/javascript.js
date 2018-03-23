@@ -35,6 +35,8 @@ module.exports = [
     {
         "scope": [
             "punctuation.separator.key-value.js",
+            "punctuation.definition.block.js",
+            "punctuation.separator.comma.js",
             // "keyword.operator.accessor.js",
             // "meta.brace.square.js",
             "entity.quasi.element.js",
@@ -73,10 +75,11 @@ module.exports = [
         "settings": { "foreground": "#569cd6" }
     },
     {
-        "name": "Reset JavaScript string interpolation expression",
         "scope": [
             "meta.template.expression.js",
-            "meta.template.expression.ts"
+            "meta.template.expression.ts",
+            "meta.brace.round.ts",
+            "meta.brace.round.js",
         ],
         "settings": { "foreground": "#d4d4d4" }
     },
