@@ -45,6 +45,7 @@
 			"scope": [
 				"meta.tag.sgml.html",
 				"meta.tag.sgml.doctype.html",
+				"meta.tag.sgml.html punctuation.definition.tag.html",
 				"comment.block.js",
 				"comment.line.shebang.js",
 				"comment.line.number-sign.shebang.shell",
@@ -65,6 +66,7 @@
 				"punctuation.separator.array.json",
 				"punctuation.terminator.statement.js",
 				"punctuation.terminator.statement.ts",
+				"punctuation.terminator.statement.tsx",
 				"meta.property-list.scss",
 				"punctuation.terminator.rule.css",
 				"punctuation.separator.list.comma.css",
@@ -559,7 +561,11 @@
 			}
 		},
 		{
-			"scope": "variable.language.this.js",
+			"scope": [
+				"variable.language.this.js",
+				"variable.language.this.ts",
+				"variable.language.this.tsx"
+			],
 			"settings": {
 				"foreground": "#569cd6",
 				"fontStyle": "italic"
@@ -584,14 +590,17 @@
 		},
 		{
 			"scope": [
+				"new.expr.js",
+				"meta.arrow.js",
+				"keyword.operator.new.js",
+				"storage.type.function.arrow.js",
 				"support.type.object.module.js",
 				"keyword.operator.module.all.js",
 				"keyword.control.module.reference.js",
-				"storage.type.function.arrow.js",
-				"keyword.operator.new.js",
-				"new.expr.js",
-				"meta.arrow.js",
-				"keyword.control.as.ts"
+				"keyword.control.as.ts",
+				"keyword.operator.optional.ts",
+				"comment.line.triple-slash.directive.ts",
+				"punctuation.definition.tag.directive.ts"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -606,6 +615,8 @@
 				"punctuation.definition.template-expression.begin.ts",
 				"punctuation.definition.template-expression.end.ts",
 				"punctuation.definition.template-expression.end.js",
+				"punctuation.definition.template-expression.begin.tsx",
+				"punctuation.definition.template-expression.end.tsx",
 				"punctuation.quasi.element.end.js",
 				"punctuation.quasi.element.begin.js",
 				"punctuation.section.embedded.begin.jsx",
@@ -639,8 +650,9 @@
 		},
 		{
 			"scope": [
-				"punctuation.decorator.js",
 				"punctuation.accessor.js",
+				"punctuation.accessor.ts",
+				"punctuation.decorator.js",
 				"keyword.operator.js",
 				"keyword.operator.typeof.js",
 				"keyword.operator.logical.js",
@@ -675,11 +687,26 @@
 		{
 			"scope": [
 				"keyword.operator.type.annotation.ts",
+				"keyword.operator.type.annotation.tsx",
 				"punctuation.decorator.ts",
-				"meta.decorator.ts"
+				"meta.decorator.ts",
+				"punctuation.type.flowtype"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.type.annotation.ts",
+				"keyword.operator.type.annotation.tsx",
+				"punctuation.decorator.ts",
+				"meta.decorator.ts",
+				"punctuation.type.flowtype"
+			],
+			"settings": {
+				"foreground": "#4ec9b0",
+				"fontStyle": "italic"
 			}
 		},
 		{
