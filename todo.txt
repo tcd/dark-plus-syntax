@@ -3,4 +3,5 @@
 2018-03-20 Find better highlighting for embedded languages in HTML.
 2018-03-21 Poll for embedded template color.
 2018-03-21 Look into Ruby syntax.
+2018-03-23 Make accessors Blue as builtins?
 

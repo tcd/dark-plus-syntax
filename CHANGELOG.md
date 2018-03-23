@@ -1,8 +1,10 @@
 # ChangeLog
 
-## 0.0.51 ()
+## 0.0.51 (March 23, 2018)
 - Fixed 0.0.50 log date.
 - Fixed link to license in readme.md.
+- Made highlighting more consistent accross JS, JSX, TS, & TSX.
+- Enabled eslint in workspace settings.
 
 ## 0.0.50 (March 23, 2018)
 - Highlight shellscript shebangs as special comment.

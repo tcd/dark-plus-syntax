@@ -1,22 +1,21 @@
 module.exports = {
     "root": true,
     "env": {
-      "browser": true,
       "node": true,
     },
     "parserOptions": {
       "ecmaVersion": 2017,
       "ecmaFeatures": {
-          "jsx": true
+          "jsx": false
       },
       "sourceType": "module"
     },
     "rules": {
-      "comma-dangle": ["error", "always"], // I don't like this one
+      "comma-dangle": ["error", "always"],
       "curly": "error",
       "eqeqeq": "off",
-      "id-length": ["error", { "min": 4 }],
-      "indent": ["error", 2],
+      "id-length": ["error", { "min": 3 }],
+      "indent": ["error", 4],
       "linebreak-style": ["error", "unix"],
       "no-inline-comments": "off",
       "no-console": "off",

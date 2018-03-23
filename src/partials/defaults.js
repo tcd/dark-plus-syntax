@@ -2,21 +2,22 @@ module.exports = [
     {
         "settings": {
             "foreground": "#d4d4d4ff",
-            "background": "#1e1e1eff"
-        }
+            "background": "#1e1e1eff",
+        },
     },
     {
         "scope": [
             "comment",
             "comment.line.double-slash.js",
         ],
-        "settings": { "foreground": "#505050" }
+        "settings": { "foreground": "#505050", },
     },
     {
         "name": "Special Comments",
         "scope": [
             "meta.tag.sgml.html",
             "meta.tag.sgml.doctype.html",
+            "meta.tag.sgml.html punctuation.definition.tag.html",
             "comment.block.js",
             "comment.line.shebang.js",
             "comment.line.number-sign.shebang.shell",
@@ -27,7 +28,7 @@ module.exports = [
             "comment.block.documentation.ts",
             // "comment.line.triple-slash.directive.ts",
         ],
-        "settings": { "foreground": "#608b4e" }
+        "settings": { "foreground": "#608b4e", },
     },
     {
         "name": "Curly Braces, Semicolons, etc.",
@@ -37,6 +38,7 @@ module.exports = [
             "punctuation.separator.array.json",
             "punctuation.terminator.statement.js",
             "punctuation.terminator.statement.ts",
+            "punctuation.terminator.statement.tsx",
             // "punctuation.separator.statement.ruby",
             "meta.property-list.scss",
             "punctuation.terminator.rule.css",
@@ -48,45 +50,45 @@ module.exports = [
             "punctuation.definition.metadata.markdown",
             "invalid.illegal.bad-comments-or-CDATA.html",
             "punctuation.definition.italic.markdown",
-            "punctuation.definition.bold.markdown"
+            "punctuation.definition.bold.markdown",
         ],
-        "settings": { "foreground": "#505050" }
+        "settings": { "foreground": "#505050", },
     },
     {
         "scope": "constant.character.escape.backslash.regexp",
-        "settings": { "foreground": "#d7ba7d" }
+        "settings": { "foreground": "#d7ba7d", },
     },
     {
         "scope": "constant.other.character-class.regexp",
-        "settings": { "foreground": "#4ec9b0" }
+        "settings": { "foreground": "#4ec9b0", },
     },
     {
         "scope": "constant.numeric",
-        "settings": { "foreground": "#b5cea8" }
+        "settings": { "foreground": "#b5cea8", },
     },
     {
         "scope": "constant.regexp",
-        "settings": { "foreground": "#d16969" }
+        "settings": { "foreground": "#d16969", },
     },
     {
         "scope": "invalid",
-        "settings": { "foreground": "#f44747" }
+        "settings": { "foreground": "#f44747", },
     },
     {
         "scope": "meta.selector",
-        "settings": { "foreground": "#d7ba7d" }
+        "settings": { "foreground": "#d7ba7d", },
     },
     {
         "scope": "meta.preprocessor",
-        "settings": { "foreground": "#569cd6" }
+        "settings": { "foreground": "#569cd6", },
     },
     {
         "scope": "meta.preprocessor.numeric",
-        "settings": { "foreground": "#b5cea8" }
+        "settings": { "foreground": "#b5cea8", },
     },
     {
         "scope": "meta.diff.header",
-        "settings": { "foreground": "#569cd6" }
+        "settings": { "foreground": "#569cd6", },
     },
     {
         "scope": [
@@ -95,11 +97,11 @@ module.exports = [
             "string.value",
             "meta.preprocessor.string",
         ],
-        "settings": { "foreground": "#ce9178" }
+        "settings": { "foreground": "#ce9178", },
     },
     {
         "scope": "string.regexp",
-        "settings": { "foreground": "#d16969" }
+        "settings": { "foreground": "#d16969", },
     },
     {
         "scope": [
@@ -115,7 +117,7 @@ module.exports = [
             "keyword.operator.cast",
             "keyword.operator.sizeof",
         ],
-        "settings": { "foreground": "#569cd6" }
+        "settings": { "foreground": "#569cd6", },
     },
     // {
     //     "scope": "keyword.operator",
@@ -123,15 +125,15 @@ module.exports = [
     // },
     {
         "scope": "keyword.other.unit",
-        "settings": { "foreground": "#b5cea8" }
+        "settings": { "foreground": "#b5cea8", },
     },
     {
         "scope": [
             "entity.name.function",
             "support.function",
-            "support.constant.handlebars"
+            "support.constant.handlebars",
         ],
-        "settings": {"foreground": "#dcdcaa"}
+        "settings": {"foreground": "#dcdcaa",},
     },
     {
         "name": "Type declaration and references",
@@ -158,9 +160,9 @@ module.exports = [
             "storage.type.generic.groovy",
             "storage.type.object.array.groovy",
             "storage.type.primitive.array.groovy",
-            "storage.type.primitive.groovy"
+            "storage.type.primitive.groovy",
         ],
-        "settings": {"foreground": "#4ec9b0"}
+        "settings": {"foreground": "#4ec9b0",},
     },
     {
         "name": "Types declaration and references, TS grammar specific",
@@ -170,17 +172,17 @@ module.exports = [
             "support.constant.math",
             "support.constant.dom",
             "support.constant.json",
-            "entity.other.inherited-class"
+            "entity.other.inherited-class",
         ],
-        "settings": {"foreground": "#4ec9b0"}
+        "settings": {"foreground": "#4ec9b0",},
     },
     {
         "name": "Control flow keywords",
         "scope": [
             "keyword.control",
-            "keyword.operator"
+            "keyword.operator",
         ],
-        "settings": {"foreground": "#C586C0"}
+        "settings": {"foreground": "#C586C0",},
     },
     {
         "scope": [
@@ -188,34 +190,34 @@ module.exports = [
             "support.variable",
             "meta.definition.variable.name",
         ],
-        "settings": {"foreground": "#9cdcfe"}
+        "settings": {"foreground": "#9cdcfe",},
     },
     {
         "scope": "support.function.git-rebase",
-        "settings": { "foreground": "#9cdcfe" }
+        "settings": { "foreground": "#9cdcfe", },
     },
     {
         "scope": "constant.sha.git-rebase",
-        "settings": { "foreground": "#b5cea8" }
+        "settings": { "foreground": "#b5cea8", },
     },
     {
         "scope": "constant.character.escape",
-        "settings": {"foreground": "#d7ba7d"}
+        "settings": {"foreground": "#d7ba7d",},
     },
     {
         "scope": "token.info-token",
-        "settings": { "foreground": "#6796e6" }
+        "settings": { "foreground": "#6796e6", },
     },
     {
         "scope": "token.warn-token",
-        "settings": { "foreground": "#cd9731" }
+        "settings": { "foreground": "#cd9731", },
     },
     {
         "scope": "token.error-token",
-        "settings": { "foreground": "#f44747" }
+        "settings": { "foreground": "#f44747", },
     },
     {
         "scope": "token.debug-token",
-        "settings": { "foreground": "#b267e6" }
-    }
-]
+        "settings": { "foreground": "#b267e6", },
+    },
+];
