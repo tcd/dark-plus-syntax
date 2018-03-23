@@ -1,5 +1,5 @@
 # {minor tweaks}
-[![License](https://img.shields.io/github/license/dunstontc/dark-plus-syntax.svg)](https://github.com/dunstontc/dark-plus-syntax/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE) 
 [![GitHub issues](https://img.shields.io/github/issues/dunstontc/dark-plus-syntax.svg)](https://github.com/dunstontc/dark-plus-syntax/issues)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue)](https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax)
 
@@ -14,6 +14,7 @@
 ## Languages with Additions
 - C#
 - CSS
+  - Stylus
 - Go
 - Groovy
 - HTML
@@ -21,14 +22,13 @@
   - Handlebars
   - Jinja2
   - Pug/Jade
+  - Twig
 - JavaScript
 - Make
 - Markdown
 - Python
-- Stylus
 - Terraform
 - TypeScript
-- Twig
 - Vagrant
 
 ## Tested with

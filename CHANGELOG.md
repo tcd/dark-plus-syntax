@@ -1,6 +1,10 @@
 # ChangeLog
 
-## 0.0.50 (March 22, 2018)
+## 0.0.51 ()
+- Fixed 0.0.50 log date.
+- Fixed link to license in readme.md.
+
+## 0.0.50 (March 23, 2018)
 - Highlight shellscript shebangs as special comment.
 
 ## 0.0.49 (March 22, 2018)
