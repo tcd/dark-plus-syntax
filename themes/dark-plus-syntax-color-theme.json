@@ -47,6 +47,7 @@
 				"meta.tag.sgml.doctype.html",
 				"comment.block.js",
 				"comment.line.shebang.js",
+				"comment.line.number-sign.shebang.shell",
 				"comment.block.documentation.js",
 				"comment.line.number-sign.ruby",
 				"punctuation.definition.comment.ruby",
@@ -573,6 +574,8 @@
 		{
 			"scope": [
 				"punctuation.separator.key-value.js",
+				"punctuation.definition.block.js",
+				"punctuation.separator.comma.js",
 				"entity.quasi.element.js"
 			],
 			"settings": {
@@ -614,10 +617,11 @@
 			}
 		},
 		{
-			"name": "Reset JavaScript string interpolation expression",
 			"scope": [
 				"meta.template.expression.js",
-				"meta.template.expression.ts"
+				"meta.template.expression.ts",
+				"meta.brace.round.ts",
+				"meta.brace.round.js"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"

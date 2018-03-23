@@ -19,6 +19,7 @@ module.exports = [
             "meta.tag.sgml.doctype.html",
             "comment.block.js",
             "comment.line.shebang.js",
+            "comment.line.number-sign.shebang.shell",
             "comment.block.documentation.js",
             "comment.line.number-sign.ruby",
             "punctuation.definition.comment.ruby",

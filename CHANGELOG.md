@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.50 (March 22, 2018)
+- Highlight shellscript shebangs as special comment.
+
 ## 0.0.49 (March 22, 2018)
 - Highlighted JS/TS decorators & module keywords.
 
