@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 0.0.52 (March 24, 2018)
+- Fixed unmatched brace highlight in JSON.
+- Moved `doctype` back in with the comments.
+- Added highlighting for Go templates.
+
 ## 0.0.51 (March 23, 2018)
 - Fixed 0.0.50 log date.
 - Fixed link to license in readme.md.

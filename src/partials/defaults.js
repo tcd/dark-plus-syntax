@@ -15,9 +15,6 @@ module.exports = [
     {
         "name": "Special Comments",
         "scope": [
-            "meta.tag.sgml.html",
-            "meta.tag.sgml.doctype.html",
-            "meta.tag.sgml.html punctuation.definition.tag.html",
             "comment.block.js",
             "comment.line.shebang.js",
             "comment.line.number-sign.shebang.shell",
@@ -33,8 +30,12 @@ module.exports = [
     {
         "name": "Curly Braces, Semicolons, etc.",
         "scope": [
+            "meta.tag.sgml.html",
+            "meta.tag.sgml.doctype.html",
+            "meta.tag.sgml.html punctuation.definition.tag.html",
             "meta.structure.dictionary.json",
             "punctuation.definition.array.begin.json",
+            "punctuation.definition.array.end.json",
             "punctuation.separator.array.json",
             "punctuation.terminator.statement.js",
             "punctuation.terminator.statement.ts",
