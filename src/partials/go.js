@@ -55,7 +55,7 @@ module.exports = [
             "punctuation.section.embedded.end.gotemplate",
         ],
         settings: {
-            "foreground": "#569cd6"
+            "foreground": "#4ec9b0"
         }
     },
     {

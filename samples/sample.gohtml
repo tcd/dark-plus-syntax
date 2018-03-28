@@ -1,0 +1,9 @@
+
+  {{template "header" .Title}}
+
+  <h1> All about us </h1>
+  {{range .Members}}
+  {{.}}<br/>
+  {{end}}
+
+  {{template "footer"}}
