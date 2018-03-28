@@ -49,7 +49,10 @@
 				"comment.block.documentation.js",
 				"comment.line.number-sign.ruby",
 				"punctuation.definition.comment.ruby",
-				"comment.block.documentation.ts"
+				"comment.block.documentation.ts",
+				"comment.line.number-sign.ini",
+				"comment.line.number-sign.yaml",
+				"comment.line.number-sign.toml"
 			],
 			"settings": {
 				"foreground": "#608b4e"
@@ -325,7 +328,14 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.arrow.cs",
+				"keyword.operator.arrow.cs"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
 				"keyword.operator.assignment.cs",
 				"keyword.operator.comparison.cs",
 				"keyword.other.await.cs"
@@ -498,7 +508,7 @@
 				"punctuation.section.embedded.end.gotemplate"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#4ec9b0"
 			}
 		},
 		{
@@ -1090,7 +1100,9 @@
 		},
 		{
 			"scope": [
-				"entity.other.document.begin.yaml"
+				"entity.other.document.begin.yaml",
+				"entity.other.document.end.yaml",
+				"punctuation.definition.block.sequence.item.yaml"
 			],
 			"settings": {
 				"foreground": "#c586c0"
@@ -1143,7 +1155,8 @@
 		},
 		{
 			"scope": [
-				"entity.name.section.terraform"
+				"entity.name.section.terraform",
+				"constant.language.boolean.yaml"
 			],
 			"settings": {
 				"foreground": "#c586c0"
@@ -1163,7 +1176,8 @@
 			"scope": [
 				"storage.type.function.terraform",
 				"entity.tag.embedded.start.terraform",
-				"entity.tag.embedded.end.terraform"
+				"entity.tag.embedded.end.terraform",
+				"entity.name.tag.yaml"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -1176,6 +1190,37 @@
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.array.toml",
+				"constant.other.boolean.toml",
+				"punctuation.definition.keyValuePair.toml"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.table.array.toml",
+				"punctuation.definition.table.toml"
+			],
+			"settings": {
+				"foreground": "#606060"
 			}
 		},
 		{
@@ -1315,11 +1360,14 @@
 				"keyword.begin.tag.ejs"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#4ec9b0"
 			}
 		},
 		{
 			"scope": [
+				"text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js meta.brace.round.begin.js",
+				"text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js meta.brace.round.end.js",
+				"text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js",
 				"text.html.ejs meta.brace.round.js",
 				"text.html.ejs meta.brace.square.js",
 				"text.html.ejs punctuation.definition.parameters.begin.js",

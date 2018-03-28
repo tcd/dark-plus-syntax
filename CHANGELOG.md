@@ -1,5 +1,11 @@
 # ChangeLog
 
+## 0.0.53 (March 28, 2018)
+- Highlight C# lambdas as storage keywords.
+- Added highlighting to YAML punctuation & constants.
+- Added Cyan highlight to html template interpolations. (But not control tags). 
+- Made TOML & YAML operators Magenta for contrast.
+
 ## 0.0.52 (March 24, 2018)
 - Fixed unmatched brace highlight in JSON.
 - Moved `doctype` back in with the comments.

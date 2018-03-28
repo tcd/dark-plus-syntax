@@ -25,6 +25,11 @@ module.exports = [
     {
         "scope": [
             "keyword.operator.arrow.cs",
+        ],
+        "settings": { "foreground": "#569cd6" },
+    },
+    {
+        "scope": [
             // "keyword.other.using.cs",
             "keyword.operator.assignment.cs",
             "keyword.operator.comparison.cs",

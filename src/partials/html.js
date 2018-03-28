@@ -139,10 +139,14 @@ module.exports = [
             // "text.html.ejs keyword.begin.tag.ejs punctuation.accessor.js",
             // "text.html.ejs keyword.begin.tag.ejs keyword.operator.arithmetic.js",
         ],
-        "settings": { "foreground": "#569cd6", },
+        "settings": { "foreground": "#4ec9b0", },
     },
     {
         "scope": [
+            "text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js meta.brace.round.begin.js",
+            "text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js meta.brace.round.end.js",
+            "text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js",
+
             "text.html.ejs meta.brace.round.js",
             "text.html.ejs meta.brace.square.js",
             // "text.html.ejs punctuation.definition.block.js",
