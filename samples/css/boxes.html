@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Using Transform </title>
+    <style>
+        body {
+            padding-bottom: 200px;
+        }
+        h2 {
+            border-bottom: solid 1px #333;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            transition: transform 2s;
+        }
+
+        /** Box 1 **/
+        #box1 {
+            background-color: blue;
+        }
+        #box1:hover {
+            transform: translateX(-100px);
+        }
+
+        /** Box 2 **/
+        #box2 {
+            background-color: green;
+        }
+        #box2:hover {
+            transform: translate(-100px, -100px);
+        }
+
+        /** Box 3 **/
+        #box3 {
+            background-color: red;
+            margin: auto;
+        }
+        #box3:hover {
+            transform: scale(.5);
+        }
+
+        /** Box 4 **/
+        #box4 {
+            background-color: purple;
+            margin: auto;
+        }
+        #box4:hover {
+            transform: rotate(-122deg);
+        }
+    </style>
+</head>
+<body>
+    <h2> Box 1 </h2>
+    <div class="box" id="box1"></div>
+    <h2> Box 2 </h2>
+    <div class="box" id="box2"></div>
+    <h2> Box 3 </h2>
+    <div class="box" id="box3"></div>
+    <h2> Box 4 </h2>
+    <div class="box" id="box4"></div>
+</body>
+</html>

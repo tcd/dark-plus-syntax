@@ -9,31 +9,40 @@ module.exports = [
             "entity.other.attribute-name.pseudo-element.css",
             "source.css.less entity.other.attribute-name.id",
             "entity.other.attribute-name.attribute.scss",
-            "entity.other.attribute-name.scss"
+            "entity.other.attribute-name.scss",
         ],
         "settings": { "foreground": "#d7ba7d" }
     },
     {
-        "scope": "entity.name.tag.css",
+        "scope": [
+            "invalid.deprecated.color.system.css",
+            "punctuation.section.function.begin.bracket.round.css",
+            "punctuation.section.function.end.bracket.round.css",
+        ],
+        "settings": { "foreground": "#d4d4d4" }
+    },
+    {
+        "scope": [
+            "entity.name.tag.css"
+        ],
         "settings": { "foreground": "#569cd6" }
     },
     {
         "name" : "Variables",
         "scope": [
-            "support.type.vendored.property-name",
+            "support.type.property-name.media.css",
             "support.type.property-name",
             "variable.css",
             "variable.scss",
             "variable.other.less",
+            "support.type.vendored.property-name.css",
+            "support.constant.vendored.property-value.css",
         ],
         "settings": { "foreground": "#9cdcfe" }
     },
     {
-        "name" : "Variables",
         "scope": [
-            "support.type.property-name.media.css",
             "meta.attribute-selector.css",
-            "support.type.vendored.property-name.css",
         ],
         "settings": { "foreground": "#4ec9b0" }
     },
@@ -52,8 +61,14 @@ module.exports = [
     },
     {
         "scope": [
-        "punctuation.definition.entity.begin.bracket.square.css",
-        "punctuation.definition.entity.end.bracket.square.css",
+            "keyword.other.important.css",
+            "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+            "meta.selector.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+            "punctuation.definition.entity.begin.bracket.square.css",
+            "punctuation.definition.entity.end.bracket.square.css",
+            "entity.other.attribute-name.pseudo-element.css",
+            "entity.other.attribute-name.pseudo-class.css",
+            // "text.html.basic meta.embedded.block.html source.css meta.selector.css entity.other.attribute-name.pseudo-class.css"
         ],
         "settings": { "foreground": "#c586c0" }
     },

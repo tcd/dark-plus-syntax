@@ -61,6 +61,7 @@ module.exports = [
     },
     {
         "scope": [
+            "meta.separator.markdown",
             "entity.name.section.markdown",
             "punctuation.definition.heading.markdown",
         ],
@@ -97,8 +98,8 @@ module.exports = [
         ],
         "settings": { "foreground": "#569cd6" }
     },
-    {
-        "scope": "meta.separator.markdown",
-        "settings": { "foreground": "#007acc" }
-    },
+    // {
+    //     "scope": "meta.separator.markdown",
+    //     "settings": { "foreground": "#007acc" }
+    // },
 ]

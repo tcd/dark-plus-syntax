@@ -121,6 +121,7 @@ module.exports = [
     {
         "scope": [
             "support.constant.handlebars",
+            // "meta.tag.mustache.js",
         ],
         "settings": { "foreground": "#4ec9b0", },
     },

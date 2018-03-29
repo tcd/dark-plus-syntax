@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.54 (March 29, 2018)
+- Standardized highlights for CSS selectors & pseudo-classes.
+
 ## 0.0.53 (March 28, 2018)
 - Highlight C# lambdas as storage keywords.
 - Added highlighting to YAML punctuation & constants.
