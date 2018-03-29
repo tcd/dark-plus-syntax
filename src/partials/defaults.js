@@ -22,7 +22,7 @@ module.exports = [
             "comment.line.number-sign.ruby",
             "punctuation.definition.comment.ruby",
             "comment.block.go",
-            // "meta.tag.ts",
+            // "comment.line.double-slash.go",
             "comment.block.documentation.ts",
             // "comment.line.triple-slash.directive.ts",
             "comment.line.number-sign.ini",

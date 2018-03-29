@@ -49,6 +49,7 @@
 				"comment.block.documentation.js",
 				"comment.line.number-sign.ruby",
 				"punctuation.definition.comment.ruby",
+				"comment.block.go",
 				"comment.block.documentation.ts",
 				"comment.line.number-sign.ini",
 				"comment.line.number-sign.yaml",
