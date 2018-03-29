@@ -21,6 +21,7 @@ module.exports = [
             "comment.block.documentation.js",
             "comment.line.number-sign.ruby",
             "punctuation.definition.comment.ruby",
+            "comment.block.go",
             // "meta.tag.ts",
             "comment.block.documentation.ts",
             // "comment.line.triple-slash.directive.ts",
