@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.55 (March 29, 2018)
+- Darkened Markdown fenced code block delimiters.  
+
 ## 0.0.54 (March 29, 2018)
 - Standardized highlights for CSS selectors & pseudo-classes.
 
