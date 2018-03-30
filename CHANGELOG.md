@@ -1,6 +1,10 @@
 # ChangeLog
 
 
+## 0.0.58 (March 30, 2018)
+- Highlight `byte` as a *type* in Go.
+- Highlight address operators as *keyword* in Go.
+
 ## 0.0.57 (March 29, 2018)
 - Added highlight to import alias in Go.
 - Fixed highlighting for SQL syntax.
