@@ -5,6 +5,7 @@ module.exports = [
             "keyword.operator.arithmetic.go",
             "keyword.operator.comparison.go",
             "keyword.operator.address.go",
+            "punctuation.terminator.go",
             "punctuation.other.colon.go",
             "punctuation.other.period.go",
             "keyword.control.gotemplate",
@@ -21,9 +22,10 @@ module.exports = [
     },
     {
         scope: [
-            "storage.type.string.go",
-            "storage.type.numeric.go",
             "storage.type.boolean.go",
+            "storage.type.byte.go",
+            "storage.type.numeric.go",
+            "storage.type.string.go",
         ],
         settings: {
             "foreground": "#4ec9b0",
@@ -43,7 +45,10 @@ module.exports = [
         }
     },
     {
-        scope: "constant.other.placeholder.go",
+        scope: [
+            "constant.other.placeholder.go",
+            "keyword.operator.address.go",
+        ],
         settings: {
             "foreground": "#569cd6"
         }
