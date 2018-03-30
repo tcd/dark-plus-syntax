@@ -39,6 +39,7 @@
 - [dunstontc/viml](https://github.com/dunstontc/viml)
 - [mauve/vscode-terraform](https://github.com/mauve/vscode-terraform)
 - [Digitalbrainstem/ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar)
+- [jakebathman/mysql-syntax](https://github.com/jakebathman/mysql-syntax)
 
 
 ## Resources & References

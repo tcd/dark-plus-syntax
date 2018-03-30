@@ -60,6 +60,12 @@ module.exports = [
         "settings": { "foreground": "#505050", },
     },
     {
+        "scope": [
+            "meta.embedded.block.sql",
+        ],
+        "settings": { "foreground": "#d4d4d4", },
+    },
+    {
         "scope": "constant.character.escape.backslash.regexp",
         "settings": { "foreground": "#d7ba7d", },
     },

@@ -60,7 +60,7 @@ module.exports = [
     },
     {
         scope: [
-
+            "entity.alias.import.go"
         ],
         settings: {
             "foreground": "#9cdcfe"

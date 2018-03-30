@@ -1,5 +1,12 @@
 # ChangeLog
 
+## 0.0.58 (March 29, 2018)
+- Fixed highlighting for SQL syntax.
+- Updated readme.
+
+## 0.0.57 (March 29, 2018)
+- Added highlight to import alias in Go.
+
 ## 0.0.56 (March 29, 2018)
 - Started work on 0.1.0.
 - Greened Go comments.
