@@ -44,9 +44,8 @@
 
 ## Resources & References
 - [Microsoft/vscode-textmate](https://github.com/Microsoft/vscode-textmate)
-- [Microsoft/vscode-textmate](https://github.com/Microsoft/vscode-textmate)
 - [Scope Naming](https://www.sublimetext.com/docs/3/scope_naming.html)
 
-
-
 ## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
+
+

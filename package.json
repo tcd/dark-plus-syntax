@@ -3,8 +3,8 @@
 	"displayName": "dark-plus-syntax",
 	"description": "VS Code's default dark theme, but just a little bit better.",
 	"version": "0.0.58",
-    "publisher": "dunstontc",
-    "license": "MIT",
+	"publisher": "dunstontc",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/dunstontc/dark-plus-syntax.git"
@@ -25,6 +25,7 @@
 		]
 	},
 	"devDependencies": {
+		"bootstrap": "^4.0.0",
 		"write-json-file": "^2.2.0"
 	},
 	"scripts": {
