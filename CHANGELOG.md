@@ -1,8 +1,9 @@
 # ChangeLog
 
 
-## 0.0.58 (April 1, 2018)
+## 0.0.59 (April 3, 2018)
 - Added more samples.
+- Fixed blockquote highlighting in Markdown.
 
 ## 0.0.58 (March 30, 2018)
 - Highlight `byte` as a *type* in Go.

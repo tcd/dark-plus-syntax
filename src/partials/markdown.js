@@ -68,7 +68,9 @@ module.exports = [
         "settings": { "foreground": "#c586c0" }
     },
     {
-        "scope": "beginning.punctuation.definition.quote.markdown",
+        "scope": [
+            "markup.quote.markdown"
+        ],
         "settings": { "foreground": "#608b4e" }
     },
     {
@@ -88,7 +90,8 @@ module.exports = [
             "markup.fenced_code.block.markdown",
             "markup.fenced_code.block.markdown punctuation.definition.markdown",
             "punctuation.definition.italic.markdown",
-            "punctuation.definition.bold.markdown"
+            "punctuation.definition.bold.markdown",
+            "beginning.punctuation.definition.quote.markdown",
         ],
         "settings": { "foreground": "#505050" }
     },

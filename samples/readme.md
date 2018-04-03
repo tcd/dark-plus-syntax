@@ -81,3 +81,9 @@ $box.animate([
 });
 
 ```
+
+> While the other keywords require that all subschemas are valid against all child instances to which they apply.
+> Several keywords determine which subschemas are applied to array items, object property values, and object property names. 
+> They are: "items", "additionalItems", "contains", "properties", "patternProperties", "additionalProperties", and "propertyNames". 
+> The "contains" keyword only requires its subschema to be valid against at least one child instance, 
+> while the other keywords require that all subschemas are valid against all child instances to which they apply.
