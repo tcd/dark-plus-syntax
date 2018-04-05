@@ -87,10 +87,10 @@ module.exports = [
     {
         "scope": [
             "markup.underline.link.markdown",
-            "markup.fenced_code.block.markdown",
             "markup.fenced_code.block.markdown punctuation.definition.markdown",
             "punctuation.definition.italic.markdown",
             "punctuation.definition.bold.markdown",
+            "punctuation.definition.raw.markdown",
             "beginning.punctuation.definition.quote.markdown",
         ],
         "settings": { "foreground": "#505050" }
