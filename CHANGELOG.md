@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.60 (April 5, 2018)
+- Normalized highlighting for `super()` across JS, JSX, TS, & TSX.
+
 ## 0.0.59 (April 4, 2018)
 - Added more samples.
 - Fixed blockquote assorted punctuation highlighting in Markdown.
