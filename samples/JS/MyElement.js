@@ -1,4 +1,4 @@
-import {PolymerElement} from '@polymer/polymer/polymer-element.js';
+import {PolymerElement,} from '@polymer/polymer/polymer-element.js';
 
 class MyComponent extends PolymerElement {
   constructor() {
@@ -9,7 +9,7 @@ class MyComponent extends PolymerElement {
     return `<div> I'm the Component! </div>`;
   }
 
-  static get is() {return 'my-component'}
+  static get is() {return 'my-component';}
 }
 
 customElements.define('my-component', MyComponent);

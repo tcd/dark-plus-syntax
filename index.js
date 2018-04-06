@@ -1,4 +1,5 @@
 const writeJsonFile = require('write-json-file');
+
 const cs            = require('./src/partials/cs');
 const css           = require('./src/partials/css');
 const defaults      = require('./src/partials/defaults');
@@ -10,6 +11,7 @@ const markup        = require('./src/partials/markdown');
 const misc          = require('./src/partials/misc');
 const python        = require('./src/partials/python');
 const ruby          = require('./src/partials/ruby');
+const regex         = require('./src/partials/regex');
 
 let nop = [];
 
@@ -25,7 +27,8 @@ let tokenz = nop.concat(
     ruby,
     misc,
     html,
-)
+    regex,
+);
 
 let base = {
     "name": "dark-plus-syntax",

@@ -66,20 +66,8 @@ module.exports = [
         "settings": { "foreground": "#d4d4d4", },
     },
     {
-        "scope": "constant.character.escape.backslash.regexp",
-        "settings": { "foreground": "#d7ba7d", },
-    },
-    {
-        "scope": "constant.other.character-class.regexp",
-        "settings": { "foreground": "#4ec9b0", },
-    },
-    {
         "scope": "constant.numeric",
         "settings": { "foreground": "#b5cea8", },
-    },
-    {
-        "scope": "constant.regexp",
-        "settings": { "foreground": "#d16969", },
     },
     {
         "scope": "invalid",
@@ -111,10 +99,6 @@ module.exports = [
         "settings": { "foreground": "#ce9178", },
     },
     {
-        "scope": "string.regexp",
-        "settings": { "foreground": "#d16969", },
-    },
-    {
         "scope": [
             "storage",
             "storage.type",
@@ -122,7 +106,6 @@ module.exports = [
             "keyword",
             "keyword.control",
             "constant.language",
-            "keyword.control.anchor.regexp",
             "keyword.operator.new",
             "keyword.operator.expression",
             "keyword.operator.cast",
@@ -130,10 +113,6 @@ module.exports = [
         ],
         "settings": { "foreground": "#569cd6", },
     },
-    // {
-    //     "scope": "keyword.operator",
-    //     "settings": { "foreground": "#d4d4d4" }
-    // },
     {
         "scope": "keyword.other.unit",
         "settings": { "foreground": "#b5cea8", },

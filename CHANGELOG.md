@@ -1,6 +1,10 @@
 # ChangeLog
 
 
+## 0.0.61 (April 6, 2018)
+- Highlight RegEx quantifiers as numbers.
+- Improve highlighting for Code's default JS & JSX syntax.
+
 ## 0.0.60 (April 5, 2018)
 - Normalized highlighting for `super()` across JS, JSX, TS, & TSX.
 

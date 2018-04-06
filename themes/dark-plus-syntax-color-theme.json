@@ -97,27 +97,9 @@
 			}
 		},
 		{
-			"scope": "constant.character.escape.backslash.regexp",
-			"settings": {
-				"foreground": "#d7ba7d"
-			}
-		},
-		{
-			"scope": "constant.other.character-class.regexp",
-			"settings": {
-				"foreground": "#4ec9b0"
-			}
-		},
-		{
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#b5cea8"
-			}
-		},
-		{
-			"scope": "constant.regexp",
-			"settings": {
-				"foreground": "#d16969"
 			}
 		},
 		{
@@ -162,12 +144,6 @@
 			}
 		},
 		{
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#d16969"
-			}
-		},
-		{
 			"scope": [
 				"storage",
 				"storage.type",
@@ -175,7 +151,6 @@
 				"keyword",
 				"keyword.control",
 				"constant.language",
-				"keyword.control.anchor.regexp",
 				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
@@ -603,8 +578,7 @@
 		{
 			"scope": [
 				"comment.block.documentation.js",
-				"comment.block.js",
-				"comment.block.ts",
+				"comment.block",
 				"comment.line.triple-slash.directive.ts",
 				"comment.block.documentation.ts",
 				"comment.line.shebang.js"
@@ -630,6 +604,7 @@
 		{
 			"scope": [
 				"variable.language.this.js",
+				"variable.language.this.jsx",
 				"variable.language.this.ts",
 				"variable.language.this.tsx"
 			],
@@ -667,6 +642,10 @@
 				"punctuation.definition.block.ts",
 				"punctuation.separator.comma.js",
 				"punctuation.separator.comma.ts",
+				"punctuation.separator.parameter",
+				"punctuation.definition.parameters.begin",
+				"punctuation.definition.parameters.end",
+				"meta.brace.square.js",
 				"entity.quasi.element.js",
 				"comment.block.documentation.js keyword.operator.accessor.js"
 			],
@@ -684,9 +663,8 @@
 				"variable.language.super.tsx",
 				"keyword.operator.new.js",
 				"storage.type.function.arrow.js",
-				"support.type.object.module.js",
+				"keyword.operator.spread",
 				"keyword.operator.module.all.js",
-				"keyword.control.module.reference.js",
 				"keyword.control.as.ts",
 				"keyword.control.as.tsx",
 				"keyword.operator.optional.ts",
@@ -782,11 +760,14 @@
 			"scope": [
 				"punctuation.decorator.js",
 				"punctuation.decorator.ts",
+				"support.type.object.module.js",
+				"support.type.object.module.js.jsx",
+				"support.type.object.module keyword.operator.accessor",
 				"keyword.operator.type.annotation.ts",
 				"keyword.operator.type.annotation.tsx",
 				"punctuation.type.flowtype",
-				"support.variable.dom.tsx",
-				"support.variable.dom.ts"
+				"support.variable.object.node",
+				"support.variable.dom"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
@@ -1478,6 +1459,59 @@
 			],
 			"settings": {
 				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.quantifier.regexp",
+				"keyword.operator.quantifier.regexp.js"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": [
+				"string.regexp",
+				"constant.regexp",
+				"constant.character.regexp"
+			],
+			"settings": {
+				"foreground": "#d16969"
+			}
+		},
+		{
+			"scope": [
+				"string.regexp constant.character.escape.backslash.regexp"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"scope": [
+				"constant.other.character-class.regexp"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.anchor.regexp",
+				"constant.other.character-class.regexp"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.group.regexp",
+				"punctuation.definition.character-class.regexp"
+			],
+			"settings": {
+				"foreground": "#909090"
 			}
 		}
 	]
