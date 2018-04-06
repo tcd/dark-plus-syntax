@@ -153,6 +153,7 @@ module.exports = [
             "string.unquoted.label.js",
             "meta.property.object.js",
             "constant.other.object.key.js",
+            "constant.other.object.key.js string.quoted.double.js",
             "meta.object-literal.key.js string.quoted.single.js",
             "meta.object-literal.key.js string.quoted.double.js",
             "string.quoted.single.js meta.object-literal.key.js ",

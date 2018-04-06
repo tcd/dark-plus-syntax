@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.62 (April 6, 2018)
+- Fixed highlighting for quoted keys in JS.
+
 ## 0.0.61 (April 6, 2018)
 - Highlight RegEx quantifiers as numbers.
 - Improve highlighting for Code's default JS & JSX syntax.
