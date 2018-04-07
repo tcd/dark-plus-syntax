@@ -1,15 +1,22 @@
 module.exports = [
     {
         "scope": [
+            "punctuation.definition.variable.begin.gitignore",
+            "punctuation.definition.variable.end.gitignore",
+        ],
+        "settings": { "foreground": "#808080" },
+    },
+    {
+        "scope": [
             "entity.other.document.begin.yaml",
             "entity.other.document.end.yaml",
             "punctuation.definition.block.sequence.item.yaml",
             // "punctuation.separator.key-value.mapping.yaml",
         ],
-        "settings": { "foreground": "#c586c0" }
+        "settings": { "foreground": "#c586c0" },
     },
     {
-        "scope": [ "comment.line.number-sign.makefile" ],
+        "scope": [ "comment.line.number-sign.makefile", ],
         "settings": { "foreground": "#608b4e" }
     },
     {
