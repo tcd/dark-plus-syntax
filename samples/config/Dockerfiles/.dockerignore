@@ -1,0 +1,12 @@
+# comment
+*/temp*
+*/*/temp*
+temp?
+
+*.md
+README-secret.md
+!README*.md
+
+*.md
+!README*.md
+README-secret.md
