@@ -74,6 +74,8 @@
 				"punctuation.terminator.statement.tsx",
 				"meta.property-list.scss",
 				"punctuation.terminator.rule.css",
+				"punctuation.semi-colon.css",
+				"meta.brace.curly.css",
 				"punctuation.separator.list.comma.css",
 				"punctuation.section.property-list.begin.bracket.curly.css",
 				"punctuation.section.property-list.end.bracket.curly.css",
@@ -450,6 +452,32 @@
 			"scope": "meta.interpolation.stylus meta.brace.curly",
 			"settings": {
 				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"constant.hex.css",
+				"meta.identifier.css"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"scope": [
+				"constant.percentage.units.css",
+				"constant.length.units.css"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag.styledcss.js"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
 			}
 		},
 		{
@@ -1115,6 +1143,15 @@
 			],
 			"settings": {
 				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.variable.begin.gitignore",
+				"punctuation.definition.variable.end.gitignore"
+			],
+			"settings": {
+				"foreground": "#505050"
 			}
 		},
 		{

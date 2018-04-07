@@ -11,7 +11,7 @@ module.exports = [
             "entity.other.attribute-name.attribute.scss",
             "entity.other.attribute-name.scss",
         ],
-        "settings": { "foreground": "#d7ba7d" }
+        "settings": { "foreground": "#d7ba7d", },
     },
     {
         "scope": [
@@ -19,13 +19,13 @@ module.exports = [
             "punctuation.section.function.begin.bracket.round.css",
             "punctuation.section.function.end.bracket.round.css",
         ],
-        "settings": { "foreground": "#d4d4d4" }
+        "settings": { "foreground": "#d4d4d4", },
     },
     {
         "scope": [
-            "entity.name.tag.css"
+            "entity.name.tag.css",
         ],
-        "settings": { "foreground": "#569cd6" }
+        "settings": { "foreground": "#569cd6", },
     },
     {
         "name" : "Variables",
@@ -38,13 +38,13 @@ module.exports = [
             "support.type.vendored.property-name.css",
             "support.constant.vendored.property-value.css",
         ],
-        "settings": { "foreground": "#9cdcfe" }
+        "settings": { "foreground": "#9cdcfe", },
     },
     {
         "scope": [
             "meta.attribute-selector.css",
         ],
-        "settings": { "foreground": "#4ec9b0" }
+        "settings": { "foreground": "#4ec9b0", },
     },
     {
         "name": "CSS property value",
@@ -55,9 +55,9 @@ module.exports = [
             "support.constant.media",
             "constant.other.color.rgb-value",
             "constant.other.rgb-value",
-            "support.constant.color"
+            "support.constant.color",
         ],
-        "settings": { "foreground": "#ce9178" }
+        "settings": { "foreground": "#ce9178", },
     },
     {
         "scope": [
@@ -70,29 +70,52 @@ module.exports = [
             "entity.other.attribute-name.pseudo-class.css",
             // "text.html.basic meta.embedded.block.html source.css meta.selector.css entity.other.attribute-name.pseudo-class.css"
         ],
-        "settings": { "foreground": "#c586c0" }
+        "settings": { "foreground": "#c586c0", },
     },
     // =========================================================================
     // Stylus
     // =========================================================================
     {
         "scope": "punctuation.definition.keyword.stylus",
-        "settings": { "foreground": "#c586c0" }
+        "settings": { "foreground": "#c586c0", },
     },
     {
         "scope": "meta.interpolation.stylus",
-        "settings": { "foreground": "#9cdcfe" }
+        "settings": { "foreground": "#9cdcfe", },
     },
     {
         "scope": "variable.stylus",
-        "settings": { "foreground": "#4ec9b0" }
+        "settings": { "foreground": "#4ec9b0", },
     },
     {
         "scope": "entity.other.attribute-name.parent-selector-suffix.stylus",
-        "settings": { "foreground": "#d7ba7d" }
+        "settings": { "foreground": "#d7ba7d", },
     },
     {
         "scope": "meta.interpolation.stylus meta.brace.curly",
-        "settings": { "foreground": "#569cd6" }
+        "settings": { "foreground": "#569cd6", },
     },
-]
+    // =========================================================================
+    // Styled Components
+    // =========================================================================
+    {
+        "scope": [
+           "constant.hex.css",
+           "meta.identifier.css",
+        ],
+        "settings": { "foreground": "#ce9178", },
+    },
+    {
+        "scope": [
+            "constant.percentage.units.css",
+            "constant.length.units.css",
+        ],
+        "settings": { "foreground": "#b5cea8", },
+    },
+    {
+        "scope": [
+            "entity.name.tag.styledcss.js",
+        ],
+        "settings": { "foreground": "#4ec9b0", },
+    },
+];

@@ -4,7 +4,7 @@ module.exports = [
             "punctuation.definition.variable.begin.gitignore",
             "punctuation.definition.variable.end.gitignore",
         ],
-        "settings": { "foreground": "#808080" },
+        "settings": { "foreground": "#505050",},
     },
     {
         "scope": [
@@ -13,19 +13,19 @@ module.exports = [
             "punctuation.definition.block.sequence.item.yaml",
             // "punctuation.separator.key-value.mapping.yaml",
         ],
-        "settings": { "foreground": "#c586c0" },
+        "settings": { "foreground": "#c586c0", },
     },
     {
         "scope": [ "comment.line.number-sign.makefile", ],
-        "settings": { "foreground": "#608b4e" }
+        "settings": { "foreground": "#608b4e", },
     },
     {
-        "scope": [ "variable.other.makefile" ],
-        "settings": { "foreground": "#9cdcfe" }
+        "scope": [ "variable.other.makefile", ],
+        "settings": { "foreground": "#9cdcfe", },
     },
     {
-        "scope": [ "variable.language.makefile" ],
-        "settings": { "foreground": "#569cd6" }
+        "scope": [ "variable.language.makefile", ],
+        "settings": { "foreground": "#569cd6", },
     },
     {
         "scope": [
@@ -35,14 +35,14 @@ module.exports = [
             "keyword.control.endif.makefile",
             "constant.character.escape.continuation.makefile",
         ],
-        "settings": { "foreground": "#c586c0" }
+        "settings": { "foreground": "#c586c0", },
     },
     {
         "scope": [
             "entity.name.function.target.makefile",
             "constant.character.escape.continuation.makefile",
         ],
-        "settings": { "foreground": "#dcdcaa" }
+        "settings": { "foreground": "#dcdcaa", },
     },
     {
         "scope": [
@@ -51,7 +51,7 @@ module.exports = [
             // "variable.language.makefile",
             "constant.language.boolean.yaml",
         ],
-        "settings": { "foreground": "#c586c0" }
+        "settings": { "foreground": "#c586c0", },
     },
     {
         "scope": [
@@ -59,7 +59,7 @@ module.exports = [
             "keyword.other.section.end.terraform",
             "keyword.other.function.inline.terraform",
         ],
-        "settings": { "foreground": "#dcdcaa" }
+        "settings": { "foreground": "#dcdcaa", },
     },
     {
         "scope": [
@@ -68,14 +68,14 @@ module.exports = [
             "entity.tag.embedded.end.terraform",
             "entity.name.tag.yaml",
         ],
-        "settings": { "foreground": "#569cd6" }
+        "settings": { "foreground": "#569cd6", },
     },
     {
         "scope": [
             "entity.other.attribute-name.terraform",
             "source.terraform.embedded.source",
         ],
-        "settings": { "foreground": "#9cdcfe" }
+        "settings": { "foreground": "#9cdcfe", },
     },
     // =========================================================================
     // TOML
@@ -86,14 +86,14 @@ module.exports = [
             // "meta.tag.table.toml entity.other.attribute-name.table.toml",
             // "meta.tag.table.array.toml entity.other.attribute-name.table.array.toml",
         ],
-        "settings": { "foreground": "#569cd6" }
+        "settings": { "foreground": "#569cd6", },
     },
     {
         "scope": [
             // "keyword.key.toml",
             // "entity.other.attribute-name.table.toml",
         ],
-        "settings": { "foreground": "#9cdcfe" }
+        "settings": { "foreground": "#9cdcfe", },
     },
     {
         "scope": [
@@ -103,14 +103,14 @@ module.exports = [
             "constant.other.boolean.toml",
             "punctuation.definition.keyValuePair.toml",
         ],
-        "settings": { "foreground": "#c586c0" }
+        "settings": { "foreground": "#c586c0", },
     },
     {
         "scope": [
             "punctuation.definition.table.array.toml",
             "punctuation.definition.table.toml",
         ],
-        "settings": { "foreground": "#606060" }
+        "settings": { "foreground": "#606060", },
     },
 
-]
+];
