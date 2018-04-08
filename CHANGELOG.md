@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.64 (April 7, 2018)
+- Fixed highlighting for quoted keys in TS.
+
 ## 0.0.63 (April 7, 2018)
 - Added support for Styled Components.
 - Added node_modules to .vscodeignore.
