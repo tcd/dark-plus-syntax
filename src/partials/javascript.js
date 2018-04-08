@@ -25,10 +25,11 @@ module.exports = [
     },
     {
         scope: [
-            "variable.language.this.js",
-            "variable.language.this.jsx",
-            "variable.language.this.ts",
-            "variable.language.this.tsx",
+            "variable.language.this",
+            // "variable.language.this.js",
+            // "variable.language.this.jsx",
+            // "variable.language.this.ts",
+            // "variable.language.this.tsx",
         ],
         settings: {
             "foreground": "#569cd6",
@@ -97,15 +98,13 @@ module.exports = [
         name: "JavaScript string interpolation ${}",
         scope: [
             "punctuation.definition.template-expression.begin.js",
+            "punctuation.definition.template-expression.end.js",
             "punctuation.definition.template-expression.begin.ts",
             "punctuation.definition.template-expression.end.ts",
-            "punctuation.definition.template-expression.end.js",
             "punctuation.definition.template-expression.begin.tsx",
             "punctuation.definition.template-expression.end.tsx",
             "punctuation.quasi.element.end.js",
             "punctuation.quasi.element.begin.js",
-            "punctuation.section.embedded.begin.jsx",
-            "punctuation.section.embedded.end.jsx",
             "punctuation.section.embedded.coffee",
         ],
         settings: { "foreground": "#569cd6", },
@@ -174,10 +173,6 @@ module.exports = [
             "punctuation.type.flowtype",
             "support.variable.object.node",
             "support.variable.dom",
-            // "support.variable.dom.js",
-            // "support.variable.dom.jsx",
-            // "support.variable.dom.ts",
-            // "support.variable.dom.tsx",
         ],
         settings: { "foreground": "#4ec9b0",},
     },
@@ -185,6 +180,21 @@ module.exports = [
         scope: [
             "support.type.primitive.ts",
             "support.type.primitive.tsx",
+        ],
+        settings: {
+            "foreground": "#4ec9b0",
+            // "fontStyle": "italic",
+        },
+    },
+    // =========================================================================
+    // JSX
+    // =========================================================================
+    {
+        scope: [
+            "punctuation.section.embedded.begin.jsx",
+            "punctuation.section.embedded.end.jsx",
+            "punctuation.section.embedded.begin.tsx",
+            "punctuation.section.embedded.end.tsx",
         ],
         settings: {
             "foreground": "#4ec9b0",

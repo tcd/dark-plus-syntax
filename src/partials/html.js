@@ -78,6 +78,8 @@ module.exports = [
             "expression.embedded.vue",
             "punctuation.definition.generic.begin.html",
             "punctuation.definition.generic.end.html",
+            "punctuation.section.embedded.begin.smarty",
+            "punctuation.section.embedded.end.smarty",
         ],
         "settings": { "foreground": "#4ec9b0", },
     },
