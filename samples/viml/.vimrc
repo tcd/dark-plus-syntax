@@ -330,7 +330,7 @@ nnoremap <leader>tu :GundoToggle<CR>
 " Toggle Tagbar
 nnoremap <leader>tt :TagbarToggle<CR>
 " Toggle Invisible Characters (whitespace)
-nnoremap <leader>tw :set list!<CR>
+nnoremap <LEADER>tw :set list!<cr>
 
 
 " =============================================================================
