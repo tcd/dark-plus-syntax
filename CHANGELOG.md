@@ -2,7 +2,10 @@
 
 
 ## 0.0.67 (April 9, 2018)
-- Corrected build error.
+- Highlight Go runes as characters instead of strings.
+
+## 0.0.67 (April 9, 2018)
+- Corrected build error (Sorry for any inconvenience).
 
 ## 0.0.66 (April 9, 2018)
 - Unitalicized core type keywords in CS.

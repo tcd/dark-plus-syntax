@@ -553,7 +553,12 @@
 			}
 		},
 		{
-			"scope": "constant.character.escape.go",
+			"scope": [
+				"constant.other.rune.go",
+				"constant.character.escape.go",
+				"string.quoted.rune.go punctuation.definition.string.begin.go",
+				"string.quoted.rune.go punctuation.definition.string.end.go"
+			],
 			"settings": {
 				"foreground": "#d7ba7d"
 			}
@@ -567,7 +572,8 @@
 		{
 			"scope": [
 				"constant.other.placeholder.go",
-				"keyword.operator.address.go"
+				"keyword.operator.address.go",
+				"keyword.operator.arithmetic.bitwise.go"
 			],
 			"settings": {
 				"foreground": "#569cd6"

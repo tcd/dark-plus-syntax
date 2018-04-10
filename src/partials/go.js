@@ -20,6 +20,12 @@ module.exports = [
         ],
         settings: { "foreground": "#ce9178" },
     },
+    // {
+    //     scope: [
+    //         "constant.other.rune.go",
+    //     ],
+    //     settings: { "fontStyle": "italic" },
+    // },
     {
         scope: [
             "storage.type.boolean.go",
@@ -29,11 +35,15 @@ module.exports = [
         ],
         settings: {
             "foreground": "#4ec9b0",
-            // "fontStyle": "italic"
         },
     },
     {
-        scope: "constant.character.escape.go",
+        scope: [
+            "constant.other.rune.go",
+            "constant.character.escape.go",
+            "string.quoted.rune.go punctuation.definition.string.begin.go",
+            "string.quoted.rune.go punctuation.definition.string.end.go",
+        ],
         settings: {
             "foreground": "#d7ba7d",
         },
@@ -48,6 +58,7 @@ module.exports = [
         scope: [
             "constant.other.placeholder.go",
             "keyword.operator.address.go",
+            "keyword.operator.arithmetic.bitwise.go",
         ],
         settings: {
             "foreground": "#569cd6",
