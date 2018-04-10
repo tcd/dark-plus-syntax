@@ -10,7 +10,7 @@ module.exports = [
             "comment",
             "comment.line.double-slash.js",
         ],
-        "settings": { "foreground": "#505050", },
+        "settings": { "foreground": "#505050" },
     },
     {
         "name": "Special Comments",
@@ -29,7 +29,7 @@ module.exports = [
             "comment.line.number-sign.yaml",
             "comment.line.number-sign.toml",
         ],
-        "settings": { "foreground": "#608b4e", },
+        "settings": { "foreground": "#608b4e" },
     },
     {
         "name": "Curly Braces, Semicolons, etc.",
@@ -59,37 +59,37 @@ module.exports = [
             "punctuation.definition.italic.markdown",
             "punctuation.definition.bold.markdown",
         ],
-        "settings": { "foreground": "#505050", },
+        "settings": { "foreground": "#505050" },
     },
     {
         "scope": [
             "meta.embedded.block.sql",
         ],
-        "settings": { "foreground": "#d4d4d4", },
+        "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": "constant.numeric",
-        "settings": { "foreground": "#b5cea8", },
+        "settings": { "foreground": "#b5cea8" },
     },
     {
         "scope": "invalid",
-        "settings": { "foreground": "#f44747", },
+        "settings": { "foreground": "#f44747" },
     },
     {
         "scope": "meta.selector",
-        "settings": { "foreground": "#d7ba7d", },
+        "settings": { "foreground": "#d7ba7d" },
     },
     {
         "scope": "meta.preprocessor",
-        "settings": { "foreground": "#569cd6", },
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": "meta.preprocessor.numeric",
-        "settings": { "foreground": "#b5cea8", },
+        "settings": { "foreground": "#b5cea8" },
     },
     {
         "scope": "meta.diff.header",
-        "settings": { "foreground": "#569cd6", },
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": [
@@ -98,7 +98,7 @@ module.exports = [
             "string.value",
             "meta.preprocessor.string",
         ],
-        "settings": { "foreground": "#ce9178", },
+        "settings": { "foreground": "#ce9178" },
     },
     {
         "scope": [
@@ -113,11 +113,11 @@ module.exports = [
             "keyword.operator.cast",
             "keyword.operator.sizeof",
         ],
-        "settings": { "foreground": "#569cd6", },
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": "keyword.other.unit",
-        "settings": { "foreground": "#b5cea8", },
+        "settings": { "foreground": "#b5cea8" },
     },
     {
         "scope": [
@@ -125,7 +125,7 @@ module.exports = [
             "support.function",
             "support.constant.handlebars",
         ],
-        "settings": {"foreground": "#dcdcaa",},
+        "settings": {"foreground": "#dcdcaa"},
     },
     {
         "name": "Type declaration and references",
@@ -135,10 +135,6 @@ module.exports = [
             "support.type",
             "entity.name.type",
             "entity.name.class",
-            "storage.type.cs",
-            "storage.type.generic.cs",
-            "storage.type.modifier.cs",
-            "storage.type.variable.cs",
             "storage.type.annotation.java",
             "storage.type.generic.java",
             "storage.type.java",
@@ -154,7 +150,7 @@ module.exports = [
             "storage.type.primitive.array.groovy",
             "storage.type.primitive.groovy",
         ],
-        "settings": {"foreground": "#4ec9b0",},
+        "settings": {"foreground": "#4ec9b0"},
     },
     {
         "name": "Types declaration and references, TS grammar specific",
@@ -166,7 +162,7 @@ module.exports = [
             "support.constant.json",
             "entity.other.inherited-class",
         ],
-        "settings": {"foreground": "#4ec9b0",},
+        "settings": {"foreground": "#4ec9b0"},
     },
     {
         "name": "Control flow keywords",
@@ -174,7 +170,7 @@ module.exports = [
             "keyword.control",
             "keyword.operator",
         ],
-        "settings": {"foreground": "#C586C0",},
+        "settings": {"foreground": "#C586C0"},
     },
     {
         "scope": [
@@ -182,34 +178,34 @@ module.exports = [
             "support.variable",
             "meta.definition.variable.name",
         ],
-        "settings": {"foreground": "#9cdcfe",},
+        "settings": {"foreground": "#9cdcfe"},
     },
     {
         "scope": "support.function.git-rebase",
-        "settings": { "foreground": "#9cdcfe", },
+        "settings": { "foreground": "#9cdcfe" },
     },
     {
         "scope": "constant.sha.git-rebase",
-        "settings": { "foreground": "#b5cea8", },
+        "settings": { "foreground": "#b5cea8" },
     },
     {
         "scope": "constant.character.escape",
-        "settings": {"foreground": "#d7ba7d",},
+        "settings": {"foreground": "#d7ba7d"},
     },
     {
         "scope": "token.info-token",
-        "settings": { "foreground": "#6796e6", },
+        "settings": { "foreground": "#6796e6" },
     },
     {
         "scope": "token.warn-token",
-        "settings": { "foreground": "#cd9731", },
+        "settings": { "foreground": "#cd9731" },
     },
     {
         "scope": "token.error-token",
-        "settings": { "foreground": "#f44747", },
+        "settings": { "foreground": "#f44747" },
     },
     {
         "scope": "token.debug-token",
-        "settings": { "foreground": "#b267e6", },
+        "settings": { "foreground": "#b267e6" },
     },
 ];

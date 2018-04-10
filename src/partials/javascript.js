@@ -25,11 +25,14 @@ module.exports = [
     },
     {
         scope: [
+            /* this */
             "variable.language.this",
             // "variable.language.this.js",
             // "variable.language.this.jsx",
             // "variable.language.this.ts",
             // "variable.language.this.tsx",
+            "storage.type.extends.js",  // storage.modifier
+
         ],
         settings: {
             "foreground": "#569cd6",
@@ -74,11 +77,12 @@ module.exports = [
         scope: [
             "new.expr.js",
             "meta.arrow.js",
-            "variable.language.super.js",
-            "variable.language.super.jsx",
-            "variable.language.super.ts",
-            "variable.language.super.tsx",
             "keyword.operator.new.js",
+            "variable.language.super",
+            // "variable.language.super.js",
+            // "variable.language.super.jsx",
+            // "variable.language.super.ts",
+            // "variable.language.super.tsx",
             "storage.type.function.arrow.js",
             "keyword.operator.spread",
             "keyword.operator.module.all.js",
@@ -147,9 +151,9 @@ module.exports = [
     },
     {
         scope: [
-            "meta.object-literal.key",
             "string.unquoted.js",
             "string.unquoted.label.js",
+            "meta.object-literal.key",
             "meta.property.object.js",
             "constant.other.object.key.js",
             "constant.other.object.key string.quoted.double",

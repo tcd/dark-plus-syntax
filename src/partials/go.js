@@ -11,14 +11,14 @@ module.exports = [
             "keyword.control.gotemplate",
         ],
         settings: {
-            "foreground": "#c586c0"
-        }
+            "foreground": "#c586c0",
+        },
     },
     {
         scope: [
-            "string.quoted.double.gotemplate"
+            "string.quoted.double.gotemplate",
         ],
-        settings: { "foreground": "#ce9178" }
+        settings: { "foreground": "#ce9178" },
     },
     {
         scope: [
@@ -30,19 +30,19 @@ module.exports = [
         settings: {
             "foreground": "#4ec9b0",
             // "fontStyle": "italic"
-        }
+        },
     },
     {
         scope: "constant.character.escape.go",
         settings: {
-            "foreground": "#d7ba7d"
-        }
+            "foreground": "#d7ba7d",
+        },
     },
     {
         scope: "entity.name.package.go",
         settings: {
-            "foreground": "#9cdcfe"
-        }
+            "foreground": "#9cdcfe",
+        },
     },
     {
         scope: [
@@ -50,8 +50,8 @@ module.exports = [
             "keyword.operator.address.go",
         ],
         settings: {
-            "foreground": "#569cd6"
-        }
+            "foreground": "#569cd6",
+        },
     },
     // Templates
     {
@@ -60,16 +60,15 @@ module.exports = [
             "punctuation.section.embedded.end.gotemplate",
         ],
         settings: {
-            "foreground": "#4ec9b0"
-        }
+            "foreground": "#4ec9b0",
+        },
     },
     {
         scope: [
-            "entity.alias.import.go"
+            "entity.alias.import.go",
         ],
         settings: {
-            "foreground": "#9cdcfe"
-        }
+            "foreground": "#9cdcfe",
+        },
     },
-
-]
+];
