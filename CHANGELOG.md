@@ -1,10 +1,13 @@
 # ChangeLog
 
 
+## 0.0.66 (April 9, 2018)
+- Unitalicized core type keywords in CS.
+- Assorted CS refinements.
+ 
 ## 0.0.65 (April 8, 2018)
 - Cyan-ed embedded section tags in JSX/TSX.
 - Added additional JSX samples.
-- Unitalicized core type keywords in CS.
 
 ## 0.0.64 (April 7, 2018)
 - Fixed highlighting for quoted keys in TS.

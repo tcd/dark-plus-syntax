@@ -26,7 +26,7 @@ module.exports = [
             "entity.name.variable.field.cs",
             "entity.name.variable.local.cs",
             "meta.interpolation.cs variable.other.object.property.cs",
-            "entity.name.variable.preprocessor.symbol.cs",
+            // "entity.name.variable.preprocessor.symbol.cs",
         ],
         "settings": { "foreground": "#9cdcfe" },
     },

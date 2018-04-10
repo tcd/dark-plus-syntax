@@ -311,8 +311,7 @@
 				"entity.name.variable.parameter.cs",
 				"entity.name.variable.field.cs",
 				"entity.name.variable.local.cs",
-				"meta.interpolation.cs variable.other.object.property.cs",
-				"entity.name.variable.preprocessor.symbol.cs"
+				"meta.interpolation.cs variable.other.object.property.cs"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
