@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.67 (April 9, 2018)
+- Corrected build error.
+
 ## 0.0.66 (April 9, 2018)
 - Unitalicized core type keywords in CS.
 - Assorted CS refinements.

@@ -26,12 +26,6 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#d4d4d4ff",
-				"background": "#1e1e1eff"
-			}
-		},
-		{
 			"scope": [
 				"comment",
 				"comment.line.double-slash.js"
@@ -376,10 +370,7 @@
 				"punctuation.accessor.cs",
 				"keyword.other.await.cs",
 				"keyword.operator.assignment.cs",
-				"keyword.operator.comparison.cs",
-				"keyword.operator.bitwise.cs",
-				"keyword.operator.logical.cs",
-				"keyword.operator.null-conditional.cs"
+				"keyword.operator.comparison.cs"
 			],
 			"settings": {
 				"foreground": "#c586c0"
