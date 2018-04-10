@@ -1,7 +1,12 @@
 # ChangeLog
 
 
-## 0.0.67 (April 9, 2018)
+## 0.0.69 (April 10, 2018)
+- Added highlighting for SCSS interpolation.
+- Fixed an issue with SCSS animation attribute highlighting.
+- Normalized highlighting across CSS & SCSS. 
+
+## 0.0.68 (April 9, 2018)
 - Highlight Go runes as characters instead of strings.
 
 ## 0.0.67 (April 9, 2018)

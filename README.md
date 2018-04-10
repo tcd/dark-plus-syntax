@@ -15,6 +15,7 @@
 - C#
 - CSS
   - Stylus
+  - SCSS
 - Go
 - Groovy
 - HTML
@@ -24,22 +25,23 @@
   - Pug/Jade
   - Twig
 - JavaScript
+  - TypeScript
 - Make
 - Markdown
 - Python
 - Terraform
-- TypeScript
 - Vagrant
 
 ## Tested with
 - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)
-<!-- - [joshpeng/Sublime-Babel-VSCode](https://github.com/joshpeng/Sublime-Babel-VSCode) -->
+- [joshpeng/Sublime-Babel-VSCode](https://github.com/joshpeng/Sublime-Babel-VSCode)
 - [vuejs/vetur](https://github.com/vuejs/vetur)
 - [Microsoft/vscode-go](https://github.com/Microsoft/vscode-go)
 - [dunstontc/viml](https://github.com/dunstontc/viml)
 - [mauve/vscode-terraform](https://github.com/mauve/vscode-terraform)
 - [Digitalbrainstem/ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar)
 - [jakebathman/mysql-syntax](https://github.com/jakebathman/mysql-syntax)
+- [robinbentley/vscode-sass-indented](https://github.com/robinbentley/vscode-sass-indented)
 
 
 ## Resources & References

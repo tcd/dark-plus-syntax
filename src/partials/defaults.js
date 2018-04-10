@@ -45,13 +45,6 @@ module.exports = [
             "punctuation.terminator.statement.ts",
             "punctuation.terminator.statement.tsx",
             // "punctuation.separator.statement.ruby",
-            "meta.property-list.scss",
-            "punctuation.terminator.rule.css",
-            "punctuation.semi-colon.css",  // Styled Components
-            "meta.brace.curly.css",        // Styled Components
-            "punctuation.separator.list.comma.css",
-            "punctuation.section.property-list.begin.bracket.curly.css",
-            "punctuation.section.property-list.end.bracket.curly.css",
             "punctuation.definition.string.begin.markdown",
             "punctuation.definition.string.end.markdown",
             "punctuation.definition.metadata.markdown",

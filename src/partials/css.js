@@ -1,6 +1,26 @@
 module.exports = [
     {
         "scope": [
+            "meta.property-list.scss",
+            "punctuation.terminator.rule.css",
+            "punctuation.terminator.rule.scss",
+            "punctuation.separator.key-value.css",
+            "punctuation.separator.list.comma.css",
+            "punctuation.section.property-list.begin.bracket.curly",
+            "punctuation.section.property-list.end.bracket.curly",
+            "punctuation.section.media.begin.bracket.curly",
+            "punctuation.section.media.end.bracket.curly",
+            "punctuation.section.keyframes.begin.bracket.curly.scss",
+            "punctuation.section.keyframes.end.bracket.curly.scss",
+            "source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.begin.scss",
+            "source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.end.scss",
+            "punctuation.section.supports.begin.bracket.curly",
+            "punctuation.section.supports.end.bracket.curly",
+        ],
+        "settings": { "foreground": "#505050" },
+    },
+    {
+        "scope": [
             "entity.other.attribute-name.class.css",
             "entity.other.attribute-name.class.mixin.css",
             "entity.other.attribute-name.id.css",
@@ -10,6 +30,8 @@ module.exports = [
             "source.css.less entity.other.attribute-name.id",
             "entity.other.attribute-name.attribute.scss",
             "entity.other.attribute-name.scss",
+            "meta.at-rule.keyframes.stylus entity.other.attribute-name.stylus",
+            "meta.at-rule.keyframes.scss entity.other.attribute-name.scss",
         ],
         "settings": { "foreground": "#d7ba7d" },
     },
@@ -18,12 +40,21 @@ module.exports = [
             "invalid.deprecated.color.system.css",
             "punctuation.section.function.begin.bracket.round.css",
             "punctuation.section.function.end.bracket.round.css",
+            "meta.property-value.scss",
+            "meta.property-name.scss",
+            "punctuation.section.function.scss",
+            "punctuation.section.keyframes.begin.scss",
+            "punctuation.section.keyframes.end.scss",
         ],
         "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": [
             "entity.name.tag.css",
+            "keyword.other.important.css",
+            "keyword.other.default.scss",
+            "punctuation.definition.interpolation.begin.bracket.curly",
+            "punctuation.definition.interpolation.end.bracket.curly",
         ],
         "settings": { "foreground": "#569cd6" },
     },
@@ -61,7 +92,6 @@ module.exports = [
     },
     {
         "scope": [
-            "keyword.other.important.css",
             "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
             "meta.selector.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
             "punctuation.definition.entity.begin.bracket.square.css",
@@ -100,6 +130,13 @@ module.exports = [
     // =========================================================================
     {
         "scope": [
+            "punctuation.semi-colon.css",
+            "meta.brace.curly.css",
+        ],
+        "settings": { "foreground": "#505050" },
+    },
+    {
+        "scope": [
            "constant.hex.css",
            "meta.identifier.css",
         ],
@@ -109,6 +146,7 @@ module.exports = [
         "scope": [
             "constant.percentage.units.css",
             "constant.length.units.css",
+            "entity.other.keyframe-offset.percentage.css",
         ],
         "settings": { "foreground": "#b5cea8" },
     },

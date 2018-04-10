@@ -66,13 +66,6 @@
 				"punctuation.terminator.statement.js",
 				"punctuation.terminator.statement.ts",
 				"punctuation.terminator.statement.tsx",
-				"meta.property-list.scss",
-				"punctuation.terminator.rule.css",
-				"punctuation.semi-colon.css",
-				"meta.brace.curly.css",
-				"punctuation.separator.list.comma.css",
-				"punctuation.section.property-list.begin.bracket.curly.css",
-				"punctuation.section.property-list.end.bracket.curly.css",
 				"punctuation.definition.string.begin.markdown",
 				"punctuation.definition.string.end.markdown",
 				"punctuation.definition.metadata.markdown",
@@ -378,6 +371,28 @@
 		},
 		{
 			"scope": [
+				"meta.property-list.scss",
+				"punctuation.terminator.rule.css",
+				"punctuation.terminator.rule.scss",
+				"punctuation.separator.key-value.css",
+				"punctuation.separator.list.comma.css",
+				"punctuation.section.property-list.begin.bracket.curly",
+				"punctuation.section.property-list.end.bracket.curly",
+				"punctuation.section.media.begin.bracket.curly",
+				"punctuation.section.media.end.bracket.curly",
+				"punctuation.section.keyframes.begin.bracket.curly.scss",
+				"punctuation.section.keyframes.end.bracket.curly.scss",
+				"source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.begin.scss",
+				"source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.end.scss",
+				"punctuation.section.supports.begin.bracket.curly",
+				"punctuation.section.supports.end.bracket.curly"
+			],
+			"settings": {
+				"foreground": "#505050"
+			}
+		},
+		{
+			"scope": [
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
 				"entity.other.attribute-name.id.css",
@@ -386,7 +401,9 @@
 				"entity.other.attribute-name.pseudo-element.css",
 				"source.css.less entity.other.attribute-name.id",
 				"entity.other.attribute-name.attribute.scss",
-				"entity.other.attribute-name.scss"
+				"entity.other.attribute-name.scss",
+				"meta.at-rule.keyframes.stylus entity.other.attribute-name.stylus",
+				"meta.at-rule.keyframes.scss entity.other.attribute-name.scss"
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
@@ -396,7 +413,12 @@
 			"scope": [
 				"invalid.deprecated.color.system.css",
 				"punctuation.section.function.begin.bracket.round.css",
-				"punctuation.section.function.end.bracket.round.css"
+				"punctuation.section.function.end.bracket.round.css",
+				"meta.property-value.scss",
+				"meta.property-name.scss",
+				"punctuation.section.function.scss",
+				"punctuation.section.keyframes.begin.scss",
+				"punctuation.section.keyframes.end.scss"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -404,7 +426,11 @@
 		},
 		{
 			"scope": [
-				"entity.name.tag.css"
+				"entity.name.tag.css",
+				"keyword.other.important.css",
+				"keyword.other.default.scss",
+				"punctuation.definition.interpolation.begin.bracket.curly",
+				"punctuation.definition.interpolation.end.bracket.curly"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -450,7 +476,6 @@
 		},
 		{
 			"scope": [
-				"keyword.other.important.css",
 				"entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
 				"meta.selector.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
 				"punctuation.definition.entity.begin.bracket.square.css",
@@ -494,6 +519,15 @@
 		},
 		{
 			"scope": [
+				"punctuation.semi-colon.css",
+				"meta.brace.curly.css"
+			],
+			"settings": {
+				"foreground": "#505050"
+			}
+		},
+		{
+			"scope": [
 				"constant.hex.css",
 				"meta.identifier.css"
 			],
@@ -504,7 +538,8 @@
 		{
 			"scope": [
 				"constant.percentage.units.css",
-				"constant.length.units.css"
+				"constant.length.units.css",
+				"entity.other.keyframe-offset.percentage.css"
 			],
 			"settings": {
 				"foreground": "#b5cea8"
@@ -667,7 +702,8 @@
 		},
 		{
 			"scope": [
-				"comment.line.double-slash.js"
+				"comment.line.double-slash.js",
+				"meta.embedded.expression.js source.js.jsx comment.block.js"
 			],
 			"settings": {
 				"foreground": "#505050"
@@ -675,8 +711,7 @@
 		},
 		{
 			"scope": [
-				"variable.language.this",
-				"storage.type.extends.js"
+				"variable.language.this"
 			],
 			"settings": {
 				"foreground": "#569cd6",
@@ -728,17 +763,18 @@
 				"new.expr.js",
 				"meta.arrow.js",
 				"keyword.operator.new.js",
+				"storage.type.extends.js",
 				"variable.language.super",
 				"storage.type.function.arrow.js",
 				"keyword.operator.spread",
 				"keyword.operator.module.all.js",
+				"meta.brace.angle.ts",
 				"keyword.control.as.ts",
+				"meta.brace.angle.tsx",
 				"keyword.control.as.tsx",
 				"keyword.operator.optional.ts",
 				"comment.line.triple-slash.directive.ts",
 				"punctuation.definition.tag.directive.ts",
-				"meta.brace.angle.ts",
-				"meta.brace.angle.tsx",
 				"punctuation.definition.typeparameters.begin.ts",
 				"punctuation.definition.typeparameters.end.ts"
 			],

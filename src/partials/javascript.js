@@ -20,19 +20,18 @@ module.exports = [
     {
         scope: [
             "comment.line.double-slash.js",
+            "meta.embedded.expression.js source.js.jsx comment.block.js",
         ],
         settings: { "foreground": "#505050" },
     },
     {
         scope: [
-            /* this */
             "variable.language.this",
             // "variable.language.this.js",
             // "variable.language.this.jsx",
             // "variable.language.this.ts",
             // "variable.language.this.tsx",
-            "storage.type.extends.js",  // storage.modifier
-
+            // "storage.type.extends.js",  // storage.modifier
         ],
         settings: {
             "foreground": "#569cd6",
@@ -78,6 +77,7 @@ module.exports = [
             "new.expr.js",
             "meta.arrow.js",
             "keyword.operator.new.js",
+            "storage.type.extends.js",  // storage.modifier
             "variable.language.super",
             // "variable.language.super.js",
             // "variable.language.super.jsx",
@@ -86,13 +86,13 @@ module.exports = [
             "storage.type.function.arrow.js",
             "keyword.operator.spread",
             "keyword.operator.module.all.js",
+            "meta.brace.angle.ts",
             "keyword.control.as.ts",
+            "meta.brace.angle.tsx",
             "keyword.control.as.tsx",
             "keyword.operator.optional.ts",
             "comment.line.triple-slash.directive.ts",
             "punctuation.definition.tag.directive.ts",
-            "meta.brace.angle.ts",
-            "meta.brace.angle.tsx",
             "punctuation.definition.typeparameters.begin.ts",
             "punctuation.definition.typeparameters.end.ts",
         ],
