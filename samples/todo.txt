@@ -1,0 +1,5 @@
+x (A) 2018-03-17 Scaffold out the basic project.
+
+(A) 2018-03-17 Figure out how to disable language support for normal ".txt" files. +vscode-todotxt @TodoTxt
+(B) 2018-03-17 Figure out what the deal is with the RegExs used in language definitions. @TodoTxt
+(C) 2018-03-17 Define miscellaneous tags. ex:this. due:2018-03-17.

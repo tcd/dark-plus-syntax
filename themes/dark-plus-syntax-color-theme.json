@@ -186,10 +186,6 @@
 				"support.type",
 				"entity.name.type",
 				"entity.name.class",
-				"storage.type.cs",
-				"storage.type.generic.cs",
-				"storage.type.modifier.cs",
-				"storage.type.variable.cs",
 				"storage.type.annotation.java",
 				"storage.type.generic.java",
 				"storage.type.java",
@@ -287,20 +283,83 @@
 		},
 		{
 			"scope": [
+				"entity.name.tag.localname.cs",
+				"punctuation.definition.tag.cs",
+				"punctuation.terminator.statement.cs",
+				"source.cs comment.block.documentation.cs punctuation.definition.comment.cs",
+				"source.cs comment.block.documentation.cs meta.tag.cs punctuation.separator.equals.cs"
+			],
+			"settings": {
+				"foreground": "#505050"
+			}
+		},
+		{
+			"scope": [
+				"string.bracers.round.cshtml",
+				"punctuation.curlybrace.open.cs",
+				"punctuation.curlybrace.close.cs",
+				"punctuation.squarebracket.open.cs",
+				"punctuation.squarebracket.close.cs"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
 				"entity.name.variable.property.cs",
 				"entity.name.variable.parameter.cs",
 				"entity.name.variable.field.cs",
-				"entity.name.variable.local.cs"
+				"entity.name.variable.local.cs",
+				"meta.interpolation.cs variable.other.object.property.cs",
+				"entity.name.variable.preprocessor.symbol.cs"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
 			}
 		},
 		{
-			"scope": "keyword.type.cs",
+			"scope": [
+				"keyword.type.cs",
+				"storage.type.cs",
+				"storage.type.generic.cs",
+				"storage.type.modifier.cs",
+				"storage.type.variable.cs"
+			],
 			"settings": {
-				"foreground": "#4ec9b0",
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.this.cs"
+			],
+			"settings": {
+				"foreground": "#569cd6",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.new.cs",
+				"keyword.other.var.cs",
+				"keyword.other.as.cs",
+				"keyword.other.is.cs",
+				"keyword.other.base.cs",
+				"keyword.other.where.cs",
+				"keyword.other.typeof.cs",
+				"keyword.other.default.cs",
+				"keyword.operator.arrow.cs",
+				"keyword.other.namespace.cs",
+				"punctuation.separator.colon.cs",
+				"punctuation.separator.question-mark.cs",
+				"punctuation.definition.typeparameters.begin.cs",
+				"punctuation.definition.typeparameters.end.cs",
+				"punctuation.definition.interpolation.begin.cs",
+				"punctuation.definition.interpolation.end.cs"
+			],
+			"settings": {
+				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -314,28 +373,17 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.arrow.cs"
-			],
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": [
+				"meta.preprocessor.cs punctuation.separator.hash.cs",
+				"punctuation.accessor.cs",
+				"keyword.other.await.cs",
 				"keyword.operator.assignment.cs",
 				"keyword.operator.comparison.cs",
-				"keyword.other.await.cs"
+				"keyword.operator.bitwise.cs",
+				"keyword.operator.logical.cs",
+				"keyword.operator.null-conditional.cs"
 			],
 			"settings": {
 				"foreground": "#c586c0"
-			}
-		},
-		{
-			"scope": [
-				"string.bracers.round.cshtml"
-			],
-			"settings": {
-				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -605,8 +653,8 @@
 		},
 		{
 			"scope": [
-				"comment.block.documentation.js",
 				"comment.block",
+				"comment.block.documentation.js",
 				"comment.line.triple-slash.directive.ts",
 				"comment.block.documentation.ts",
 				"comment.line.shebang.js"
@@ -631,7 +679,8 @@
 		},
 		{
 			"scope": [
-				"variable.language.this"
+				"variable.language.this",
+				"storage.type.extends.js"
 			],
 			"settings": {
 				"foreground": "#569cd6",
@@ -682,11 +731,8 @@
 			"scope": [
 				"new.expr.js",
 				"meta.arrow.js",
-				"variable.language.super.js",
-				"variable.language.super.jsx",
-				"variable.language.super.ts",
-				"variable.language.super.tsx",
 				"keyword.operator.new.js",
+				"variable.language.super",
 				"storage.type.function.arrow.js",
 				"keyword.operator.spread",
 				"keyword.operator.module.all.js",
@@ -765,9 +811,9 @@
 		},
 		{
 			"scope": [
-				"meta.object-literal.key",
 				"string.unquoted.js",
 				"string.unquoted.label.js",
+				"meta.object-literal.key",
 				"meta.property.object.js",
 				"constant.other.object.key.js",
 				"constant.other.object.key string.quoted.double",

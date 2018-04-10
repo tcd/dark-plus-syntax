@@ -1,8 +1,8 @@
 module.exports = [
     {
         scope: [
-            "comment.block.documentation.js",
             "comment.block",
+            "comment.block.documentation.js",
             // "comment.block.js",
             // "comment.block.ts",
             // "meta.tag.ts",
@@ -11,17 +11,17 @@ module.exports = [
             "comment.line.shebang.js",
             // "punctuation.definition.comment.js"
         ],
-        settings: { "foreground": "#608b4e", },
+        settings: { "foreground": "#608b4e" },
     },
     {
         scope: "punctuation.definition.comment.js",
-        settings: { "foreground": "#404040", },
+        settings: { "foreground": "#404040" },
     },
     {
         scope: [
             "comment.line.double-slash.js",
         ],
-        settings: { "foreground": "#505050", },
+        settings: { "foreground": "#505050" },
     },
     {
         scope: [
@@ -43,7 +43,7 @@ module.exports = [
         scope: [
             "constant.character.escape.js",
         ],
-        settings: { "foreground": "#d7ba7d", },
+        settings: { "foreground": "#d7ba7d" },
     },
     {
         scope: [
@@ -54,7 +54,7 @@ module.exports = [
             "punctuation.definition.string.template.end.js",
             "punctuation.definition.string.template.end.ts",
         ],
-        settings: { "foreground": "#ce9178", },
+        settings: { "foreground": "#ce9178" },
     },
     {
         scope: [
@@ -71,7 +71,7 @@ module.exports = [
             "entity.quasi.element.js",
             "comment.block.documentation.js keyword.operator.accessor.js",
         ],
-        settings: { "foreground": "#d4d4d4", },
+        settings: { "foreground": "#d4d4d4" },
     },
     {
         scope: [
@@ -96,7 +96,7 @@ module.exports = [
             "punctuation.definition.typeparameters.begin.ts",
             "punctuation.definition.typeparameters.end.ts",
         ],
-        settings: { "foreground": "#569cd6", },
+        settings: { "foreground": "#569cd6" },
     },
     {
         name: "JavaScript string interpolation ${}",
@@ -111,7 +111,7 @@ module.exports = [
             "punctuation.quasi.element.begin.js",
             "punctuation.section.embedded.coffee",
         ],
-        settings: { "foreground": "#569cd6", },
+        settings: { "foreground": "#569cd6" },
     },
     {
         scope: [
@@ -120,7 +120,7 @@ module.exports = [
             "meta.brace.round.ts",
             "meta.brace.round.js",
         ],
-        settings: { "foreground": "#d4d4d4", },
+        settings: { "foreground": "#d4d4d4" },
     },
     {
         scope: [
@@ -128,7 +128,7 @@ module.exports = [
             "variable.function.js",
             "keyword.control.require.ts",
         ],
-        settings: { "foreground": "#dcdcaa", },
+        settings: { "foreground": "#dcdcaa" },
     },
     {
         scope: [
@@ -147,7 +147,7 @@ module.exports = [
             "keyword.operator.expression.in.js",
             "keyword.operator.expression.in.ts",
         ],
-        settings: { "foreground": "#c586c0", },
+        settings: { "foreground": "#c586c0" },
     },
     {
         scope: [
@@ -162,7 +162,7 @@ module.exports = [
             "string.quoted.single meta.object-literal.key ",
             "string.quoted.double meta.object-literal.key ",
         ],
-        settings: { "foreground": "#9cdcfe", },
+        settings: { "foreground": "#9cdcfe" },
     },
     {
         scope: [
@@ -178,7 +178,7 @@ module.exports = [
             "support.variable.object.node",
             "support.variable.dom",
         ],
-        settings: { "foreground": "#4ec9b0",},
+        settings: { "foreground": "#4ec9b0"},
     },
     {
         scope: [

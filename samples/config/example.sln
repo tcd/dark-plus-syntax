@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingKata", "LoggingKata\LoggingKata.csproj", "{7ADECD8F-C2B8-437F-9BCD-80CA280CB46F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingKata.Test", "LoggingKata.Test\LoggingKata.Test.csproj", "{D12AA5B6-2F62-4BF2-8080-0C276FC1177C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ADECD8F-C2B8-437F-9BCD-80CA280CB46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADECD8F-C2B8-437F-9BCD-80CA280CB46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADECD8F-C2B8-437F-9BCD-80CA280CB46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADECD8F-C2B8-437F-9BCD-80CA280CB46F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12AA5B6-2F62-4BF2-8080-0C276FC1177C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12AA5B6-2F62-4BF2-8080-0C276FC1177C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12AA5B6-2F62-4BF2-8080-0C276FC1177C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12AA5B6-2F62-4BF2-8080-0C276FC1177C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

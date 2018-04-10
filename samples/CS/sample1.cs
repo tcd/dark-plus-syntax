@@ -37,5 +37,10 @@ namespace BethanysPieShop.Models
         {
             return _pies.FirstOrDefault(p => p.Id == pieId);
         }
+
+        // public SqlMapper.IMemberMap GetConstructorParameter(ConstructorInfo constructor, string columnName)
+        // {
+        //     throw new NotSupportedException();
+        // }
     }
 }
