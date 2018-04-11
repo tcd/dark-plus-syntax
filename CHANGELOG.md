@@ -1,6 +1,10 @@
 # ChangeLog
 
 
+## 0.0.70 (April 11, 2018)
+- Added support for todo.txt & Lisp.
+- Fixed highlighting for optional operator in TS.
+
 ## 0.0.69 (April 10, 2018)
 - Added highlighting for SCSS interpolation.
 - Fixed an issue with SCSS animation attribute highlighting.

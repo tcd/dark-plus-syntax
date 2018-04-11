@@ -207,7 +207,6 @@
 			}
 		},
 		{
-			"name": "Control flow keywords",
 			"scope": [
 				"keyword.control",
 				"keyword.operator"
@@ -772,7 +771,6 @@
 				"keyword.control.as.ts",
 				"meta.brace.angle.tsx",
 				"keyword.control.as.tsx",
-				"keyword.operator.optional.ts",
 				"comment.line.triple-slash.directive.ts",
 				"punctuation.definition.tag.directive.ts",
 				"punctuation.definition.typeparameters.begin.ts",
@@ -862,6 +860,7 @@
 			"scope": [
 				"punctuation.decorator.js",
 				"punctuation.decorator.ts",
+				"keyword.operator.optional.ts",
 				"support.type.object.module.js",
 				"support.type.object.module.js.jsx",
 				"support.type.object.module keyword.operator.accessor",
@@ -1025,6 +1024,18 @@
 			],
 			"settings": {
 				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"source.org comment.line",
+				"source.org punctuation.definition.comment",
+				"meta.link.inline.org punctuation.definition.string.begin.org",
+				"meta.link.inline.org punctuation.definition.string.end.org",
+				"meta.link.inline.org markup.underline.link.org"
+			],
+			"settings": {
+				"foreground": "#505050"
 			}
 		},
 		{
@@ -1361,6 +1372,91 @@
 			],
 			"settings": {
 				"foreground": "#606060"
+			}
+		},
+		{
+			"scope": [
+				"meta.item.done.todo",
+				"meta.item.done.todo variable.priority.todo",
+				"meta.item.done.todo variable.other",
+				"meta.item.done.todo constant.numeric.date.todo",
+				"meta.item.done.todo string.quoted.single.todo",
+				"meta.item.done.todo string.quoted.double.todo"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric.date.todo"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.single.todo",
+				"string.quoted.double.todo"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": "meta.item.priority.a.todo",
+			"settings": {
+				"foreground": "#f44747"
+			}
+		},
+		{
+			"scope": "meta.item.priority.b.todo",
+			"settings": {
+				"foreground": "#d16969"
+			}
+		},
+		{
+			"scope": "meta.item.priority.c.todo",
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"scope": "meta.item.priority.d.todo",
+			"settings": {
+				"foreground": "#d7ba7d"
+			}
+		},
+		{
+			"scope": "meta.item.priority.e.todo",
+			"settings": {
+				"foreground": "#dcdcaa"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.function-type.lisp",
+				"constant.language.lisp"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"keyword.constant.lisp"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.lisp"
+			],
+			"settings": {
+				"foreground": "#c586c0"
 			}
 		},
 		{

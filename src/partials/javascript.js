@@ -90,7 +90,6 @@ module.exports = [
             "keyword.control.as.ts",
             "meta.brace.angle.tsx",
             "keyword.control.as.tsx",
-            "keyword.operator.optional.ts",
             "comment.line.triple-slash.directive.ts",
             "punctuation.definition.tag.directive.ts",
             "punctuation.definition.typeparameters.begin.ts",
@@ -168,6 +167,7 @@ module.exports = [
         scope: [
             "punctuation.decorator.js",
             "punctuation.decorator.ts",
+            "keyword.operator.optional.ts",
             "support.type.object.module.js",
             "support.type.object.module.js.jsx",
             // "keyword.control.module.reference.js",

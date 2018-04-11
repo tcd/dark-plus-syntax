@@ -1,10 +1,4 @@
 module.exports = [
-    // {
-    //     "settings": {
-    //         "foreground": "#d4d4d4ff",
-    //         "background": "#1e1e1eff",
-    //     },
-    // },
     {
         "scope": [
             "comment",
@@ -44,7 +38,6 @@ module.exports = [
             "punctuation.terminator.statement.js",
             "punctuation.terminator.statement.ts",
             "punctuation.terminator.statement.tsx",
-            // "punctuation.separator.statement.ruby",
             "punctuation.definition.string.begin.markdown",
             "punctuation.definition.string.end.markdown",
             "punctuation.definition.metadata.markdown",
@@ -158,7 +151,6 @@ module.exports = [
         "settings": {"foreground": "#4ec9b0"},
     },
     {
-        "name": "Control flow keywords",
         "scope": [
             "keyword.control",
             "keyword.operator",
