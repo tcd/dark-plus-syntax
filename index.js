@@ -128,6 +128,4 @@ let base = {
 let output = './themes/dark-plus-syntax-color-theme.json';
 
 /* https://github.com/sindresorhus/write-json-file */
-writeJsonFile(output, base).then(() => {
-    console.log('=== Done! ===\n');
-});
+writeJsonFile(output, base).then(() => console.log('=== Done! ===\n'));

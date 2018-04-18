@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.71 (April 18, 2018)
+- Fixed highlighting for node process object.
+- Normalized color for JSX/TSX template tags.
 
 ## 0.0.70 (April 11, 2018)
 - Added support for todo.txt & Lisp.

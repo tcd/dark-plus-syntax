@@ -1,7 +1,8 @@
 x (A) 2018-03-17 Scaffold out the basic +project.
 
-(A) 2018-03-17 Figure out how to disable language support for normal ".txt" files. +vscode-todotxt  @TodoTxti
-2018-03-17 Figure out how to disable language +support for normal ".txt" files. +vscode-todotxt.
+(A) 2018-03-17 Figure out how to disable language support for normal ".txt" files. +vscode-todotxt  @TodoTxt.
+2018-03-17 Figure out how to disable language +support for normal '.txt' files. +vscode-todotxt.
 (B) 2018-03-17 Figure out what the deal is with the RegExs used in language definitions. @TodoTxt
 (C) 2018-03-17 Define miscellaneous tags. ex:this. due:2018-03-17.
-(D) 2018-03-17 Figure out how to disable language +support for normal ".txt" files. +vscode-todotxt.
+(C) 2018-03-17 Handle complex tags. ex:something.like.this ex:or#like#this() okay?
+(D) 2018-03-17 Figure out how to disable language +support for normal `.txt` files. +vscode-todotxt.

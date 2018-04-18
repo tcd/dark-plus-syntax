@@ -175,8 +175,10 @@ module.exports = [
             "keyword.operator.type.annotation.ts",
             "keyword.operator.type.annotation.tsx",
             "punctuation.type.flowtype",
-            "support.variable.object.node",
             "support.variable.dom",
+            "support.variable.object",
+            "support.variable.object.node",
+            "support.variable.object.process",
         ],
         settings: { "foreground": "#4ec9b0"},
     },
@@ -195,6 +197,8 @@ module.exports = [
     // =========================================================================
     {
         scope: [
+            "punctuation.section.embedded.begin.js.jsx",
+            "punctuation.section.embedded.end.js.jsx",
             "punctuation.section.embedded.begin.jsx",
             "punctuation.section.embedded.end.jsx",
             "punctuation.section.embedded.begin.tsx",
