@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.74 (April 20, 2018)
+- Recompiled to add changes from v0.0.73.
+
 ## 0.0.73 (April 20, 2018)
 - Added improved support for VimL.
 
