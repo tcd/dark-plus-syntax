@@ -752,7 +752,7 @@
             " Disable the neosnippet preview candidate window
             " When enabled, there can be too much visual noise
             " especially when splits are used.
-            set completeopt-=preview
+            set completeopt-=preview " FIXME: `-=`
         endif
     " }
 

@@ -1,3 +1,4 @@
+"""
 " Copyright 2009 The Go Authors. All rights reserved.
 " Use of this source code is governed by a BSD-style
 " license that can be found in the LICENSE file.
@@ -422,12 +423,12 @@ if g:go_highlight_build_constraints != 0
         \ ppc64le mips mipsle mips64 mips64le mips64p32 mips64p32le ppc
         \ s390 s390x sparc sparc64 cgo ignore race
 
-  """
-  " Other words in the build directive are build tags not listed above, so
-  " avoid highlighting them as comments by using a matchgroup just for the
-  " start of the comment.
-  " The rs=s+2 option lets the \s*+build portion be part of the inner region
-  " instead of the matchgroup so it will be highlighted as a goBuildKeyword.
+"""
+" Other words in the build directive are build tags not listed above, so
+" avoid highlighting them as comments by using a matchgroup just for the
+" start of the comment.
+" The rs=s+2 option lets the \s*+build portion be part of the inner region
+" instead of the matchgroup so it will be highlighted as a goBuildKeyword.
   syn region  goBuildComment      matchgroup=goBuildCommentStart
         \ start="//\s*+build\s"rs=s+2 end="$"
         \ contains=goBuildKeyword,goBuildDirectives

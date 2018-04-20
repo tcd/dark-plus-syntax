@@ -186,4 +186,19 @@ module.exports = [
         ],
         "settings": { "foreground": "#c586c0" },
     },
+    // =========================================================================
+    // Viml
+    // =========================================================================
+    {
+        "scope": [
+            "constant.character.map.viml",
+        ],
+        "settings": { "foreground": "#d7ba7d" },
+    },
+    {
+        "scope": [
+            "punctuation.definition.map.viml",
+        ],
+        "settings": { "foreground": "#505050" },
+    },
 ];

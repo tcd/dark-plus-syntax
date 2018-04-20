@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.73 (April 20, 2018)
+- Added improved support for VimL.
+
 ## 0.0.72 (April 20, 2018)
 - Fixed highlighting for node process properties in JS/JSX.
 - Fixed highlighting for arguments to `extend` in SCSS.

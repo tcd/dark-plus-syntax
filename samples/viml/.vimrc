@@ -288,8 +288,8 @@ nnoremap <leader><leader> <esc>
 
 
 " ==== e -- Edit ====
-nnoremap <silent> <leader>ev :vsplit $MYVIMRC<CR>
-nnoremap <silent> <leader>e<S-V> :edit $MYVIMRC<CR>
+nnoremap <silent><leader>ev :vsplit $MYVIMRC<CR>
+nnoremap <silent><leader>e<S-V> :edit $MYVIMRC<CR>
 
 
 " ==== p -- Plug ====
