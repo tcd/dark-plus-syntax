@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.75 (April 20, 2018)
+- Additional VimL tweaks.
+
 ## 0.0.74 (April 20, 2018)
 - Recompiled to add changes from v0.0.73.
 
