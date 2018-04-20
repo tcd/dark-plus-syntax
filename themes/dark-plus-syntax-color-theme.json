@@ -415,6 +415,9 @@
 				"punctuation.section.function.end.bracket.round.css",
 				"meta.property-value.scss",
 				"meta.property-name.scss",
+				"meta.at-rule.extend",
+				"meta.at-rule.extend.sass",
+				"meta.at-rule.extend.scss",
 				"punctuation.section.function.scss",
 				"punctuation.section.keyframes.begin.scss",
 				"punctuation.section.keyframes.end.scss"
@@ -751,7 +754,8 @@
 				"punctuation.definition.parameters.end",
 				"meta.brace.square.js",
 				"entity.quasi.element.js",
-				"comment.block.documentation.js keyword.operator.accessor.js"
+				"comment.block.documentation.js keyword.operator.accessor.js",
+				"punctuation.definition.binding-pattern.object"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -870,7 +874,8 @@
 				"support.variable.dom",
 				"support.variable.object",
 				"support.variable.object.node",
-				"support.variable.object.process"
+				"support.variable.object.process",
+				"support.variable.property.process"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
@@ -892,7 +897,9 @@
 				"punctuation.section.embedded.begin.jsx",
 				"punctuation.section.embedded.end.jsx",
 				"punctuation.section.embedded.begin.tsx",
-				"punctuation.section.embedded.end.tsx"
+				"punctuation.section.embedded.end.tsx",
+				"meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js punctuation.section.embedded.begin.js",
+				"meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js punctuation.section.embedded.end.js"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"

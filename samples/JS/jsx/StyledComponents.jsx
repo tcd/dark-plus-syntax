@@ -104,7 +104,7 @@ var app = app || {};
   `
 
   app.Utils = {
-    uuid: function () {
+    uuid: () => {
       /*jshint bitwise:false */
       var i, random;
       var uuid = '';
@@ -121,15 +121,15 @@ var app = app || {};
       return uuid;
     },
 
-    pluralize: function (count, word) {
+    pluralize: (count, word) => {
       return count === 1 ? word : word + 's';
     },
 
-    extend: function () {
-      var newObj = {};
-      for (var i = 0; i < arguments.length; i++) {
+    extend: () => {
+      let newObj = {};
+      for (let i = 0; i < arguments.length; i++) {
         var obj = arguments[i];
-        for (var key in obj) {
+        for (let key in obj) {
           if (obj.hasOwnProperty(key)) {
             newObj[key] = obj[key];
           }
@@ -192,7 +192,7 @@ var app = app || {};
   };
 
   app.TodoModel.prototype.destroy = function (todo) {
-    this.todos = this.todos.filter(function (candidate) {
+    this.todos = this.todos.filter(function(candidate) {
       return candidate !== todo;
     });
 

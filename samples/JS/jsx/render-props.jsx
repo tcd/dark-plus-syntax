@@ -1,3 +1,1 @@
-<DataProvider render={data => (
-  <h1>Hello {data.target}</h1>
-)}/>
+<DataProvider render={(data) => (<h1>Hello {data.target}</h1>) }/>

@@ -1,7 +1,12 @@
 # ChangeLog
 
+## 0.0.72 (April 20, 2018)
+- Fixed highlighting for node process properties in JS/JSX.
+- Fixed highlighting for arguments to `extend` in SCSS.
+- Fully normalized color for template tags in both JS & JSX files.
+
 ## 0.0.71 (April 18, 2018)
-- Fixed highlighting for node process object.
+- Fixed highlighting for node process object in JS/JSX.
 - Normalized color for JSX/TSX template tags.
 
 ## 0.0.70 (April 11, 2018)

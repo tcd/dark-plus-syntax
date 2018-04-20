@@ -282,21 +282,21 @@ endif
 
 " Spacing errors around the 'chan' keyword
 if g:go_highlight_chan_whitespace_error != 0
-  ""
+  """
   " receive-only annotation on chan type
   "
   " \(\<chan\>\)\@<!<-  (only pick arrow when it doesn't come after a chan)
   " this prevents picking up 'chan<- chan<-' but not '<- chan'
   syn match goSpaceError display "\(\(\<chan\>\)\@<!<-\)\@<=\s\+\(\<chan\>\)\@="
 
-  ""
+  """
   " send-only annotation on chan type
   "
   " \(<-\)\@<!\<chan\>  (only pick chan when it doesn't come after an arrow)
   " this prevents picking up '<-chan <-chan' but not 'chan <-'
   syn match goSpaceError display "\(\(<-\)\@<!\<chan\>\)\@<=\s\+\(<-\)\@="
 
-  ""
+  """
   " value-ignoring receives in a few contexts
   syn match goSpaceError display "\(\(^\|[={(,;]\)\s*<-\)\@<=\s\+"
 endif
