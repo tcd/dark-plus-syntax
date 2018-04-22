@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.76 (April 21, 2018)
+- Added CSV tweaks.
+
 ## 0.0.75 (April 20, 2018)
 - Additional VimL tweaks.
 

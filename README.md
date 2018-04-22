@@ -16,6 +16,7 @@
 - CSS
   - Stylus
   - SCSS
+- CSV
 - Go
 - Groovy
 - HTML
@@ -42,6 +43,7 @@
 - [Digitalbrainstem/ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar)
 - [jakebathman/mysql-syntax](https://github.com/jakebathman/mysql-syntax)
 - [robinbentley/vscode-sass-indented](https://github.com/robinbentley/vscode-sass-indented)
+- [mechatroner/vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv)
 
 
 ## Resources & References
