@@ -1734,7 +1734,10 @@
 		{
 			"scope": [
 				"text.html.vue-html source.directive.vue punctuation.definition.string.begin.html",
-				"text.html.vue-html source.directive.vue punctuation.definition.string.end.html"
+				"text.html.vue-html source.directive.vue punctuation.definition.string.end.html",
+				"meta.tag.inline.any.html meta.directive.vue entity.other.attribute-name.html",
+				"meta.directive.vue punctuation.separator.key-value.html",
+				"meta.directive.vue entity.other.attribute-name.html"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"

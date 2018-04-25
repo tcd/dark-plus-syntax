@@ -1,0 +1,19 @@
+priority -50
+
+snippet pair "Key:Value,"
+"${1:value_name}": "${3:value}"${2:,}$0
+endsnippet
+
+snippet object "Key:{Object},"
+"${1:value_name}": {$0}${2:,}
+endsnippet
+
+snippet array "Key:[ Object ],"
+"${1:value_name}": [$0]${2:,}
+endsnippet
+
+snippet nest "nested tabstops"
+${2: this a ${1:ne${3:r23r}sted} tabstop } $0
+endsnippet
+
+# vim:ft=snippets:

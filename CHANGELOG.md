@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.77 (April 24, 2018)
+- Cyaned Vue directives.
+
 ## 0.0.76 (April 21, 2018)
 - Added CSV tweaks.
 

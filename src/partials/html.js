@@ -74,6 +74,7 @@ module.exports = [
     {
         "name": "Mustaches",
         "scope": [
+            // "entity.name.tag.template.html",
             "meta.directive.vue",
             "expression.embedded.vue",
             "punctuation.definition.generic.begin.html",
@@ -181,17 +182,20 @@ module.exports = [
         "settings": { "foreground": "#808080" },
     },
     {
-        // punctuation.definition.string.begin.html
-        // source.directive.vue
-        // meta.directive.vue
-        // meta.tag.inline.any.html
-        // text.html.vue-html
         "scope": [
             "text.html.vue-html source.directive.vue punctuation.definition.string.begin.html",
             "text.html.vue-html source.directive.vue punctuation.definition.string.end.html",
+            // "source.vue text.html.vue-html meta.tag.inline.any.html meta.directive.vue entity.other.attribute-name.html",
+            "meta.tag.inline.any.html meta.directive.vue entity.other.attribute-name.html",
+            "meta.directive.vue punctuation.separator.key-value.html",
+            "meta.directive.vue entity.other.attribute-name.html",
         ],
         "settings": { "foreground": "#4ec9b0" },
     },
+    // {
+    // "scope": [],
+    // "settings": { "foreground": "#c586c0" },
+    // },
     // =========================================================================
     // Jinja2
     // =========================================================================
