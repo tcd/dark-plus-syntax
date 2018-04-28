@@ -1,24 +1,28 @@
 const writeJsonFile = require('write-json-file');
 
-const cs            = require('./src/partials/cs');
-const css           = require('./src/partials/css');
-const defaults      = require('./src/partials/defaults');
-const go            = require('./src/partials/go');
-const html          = require('./src/partials/html');
-const java          = require('./src/partials/java');
-const javascript    = require('./src/partials/javascript');
-const markup        = require('./src/partials/markdown');
-const misc          = require('./src/partials/misc');
-const python        = require('./src/partials/python');
-const ruby          = require('./src/partials/ruby');
-const regex         = require('./src/partials/regex');
+const clang      = require('./src/partials/clang');
+const cs         = require('./src/partials/cs');
+const css        = require('./src/partials/css');
+const defaults   = require('./src/partials/defaults');
+const elixir     = require('./src/partials/elixir');
+const go         = require('./src/partials/go');
+const html       = require('./src/partials/html');
+const java       = require('./src/partials/java');
+const javascript = require('./src/partials/javascript');
+const markup     = require('./src/partials/markdown');
+const misc       = require('./src/partials/misc');
+const python     = require('./src/partials/python');
+const ruby       = require('./src/partials/ruby');
+const regex      = require('./src/partials/regex');
 
 let nop = [];
 
 let tokenz = nop.concat(
     defaults,
+    clang,
     cs,
     css,
+    elixir,
     go,
     java,
     javascript,
@@ -122,8 +126,8 @@ let base = {
         // "statusBar.noFolderBackground": "#303030",
         // "statusBar.debuggingBackground": "#303030",
     },
-    "tokenColors": tokenz
-}
+    "tokenColors": tokenz,
+};
 
 let output = './themes/dark-plus-syntax-color-theme.json';
 
