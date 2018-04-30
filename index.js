@@ -1,11 +1,12 @@
 const writeJsonFile = require('write-json-file');
 
 const clang      = require('./src/partials/clang');
-const cs         = require('./src/partials/cs');
+const csharp     = require('./src/partials/cs');
 const css        = require('./src/partials/css');
+const csv        = require('./src/partials/csv');
 const defaults   = require('./src/partials/defaults');
 const elixir     = require('./src/partials/elixir');
-const go         = require('./src/partials/go');
+const golang     = require('./src/partials/go');
 const html       = require('./src/partials/html');
 const java       = require('./src/partials/java');
 const javascript = require('./src/partials/javascript');
@@ -14,22 +15,25 @@ const misc       = require('./src/partials/misc');
 const python     = require('./src/partials/python');
 const ruby       = require('./src/partials/ruby');
 const regex      = require('./src/partials/regex');
+const todo       = require('./src/partials/todo');
 
 let nop = [];
 
 let tokenz = nop.concat(
     defaults,
     clang,
-    cs,
+    csharp,
     css,
+    csv,
     elixir,
-    go,
+    golang,
     java,
     javascript,
     markup,
     python,
     ruby,
     misc,
+    todo,
     html,
     regex,
 );

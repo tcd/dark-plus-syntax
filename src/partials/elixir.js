@@ -24,6 +24,7 @@ module.exports = [
         "scope": [
             "constant.other.symbol.elixir",
             "parameter.variable.function.elixir",
+            "source.elixir.embedded.source",
             "variable.other.readwrite.module.elixir",
         ],
         "settings": {"foreground": "#9cdcfe"},
@@ -47,6 +48,7 @@ module.exports = [
         "scope": [
             // "comment.wildcard.elixir",
             // "comment.unused.elixir",
+            "source.elixir.embedded.source punctuation.section.embedded.elixir",
             "punctuation.section.embedded.elixir",
             "punctuation.definition.variable.elixir",
             "variable.other.anonymous.elixir",

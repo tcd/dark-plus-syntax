@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.79 *(April 30, 2018)*
+- Tweaked highlighting for Elixir interpolation.
+
 ## 0.0.78 *(April 27, 2018)*
 - Added highlighting for C & Elixir.
 

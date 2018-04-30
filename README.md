@@ -12,11 +12,13 @@
 **Enjoy!**
 
 ## Languages with Additions
+- C
 - C#
 - CSS
   - Stylus
   - SCSS
 - CSV
+- Elixir
 - Go
 - Groovy
 - HTML
