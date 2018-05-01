@@ -1,13 +1,9 @@
 module.exports = {
     "root": true,
-    "env": {
-      "node": true,
-    },
+    "env": { "node": true },
     "parserOptions": {
       "ecmaVersion": 2017,
-      "ecmaFeatures": {
-          "jsx": false
-      },
+      "ecmaFeatures": { "jsx": false },
       "sourceType": "module"
     },
     "rules": {
