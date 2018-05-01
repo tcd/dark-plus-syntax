@@ -41,8 +41,6 @@
 				"comment.line.shebang.js",
 				"comment.line.number-sign.shebang.shell",
 				"comment.block.documentation.js",
-				"comment.line.number-sign.ruby",
-				"punctuation.definition.comment.ruby",
 				"comment.block.go",
 				"comment.block.documentation.ts",
 				"comment.line.number-sign.ini",
@@ -1381,6 +1379,7 @@
 		{
 			"scope": [
 				"punctuation.separator.method.ruby",
+				"punctuation.separator.namespace.ruby",
 				"constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby"
 			],
 			"settings": {
@@ -1396,7 +1395,9 @@
 				"punctuation.definition.variable.ruby",
 				"source.ruby punctuation.separator.key-value",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
-				"string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby"
+				"string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
+				"string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",
+				"string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.end.ruby"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -1408,7 +1409,6 @@
 				"support.class.ruby",
 				"entity.name.type.class.ruby",
 				"entity.other.inherited-class.ruby",
-				"punctuation.separator.namespace.ruby",
 				"punctuation.separator.inheritance.ruby"
 			],
 			"settings": {
@@ -1443,6 +1443,17 @@
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.section.regexp.begin.ruby",
+				"punctuation.section.regexp.end.ruby",
+				"punctuation.definition.group.ruby",
+				"punctuation.definition.character-class.ruby"
+			],
+			"settings": {
+				"foreground": "#808080"
 			}
 		},
 		{
@@ -1719,6 +1730,40 @@
 				"storage.type.scala",
 				"storage.type.primitive.scala",
 				"meta.colon.scala"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"meta.attribute.rust"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.misc.rust"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.lifetime.rust"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.rust",
+				"storage.type.core.rust",
+				"storage.class.std.rust"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"

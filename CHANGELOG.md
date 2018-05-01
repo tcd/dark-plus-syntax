@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.81 *(May 01, 2018)*
+- Cyaned core types & std classes in Rust.
+- Normalized `namespace separator`s to better fit the overall theme.
+
 ## 0.0.80 *(May 01, 2018)*
 - Updated readme.
 - Added highlighting for Crystal.

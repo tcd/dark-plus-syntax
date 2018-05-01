@@ -35,6 +35,7 @@
 - Python
 - Ruby
   - Vagrant
+- Rust
 - Terraform
 
 ## Tested with

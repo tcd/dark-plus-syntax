@@ -221,4 +221,27 @@ module.exports = [
         ],
         "settings": { "foreground": "#4ec9b0" },
     },
+    // =========================================================================
+    // Rust
+    // =========================================================================
+    {
+        "scope": ["meta.attribute.rust"],
+        "settings": {"foreground": "#608b4e"},
+    },
+    {
+        "scope": ["keyword.operator.misc.rust"],
+        "settings": {"foreground": "#c586c0"},
+    },
+    {
+        "scope": ["entity.name.lifetime.rust"],
+        settings: {"fontStyle": "italic"},
+    },
+    {
+        "scope": [
+            "entity.name.type.rust",
+            "storage.type.core.rust",
+            "storage.class.std.rust",
+        ],
+        "settings": {"foreground": "#4ec9b0"},
+    },
 ];
