@@ -303,7 +303,7 @@ if a < 3
 else
   a = true
 end
-typeof a #=> (Bool | String)
+typeof(a) #=> (Bool | String)
 
 if a && b
   # here both a and b are guaranteed not to be Nil

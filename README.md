@@ -14,6 +14,7 @@
 ## Languages with Additions
 - C
 - C#
+- Crystal
 - CSS
   - Stylus
   - SCSS
@@ -32,8 +33,9 @@
 - Make
 - Markdown
 - Python
+- Ruby
+  - Vagrant
 - Terraform
-- Vagrant
 
 ## Tested with
 - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)

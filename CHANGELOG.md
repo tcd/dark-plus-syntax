@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 0.0.80 *(May 01, 2018)*
+- Updated readme.
+- Added highlighting for Crystal.
+- Assorted tweaks to Ruby highlighting.
+
 ## 0.0.79 *(April 30, 2018)*
 - Tweaked highlighting for Elixir interpolation.
 

@@ -3,7 +3,6 @@ module.exports = [
         "scope": [
             "punctuation.definition.variable.begin.gitignore",
             "punctuation.definition.variable.end.gitignore",
-            "punctuation.terminator.dart",
         ],
         "settings": { "foreground": "#505050"},
     },
@@ -160,7 +159,35 @@ module.exports = [
     // =========================================================================
     {
         "scope": [
-            "punctuation.section.embedded.crystal",
+            "punctuation.separator.variable.crystal", // `|var|`
+        ],
+        "settings": {"foreground": "#d4d4d4"},
+    },
+    {
+        "scope": [
+            "source.crystal.embedded.source",
+        ],
+        "settings": {"foreground": "#9cdcfe"},
+    },
+    {
+        "scope": [
+            "punctuation.separator.method.crystal", // `.`
+        ],
+        "settings": { "foreground": "#c586c0" },
+    },
+    {
+        "scope": [
+            "support.class.crystal",
+        ],
+        "settings": { "foreground": "#4ec9b0" },
+    },
+    {
+        "scope": [
+            "constant.other.symbol.crystal",                  // `:symbol`
+            "punctuation.section.embedded.crystal",           // `#{}`
+            // "punctuation.separator.other.crystal",            // `::/:`
+            "keyword.control.special-method.crystal",         // `new/include/extend/raise`
+            "source.crystal punctuation.separator.key-value", // `=>`
         ],
         "settings": {"foreground": "#569cd6"},
     },
@@ -168,10 +195,12 @@ module.exports = [
     // Dart
     // =========================================================================
     {
-        "scope": [
-            "keyword.control.new.dart",
-        ],
+        "scope": ["keyword.control.new.dart"],
         "settings": {"foreground": "#569cd6"},
+    },
+    {
+        "scope": ["punctuation.terminator.dart"],
+        "settings": { "foreground": "#505050"},
     },
     // =========================================================================
     // Java/Kotlin/Groovy/Scala
@@ -181,10 +210,6 @@ module.exports = [
             "punctuation.separator.period.java",
         ],
         "settings": { "foreground": "#c586c0" },
-    },
-    {
-        "scope": [],
-        "settings": { "foreground": "#9cdcfe" },
     },
     {
         "scope": [

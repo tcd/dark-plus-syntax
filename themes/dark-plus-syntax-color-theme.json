@@ -1362,7 +1362,9 @@
 			}
 		},
 		{
-			"scope": "constant.character.escape.ruby",
+			"scope": [
+				"constant.character.escape.ruby"
+			],
 			"settings": {
 				"foreground": "#d7ba7d"
 			}
@@ -1378,13 +1380,21 @@
 		},
 		{
 			"scope": [
+				"punctuation.separator.method.ruby",
+				"constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
 				"variable.language.ruby",
 				"constant.other.symbol.ruby",
-				"punctuation.separator.method.ruby",
-				"constant.other.symbol.hashkey.ruby",
+				"constant.language.symbol.ruby",
 				"punctuation.definition.constant.ruby",
 				"punctuation.definition.variable.ruby",
-				"constant.language.symbol.ruby",
+				"source.ruby punctuation.separator.key-value",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby"
 			],
@@ -1411,7 +1421,6 @@
 				"keyword.control.class.ruby",
 				"keyword.operator.other.ruby",
 				"keyword.operator.assignment.ruby",
-				"punctuation.definition.constant.ruby",
 				"punctuation.separator.other.ruby",
 				"keyword.control.pseudo-method.ruby",
 				"keyword.operator.comparison.ruby",
@@ -1429,7 +1438,8 @@
 				"punctuation.section.scope.begin.ruby",
 				"punctuation.section.scope.end.ruby",
 				"punctuation.section.array.begin.ruby",
-				"punctuation.section.array.end.ruby"
+				"punctuation.section.array.end.ruby",
+				"constant.other.symbol.hashkey.ruby"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -1459,8 +1469,7 @@
 		{
 			"scope": [
 				"punctuation.definition.variable.begin.gitignore",
-				"punctuation.definition.variable.end.gitignore",
-				"punctuation.terminator.dart"
+				"punctuation.definition.variable.end.gitignore"
 			],
 			"settings": {
 				"foreground": "#505050"
@@ -1638,7 +1647,42 @@
 		},
 		{
 			"scope": [
-				"punctuation.section.embedded.crystal"
+				"punctuation.separator.variable.crystal"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
+				"source.crystal.embedded.source"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.method.crystal"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"support.class.crystal"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"constant.other.symbol.crystal",
+				"punctuation.section.embedded.crystal",
+				"keyword.control.special-method.crystal",
+				"source.crystal punctuation.separator.key-value"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -1654,16 +1698,18 @@
 		},
 		{
 			"scope": [
+				"punctuation.terminator.dart"
+			],
+			"settings": {
+				"foreground": "#505050"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.separator.period.java"
 			],
 			"settings": {
 				"foreground": "#c586c0"
-			}
-		},
-		{
-			"scope": [],
-			"settings": {
-				"foreground": "#9cdcfe"
 			}
 		},
 		{
