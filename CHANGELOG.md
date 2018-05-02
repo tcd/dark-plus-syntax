@@ -1,6 +1,9 @@
 # ChangeLog
 
-## 0.0.82 *(May 01, 2018)*
+## 0.0.82 *(May 02, 2018)*
+- Updated TOML highlighting.
+
+## 0.0.82 *(May 02, 2018)*
 - Assorted Rust updates.
 - Updated todo.txt & readme.
 

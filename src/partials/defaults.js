@@ -21,7 +21,7 @@ module.exports = [
             // "comment.line.triple-slash.directive.ts",
             "comment.line.number-sign.ini",
             "comment.line.number-sign.yaml",
-            "comment.line.number-sign.toml",
+            // "comment.line.number-sign.toml",
         ],
         "settings": { "foreground": "#608b4e" },
     },

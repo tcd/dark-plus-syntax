@@ -16,9 +16,9 @@ const python     = require('./src/partials/python');
 const ruby       = require('./src/partials/ruby');
 const regex      = require('./src/partials/regex');
 const todo       = require('./src/partials/todo');
+const terraform  = require('./src/partials/terraform');
 
 let nop = [];
-
 let tokenz = nop.concat(
     defaults,
     clang,
@@ -34,6 +34,7 @@ let tokenz = nop.concat(
     ruby,
     misc,
     todo,
+    terraform,
     html,
     regex,
 );
@@ -130,10 +131,11 @@ let base = {
         // "statusBar.noFolderBackground": "#303030",
         // "statusBar.debuggingBackground": "#303030",
     },
+
     "tokenColors": tokenz,
 };
 
-let output = './themes/dark-plus-syntax-color-theme.json';
+const output = './themes/dark-plus-syntax-color-theme.json';
+const complete = '=== Done! ===\n';
 
-/* https://github.com/sindresorhus/write-json-file */
-writeJsonFile(output, base).then(() => console.log('=== Done! ===\n'));
+writeJsonFile(output, base).then(() => console.log(complete));
