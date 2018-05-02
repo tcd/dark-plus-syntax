@@ -16,16 +16,16 @@ module.exports = [
         "settings": { "foreground": "#c586c0" },
     },
     {
-        "scope": [ "comment.line.number-sign.makefile" ],
-        "settings": { "foreground": "#608b4e" },
+        "scope": ["comment.line.number-sign.makefile"],
+        "settings": {"foreground": "#608b4e"},
     },
     {
-        "scope": [ "variable.other.makefile" ],
-        "settings": { "foreground": "#9cdcfe" },
+        "scope": ["variable.other.makefile"],
+        "settings": {"foreground": "#9cdcfe"},
     },
     {
-        "scope": [ "variable.language.makefile" ],
-        "settings": { "foreground": "#569cd6" },
+        "scope": ["variable.language.makefile"],
+        "settings": {"foreground": "#569cd6"},
     },
     {
         "scope": [
@@ -80,20 +80,20 @@ module.exports = [
     // =========================================================================
     // TOML
     // =========================================================================
-    {
-        "scope": [
-            // "meta.tag.table.toml",
-            // "meta.tag.table.toml entity.other.attribute-name.table.toml",
-            // "meta.tag.table.array.toml entity.other.attribute-name.table.array.toml",
-        ],
-        "settings": { "foreground": "#569cd6" },
-    },
+    // {
+    //     "scope": [
+    //         // "meta.tag.table.toml",
+    //         // "meta.tag.table.toml entity.other.attribute-name.table.toml",
+    //         // "meta.tag.table.array.toml entity.other.attribute-name.table.array.toml",
+    //     ],
+    //     "settings": {"foreground": "#569cd6"},
+    // },
     {
         "scope": [
             // "keyword.key.toml",
             // "entity.other.attribute-name.table.toml",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        "settings": {"foreground": "#9cdcfe"},
     },
     {
         "scope": [
@@ -103,14 +103,14 @@ module.exports = [
             "constant.other.boolean.toml",
             "punctuation.definition.keyValuePair.toml",
         ],
-        "settings": { "foreground": "#c586c0" },
+        "settings": {"foreground": "#c586c0"},
     },
     {
         "scope": [
             "punctuation.definition.table.array.toml",
             "punctuation.definition.table.toml",
         ],
-        "settings": { "foreground": "#606060" },
+        "settings": {"foreground": "#606060"},
     },
     // =========================================================================
     // Lisp
@@ -120,19 +120,15 @@ module.exports = [
             "storage.type.function-type.lisp",
             "constant.language.lisp",
         ],
-        "settings": { "foreground": "#569cd6" },
+        "settings": {"foreground": "#569cd6"},
     },
     {
-        "scope": [
-            "keyword.constant.lisp",
-        ],
-        "settings": { "foreground": "#9cdcfe" },
+        "scope": ["keyword.constant.lisp"],
+        "settings": {"foreground": "#9cdcfe"},
     },
     {
-        "scope": [
-            "keyword.control.lisp",
-        ],
-        "settings": { "foreground": "#c586c0" },
+        "scope": ["keyword.control.lisp"],
+        "settings": {"foreground": "#c586c0"},
     },
     // =========================================================================
     // Viml
@@ -146,13 +142,11 @@ module.exports = [
             "constant.character.map.key.fn.viml",
             "constant.character.map.viml",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        "settings": {"foreground": "#d7ba7d"},
     },
     {
-        "scope": [
-            "punctuation.definition.map.viml",
-        ],
-        "settings": { "foreground": "#505050" },
+        "scope": ["punctuation.definition.map.viml"],
+        "settings": {"foreground": "#505050"},
     },
     // =========================================================================
     // Crystal
@@ -164,22 +158,18 @@ module.exports = [
         "settings": {"foreground": "#d4d4d4"},
     },
     {
-        "scope": [
-            "source.crystal.embedded.source",
-        ],
+        "scope": ["source.crystal.embedded.source"],
         "settings": {"foreground": "#9cdcfe"},
     },
     {
         "scope": [
             "punctuation.separator.method.crystal", // `.`
         ],
-        "settings": { "foreground": "#c586c0" },
+        "settings": {"foreground": "#c586c0"},
     },
     {
-        "scope": [
-            "support.class.crystal",
-        ],
-        "settings": { "foreground": "#4ec9b0" },
+        "scope": ["support.class.crystal"],
+        "settings": {"foreground": "#4ec9b0"},
     },
     {
         "scope": [
@@ -200,16 +190,14 @@ module.exports = [
     },
     {
         "scope": ["punctuation.terminator.dart"],
-        "settings": { "foreground": "#505050"},
+        "settings": {"foreground": "#505050"},
     },
     // =========================================================================
     // Java/Kotlin/Groovy/Scala
     // =========================================================================
     {
-        "scope": [
-            "punctuation.separator.period.java",
-        ],
-        "settings": { "foreground": "#c586c0" },
+        "scope": ["punctuation.separator.period.java"],
+        "settings": {"foreground": "#c586c0"},
     },
     {
         "scope": [
@@ -219,7 +207,7 @@ module.exports = [
             "storage.type.primitive.scala",
             "meta.colon.scala",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        "settings": {"foreground": "#4ec9b0"},
     },
     // =========================================================================
     // Rust
@@ -234,13 +222,32 @@ module.exports = [
     },
     {
         "scope": ["entity.name.lifetime.rust"],
-        settings: {"fontStyle": "italic"},
+        "settings": {"fontStyle": "italic"},
+    },
+    {
+        "scope": ["support.constant.core.rust"],
+        "settings": {
+            "foreground": "#569cd6",
+            "fontStyle": "italic",
+        },
+    },
+    {
+        "scope": ["variable.language.rust"], // self
+        "settings": {
+            "foreground": "#569cd6",
+            "fontStyle": "italic",
+        },
+    },
+    {
+        "scope": ["string.quoted.single.rust"],
+        "settings": {"foreground": "#d7ba7d"},
     },
     {
         "scope": [
             "entity.name.type.rust",
             "storage.type.core.rust",
             "storage.class.std.rust",
+            "meta.type_params.rust",
         ],
         "settings": {"foreground": "#4ec9b0"},
     },

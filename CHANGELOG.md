@@ -1,8 +1,12 @@
 # ChangeLog
 
+## 0.0.82 *(May 01, 2018)*
+- Assorted Rust updates.
+- Updated todo.txt & readme.
+
 ## 0.0.81 *(May 01, 2018)*
 - Cyaned core types & std classes in Rust.
-- Normalized `namespace separator`s to better fit the overall theme.
+- Normalized `namespace separator`s in Rust to better fit the overall theme.
 
 ## 0.0.80 *(May 01, 2018)*
 - Updated readme.

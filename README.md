@@ -18,7 +18,6 @@
 - CSS
   - Stylus
   - SCSS
-- CSV
 - Elixir
 - Go
 - Groovy
@@ -30,13 +29,14 @@
   - Twig
 - JavaScript
   - TypeScript
-- Make
 - Markdown
 - Python
-- Ruby
-  - Vagrant
 - Rust
-- Terraform
+- Misc.
+  - CSV
+  - Makefile
+  - Terraform
+  - Vagrant
 
 ## Tested with
 - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)

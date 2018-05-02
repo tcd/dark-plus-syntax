@@ -2,19 +2,15 @@
 	"name": "dark-plus-syntax",
 	"displayName": "dark-plus-syntax",
 	"description": "VS Code's default dark theme, but just a little bit better.",
-	"version": "0.0.81",
+	"version": "0.0.82",
 	"publisher": "dunstontc",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/dunstontc/dark-plus-syntax.git"
 	},
-	"engines": {
-		"vscode": "^1.15.0"
-	},
-	"categories": [
-		"Themes"
-	],
+	"engines": {"vscode": "^1.15.0"},
+	"categories": ["Themes"],
 	"contributes": {
 		"themes": [
 			{
