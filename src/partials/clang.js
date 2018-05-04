@@ -1,16 +1,4 @@
 module.exports = [
-    // {
-    //     "scope": [
-    //         // "keyword.operator.sizeof.c",
-    //         "support.function.C99.c",
-    //         // "constant.language.c",
-    //         // "storage.modifier.c",
-    //     ],
-    //     "settings": {
-    //         "foreground": "#dcdcaa",
-    //         "fontStyle": "italic",
-    //     },
-    // },
     {
         "scope": [
             "support.function.C99.c",
@@ -28,15 +16,14 @@ module.exports = [
             "foreground": "#505050",
         },
     },
-    {
-        "scope": [
-        ],
-        "settings": {"foreground": "#608b4e"},
-    },
+    // {
+    //     "scope": [
+    //     ],
+    //     "settings": {"foreground": "#608b4e"},
+    // },
     {
         "scope": [
             "constant.other.variable.mac-classic.c",
-            "constant.other.placeholder.c",
             "string.quoted.double.include.c",
             "string.quoted.other.lt-gt.include.c",
         ],
@@ -58,7 +45,7 @@ module.exports = [
     },
     {
         "scope": [
-            // "support.function.C99.c",
+            "constant.other.placeholder.c",
             "constant.language.c",
             "keyword.operator.sizeof.c",
         ],

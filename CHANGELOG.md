@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.86 *(May 03, 2018)*
+- ~~One~~ Two additional modifications to C highlighting.
+
 ## 0.0.85 *(May 03, 2018)*
 - One additional modification to C highlighting.
 

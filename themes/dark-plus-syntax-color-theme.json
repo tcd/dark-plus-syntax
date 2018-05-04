@@ -283,15 +283,8 @@
 			}
 		},
 		{
-			"scope": [],
-			"settings": {
-				"foreground": "#608b4e"
-			}
-		},
-		{
 			"scope": [
 				"constant.other.variable.mac-classic.c",
-				"constant.other.placeholder.c",
 				"string.quoted.double.include.c",
 				"string.quoted.other.lt-gt.include.c"
 			],
@@ -319,6 +312,7 @@
 		},
 		{
 			"scope": [
+				"constant.other.placeholder.c",
 				"constant.language.c",
 				"keyword.operator.sizeof.c"
 			],
