@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.85 *(May 03, 2018)*
+- One additional modification to C highlighting.
+
 ## 0.0.84 *(May 03, 2018)*
 - Updated highlighting for Properties/.ini files.
 - Updated C highlighting.
