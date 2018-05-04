@@ -1,6 +1,12 @@
 # ChangeLog
 
-## 0.0.82 *(May 02, 2018)*
+## 0.0.84 *(May 03, 2018)*
+- Updated highlighting for Properties/.ini files.
+- Updated C highlighting.
+- Updated Elixir & Erlang highlighting.
+- Updated readme.
+
+## 0.0.83 *(May 02, 2018)*
 - Updated TOML highlighting.
 
 ## 0.0.82 *(May 02, 2018)*

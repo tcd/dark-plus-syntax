@@ -1,19 +1,20 @@
 module.exports = [
+    // {
+    //     "scope": [
+    //         // "keyword.operator.sizeof.c",
+    //         "support.function.C99.c",
+    //         // "constant.language.c",
+    //         // "storage.modifier.c",
+    //     ],
+    //     "settings": {
+    //         "foreground": "#dcdcaa",
+    //         "fontStyle": "italic",
+    //     },
+    // },
     {
         "scope": [
-            // "keyword.operator.sizeof.c",
-            "support.function.C99.c",
-            // "constant.language.c",
-            // "storage.modifier.c",
-        ],
-        "settings": {
-            "foreground": "#dcdcaa",
-            "fontStyle": "bold",
-        },
-    },
-    {
-        "scope": [
-            "keyword.operator.sizeof.c",
+            "entity.name.function.c",
+            "meta.function-call.c",
         ],
         "settings": {"foreground": "#dcdcaa"},
     },
@@ -42,6 +43,7 @@ module.exports = [
     },
     {
         "scope": [
+            "punctuation.separator.pointer-access.c",
         ],
         "settings": {"foreground": "#c586c0"},
     },
@@ -54,14 +56,11 @@ module.exports = [
     },
     {
         "scope": [
-            "keyword.operator.assignment.c",
-            "punctuation.separator.pointer-access.c",
+            "support.function.C99.c",
+            "constant.language.c",
+            "keyword.operator.sizeof.c",
+            "keyword.control.directive.include.c",
         ],
         "settings": {"foreground": "#569cd6"},
-    },
-    {
-        "scope": [
-        ],
-        "settings": {"foreground": "#d7ba7d"},
     },
 ];

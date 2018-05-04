@@ -13,20 +13,22 @@
 
 ## Languages with Additions
 - C
+  - Crystal
 - C#
-- Crystal
 - CSS
   - Stylus
   - SCSS
-- Elixir
+- Erlang
+  - Elixir
 - Go
-- Groovy
 - HTML
   - EJS
   - Handlebars
   - Jinja2
   - Pug/Jade
   - Twig
+- Java
+  - Groovy
 - JavaScript
   - TypeScript
 - Markdown
@@ -34,8 +36,10 @@
 - Rust
 - Misc.
   - CSV
+  - JSON
   - Makefile
   - Terraform
+  - TOML
   - Vagrant
 
 ## Tested with
@@ -49,6 +53,8 @@
 - [jakebathman/mysql-syntax](https://github.com/jakebathman/mysql-syntax)
 - [robinbentley/vscode-sass-indented](https://github.com/robinbentley/vscode-sass-indented)
 - [mechatroner/vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv)
+- [fr1zle/vscode-elixir](https://github.com/fr1zle/vscode-elixir)
+- [bungcip/better-toml](https://github.com/bungcip/better-toml)
 
 
 ## Resources & References

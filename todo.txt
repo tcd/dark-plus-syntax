@@ -13,4 +13,6 @@ x 2018-05-01 2018-03-21 Look into Ruby syntax.
 2018-05-02 Add +Rust support for "_".
 2018-05-02 Add +Rust support for "{:?}".
 2018-05-02 Add +Rust support for colons in type assignment.
+2018-05-02 Add +Go support for struct args in method calls.
+2018-05-02 Add +Go support for user-defined structs.
 
