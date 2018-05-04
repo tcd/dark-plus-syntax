@@ -12,14 +12,14 @@
 **Enjoy!**
 
 ## Languages with Additions
-- C
-  - Crystal
 - C#
+- C/C++
+- Crystal
 - CSS
   - Stylus
   - SCSS
+- Elixir
 - Erlang
-  - Elixir
 - Go
 - HTML
   - EJS
@@ -30,6 +30,7 @@
 - Java
   - Groovy
 - JavaScript
+  - JSX
   - TypeScript
 - Markdown
 - Python

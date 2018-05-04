@@ -16,11 +16,13 @@ module.exports = [
             "foreground": "#505050",
         },
     },
-    // {
-    //     "scope": [
-    //     ],
-    //     "settings": {"foreground": "#608b4e"},
-    // },
+    {
+        "scope": [
+            "punctuation.section.arguments.begin.bracket.round.c",
+            "punctuation.section.arguments.end.bracket.round.c",
+        ],
+        "settings": {"foreground": "#d4d4d4"},
+    },
     {
         "scope": [
             "constant.other.variable.mac-classic.c",

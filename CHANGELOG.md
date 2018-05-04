@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.87 *(May 04, 2018)*
+- Fixed highlighting of parens in C function calls.
+
 ## 0.0.86 *(May 03, 2018)*
 - ~~One~~ Two additional modifications to C highlighting.
 
