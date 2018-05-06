@@ -1,0 +1,3 @@
+"Hello!"
+
+let chara = ':'

@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 0.0.88 *(May 05, 2018)*
+- Added language-independent defaults for:
+  - `char`
+  - `placeholder` (ex: `%s` in printf)
+
 ## 0.0.87 *(May 04, 2018)*
 - Fixed highlighting of parens in C function calls.
 

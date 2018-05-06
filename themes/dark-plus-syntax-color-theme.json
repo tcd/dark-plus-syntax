@@ -81,7 +81,11 @@
 			}
 		},
 		{
-			"scope": "constant.numeric",
+			"scope": [
+				"constant.numeric",
+				"keyword.other.unit",
+				"meta.preprocessor.numeric"
+			],
 			"settings": {
 				"foreground": "#b5cea8"
 			}
@@ -93,21 +97,12 @@
 			}
 		},
 		{
-			"scope": "meta.selector",
+			"scope": [
+				"meta.selector",
+				"constant.character"
+			],
 			"settings": {
 				"foreground": "#d7ba7d"
-			}
-		},
-		{
-			"scope": "meta.preprocessor",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": "meta.preprocessor.numeric",
-			"settings": {
-				"foreground": "#b5cea8"
 			}
 		},
 		{
@@ -132,8 +127,10 @@
 				"storage",
 				"storage.type",
 				"storage.modifier",
+				"constant.other.placeholder",
 				"keyword",
 				"keyword.control",
+				"meta.preprocessor",
 				"keyword.control.new",
 				"constant.language",
 				"keyword.operator.new",
@@ -143,12 +140,6 @@
 			],
 			"settings": {
 				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": "keyword.other.unit",
-			"settings": {
-				"foreground": "#b5cea8"
 			}
 		},
 		{
@@ -1529,6 +1520,68 @@
 		},
 		{
 			"scope": [
+				"meta.attribute.rust"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.misc.rust"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.lifetime.rust"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.single.rust"
+			],
+			"settings": {
+				"foreground": "#d7ba7d"
+			}
+		},
+		{
+			"scope": [
+				"constant.other.placeholder.rust"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"variable.language.rust",
+				"variable.language.self.rust",
+				"support.constant.core.rust"
+			],
+			"settings": {
+				"foreground": "#569cd6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.rust",
+				"storage.type.core.rust",
+				"storage.class.std.rust",
+				"meta.type_params.rust"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.definition.variable.begin.gitignore",
 				"punctuation.definition.variable.end.gitignore"
 			],
@@ -1797,67 +1850,6 @@
 				"storage.type.scala",
 				"storage.type.primitive.scala",
 				"meta.colon.scala"
-			],
-			"settings": {
-				"foreground": "#4ec9b0"
-			}
-		},
-		{
-			"scope": [
-				"meta.attribute.rust"
-			],
-			"settings": {
-				"foreground": "#608b4e"
-			}
-		},
-		{
-			"scope": [
-				"keyword.operator.misc.rust"
-			],
-			"settings": {
-				"foreground": "#c586c0"
-			}
-		},
-		{
-			"scope": [
-				"entity.name.lifetime.rust"
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"support.constant.core.rust"
-			],
-			"settings": {
-				"foreground": "#569cd6",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"variable.language.rust"
-			],
-			"settings": {
-				"foreground": "#569cd6",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"string.quoted.single.rust"
-			],
-			"settings": {
-				"foreground": "#d7ba7d"
-			}
-		},
-		{
-			"scope": [
-				"entity.name.type.rust",
-				"storage.type.core.rust",
-				"storage.class.std.rust",
-				"meta.type_params.rust"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"

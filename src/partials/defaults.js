@@ -52,7 +52,11 @@ module.exports = [
         "settings": { "foreground": "#d4d4d4" },
     },
     {
-        "scope": "constant.numeric",
+        "scope": [
+            "constant.numeric",
+            "keyword.other.unit",
+            "meta.preprocessor.numeric",
+        ],
         "settings": { "foreground": "#b5cea8" },
     },
     {
@@ -60,16 +64,11 @@ module.exports = [
         "settings": { "foreground": "#f44747" },
     },
     {
-        "scope": "meta.selector",
+        "scope": [
+            "meta.selector",
+            "constant.character",
+        ],
         "settings": { "foreground": "#d7ba7d" },
-    },
-    {
-        "scope": "meta.preprocessor",
-        "settings": { "foreground": "#569cd6" },
-    },
-    {
-        "scope": "meta.preprocessor.numeric",
-        "settings": { "foreground": "#b5cea8" },
     },
     {
         "scope": "meta.diff.header",
@@ -89,8 +88,10 @@ module.exports = [
             "storage",
             "storage.type",
             "storage.modifier",
+            "constant.other.placeholder",
             "keyword",
             "keyword.control",
+            "meta.preprocessor",
             "keyword.control.new",
             "constant.language",
             "keyword.operator.new",
@@ -99,10 +100,6 @@ module.exports = [
             "keyword.operator.sizeof",
         ],
         "settings": { "foreground": "#569cd6" },
-    },
-    {
-        "scope": "keyword.other.unit",
-        "settings": { "foreground": "#b5cea8" },
     },
     {
         "scope": [
