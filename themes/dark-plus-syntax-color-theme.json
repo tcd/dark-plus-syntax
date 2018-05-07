@@ -1520,7 +1520,8 @@
 		},
 		{
 			"scope": [
-				"meta.attribute.rust"
+				"meta.attribute.rust",
+				"comment.line.documentation.rust"
 			],
 			"settings": {
 				"foreground": "#608b4e"
