@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.89 *(May 06, 2018)*
+- Changed highlighting of doc comments in Rust.
+
 ## 0.0.88 *(May 05, 2018)*
 - Added language-independent defaults for:
   - `char`

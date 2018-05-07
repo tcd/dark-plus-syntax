@@ -3,7 +3,10 @@ module.exports = [
     // Rust
     // =========================================================================
     {
-        "scope": ["meta.attribute.rust"],
+        "scope": [
+            "meta.attribute.rust",
+            "comment.line.documentation.rust",
+        ],
         "settings": {"foreground": "#608b4e"},
     },
     {
