@@ -11,8 +11,8 @@ fn use_slice(slice: &mut [i32]) {
 }
 
 fn slices() {
-    // a slice is part of an array
-    // its size is not known at compile time
+    /// a slice is part of an array
+    /// its size is not known at compile time
     let mut data = [1, 2, 3, 4, 5];
 
     // start w/o mut, borrow as a slice
@@ -23,8 +23,8 @@ fn slices() {
 }
 
 fn strings() {
-    // a slice that always points to a valid UTF-8 sequence
-    // a view into a String
+    /// a slice that always points to a valid UTF-8 sequence
+    /// a view into a String
     let s: &'static str = "hi there!"; // &'static str -->
                                        // statically allocated (part of the program)
 

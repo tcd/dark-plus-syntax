@@ -1529,7 +1529,8 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.misc.rust"
+				"keyword.operator.misc.rust",
+				"keyword.operator.sigil.rust"
 			],
 			"settings": {
 				"foreground": "#c586c0"
@@ -1537,15 +1538,18 @@
 		},
 		{
 			"scope": [
-				"entity.name.lifetime.rust"
+				"storage.modifier.lifetime.rust",
+				"entity.name.lifetime.rust",
+				"constant.other.placeholder.rust"
 			],
 			"settings": {
-				"fontStyle": "italic"
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
 			"scope": [
-				"string.quoted.single.rust"
+				"string.quoted.single.rust",
+				"constant.character.rust"
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
@@ -1553,7 +1557,8 @@
 		},
 		{
 			"scope": [
-				"constant.other.placeholder.rust"
+				"support.constant.core.rust",
+				"variable.language.ignored.rust"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -1562,8 +1567,7 @@
 		{
 			"scope": [
 				"variable.language.rust",
-				"variable.language.self.rust",
-				"support.constant.core.rust"
+				"variable.language.self.rust"
 			],
 			"settings": {
 				"foreground": "#569cd6",
@@ -1572,9 +1576,19 @@
 		},
 		{
 			"scope": [
+				"entity.name.type.param.rust punctuation.definition.type.rust"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
 				"entity.name.type.rust",
 				"storage.type.core.rust",
 				"storage.class.std.rust",
+				"punctuation.separator.type.rust",
+				"keyword.operator.return-type.rust",
 				"meta.type_params.rust"
 			],
 			"settings": {

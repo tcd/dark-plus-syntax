@@ -56,6 +56,7 @@
 - [mechatroner/vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv)
 - [fr1zle/vscode-elixir](https://github.com/fr1zle/vscode-elixir)
 - [bungcip/better-toml](https://github.com/bungcip/better-toml)
+- [dunstontc/vscode-rust-syntax](https://github.com/dunstontc/vscode-rust-syntax)
 
 
 ## Resources & References

@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.90 *(May 06, 2018)*
+- Additional Rust tweaks.
+- Updated readme.
+
 ## 0.0.89 *(May 06, 2018)*
 - Changed highlighting of doc comments in Rust.
 
