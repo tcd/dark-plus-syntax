@@ -16,9 +16,8 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.separator.method.ruby",
+            // "punctuation.separator.method.ruby",
             "punctuation.separator.namespace.ruby",
-            "constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
          ],
         "settings": { "foreground": "#c586c0" },
     },
@@ -26,6 +25,7 @@ module.exports = [
         "scope": [
             "variable.language.ruby",
             "constant.other.symbol.ruby",
+            "support.function.kernel.ruby",
             "constant.language.symbol.ruby",
             "punctuation.definition.constant.ruby",
             "punctuation.definition.variable.ruby",
@@ -69,7 +69,8 @@ module.exports = [
             "punctuation.section.scope.end.ruby",
             "punctuation.section.array.begin.ruby",
             "punctuation.section.array.end.ruby",
-            "constant.other.symbol.hashkey.ruby",
+            // "constant.other.symbol.hashkey.ruby",
+            "constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
         ],
         "settings": { "foreground": "#d4d4d4" },
     },

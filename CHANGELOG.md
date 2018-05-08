@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.92 *(May 08, 2018)*
+- Blue~~d~~ lambdas in Ruby.
+
 ## 0.0.91 *(May 07, 2018)*
 - Cyaned ERB tags.
 - Added tweaks to EEX highlighting. 

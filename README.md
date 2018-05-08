@@ -34,6 +34,7 @@
   - TypeScript
 - Markdown
 - Python
+- Ruby
 - Rust
 - Misc.
   - CSV
