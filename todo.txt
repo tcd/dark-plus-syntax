@@ -1,18 +1,10 @@
 x 2018-05-01 2018-03-21 Look into Ruby syntax.
+x 2018-03-17 Language support for todo.txt. No wonder this editor still has problems.
 
 2018-03-17 Look into optional settings.
-2018-03-17 Language support for todo.txt. No wonder this editor still has problems.
-2018-03-20 Find better highlighting for embedded languages in HTML.
 2018-03-21 Poll for embedded template color.
-2018-03-23 Make accessors Blue as builtins?
+2018-03-20 Find better highlighting for embedded languages in HTML.
 2018-04-08 Italicize storage modifiers for js*.
-2018-05-02 Add +Rust support for ";".
-2018-05-02 Add +Rust support for "->".
-2018-05-02 Add +Rust support for "<T>".
-2018-05-02 Add +Rust support for "{}".
-2018-05-02 Add +Rust support for "_".
-2018-05-02 Add +Rust support for "{:?}".
-2018-05-02 Add +Rust support for colons in type assignment.
 2018-05-02 Add +Go support for struct args in method calls.
 2018-05-02 Add +Go support for user-defined structs.
 

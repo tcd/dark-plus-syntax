@@ -1,5 +1,12 @@
 # ChangeLog
 
+
+## 0.0.91 *(May 07, 2018)*
+- Cyaned ERB tags.
+- Added tweaks to EEX highlighting. 
+- Updated readme to include ERB & EEX (embedded Ruby & Elixir).
+- Updated todo.txt.
+
 ## 0.0.90 *(May 06, 2018)*
 - Additional Rust tweaks.
 - Updated readme.

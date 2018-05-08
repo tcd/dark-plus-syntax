@@ -22,7 +22,7 @@
 - Erlang
 - Go
 - HTML
-  - EJS
+  - EEX/EJS/ERB
   - Handlebars
   - Jinja2
   - Pug/Jade

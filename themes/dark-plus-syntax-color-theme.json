@@ -674,13 +674,14 @@
 				"comment.unused.elixir"
 			],
 			"settings": {
-				"foreground": "#505050",
+				"foreground": "#9cdcfe",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": [
-				"punctuation.section.function.elixir"
+				"punctuation.section.function.elixir",
+				"punctuation.definition.constant.elixir"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -730,7 +731,7 @@
 				"punctuation.section.embedded.elixir",
 				"punctuation.definition.variable.elixir",
 				"variable.other.anonymous.elixir",
-				"punctuation.definition.constant.elixir"
+				"variable.language.elixir"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -742,6 +743,14 @@
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.section.embedded.elixir"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
 			}
 		},
 		{
@@ -1515,7 +1524,7 @@
 				"text.html.erb punctuation.section.embedded.end.erb"
 			],
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#4ec9b0"
 			}
 		},
 		{

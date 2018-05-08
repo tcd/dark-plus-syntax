@@ -100,7 +100,7 @@ module.exports = [
             "text.html.erb punctuation.section.embedded.end.erb",
         ],
         "settings": {
-            "foreground": "#808080",
+            "foreground": "#4ec9b0",
         },
     },
 ];

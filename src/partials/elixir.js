@@ -5,13 +5,14 @@ module.exports = [
             "comment.unused.elixir",
         ],
         "settings": {
-            "foreground": "#505050",
+            "foreground": "#9cdcfe",
             "fontStyle": "italic",
         },
     },
     {
         "scope": [
             "punctuation.section.function.elixir",
+            "punctuation.definition.constant.elixir",
         ],
         "settings": {"foreground": "#d4d4d4"},
     },
@@ -47,13 +48,22 @@ module.exports = [
             "punctuation.section.embedded.elixir",
             "punctuation.definition.variable.elixir",
             "variable.other.anonymous.elixir",
-            "punctuation.definition.constant.elixir",
+            "variable.language.elixir",
         ],
         "settings": {"foreground": "#569cd6"},
     },
     {
         "scope": ["support.function.variable.quoted.single.elixir"],
         "settings": {"foreground": "#d7ba7d"},
+    },
+    // =========================================================================
+    // eex
+    // =========================================================================
+    {
+        "scope": [
+            "punctuation.section.embedded.elixir",
+        ],
+        "settings": {"foreground": "#4ec9b0"},
     },
     // =========================================================================
     // Erlang

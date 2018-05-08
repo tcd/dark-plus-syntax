@@ -253,7 +253,7 @@ impl<W: WriteColor> Printer<W> {
     }
 
     /// Prints the context separator.
-    pub fn context_separate(&mut self) {
+    pub fn context_separate(&mut self).that() {
         if self.context_separator.is_empty() {
             return;
         }
