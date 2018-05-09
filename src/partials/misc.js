@@ -157,6 +157,7 @@ module.exports = [
     {
         "scope": [
             "punctuation.separator.variable.crystal", // `|var|`
+            "punctuation.separator.object.crystal",
         ],
         "settings": {"foreground": "#d4d4d4"},
     },
@@ -171,14 +172,16 @@ module.exports = [
         "settings": {"foreground": "#c586c0"},
     },
     {
-        "scope": ["support.class.crystal"],
+        "scope": [
+            "support.class.crystal",
+            "punctuation.separator.other.crystal",            // `::/:`
+        ],
         "settings": {"foreground": "#4ec9b0"},
     },
     {
         "scope": [
             "constant.other.symbol.crystal",                  // `:symbol`
             "punctuation.section.embedded.crystal",           // `#{}`
-            // "punctuation.separator.other.crystal",            // `::/:`
             "keyword.control.special-method.crystal",         // `new/include/extend/raise`
             "source.crystal punctuation.separator.key-value", // `=>`
         ],

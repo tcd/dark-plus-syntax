@@ -1801,7 +1801,8 @@
 		},
 		{
 			"scope": [
-				"punctuation.separator.variable.crystal"
+				"punctuation.separator.variable.crystal",
+				"punctuation.separator.object.crystal"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -1825,7 +1826,8 @@
 		},
 		{
 			"scope": [
-				"support.class.crystal"
+				"support.class.crystal",
+				"punctuation.separator.other.crystal"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
