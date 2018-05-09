@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.93 *(May 09, 2018)*
+- Crystal updates.
+
 ## 0.0.92 *(May 08, 2018)*
 - Blue~~d~~ lambdas in Ruby.
 
