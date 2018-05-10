@@ -46,9 +46,7 @@ module.exports = [
         "settings": { "foreground": "#505050" },
     },
     {
-        "scope": [
-            "meta.embedded.block.sql",
-        ],
+        "scope": ["meta.embedded.block.sql"],
         "settings": { "foreground": "#d4d4d4" },
     },
     {
@@ -67,6 +65,7 @@ module.exports = [
         "scope": [
             "meta.selector",
             "constant.character",
+            "constant.character.escape",
         ],
         "settings": { "foreground": "#d7ba7d" },
     },
@@ -160,18 +159,6 @@ module.exports = [
             "meta.definition.variable.name",
         ],
         "settings": {"foreground": "#9cdcfe"},
-    },
-    {
-        "scope": "support.function.git-rebase",
-        "settings": { "foreground": "#9cdcfe" },
-    },
-    {
-        "scope": "constant.sha.git-rebase",
-        "settings": { "foreground": "#b5cea8" },
-    },
-    {
-        "scope": "constant.character.escape",
-        "settings": {"foreground": "#d7ba7d"},
     },
     {
         "scope": "token.info-token",

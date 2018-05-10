@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.94 *(May 09, 2018)*
+- Additional Crystal updates.
+
 ## 0.0.93 *(May 09, 2018)*
 - Crystal updates.
 

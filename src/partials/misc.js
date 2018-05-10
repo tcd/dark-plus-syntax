@@ -6,6 +6,14 @@ module.exports = [
         ],
         "settings": {"foreground": "#505050"},
     },
+    {
+        "scope": "support.function.git-rebase",
+        "settings": { "foreground": "#9cdcfe" },
+    },
+    {
+        "scope": "constant.sha.git-rebase",
+        "settings": { "foreground": "#b5cea8" },
+    },
     // =========================================================================
     // Properties/INI
     // =========================================================================
@@ -150,42 +158,6 @@ module.exports = [
     {
         "scope": ["punctuation.definition.map.viml"],
         "settings": {"foreground": "#505050"},
-    },
-    // =========================================================================
-    // Crystal
-    // =========================================================================
-    {
-        "scope": [
-            "punctuation.separator.variable.crystal", // `|var|`
-            "punctuation.separator.object.crystal",
-        ],
-        "settings": {"foreground": "#d4d4d4"},
-    },
-    {
-        "scope": ["source.crystal.embedded.source"],
-        "settings": {"foreground": "#9cdcfe"},
-    },
-    {
-        "scope": [
-            "punctuation.separator.method.crystal", // `.`
-        ],
-        "settings": {"foreground": "#c586c0"},
-    },
-    {
-        "scope": [
-            "support.class.crystal",
-            "punctuation.separator.other.crystal",            // `::/:`
-        ],
-        "settings": {"foreground": "#4ec9b0"},
-    },
-    {
-        "scope": [
-            "constant.other.symbol.crystal",                  // `:symbol`
-            "punctuation.section.embedded.crystal",           // `#{}`
-            "keyword.control.special-method.crystal",         // `new/include/extend/raise`
-            "source.crystal punctuation.separator.key-value", // `=>`
-        ],
-        "settings": {"foreground": "#569cd6"},
     },
     // =========================================================================
     // Dart

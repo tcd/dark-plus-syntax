@@ -1,6 +1,7 @@
 const writeJsonFile = require('write-json-file');
 
 const clang      = require('./src/partials/clang');
+const crystal    = require('./src/partials/crystal');
 const csharp     = require('./src/partials/cs');
 const css        = require('./src/partials/css');
 const csv        = require('./src/partials/csv');
@@ -23,6 +24,7 @@ let nop = [];
 let tokenz = nop.concat(
     defaults,
     clang,
+    crystal,
     csharp,
     css,
     csv,
