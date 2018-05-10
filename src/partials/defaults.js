@@ -157,16 +157,17 @@ module.exports = [
             "variable",
             "support.variable",
             "meta.definition.variable.name",
+            "code-runner.output code-runner.done string",
         ],
         "settings": {"foreground": "#9cdcfe"},
     },
     {
         "scope": "token.info-token",
-        "settings": { "foreground": "#6796e6" },
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": "token.warn-token",
-        "settings": { "foreground": "#cd9731" },
+        "settings": { "foreground": "#d7ba7d" },
     },
     {
         "scope": "token.error-token",
@@ -174,6 +175,7 @@ module.exports = [
     },
     {
         "scope": "token.debug-token",
-        "settings": { "foreground": "#b267e6" },
+        "settings": { "foreground": "#c586c0" },
     },
 ];
+

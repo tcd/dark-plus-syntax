@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.95 *(May 10, 2018)*
+- Update Debug colors to match theme.
+
 ## 0.0.94 *(May 09, 2018)*
 - Additional Crystal updates.
 
