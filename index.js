@@ -140,6 +140,9 @@ let base = {
 };
 
 const output = './themes/dark-plus-syntax-color-theme.json';
-const complete = '=== Done! ===\n';
+
+let now = new Date();
+let timestamp = `  ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
+const complete = `=============\n${timestamp}\n=== Done! ===\n`;
 
 writeJsonFile(output, base).then(() => console.log(complete));
