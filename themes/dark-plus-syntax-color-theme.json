@@ -1479,6 +1479,14 @@
 		},
 		{
 			"scope": [
+				"variable.other.readwrite.instance.ruby"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
 				"constant.character.escape.ruby"
 			],
 			"settings": {
@@ -1487,7 +1495,8 @@
 		},
 		{
 			"scope": [
-				"variable.language.self.ruby"
+				"variable.language.self.ruby",
+				"variable.other.readwrite.global.pre-defined.ruby"
 			],
 			"settings": {
 				"foreground": "#569cd6",
@@ -1495,22 +1504,38 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.separator.namespace.ruby"
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#c586c0"
 			}
 		},
 		{
 			"scope": [
+				"constant.other.symbol.hashkey.ruby",
+				"constant.language.symbol.hashkey.ruby"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.ruby",
+				"support.function.kernel.ruby"
+			],
+			"settings": {
+				"foreground": "#dcdcaa"
+			}
+		},
+		{
+			"scope": [
 				"variable.language.ruby",
 				"constant.other.symbol.ruby",
-				"support.function.kernel.ruby",
 				"constant.language.symbol.ruby",
+				"variable.other.readwrite.global.ruby",
 				"punctuation.definition.constant.ruby",
 				"punctuation.definition.variable.ruby",
-				"source.ruby punctuation.separator.key-value",
+				"punctuation.separator.inheritance.ruby",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
 				"string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",
@@ -1525,8 +1550,8 @@
 				"meta.class.ruby",
 				"support.class.ruby",
 				"entity.name.type.class.ruby",
-				"entity.other.inherited-class.ruby",
-				"punctuation.separator.inheritance.ruby"
+				"variable.other.constant.ruby",
+				"entity.other.inherited-class.ruby"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
@@ -1549,6 +1574,7 @@
 		},
 		{
 			"scope": [
+				"punctuation.separator.namespace.ruby",
 				"punctuation.separator.object.ruby",
 				"punctuation.separator.arguments.ruby",
 				"punctuation.section.function.ruby",
@@ -1556,6 +1582,7 @@
 				"punctuation.section.scope.end.ruby",
 				"punctuation.section.array.begin.ruby",
 				"punctuation.section.array.end.ruby",
+				"source.ruby punctuation.separator.key-value",
 				"constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby"
 			],
 			"settings": {
