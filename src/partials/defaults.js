@@ -4,7 +4,7 @@ module.exports = [
             "comment",
             "comment.line.double-slash.js",
         ],
-        "settings": { "foreground": "#505050" },
+        "settings": {"foreground": "#505050"},
     },
     {
         "name": "Special Comments",
@@ -23,7 +23,7 @@ module.exports = [
             "comment.line.number-sign.yaml",
             // "comment.line.number-sign.toml",
         ],
-        "settings": { "foreground": "#608b4e" },
+        "settings": {"foreground": "#608b4e"},
     },
     {
         "name": "Curly Braces, Semicolons, etc.",
@@ -43,11 +43,11 @@ module.exports = [
             "punctuation.definition.italic.markdown",
             "punctuation.definition.bold.markdown",
         ],
-        "settings": { "foreground": "#505050" },
+        "settings": {"foreground": "#505050"},
     },
     {
         "scope": ["meta.embedded.block.sql"],
-        "settings": { "foreground": "#d4d4d4" },
+        "settings": {"foreground": "#d4d4d4"},
     },
     {
         "scope": [
@@ -55,11 +55,11 @@ module.exports = [
             "keyword.other.unit",
             "meta.preprocessor.numeric",
         ],
-        "settings": { "foreground": "#b5cea8" },
+        "settings": {"foreground": "#b5cea8"},
     },
     {
         "scope": "invalid",
-        "settings": { "foreground": "#f44747" },
+        "settings": {"foreground": "#f44747"},
     },
     {
         "scope": [
@@ -67,11 +67,11 @@ module.exports = [
             "constant.character",
             "constant.character.escape",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        "settings": {"foreground": "#d7ba7d"},
     },
     {
         "scope": "meta.diff.header",
-        "settings": { "foreground": "#569cd6" },
+        "settings": {"foreground": "#569cd6"},
     },
     {
         "scope": [
@@ -80,7 +80,7 @@ module.exports = [
             "string.value",
             "meta.preprocessor.string",
         ],
-        "settings": { "foreground": "#ce9178" },
+        "settings": {"foreground": "#ce9178"},
     },
     {
         "scope": [
@@ -98,7 +98,7 @@ module.exports = [
             "keyword.operator.cast",
             "keyword.operator.sizeof",
         ],
-        "settings": { "foreground": "#569cd6" },
+        "settings": {"foreground": "#569cd6"},
     },
     {
         "scope": [
@@ -157,25 +157,35 @@ module.exports = [
             "variable",
             "support.variable",
             "meta.definition.variable.name",
-            "code-runner.output code-runner.done string",
         ],
         "settings": {"foreground": "#9cdcfe"},
     },
+
+    {
+        "scope": [
+            "code-runner.running code-runner.done string",
+            "code-runner.output code-runner.done string",
+        ],
+        "settings": {
+            "foreground": "#ce9178",
+            "fontStyle": "italic",
+        },
+    },
     {
         "scope": "token.info-token",
-        "settings": { "foreground": "#569cd6" },
+        "settings": {"foreground": "#569cd6"},
     },
     {
         "scope": "token.warn-token",
-        "settings": { "foreground": "#d7ba7d" },
+        "settings": {"foreground": "#d7ba7d"},
     },
     {
         "scope": "token.error-token",
-        "settings": { "foreground": "#f44747" },
+        "settings": {"foreground": "#f44747"},
     },
     {
         "scope": "token.debug-token",
-        "settings": { "foreground": "#c586c0" },
+        "settings": {"foreground": "#c586c0"},
     },
 ];
 

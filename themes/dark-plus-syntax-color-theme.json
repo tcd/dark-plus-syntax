@@ -207,11 +207,20 @@
 			"scope": [
 				"variable",
 				"support.variable",
-				"meta.definition.variable.name",
-				"code-runner.output code-runner.done string"
+				"meta.definition.variable.name"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"code-runner.running code-runner.done string",
+				"code-runner.output code-runner.done string"
+			],
+			"settings": {
+				"foreground": "#ce9178",
+				"fontStyle": "italic"
 			}
 		},
 		{

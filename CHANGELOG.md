@@ -1,6 +1,10 @@
 # ChangeLog
 
 
+## 0.0.96 *(May 10, 2018)*
+- Added version badge to readme.
+- Additional tweak to Debug colors.
+
 ## 0.0.95 *(May 10, 2018)*
 - Update Debug colors to match theme.
 
