@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.99 *(May 11, 2018)*
+- Tweaks to highlighting for C & C++.
+
 ## 0.0.98 *(May 11, 2018)*
 - Fixed highlighting for commas in Rust type params.
 - Additional tweak to Debug colors.

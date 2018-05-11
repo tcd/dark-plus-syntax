@@ -268,6 +268,23 @@
 		},
 		{
 			"scope": [
+				"string.quoted.single.c"
+			],
+			"settings": {
+				"foreground": "#d7ba7d"
+			}
+		},
+		{
+			"scope": [
+				"meta.preprocessor.include.c string.quoted.other.lt-gt.include.c punctuation.definition.string.begin.c",
+				"meta.preprocessor.include.c string.quoted.other.lt-gt.include.c punctuation.definition.string.end.c"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.section.arguments.begin.bracket.round.c",
 				"punctuation.section.arguments.end.bracket.round.c"
 			],
@@ -279,7 +296,8 @@
 			"scope": [
 				"constant.other.variable.mac-classic.c",
 				"string.quoted.double.include.c",
-				"string.quoted.other.lt-gt.include.c"
+				"string.quoted.other.lt-gt.include.c",
+				"meta.preprocessor.include.c string.quoted.other.lt-gt.include.c"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -311,6 +329,14 @@
 			],
 			"settings": {
 				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.namespace.access.cpp"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
 			}
 		},
 		{

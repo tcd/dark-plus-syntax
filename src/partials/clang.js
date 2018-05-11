@@ -1,4 +1,7 @@
 module.exports = [
+    // =========================================================================
+    // C
+    // =========================================================================
     {
         "scope": [
             "support.function.C99.c",
@@ -12,9 +15,20 @@ module.exports = [
             "comment.block.c",
             "punctuation.terminator.statement.c",
         ],
-        "settings": {
-            "foreground": "#505050",
-        },
+        "settings": {"foreground": "#505050"},
+    },
+    {
+        "scope": [
+            "string.quoted.single.c",
+        ],
+        "settings": {"foreground": "#d7ba7d"},
+    },
+    {
+        "scope": [
+            "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c punctuation.definition.string.begin.c",
+            "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c punctuation.definition.string.end.c",
+        ],
+        "settings": {"foreground": "#808080"},
     },
     {
         "scope": [
@@ -28,6 +42,7 @@ module.exports = [
             "constant.other.variable.mac-classic.c",
             "string.quoted.double.include.c",
             "string.quoted.other.lt-gt.include.c",
+            "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c",
         ],
         "settings": {"foreground": "#9cdcfe"},
     },
@@ -52,5 +67,14 @@ module.exports = [
             "keyword.operator.sizeof.c",
         ],
         "settings": {"foreground": "#569cd6"},
+    },
+    // =========================================================================
+    // C++
+    // =========================================================================
+    {
+        "scope": [
+            "punctuation.separator.namespace.access.cpp",
+        ],
+        "settings": {"foreground": "#4ec9b0"},
     },
 ];
