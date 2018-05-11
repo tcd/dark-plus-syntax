@@ -23,7 +23,7 @@
 - Erlang
 - Go
 - HTML
-  - EEX/EJS/ERB
+  - ECR/EEX/EJS/ERB
   - Handlebars
   - Jinja2
   - Pug/Jade
@@ -31,19 +31,20 @@
 - Java
   - Groovy
 - JavaScript
+  - JSON
   - JSX
   - TypeScript
 - Markdown
 - Python
 - Ruby
+    - Vagrant
 - Rust
 - Misc.
   - CSV
-  - JSON
   - Makefile
+  - CMake
   - Terraform
   - TOML
-  - Vagrant
 
 ## Tested with
 - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)

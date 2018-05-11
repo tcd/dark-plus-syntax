@@ -12,6 +12,7 @@ const html       = require('./src/partials/html');
 const java       = require('./src/partials/java');
 const javascript = require('./src/partials/javascript');
 const markup     = require('./src/partials/markdown');
+const make       = require('./src/partials/make');
 const misc       = require('./src/partials/misc');
 const python     = require('./src/partials/python');
 const rust       = require('./src/partials/rust');
@@ -32,13 +33,14 @@ let tokenz = nop.concat(
     golang,
     java,
     javascript,
+    make,
     markup,
     python,
     ruby,
     rust,
-    misc,
     todo,
     terraform,
+    misc,
     html,
     regex,
 );
