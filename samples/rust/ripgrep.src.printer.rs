@@ -22,6 +22,7 @@ impl Offset {
     }
 }
 
+// FIXME: Lol, there's no way.
 impl<'m, 'r> From<&'m Match<'r>> for Offset {
     fn from(m: &'m Match<'r>) -> Self {
         Offset{ start: m.start(), end: m.end() }

@@ -1,6 +1,10 @@
 # ChangeLog
 
 
+## 0.0.98 *(May 11, 2018)*
+- Fixed highlighting for commas in Rust type params.
+- Additional tweak to Debug colors.
+
 ## 0.0.97 *(May 10, 2018)*
 - Vastly improved Ruby highlighting.
 

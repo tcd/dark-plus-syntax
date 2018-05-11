@@ -163,8 +163,8 @@ module.exports = [
 
     {
         "scope": [
+            "code-runner.output code-runner.running string",
             "code-runner.running code-runner.done string",
-            "code-runner.output code-runner.done string",
         ],
         "settings": {
             "foreground": "#ce9178",

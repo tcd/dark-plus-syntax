@@ -1,3 +1,3 @@
 let strang = "Hello!";
 
-let Char = ':';
+let Char = 'π';

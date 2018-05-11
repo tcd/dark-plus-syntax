@@ -4,6 +4,12 @@ module.exports = [
     // =========================================================================
     {
         "scope": [
+            "entity.name.type.param.rust punctuation.other.comma.rust",
+        ],
+        "settings": {"foreground": "#d4d4d4"},
+    },
+    {
+        "scope": [
             "meta.attribute.rust",
             "comment.line.documentation.rust",
         ],
