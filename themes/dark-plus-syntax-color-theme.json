@@ -1550,7 +1550,10 @@
 		},
 		{
 			"scope": [
-				"variable.other.ruby"
+				"variable.other.ruby",
+				"variable.other.constant.ruby",
+				"constant.language.symbol.hashkey.ruby",
+				"variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -1591,7 +1594,8 @@
 		{
 			"scope": [
 				"constant.other.symbol.hashkey.ruby",
-				"constant.language.symbol.hashkey.ruby"
+				"constant.language.symbol.hashkey.ruby",
+				"meta.embedded.line.ruby"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -1615,6 +1619,8 @@
 				"punctuation.definition.constant.ruby",
 				"punctuation.definition.variable.ruby",
 				"punctuation.separator.inheritance.ruby",
+				"punctuation.section.embedded.begin.ruby",
+				"punctuation.section.embedded.end.ruby",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
 				"string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",
@@ -1629,7 +1635,6 @@
 				"meta.class.ruby",
 				"support.class.ruby",
 				"entity.name.type.class.ruby",
-				"variable.other.constant.ruby",
 				"entity.other.inherited-class.ruby"
 			],
 			"settings": {
@@ -1645,7 +1650,9 @@
 				"punctuation.separator.other.ruby",
 				"keyword.control.pseudo-method.ruby",
 				"keyword.operator.comparison.ruby",
-				"keyword.operator.arithmetic.ruby"
+				"keyword.operator.arithmetic.ruby",
+				"punctuation.separator.method.ruby",
+				"source.ruby punctuation.separator.key-value"
 			],
 			"settings": {
 				"foreground": "#c586c0"
@@ -1661,7 +1668,6 @@
 				"punctuation.section.scope.end.ruby",
 				"punctuation.section.array.begin.ruby",
 				"punctuation.section.array.end.ruby",
-				"source.ruby punctuation.separator.key-value",
 				"constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby"
 			],
 			"settings": {

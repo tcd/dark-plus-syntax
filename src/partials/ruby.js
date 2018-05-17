@@ -1,6 +1,11 @@
 module.exports = [
     {
-        "scope": [ "variable.other.ruby" ],
+        "scope": [
+            "variable.other.ruby",
+            "variable.other.constant.ruby",
+            "constant.language.symbol.hashkey.ruby",
+            "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
+         ],
         "settings": {"foreground": "#9cdcfe"},
     },
     {
@@ -34,6 +39,7 @@ module.exports = [
         "scope": [
             "constant.other.symbol.hashkey.ruby",
             "constant.language.symbol.hashkey.ruby",
+            "meta.embedded.line.ruby",
          ],
         "settings": {"foreground": "#d4d4d4"},
     },
@@ -53,6 +59,8 @@ module.exports = [
             "punctuation.definition.constant.ruby",
             "punctuation.definition.variable.ruby",
             "punctuation.separator.inheritance.ruby",
+            "punctuation.section.embedded.begin.ruby",
+            "punctuation.section.embedded.end.ruby",
             "string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
             "string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
             "string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",
@@ -65,7 +73,6 @@ module.exports = [
             "meta.class.ruby",
             "support.class.ruby",
             "entity.name.type.class.ruby",
-            "variable.other.constant.ruby",
             "entity.other.inherited-class.ruby",
         ],
         "settings": {"foreground": "#4ec9b0"},
@@ -80,6 +87,8 @@ module.exports = [
             "keyword.control.pseudo-method.ruby",
             "keyword.operator.comparison.ruby",
             "keyword.operator.arithmetic.ruby",
+            "punctuation.separator.method.ruby",
+            "source.ruby punctuation.separator.key-value",
         ],
         "settings": {"foreground": "#c586c0"},
     },
@@ -93,7 +102,6 @@ module.exports = [
             "punctuation.section.scope.end.ruby",
             "punctuation.section.array.begin.ruby",
             "punctuation.section.array.end.ruby",
-            "source.ruby punctuation.separator.key-value", // `=>` lambda
             "constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
         ],
         "settings": {"foreground": "#d4d4d4"},
