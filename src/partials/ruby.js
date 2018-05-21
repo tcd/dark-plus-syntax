@@ -38,7 +38,7 @@ module.exports = [
     {
         "scope": [
             "constant.other.symbol.hashkey.ruby",
-            "constant.language.symbol.hashkey.ruby",
+            // "constant.language.symbol.hashkey.ruby",
             "meta.embedded.line.ruby",
          ],
         "settings": {"foreground": "#d4d4d4"},
@@ -88,6 +88,7 @@ module.exports = [
             "keyword.operator.comparison.ruby",
             "keyword.operator.arithmetic.ruby",
             "punctuation.separator.method.ruby",
+            "constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
             "source.ruby punctuation.separator.key-value",
         ],
         "settings": {"foreground": "#c586c0"},
@@ -102,7 +103,6 @@ module.exports = [
             "punctuation.section.scope.end.ruby",
             "punctuation.section.array.begin.ruby",
             "punctuation.section.array.end.ruby",
-            "constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
         ],
         "settings": {"foreground": "#d4d4d4"},
     },

@@ -37,14 +37,15 @@
 - Markdown
 - Python
 - Ruby
-    - Vagrant
+  - Vagrant
 - Rust
 - Misc.
+  - CMake
   - CSV
   - Makefile
-  - CMake
   - Terraform
   - TOML
+  - YAML
 
 ## Tested with
 - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)

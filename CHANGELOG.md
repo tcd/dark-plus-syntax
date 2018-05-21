@@ -1,6 +1,10 @@
 # ChangeLog
 
 
+## 0.0.101 *(May 21, 2018)*
+- Updated highlighting for Ruby hashes.
+- Added YAML to readme.
+
 ## 0.0.100 *(May 17, 2018)*
 - Highlight variables in CMake files.
 - Minor updates to Ruby & Rust.
