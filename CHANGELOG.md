@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.102 *(May 21, 2018)*
+- Added basic Swift support.
+
 ## 0.0.101 *(May 21, 2018)*
 - Updated highlighting for Ruby hashes.
 - Added YAML to readme.

@@ -39,6 +39,7 @@
 - Ruby
   - Vagrant
 - Rust
+- Swift
 - Misc.
   - CMake
   - CSV

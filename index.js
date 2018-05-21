@@ -18,6 +18,7 @@ const python     = require('./src/partials/python');
 const rust       = require('./src/partials/rust');
 const ruby       = require('./src/partials/ruby');
 const regex      = require('./src/partials/regex');
+const swift      = require('./src/partials/swift');
 const todo       = require('./src/partials/todo');
 const terraform  = require('./src/partials/terraform');
 
@@ -38,6 +39,7 @@ let tokenz = nop.concat(
     python,
     ruby,
     rust,
+    swift,
     todo,
     terraform,
     misc,
