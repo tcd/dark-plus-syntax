@@ -5,7 +5,7 @@ module.exports = [
     {
         "scope": [
             "entity.name.type.param.rust punctuation.other.comma.rust",
-            // "keyword.operator.path.rust",
+            "keyword.operator.path.rust",
         ],
         "settings": {"foreground": "#d4d4d4"},
     },
@@ -73,6 +73,7 @@ module.exports = [
             "punctuation.separator.type.rust",
             "keyword.operator.return-type.rust",
             "meta.type_params.rust",
+            // "keyword.operator.path.rust",
         ],
         "settings": {"foreground": "#4ec9b0"},
     },

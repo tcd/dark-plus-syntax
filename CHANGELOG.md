@@ -1,8 +1,12 @@
 # ChangeLog
 
 
+## 0.0.103 *(May 21, 2018)*
+- Don't highlight Rust path operators (trying to reduce noise).
+
 ## 0.0.102 *(May 21, 2018)*
 - Added basic Swift support.
+- Added Swift samples.
 
 ## 0.0.101 *(May 21, 2018)*
 - Updated highlighting for Ruby hashes.
