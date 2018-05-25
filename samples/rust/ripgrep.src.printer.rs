@@ -18,7 +18,10 @@ struct Offset {
 
 impl Offset {
     fn new(start: usize, end: usize) -> Offset {
-        Offset { start: start, end: end }
+        Offset {
+            start: start,
+            end: end,
+        }
     }
 }
 
