@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.104 *(May 25, 2018)*
+- Update Elixir highlighting.
+
 ## 0.0.103 *(May 21, 2018)*
 - Don't highlight Rust path operators (trying to reduce noise).
 

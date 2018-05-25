@@ -771,8 +771,7 @@
 		},
 		{
 			"scope": [
-				"punctuation.section.function.elixir",
-				"punctuation.definition.constant.elixir"
+				"punctuation.section.function.elixir"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -780,15 +779,8 @@
 		},
 		{
 			"scope": [
-				"comment.documentation.heredoc.elixir"
-			],
-			"settings": {
-				"foreground": "#608b4e"
-			}
-		},
-		{
-			"scope": [
 				"constant.other.symbol.elixir",
+				"punctuation.definition.constant.elixir",
 				"parameter.variable.function.elixir",
 				"source.elixir.embedded.source",
 				"variable.other.readwrite.module.elixir"
@@ -2355,9 +2347,7 @@
 		},
 		{
 			"scope": [
-				"string.regexp",
-				"constant.regexp",
-				"constant.character.regexp"
+				"string.regexp"
 			],
 			"settings": {
 				"foreground": "#d16969"

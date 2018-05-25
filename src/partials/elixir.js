@@ -12,17 +12,17 @@ module.exports = [
     {
         "scope": [
             "punctuation.section.function.elixir",
-            "punctuation.definition.constant.elixir",
         ],
         "settings": {"foreground": "#d4d4d4"},
     },
-    {
-        "scope": ["comment.documentation.heredoc.elixir"],
-        "settings": {"foreground": "#608b4e"},
-    },
+    // {
+    //     "scope": ["comment.documentation.heredoc.elixir"],
+    //     "settings": {"foreground": "#608b4e"},
+    // },
     {
         "scope": [
             "constant.other.symbol.elixir",
+            "punctuation.definition.constant.elixir",
             "parameter.variable.function.elixir",
             "source.elixir.embedded.source",
             "variable.other.readwrite.module.elixir",
