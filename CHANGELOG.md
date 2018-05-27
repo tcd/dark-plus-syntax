@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.107 *(May 27, 2018)*
+- Italicize `self` in Swift.
+
 ## 0.0.106 *(May 27, 2018)*
 - Highlight Swift string interpolation.
 

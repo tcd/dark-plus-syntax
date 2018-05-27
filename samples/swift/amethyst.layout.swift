@@ -219,3 +219,4 @@ protocol StatefulLayout {
     func updateWithChange(_ windowChange: WindowChange)
     func nextWindowIDCounterClockwise() -> CGWindowID?
     func nextWindowIDClockwise() -> CGWindowID?
+}

@@ -1821,6 +1821,7 @@
 		},
 		{
 			"scope": [
+				"variable.language.self.swift",
 				"keyword.expressions-and-types.swift"
 			],
 			"settings": {

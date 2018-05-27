@@ -21,7 +21,10 @@ module.exports = [
         "settings": {"foreground": "#569cd6"},
     },
     {
-        "scope": ["keyword.expressions-and-types.swift"],
+        "scope": [
+            "variable.language.self.swift",
+            "keyword.expressions-and-types.swift",
+        ],
         "settings": {
             "foreground": "#569cd6",
             "fontStyle": "italic",
