@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.105 *(May 26, 2018)*
+- Don't italicize global Ruby variables.
+- Minor tweaks to Python (type hint) highlighting.
 
 ## 0.0.104 *(May 25, 2018)*
 - Update Elixir highlighting.

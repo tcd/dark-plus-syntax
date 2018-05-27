@@ -11,6 +11,12 @@ module.exports = [
             "fontStyle": "italic",
         },
     },
+    // {
+    //     "scope": [
+    //         "punctuation.section.function.crystal",
+    //     ],
+    //     "settings": {"foreground": "#808080"},
+    // },
     {
         "scope": [
             "string.regexp.group.crystal punctuation.definition.group.crystal",
@@ -21,13 +27,15 @@ module.exports = [
         "scope": [
             "punctuation.separator.variable.crystal", // `|var|`
             "punctuation.separator.object.crystal",
-            "punctuation.section.function.crystal",
             "punctuation.definition.parameters.crystal",
         ],
         "settings": {"foreground": "#d4d4d4"},
     },
     {
-        "scope": ["source.crystal.embedded.source"],
+        "scope": [
+            "source.crystal.embedded.source",
+            // "variable.other.crystal",
+        ],
         "settings": {"foreground": "#9cdcfe"},
     },
     {

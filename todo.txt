@@ -7,4 +7,5 @@ x 2018-03-17 Language support for todo.txt. No wonder this editor still has prob
 2018-04-08 Italicize storage modifiers for js*.
 2018-05-02 Add +Go support for struct args in method calls.
 2018-05-02 Add +Go support for user-defined structs.
+2018-05-02 Add +Python support for "(Any|Callable|Dict|Intersection|List|Optional|Sequence|Tuple|TypeVar|Union)"
 

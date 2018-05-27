@@ -22,7 +22,6 @@ while res != ''
         line.sub!(/^(\S+)/, '')
         res.push($1)
     end
-
 end
 
 res.each { |x| print "  [", x, "]\n" }

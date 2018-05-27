@@ -77,7 +77,7 @@ s.object_id    #=> 142528472        : UInt64
 "sum = #{1 + 2}" #=> "sum = 3" : String
 
 # Multiline string
-"This is
+"This is a
    multiline string"
 
 # String with double quotes

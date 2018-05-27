@@ -3,6 +3,7 @@ module.exports = [
         "scope": [
             "variable.other.ruby",
             "variable.other.constant.ruby",
+            // "constant.language.symbol.ruby",
             "constant.language.symbol.hashkey.ruby",
             "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
          ],
@@ -21,7 +22,7 @@ module.exports = [
     {
         "scope": [
             "variable.language.self.ruby",
-            "variable.other.readwrite.global.pre-defined.ruby",
+            // "variable.other.readwrite.global.pre-defined.ruby",
         ],
         "settings": {
             "foreground": "#569cd6",
@@ -61,6 +62,7 @@ module.exports = [
             "punctuation.separator.inheritance.ruby",
             "punctuation.section.embedded.begin.ruby",
             "punctuation.section.embedded.end.ruby",
+            "variable.other.readwrite.global.pre-defined.ruby",
             "string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
             "string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
             "string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",

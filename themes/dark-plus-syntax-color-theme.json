@@ -359,7 +359,6 @@
 			"scope": [
 				"punctuation.separator.variable.crystal",
 				"punctuation.separator.object.crystal",
-				"punctuation.section.function.crystal",
 				"punctuation.definition.parameters.crystal"
 			],
 			"settings": {
@@ -1448,7 +1447,10 @@
 			}
 		},
 		{
-			"scope": "variable.language.special.self.python",
+			"scope": [
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.self.python"
+			],
 			"settings": {
 				"foreground": "#569cd6",
 				"fontStyle": "italic"
@@ -1485,7 +1487,8 @@
 				"punctuation.definition.list.end.python",
 				"punctuation.definition.dict.begin.python",
 				"punctuation.definition.dict.end.python",
-				"punctuation.separator.colon.python"
+				"punctuation.separator.colon.python",
+				"punctuation.section.function.begin.python"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -1493,9 +1496,7 @@
 		},
 		{
 			"scope": [
-				"punctuation.section.function.begin.python",
-				"punctuation.section.class.begin.python",
-				"keyword.operator.logical.python"
+				"constant.character.format.placeholder.other.python"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -1524,9 +1525,21 @@
 		},
 		{
 			"scope": [
+				"support.type.python",
+				"entity.name.type.class.python",
+				"punctuation.separator.annotation.python",
+				"punctuation.separator.annotation.result.python"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.separator.period.python",
 				"keyword.operator.comparison.python",
-				"keyword.operator.assignment.python"
+				"keyword.operator.assignment.python",
+				"keyword.operator.logical.python"
 			],
 			"settings": {
 				"foreground": "#c586c0"
@@ -1569,8 +1582,7 @@
 		},
 		{
 			"scope": [
-				"variable.language.self.ruby",
-				"variable.other.readwrite.global.pre-defined.ruby"
+				"variable.language.self.ruby"
 			],
 			"settings": {
 				"foreground": "#569cd6",
@@ -1612,6 +1624,7 @@
 				"punctuation.separator.inheritance.ruby",
 				"punctuation.section.embedded.begin.ruby",
 				"punctuation.section.embedded.end.ruby",
+				"variable.other.readwrite.global.pre-defined.ruby",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
 				"string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
 				"string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",
