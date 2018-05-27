@@ -27,10 +27,12 @@ module.exports = [
             "fontStyle": "italic",
         },
     },
-    // {
-    //     "scope": [],
-    //     "settings": { "foreground": "#9cdcfe" },
-    // },
+    {
+        "scope": [
+            "meta.embedded.line.swift",
+        ],
+        "settings": { "foreground": "#9cdcfe" },
+    },
     // {
     //     "scope": [],
     //     "settings": { "foreground": "#4ec9b0" },

@@ -5,10 +5,10 @@ func verbYourNoun(verb: String, noun: String) {
 
 func adverbly(adverb: String) {
     print("\(adverb), \(adverb), \(adverb)")
-    print("something, something, something...")
+    print("something, something, something...\n")
 }
 
-// verbYourNoun(verb: "row", noun: "boat")
+/* verbYourNoun(verb: "row", noun: "boat") */
 // adverbly(adverb: "merrily")
 
 func singSong(theVerb: String, theNoun: String, theAdverb: String) {

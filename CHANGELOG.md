@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.106 *(May 27, 2018)*
+- Highlight Swift string interpolation.
+
 ## 0.0.105 *(May 26, 2018)*
 - Don't italicize global Ruby variables.
 - Minor tweaks to Python (type hint) highlighting.

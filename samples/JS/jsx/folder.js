@@ -1,6 +1,10 @@
 // import React, { Component } from 'react';
 import { Component } from 'react';
 
+function interp(word) {
+    return `Your word is ${word}.`
+}
+
 export class Folder extends Component {
 
   constructor(props) {

@@ -138,6 +138,14 @@ module.exports = [
         "scope": ["punctuation.terminator.dart"],
         "settings": {"foreground": "#505050"},
     },
+    {
+        "scope": ["punctuation.dot.dart"],
+        "settings": {"foreground": "#c586c0"},
+    },
+    {
+        "scope": ["meta.declaration.dart"],
+        "settings": {"foreground": "#9cdcfe"},
+    },
     // =========================================================================
     // Java/Kotlin/Groovy/Scala
     // =========================================================================
@@ -155,6 +163,43 @@ module.exports = [
         ],
         "settings": {"foreground": "#4ec9b0"},
     },
+    // =========================================================================
+    // Elm
+    // =========================================================================
+    // // {
+    // //     "scope": [
+    //
+    // //     ],
+    // //     "settings": {"foreground": "#c586c0"},
+    // // },
+    // {
+    //     "scope": [
+    //         "punctuation.separator.comma.elm",
+    //         "meta.declaration.exports.elm",
+    //     ],
+    //     "settings": {"foreground": "#d4d4d4"},
+    // },
+    // {
+    //     "scope": [
+    //         "constant.other.elm",
+    //         // "meta.declaration.module.elm meta.declaration.exports.elm",
+    //     ],
+    //     "settings": {"foreground": "#9cdcfe"},
+    // },
+    // {
+    //     "scope": [
+    //         "support.constant.elm",
+    //     ],
+    //     "settings": {"foreground": "#569cd6"},
+    // },
+    // {
+    //     "scope": [
+    //         "storage.type.elm",
+    //         "support.other.module.elm",
+    //         "constant.language.empty-list.elm",
+    //     ],
+    //     "settings": {"foreground": "#4ec9b0"},
+    // },
     // =========================================================================
     // nginx
     // =========================================================================

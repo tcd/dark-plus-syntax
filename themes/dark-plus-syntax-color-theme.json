@@ -1830,6 +1830,14 @@
 		},
 		{
 			"scope": [
+				"meta.embedded.line.swift"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
 				"meta.item.done.todo",
 				"meta.item.done.todo variable.priority.todo",
 				"meta.item.done.todo variable.other",
@@ -2102,6 +2110,22 @@
 			],
 			"settings": {
 				"foreground": "#505050"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.dot.dart"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"meta.declaration.dart"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
