@@ -31,7 +31,6 @@ fn largest<T>(list: &[T]) -> T {
             largest = item;
         }
     }
-
     largest
 }
 
