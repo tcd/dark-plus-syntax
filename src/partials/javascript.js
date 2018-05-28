@@ -27,11 +27,6 @@ module.exports = [
     {
         scope: [
             "variable.language.this",
-            // "variable.language.this.js",
-            // "variable.language.this.jsx",
-            // "variable.language.this.ts",
-            // "variable.language.this.tsx",
-            // "storage.type.extends.js",  // storage.modifier
         ],
         settings: {
             "foreground": "#569cd6",
@@ -39,9 +34,7 @@ module.exports = [
         },
     },
     {
-        scope: [
-            "constant.character.escape.js",
-        ],
+        scope: ["constant.character.escape.js"],
         settings: {"foreground": "#d7ba7d"},
     },
     {
@@ -146,6 +139,7 @@ module.exports = [
             "keyword.operator.expression.of.ts",
             "keyword.operator.expression.in.js",
             "keyword.operator.expression.in.ts",
+            "punctuation.definition.section.case-statement.js",
         ],
         settings: {"foreground": "#c586c0"},
     },
@@ -159,8 +153,8 @@ module.exports = [
             "constant.other.object.key string.quoted.double",
             "meta.object-literal.key string.quoted.single",
             "meta.object-literal.key string.quoted.double",
-            "string.quoted.single meta.object-literal.key ",
-            "string.quoted.double meta.object-literal.key ",
+            "string.quoted.single meta.object-literal.key",
+            "string.quoted.double meta.object-literal.key",
         ],
         settings: {"foreground": "#9cdcfe"},
     },

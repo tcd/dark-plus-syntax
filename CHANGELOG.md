@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.108 *(May 28, 2018)*
+- Updated highlighting for punctuation in JavaScript switch statements.
+
 ## 0.0.107 *(May 27, 2018)*
 - Italicize `self` in Swift.
 

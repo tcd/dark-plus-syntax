@@ -1175,7 +1175,8 @@
 				"keyword.operator.expression.of.js",
 				"keyword.operator.expression.of.ts",
 				"keyword.operator.expression.in.js",
-				"keyword.operator.expression.in.ts"
+				"keyword.operator.expression.in.ts",
+				"punctuation.definition.section.case-statement.js"
 			],
 			"settings": {
 				"foreground": "#c586c0"
@@ -1191,8 +1192,8 @@
 				"constant.other.object.key string.quoted.double",
 				"meta.object-literal.key string.quoted.single",
 				"meta.object-literal.key string.quoted.double",
-				"string.quoted.single meta.object-literal.key ",
-				"string.quoted.double meta.object-literal.key "
+				"string.quoted.single meta.object-literal.key",
+				"string.quoted.double meta.object-literal.key"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
