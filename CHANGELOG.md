@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.108 *(May 29, 2018)*
+- Improved highlighting for Ruby regular expressions.
+
 ## 0.0.108 *(May 28, 2018)*
 - Updated highlighting for punctuation in JavaScript switch statements.
 

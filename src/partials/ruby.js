@@ -22,19 +22,11 @@ module.exports = [
     {
         "scope": [
             "variable.language.self.ruby",
-            // "variable.other.readwrite.global.pre-defined.ruby",
         ],
         "settings": {
             "foreground": "#569cd6",
             "fontStyle": "italic",
         },
-    },
-    {
-        "scope": [
-            // "punctuation.separator.method.ruby",
-            // "punctuation.separator.namespace.ruby",
-         ],
-        "settings": {"foreground": "#c586c0"},
     },
     {
         "scope": [
@@ -81,6 +73,8 @@ module.exports = [
     },
     {
         "scope": [
+            // "punctuation.separator.method.ruby",
+            // "punctuation.separator.namespace.ruby",
             "keyword.control.def.ruby",
             "keyword.control.class.ruby",
             "keyword.operator.other.ruby",
@@ -113,9 +107,14 @@ module.exports = [
             "punctuation.section.regexp.begin.ruby",
             "punctuation.section.regexp.end.ruby",
             "punctuation.definition.group.ruby",
-            "punctuation.definition.character-class.ruby",
+            "punctuation.definition.character-class.begin.ruby",
+            "punctuation.definition.character-class.end.ruby",
         ],
         "settings": {"foreground": "#808080"},
+    },
+    {
+        "scope": [ "keyword.operator.quantifier.ruby" ],
+        "settings": {"foreground": "#b5cea8"},
     },
     // =========================================================================
     // erb

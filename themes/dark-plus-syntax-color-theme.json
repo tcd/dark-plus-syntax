@@ -1591,12 +1591,6 @@
 			}
 		},
 		{
-			"scope": [],
-			"settings": {
-				"foreground": "#c586c0"
-			}
-		},
-		{
 			"scope": [
 				"constant.other.symbol.hashkey.ruby",
 				"meta.embedded.line.ruby"
@@ -1684,10 +1678,19 @@
 				"punctuation.section.regexp.begin.ruby",
 				"punctuation.section.regexp.end.ruby",
 				"punctuation.definition.group.ruby",
-				"punctuation.definition.character-class.ruby"
+				"punctuation.definition.character-class.begin.ruby",
+				"punctuation.definition.character-class.end.ruby"
 			],
 			"settings": {
 				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.quantifier.ruby"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
 			}
 		},
 		{
