@@ -1,6 +1,9 @@
 # ChangeLog
 
-## 0.0.108 *(May 29, 2018)*
+## 0.0.110 *(May 30, 2018)*
+- Greyed YAML comments
+
+## 0.0.109 *(May 29, 2018)*
 - Improved highlighting for Ruby regular expressions.
 
 ## 0.0.108 *(May 28, 2018)*

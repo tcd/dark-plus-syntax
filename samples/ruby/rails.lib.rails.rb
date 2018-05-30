@@ -55,7 +55,8 @@ module Rails
       end
     end
 
-    # Returns a Pathname object of the current Rails project,
+    #
+    # == Returns a Pathname object of the current Rails project,
     # otherwise it returns +nil+ if there is no project:
     #
     #   Rails.root

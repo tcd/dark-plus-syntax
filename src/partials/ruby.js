@@ -117,6 +117,39 @@ module.exports = [
         "settings": {"foreground": "#b5cea8"},
     },
     // =========================================================================
+    // yard
+    // =========================================================================
+    // {
+    //     "scope": [
+    //         "comment.line.keyword.yard.ruby",
+    //     ],
+    //     "settings": {"foreground": "#569cd6"},
+    // },
+    // {
+    //     "scope": [
+    //         "comment.line.type.yard.ruby",
+    //     ],
+    //     "settings": {"foreground": "#4ec9b0"},
+    // },
+    // {
+    //     "scope": [
+    //         "comment.line.parameter.yard.ruby",
+    //      ],
+    //     "settings": {"foreground": "#9cdcfe"},
+    // },
+    // {
+    //     "scope": [
+    //         // "comment.line.keyword.yard.ruby",
+    //         "comment.line.parameter.yard.ruby",
+    //         // "comment.line.type.yard.ruby",
+    //         "comment.line.string.yard.ruby",
+    //      ],
+    //     "settings": {
+    //         "foreground": "#608b4e",
+    //         "fontStyle": "italic",
+    //     },
+    // },
+    // =========================================================================
     // erb
     // =========================================================================
     {

@@ -40,6 +40,10 @@ module.exports = [
     // YAML
     // =========================================================================
     {
+        "scope": ["comment.line.number-sign.yaml"],
+        "settings": {"foreground": "#505050"},
+    },
+    {
         "scope": ["constant.language.boolean.yaml"],
         "settings": {"foreground": "#c586c0"},
     },
