@@ -1695,16 +1695,6 @@
 		},
 		{
 			"scope": [
-				"comment.line.parameter.yard.ruby",
-				"comment.line.string.yard.ruby"
-			],
-			"settings": {
-				"foreground": "#608b4e",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
 				"meta.section.attributes.plain.haml constant.other.symbol.ruby",
 				"meta.embedded.line.erb"
 			],
@@ -1992,6 +1982,14 @@
 			],
 			"settings": {
 				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.number-sign.yaml"
+			],
+			"settings": {
+				"foreground": "#505050"
 			}
 		},
 		{

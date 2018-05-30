@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.111 *(May 30, 2018)*
+- Corrected build issue from 0.0.10
+
 ## 0.0.110 *(May 30, 2018)*
 - Greyed YAML comments
 
