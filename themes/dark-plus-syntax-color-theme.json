@@ -393,7 +393,6 @@
 		{
 			"scope": [
 				"variable.language.crystal",
-				"constant.other.symbol.crystal",
 				"punctuation.section.embedded.crystal",
 				"keyword.control.special-method.crystal",
 				"source.crystal punctuation.separator.key-value"
@@ -404,7 +403,8 @@
 		},
 		{
 			"scope": [
-				"string.quoted.single.crystal"
+				"string.quoted.single.crystal",
+				"constant.other.symbol.crystal"
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
@@ -778,7 +778,6 @@
 		},
 		{
 			"scope": [
-				"constant.other.symbol.elixir",
 				"punctuation.definition.constant.elixir",
 				"parameter.variable.function.elixir",
 				"source.elixir.embedded.source",
@@ -822,6 +821,7 @@
 		},
 		{
 			"scope": [
+				"constant.other.symbol.elixir",
 				"support.function.variable.quoted.single.elixir"
 			],
 			"settings": {
@@ -1576,7 +1576,8 @@
 		},
 		{
 			"scope": [
-				"constant.character.escape.ruby"
+				"constant.character.escape.ruby",
+				"constant.other.symbol.ruby"
 			],
 			"settings": {
 				"foreground": "#d7ba7d"

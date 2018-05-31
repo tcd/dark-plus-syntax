@@ -54,7 +54,6 @@ module.exports = [
     {
         "scope": [
             "variable.language.crystal",
-            "constant.other.symbol.crystal",                  // `:symbol`
             "punctuation.section.embedded.crystal",           // `#{}`
             "keyword.control.special-method.crystal",         // `new/include/extend/raise`
             "source.crystal punctuation.separator.key-value", // `=>`
@@ -62,7 +61,10 @@ module.exports = [
         "settings": {"foreground": "#569cd6"},
     },
     {
-        "scope": ["string.quoted.single.crystal"],
+        "scope": [
+            "string.quoted.single.crystal",
+            "constant.other.symbol.crystal",                  // `:symbol`
+        ],
         "settings": {"foreground": "#d7ba7d"},
     },
 ];

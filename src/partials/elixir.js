@@ -53,7 +53,10 @@ module.exports = [
         "settings": {"foreground": "#569cd6"},
     },
     {
-        "scope": ["support.function.variable.quoted.single.elixir"],
+        "scope": [
+            "constant.other.symbol.elixir",
+            "support.function.variable.quoted.single.elixir"
+        ],
         "settings": {"foreground": "#d7ba7d"},
     },
     // =========================================================================

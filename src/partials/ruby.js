@@ -3,7 +3,6 @@ module.exports = [
         "scope": [
             "variable.other.ruby",
             "variable.other.constant.ruby",
-            // "constant.language.symbol.ruby",
             "constant.language.symbol.hashkey.ruby",
             "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
          ],
@@ -16,7 +15,10 @@ module.exports = [
         "settings": {"fontStyle": "italic"},
     },
     {
-        "scope": [ "constant.character.escape.ruby" ],
+        "scope": [
+            "constant.character.escape.ruby",
+            "constant.other.symbol.ruby",
+        ],
         "settings": {"foreground": "#d7ba7d"},
     },
     {
