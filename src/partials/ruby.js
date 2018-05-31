@@ -18,6 +18,8 @@ module.exports = [
         "scope": [
             "constant.character.escape.ruby",
             "constant.other.symbol.ruby",
+            "constant.language.symbol.ruby",
+            "punctuation.definition.constant.ruby",
         ],
         "settings": {"foreground": "#d7ba7d"},
     },
@@ -48,10 +50,10 @@ module.exports = [
     {
         "scope": [
             "variable.language.ruby",
-            "constant.other.symbol.ruby",
-            "constant.language.symbol.ruby",
+            // "constant.other.symbol.ruby",
+            // "constant.language.symbol.ruby",
             "variable.other.readwrite.global.ruby",
-            "punctuation.definition.constant.ruby",
+            // "punctuation.definition.constant.ruby",
             "punctuation.definition.variable.ruby",
             "punctuation.separator.inheritance.ruby",
             "punctuation.section.embedded.begin.ruby",
@@ -109,13 +111,17 @@ module.exports = [
             "punctuation.section.regexp.begin.ruby",
             "punctuation.section.regexp.end.ruby",
             "punctuation.definition.group.ruby",
+            "punctuation.definition.character-class.ruby",
             "punctuation.definition.character-class.begin.ruby",
             "punctuation.definition.character-class.end.ruby",
         ],
         "settings": {"foreground": "#808080"},
     },
     {
-        "scope": [ "keyword.operator.quantifier.ruby" ],
+        "scope": [
+            "keyword.operator.quantifier.ruby",
+            "string.regexp.arbitrary-repetition.ruby",
+        ],
         "settings": {"foreground": "#b5cea8"},
     },
     // =========================================================================

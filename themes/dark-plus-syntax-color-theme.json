@@ -100,6 +100,7 @@
 			"scope": [
 				"meta.selector",
 				"constant.character",
+				"constant.other.symbol",
 				"constant.character.escape"
 			],
 			"settings": {
@@ -778,7 +779,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.definition.constant.elixir",
 				"parameter.variable.function.elixir",
 				"source.elixir.embedded.source",
 				"variable.other.readwrite.module.elixir"
@@ -822,6 +822,7 @@
 		{
 			"scope": [
 				"constant.other.symbol.elixir",
+				"punctuation.definition.constant.elixir",
 				"support.function.variable.quoted.single.elixir"
 			],
 			"settings": {
@@ -887,8 +888,7 @@
 		},
 		{
 			"scope": [
-				"variable.other.erlang",
-				"constant.other.symbol.unquoted.erlang"
+				"variable.other.erlang"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -1577,7 +1577,9 @@
 		{
 			"scope": [
 				"constant.character.escape.ruby",
-				"constant.other.symbol.ruby"
+				"constant.other.symbol.ruby",
+				"constant.language.symbol.ruby",
+				"punctuation.definition.constant.ruby"
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
@@ -1613,10 +1615,7 @@
 		{
 			"scope": [
 				"variable.language.ruby",
-				"constant.other.symbol.ruby",
-				"constant.language.symbol.ruby",
 				"variable.other.readwrite.global.ruby",
-				"punctuation.definition.constant.ruby",
 				"punctuation.definition.variable.ruby",
 				"punctuation.separator.inheritance.ruby",
 				"punctuation.section.embedded.begin.ruby",
@@ -1680,6 +1679,7 @@
 				"punctuation.section.regexp.begin.ruby",
 				"punctuation.section.regexp.end.ruby",
 				"punctuation.definition.group.ruby",
+				"punctuation.definition.character-class.ruby",
 				"punctuation.definition.character-class.begin.ruby",
 				"punctuation.definition.character-class.end.ruby"
 			],
@@ -1689,7 +1689,8 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.quantifier.ruby"
+				"keyword.operator.quantifier.ruby",
+				"string.regexp.arbitrary-repetition.ruby"
 			],
 			"settings": {
 				"foreground": "#b5cea8"

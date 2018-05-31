@@ -165,8 +165,8 @@ module Sass
     # The default options for Sass::Engine.
     # @api public
     DEFAULT_OPTIONS = {
-      :style => :nested,
-      :load_paths => [],
+      style: :nested,
+      load_paths: [],
       :cache => true,
       :cache_location => './.sass-cache',
       :syntax => :sass,
@@ -214,8 +214,8 @@ module Sass
       # Backwards compatibility
       options[:property_syntax] ||= options[:attribute_syntax]
       case options[:property_syntax]
-      when :alternate; options[:property_syntax] = :new
-      when :normal; options[:property_syntax] = :old
+      when :alternate then options[:property_syntax] = :new
+      when :normal then options[:property_syntax] = :old
       end
       options[:sourcemap] = :auto if options[:sourcemap] == true
       options[:sourcemap] = :none if options[:sourcemap] == false
@@ -379,7 +379,7 @@ ERR
               sourcemap_dir = nil if @options[:sourcemap] == :file
               importer.public_url(filename, sourcemap_dir).nil?
             end
-        raise Sass::SyntaxError.new(<<ERR)
+        raise Sass::SyntaxError.new(<<~ERR)
 Error generating source map: couldn't determine public URL for "#{filename}".
   Without a public URL, there's nothing for the source map to link to.
   Custom importers should define the #public_url method.
@@ -388,9 +388,9 @@ ERR
 
       rendered, sourcemap = _to_tree.render_with_sourcemap
       compressed = @options[:style] == :compressed
-      rendered << "\n" if rendered[-1] != ?\n
+      irendered << "\n" if rendered[-1] != "\n"
       rendered << "\n" unless compressed
-      rendered << "/*# sourceMappingURL="
+      rendered << '/*# sourceMappingURL='
       rendered << URI::DEFAULT_PARSER.escape(sourcemap_uri)
       rendered << " */\n"
       return rendered, sourcemap
@@ -429,7 +429,7 @@ ERR
       end
       root
     rescue SyntaxError => e
-      e.modify_backtrace(:filename => @options[:filename], :line => @line)
+      e.modify_backtrace(filename: @options[:filename], line: @line)
       e.sass_template = @template
       raise e
     end
@@ -487,10 +487,10 @@ ERR
 
         line_tabs = line_tab_str.scan(tab_str).size
         if tab_str * line_tabs != line_tab_str
-          message = <<END.strip.tr("\n", ' ')
-Inconsistent indentation: #{Sass::Shared.human_indentation line_tab_str, true} used for indentation,
-but the rest of the document was indented using #{Sass::Shared.human_indentation tab_str}.
-END
+          message = <<~END.strip.tr("\n", ' ')
+                      Inconsistent indentation: #{Sass::Shared.human_indentation line_tab_str, true} used for indentation,
+                      but the rest of the document was indented using #{Sass::Shared.human_indentation tab_str}.
+                    END
           raise SyntaxError.new(message, :line => index)
         end
 
