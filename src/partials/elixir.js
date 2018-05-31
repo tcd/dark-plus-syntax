@@ -113,7 +113,7 @@ module.exports = [
     {
         "scope": [
             "variable.other.erlang",
-            "constant.other.symbol.unquoted.erlang",
+            // "constant.other.symbol.unquoted.erlang",
         ],
         "settings": {"foreground": "#9cdcfe"},
     },

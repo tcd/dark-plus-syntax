@@ -1,7 +1,7 @@
 # ChangeLog
 
 ## 0.0.112 *(May 30, 2018)*
-- Update highlighting for Elixir symbols.
+- Test new highlighting for symbols in Elixir, Ruby, & Crystal.
 
 ## 0.0.111 *(May 30, 2018)*
 - Corrected build issue from 0.0.10

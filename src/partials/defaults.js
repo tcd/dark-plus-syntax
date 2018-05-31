@@ -65,6 +65,7 @@ module.exports = [
         "scope": [
             "meta.selector",
             "constant.character",
+            "constant.other.symbol",
             "constant.character.escape",
         ],
         "settings": {"foreground": "#d7ba7d"},
