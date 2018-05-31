@@ -21,7 +21,6 @@ module.exports = [
     // },
     {
         "scope": [
-            "constant.other.symbol.elixir",
             "punctuation.definition.constant.elixir",
             "parameter.variable.function.elixir",
             "source.elixir.embedded.source",
@@ -44,11 +43,12 @@ module.exports = [
     },
     {
         "scope": [
-            "source.elixir.embedded.source punctuation.section.embedded.elixir",
+            "constant.other.symbol.elixir",
             "punctuation.section.embedded.elixir",
             "punctuation.definition.variable.elixir",
             "variable.other.anonymous.elixir",
             "variable.language.elixir",
+            "source.elixir.embedded.source punctuation.section.embedded.elixir",
         ],
         "settings": {"foreground": "#569cd6"},
     },
