@@ -681,7 +681,7 @@ enum Style {
     Intense,
     NoIntense,
     Underline,
-    NoUnderline
+    NoUnderline,
 }
 
 impl ColorSpecs {

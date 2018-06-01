@@ -1239,7 +1239,9 @@
 				"punctuation.section.embedded.begin.tsx",
 				"punctuation.section.embedded.end.tsx",
 				"meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js punctuation.section.embedded.begin.js",
-				"meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js punctuation.section.embedded.end.js"
+				"meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js punctuation.section.embedded.end.js",
+				"meta.tag.js punctuation.section.embedded.begin.js",
+				"meta.tag.js punctuation.section.embedded.end.js"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"

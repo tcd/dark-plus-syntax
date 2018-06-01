@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.113 *(June 1, 2018)*
+- Fix issue with highlighting JSX elements in JS files.
+
 ## 0.0.112 *(May 30, 2018)*
 - Test new highlighting for symbols in Elixir, Ruby, & Crystal.
 
