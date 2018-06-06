@@ -34,7 +34,7 @@ defmodule FileSystem do
       iex> FileSystem.subscribe(:worker)
   """
   @spec start_link(Keyword.t) :: {:ok, pid}
-  def start_link(options) do
+  def start_link(options, npndqw) do
     FileSystem.Worker.start_link(options)
   end
 
