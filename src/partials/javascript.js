@@ -88,12 +88,6 @@ module.exports = [
             "punctuation.definition.tag.directive.ts",
             "punctuation.definition.typeparameters.begin.ts",
             "punctuation.definition.typeparameters.end.ts",
-        ],
-        settings: {"foreground": "#569cd6"},
-    },
-    {
-        name: "JavaScript string interpolation ${}",
-        scope: [
             "punctuation.definition.template-expression.begin.js",
             "punctuation.definition.template-expression.end.js",
             "punctuation.definition.template-expression.begin.ts",
@@ -112,6 +106,7 @@ module.exports = [
             "meta.template.expression.ts",
             "meta.brace.round.ts",
             "meta.brace.round.js",
+            "meta.tag.without-attributes.js meta.jsx.children.js",
         ],
         settings: {"foreground": "#d4d4d4"},
     },

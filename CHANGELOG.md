@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.114 *(June 6, 2018)*
+- Fixed issue causing tag contents to highlight as tag names in JSX components.
+
 ## 0.0.113 *(June 1, 2018)*
 - Fix issue with highlighting JSX elements in JS files.
 
