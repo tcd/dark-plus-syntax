@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.115 *(June 8, 2018)*
+- Fixed the real cause of the issue from v0.0.114.
+- Highlight destructuring braces as storage (blue).
+
 ## 0.0.114 *(June 6, 2018)*
 - Fixed issue causing tag contents to highlight as tag names in JSX components.
 
