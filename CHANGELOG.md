@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.117 *(June 9, 2018)*
+- Correctly highlight punctuation (`{}`) in JSX elements (`meta.tag.without-attributes.js`).
+
 ## 0.0.116 *(June 8, 2018)*
 - Hold off on destructuring highlights for now (still needs work).
 

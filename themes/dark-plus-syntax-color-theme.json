@@ -1235,7 +1235,9 @@
 				"meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js punctuation.section.embedded.begin.js",
 				"meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js punctuation.section.embedded.end.js",
 				"meta.tag.js punctuation.section.embedded.begin.js",
-				"meta.tag.js punctuation.section.embedded.end.js"
+				"meta.tag.js punctuation.section.embedded.end.js",
+				"meta.tag.without-attributes.js punctuation.section.embedded.begin.js",
+				"meta.tag.without-attributes.js punctuation.section.embedded.end.js"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
