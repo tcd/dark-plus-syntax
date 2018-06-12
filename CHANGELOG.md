@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.119 *(June 12, 2018)*
+- Modify color for JS constant test.
+
 ## 0.0.118 *(June 12, 2018)*
 - Highlight HTML entities to match escape characters.
 - Test new highlighting for JavaScript constants.

@@ -1061,7 +1061,10 @@
 		},
 		{
 			"scope": [
-				"constant.character.escape.js"
+				"constant.character.escape.js",
+				"variable.other.constant.object",
+				"variable.other.constant.property",
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
@@ -1126,10 +1129,7 @@
 				"punctuation.definition.template-expression.end.tsx",
 				"punctuation.quasi.element.end.js",
 				"punctuation.quasi.element.begin.js",
-				"punctuation.section.embedded.coffee",
-				"variable.other.constant.object.js",
-				"variable.other.constant.property.js",
-				"variable.other.constant.js"
+				"punctuation.section.embedded.coffee"
 			],
 			"settings": {
 				"foreground": "#569cd6"
