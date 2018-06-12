@@ -34,7 +34,9 @@ module.exports = [
         },
     },
     {
-        scope: ["constant.character.escape.js"],
+        scope: [
+            "constant.character.escape.js",
+        ],
         settings: {"foreground": "#d7ba7d"},
     },
     {
@@ -99,6 +101,9 @@ module.exports = [
             "punctuation.section.embedded.coffee",
             // "punctuation.definition.binding-pattern.object.js",
             // "meta.import.js meta.block.js punctuation.definition.block.js",
+            "variable.other.constant.object.js",
+            "variable.other.constant.property.js",
+            "variable.other.constant.js",
         ],
         settings: {"foreground": "#569cd6"},
     },

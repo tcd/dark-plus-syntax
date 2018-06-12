@@ -123,7 +123,7 @@ export class DemoService {
 		for (const message of messages) {
 			const chatData	= message.isMobile ? this.mobile : this.desktop;
 			const other		= message.isMobile ? this.desktop : this.mobile;
-			const text		= translate(message.text);
+			const text		= translate(message.TEXT);
 			const maxDelay	= text.length > 15 ? 500 : 250;
 			const minDelay	= 125;
 

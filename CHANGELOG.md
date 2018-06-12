@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.118 *(June 12, 2018)*
+- Highlight HTML entities to match escape characters.
+- Test new highlighting for JavaScript constants.
+
 ## 0.0.117 *(June 9, 2018)*
 - Correctly highlight punctuation (`{}`) in JSX elements (`meta.tag.without-attributes.js`).
 

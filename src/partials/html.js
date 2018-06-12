@@ -64,7 +64,7 @@ module.exports = [
     // },
     {
         "scope": "constant.character.entity.html",
-        "settings": { "foreground": "#dcdcaa" },
+        "settings": { "foreground": "#d7ba7d" },
     },
     {
         "name": "don't highlight ejs and erb as errors",
