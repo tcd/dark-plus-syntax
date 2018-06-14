@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.120 *(June 14, 2018)*
+- Don't highlight parens in Python.
+
 ## 0.0.119 *(June 12, 2018)*
 - Modify color for JS constant test.
 
