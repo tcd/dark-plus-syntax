@@ -21,7 +21,7 @@ module.exports = [
     {
         "scope": "markup.heading",
         "settings": {
-            "fontStyle": "bold",
+            // "fontStyle": "bold",
             "foreground": "#569cd6",
         },
     },
@@ -92,8 +92,10 @@ module.exports = [
             "punctuation.definition.bold.markdown",
             "punctuation.definition.raw.markdown",
             "beginning.punctuation.definition.quote.markdown",
+            "block-dollars",
+            "inline-dollars",
         ],
-        "settings": { "foreground": "#505050" },
+        "settings": { "foreground": "#303030" },
     },
     {
         "scope": [

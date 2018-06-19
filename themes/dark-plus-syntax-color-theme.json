@@ -1326,7 +1326,6 @@
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#569cd6"
 			}
 		},
@@ -1415,10 +1414,12 @@
 				"punctuation.definition.italic.markdown",
 				"punctuation.definition.bold.markdown",
 				"punctuation.definition.raw.markdown",
-				"beginning.punctuation.definition.quote.markdown"
+				"beginning.punctuation.definition.quote.markdown",
+				"block-dollars",
+				"inline-dollars"
 			],
 			"settings": {
-				"foreground": "#505050"
+				"foreground": "#303030"
 			}
 		},
 		{

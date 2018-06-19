@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.121 *(June 19, 2018)*
+- Dim markdown punctuation.
+- Add support for [goessner/mdmath](https://github.com/goessner/mdmath)
+
 ## 0.0.120 *(June 14, 2018)*
 - Don't highlight parens in Python.
 

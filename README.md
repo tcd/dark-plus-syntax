@@ -62,6 +62,7 @@
 - [fr1zle/vscode-elixir](https://github.com/fr1zle/vscode-elixir)
 - [bungcip/better-toml](https://github.com/bungcip/better-toml)
 - [dunstontc/vscode-rust-syntax](https://github.com/dunstontc/vscode-rust-syntax)
+- [goessner/mdmath](https://github.com/goessner/mdmath)
 
 
 ## Resources & References
