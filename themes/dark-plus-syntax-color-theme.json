@@ -287,7 +287,12 @@
 		{
 			"scope": [
 				"punctuation.section.arguments.begin.bracket.round.c",
-				"punctuation.section.arguments.end.bracket.round.c"
+				"punctuation.section.arguments.end.bracket.round.c",
+				"punctuation.section.parens.begin.bracket.round.c",
+				"punctuation.section.parens.end.bracket.round.c",
+				"punctuation.section.parameters.begin.bracket.round.c",
+				"punctuation.section.parameters.end.bracket.round.c",
+				"punctuation.separator.delimiter.c"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"

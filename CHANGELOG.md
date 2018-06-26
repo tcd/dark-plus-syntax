@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.122 *(June 26, 2018)*
+- Normalize punctuation colors in C/C++.
+
 ## 0.0.121 *(June 19, 2018)*
 - Dim markdown punctuation.
 - Add support for [goessner/mdmath](https://github.com/goessner/mdmath)

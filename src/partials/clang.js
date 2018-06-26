@@ -34,11 +34,19 @@ module.exports = [
         "scope": [
             "punctuation.section.arguments.begin.bracket.round.c",
             "punctuation.section.arguments.end.bracket.round.c",
+            "punctuation.section.parens.begin.bracket.round.c",
+            "punctuation.section.parens.end.bracket.round.c",
+            "punctuation.section.parameters.begin.bracket.round.c",
+            "punctuation.section.parameters.end.bracket.round.c",
+            // "meta.function-call.c punctuation.separator.delimiter.c",
+            "punctuation.separator.delimiter.c",
+
         ],
         "settings": {"foreground": "#d4d4d4"},
     },
     {
         "scope": [
+            // "meta.function.c",
             "constant.other.variable.mac-classic.c",
             "string.quoted.double.include.c",
             "string.quoted.other.lt-gt.include.c",
