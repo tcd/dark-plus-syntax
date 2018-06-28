@@ -1,6 +1,10 @@
 module.exports = [
     {
-        "scope": "string.quoted.docstring.multi.python",
+        "scope": [
+            "string.quoted.docstring.multi.python",
+            "string.quoted.docstring.single.python",
+            "string.quoted.docstring.multi.python keyword.control.flow.python",
+        ],
         "settings": {"foreground": "#608b4e"},
     },
     {
@@ -53,7 +57,6 @@ module.exports = [
     {
         "scope": [
             // "punctuation.section.function.begin.python",
-            // "punctuation.section.class.begin.python",
             "constant.character.format.placeholder.other.python",
         ],
         "settings": { "foreground": "#569cd6" },
@@ -80,6 +83,7 @@ module.exports = [
         "scope": [
             "support.type.python",
             "entity.name.type.class.python",
+            // "punctuation.section.class.begin.python",
             "punctuation.separator.annotation.python",
             "punctuation.separator.annotation.result.python",
         ],
@@ -91,6 +95,7 @@ module.exports = [
             "keyword.operator.comparison.python",
             "keyword.operator.assignment.python",
             "keyword.operator.logical.python",
+            "punctuation.separator.slice.python",
         ],
         "settings": { "foreground": "#c586c0" },
     },

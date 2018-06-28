@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 0.0.123 *(June 27, 2018)*
+- Don't highlight examples in Python docstrings.
+- Do highlight single line Python docstrings.
+- Do highlight Python slice operator (`:`).
+
 ## 0.0.122 *(June 26, 2018)*
 - Normalize punctuation colors in C/C++.
 

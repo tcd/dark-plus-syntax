@@ -1450,7 +1450,11 @@
 			}
 		},
 		{
-			"scope": "string.quoted.docstring.multi.python",
+			"scope": [
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.single.python",
+				"string.quoted.docstring.multi.python keyword.control.flow.python"
+			],
 			"settings": {
 				"foreground": "#608b4e"
 			}
@@ -1550,7 +1554,8 @@
 				"punctuation.separator.period.python",
 				"keyword.operator.comparison.python",
 				"keyword.operator.assignment.python",
-				"keyword.operator.logical.python"
+				"keyword.operator.logical.python",
+				"punctuation.separator.slice.python"
 			],
 			"settings": {
 				"foreground": "#c586c0"
