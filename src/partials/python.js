@@ -12,6 +12,7 @@ module.exports = [
             "variable.language.special.self.python",
             "variable.parameter.function.language.special.self.python",
             "support.function.magic.python",
+            "meta.function.decorator.python support.type.python",
         ],
         "settings": {"fontStyle": "italic"},
     },
@@ -62,6 +63,7 @@ module.exports = [
         "scope": [
             "meta.function-call.python",
             "meta.function-call.generic.python",
+            "meta.function.decorator.python support.type.python",
         ],
         "settings": { "foreground": "#dcdcaa" },
     },
