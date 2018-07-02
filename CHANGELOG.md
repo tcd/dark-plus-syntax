@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 0.0.125 *(July 2, 2018)*
+- Italicize magic methods in Python.
+- Highlight unpacking operators (`*`/`**`) as builtins, not normal operators.
+- Highlight JS/TS decorators as normal functions.
+
 ## 0.0.124 *(July 1, 2018)*
 - Don't highlight function bodies as functions in C/C++.
 

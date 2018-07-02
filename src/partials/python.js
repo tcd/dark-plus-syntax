@@ -11,11 +11,9 @@ module.exports = [
         "scope": [
             "variable.language.special.self.python",
             "variable.parameter.function.language.special.self.python",
+            "support.function.magic.python",
         ],
-        "settings": {
-            "foreground": "#569cd6",
-            "fontStyle": "italic",
-        },
+        "settings": {"fontStyle": "italic"},
     },
     {
         "scope": [
@@ -35,8 +33,14 @@ module.exports = [
             "punctuation.definition.parameters.end.python",
             "punctuation.definition.arguments.begin.python",
             "punctuation.definition.arguments.end.python",
+            "punctuation.definition.list.begin.python",
+            "punctuation.definition.list.end.python",
+            "punctuation.definition.dict.begin.python",
+            "punctuation.definition.dict.end.python",
             "punctuation.parenthesis.begin.python",
             "punctuation.parenthesis.end.python",
+            "punctuation.separator.colon.python",
+            "punctuation.section.function.begin.python",
             "meta.function.parameters.begin.python",
             "meta.function.parameters.end.python",
             // "meta.function.parameters.python",
@@ -45,19 +49,12 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.definition.list.begin.python",
-            "punctuation.definition.list.end.python",
-            "punctuation.definition.dict.begin.python",
-            "punctuation.definition.dict.end.python",
-            "punctuation.separator.colon.python",
-            "punctuation.section.function.begin.python",
-        ],
-        "settings": { "foreground": "#d4d4d4" },
-    },
-    {
-        "scope": [
             // "punctuation.section.function.begin.python",
+            "variable.language.special.self.python",
+            "variable.parameter.function.language.special.self.python",
             "constant.character.format.placeholder.other.python",
+            "keyword.operator.unpacking.parameter.python",
+            "keyword.operator.unpacking.arguments.python",
         ],
         "settings": { "foreground": "#569cd6" },
     },

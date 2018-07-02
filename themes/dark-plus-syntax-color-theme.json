@@ -1154,9 +1154,11 @@
 		},
 		{
 			"scope": [
-				"meta.function-call.method.with-arguments.js",
 				"variable.function.js",
-				"keyword.control.require.ts"
+				"meta.function-call.method.with-arguments.js",
+				"keyword.control.require.ts",
+				"punctuation.decorator.js",
+				"punctuation.decorator.ts"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
@@ -1203,8 +1205,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.decorator.js",
-				"punctuation.decorator.ts",
 				"keyword.operator.optional.ts",
 				"support.type.object.module.js",
 				"support.type.object.module.js.jsx",
@@ -1469,10 +1469,10 @@
 		{
 			"scope": [
 				"variable.language.special.self.python",
-				"variable.parameter.function.language.special.self.python"
+				"variable.parameter.function.language.special.self.python",
+				"support.function.magic.python"
 			],
 			"settings": {
-				"foreground": "#569cd6",
 				"fontStyle": "italic"
 			}
 		},
@@ -1494,8 +1494,14 @@
 				"punctuation.definition.parameters.end.python",
 				"punctuation.definition.arguments.begin.python",
 				"punctuation.definition.arguments.end.python",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python",
+				"punctuation.definition.dict.begin.python",
+				"punctuation.definition.dict.end.python",
 				"punctuation.parenthesis.begin.python",
 				"punctuation.parenthesis.end.python",
+				"punctuation.separator.colon.python",
+				"punctuation.section.function.begin.python",
 				"meta.function.parameters.begin.python",
 				"meta.function.parameters.end.python"
 			],
@@ -1505,20 +1511,11 @@
 		},
 		{
 			"scope": [
-				"punctuation.definition.list.begin.python",
-				"punctuation.definition.list.end.python",
-				"punctuation.definition.dict.begin.python",
-				"punctuation.definition.dict.end.python",
-				"punctuation.separator.colon.python",
-				"punctuation.section.function.begin.python"
-			],
-			"settings": {
-				"foreground": "#d4d4d4"
-			}
-		},
-		{
-			"scope": [
-				"constant.character.format.placeholder.other.python"
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.self.python",
+				"constant.character.format.placeholder.other.python",
+				"keyword.operator.unpacking.parameter.python",
+				"keyword.operator.unpacking.arguments.python"
 			],
 			"settings": {
 				"foreground": "#569cd6"

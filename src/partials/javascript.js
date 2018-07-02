@@ -123,9 +123,11 @@ module.exports = [
     },
     {
         scope: [
-            "meta.function-call.method.with-arguments.js",
             "variable.function.js",
+            "meta.function-call.method.with-arguments.js",
             "keyword.control.require.ts",
+            "punctuation.decorator.js",
+            "punctuation.decorator.ts",
         ],
         settings: {"foreground": "#dcdcaa"},
     },
@@ -166,8 +168,6 @@ module.exports = [
     },
     {
         scope: [
-            "punctuation.decorator.js",
-            "punctuation.decorator.ts",
             "keyword.operator.optional.ts",
             "support.type.object.module.js",
             "support.type.object.module.js.jsx",
