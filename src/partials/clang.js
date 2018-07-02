@@ -6,7 +6,7 @@ module.exports = [
         "scope": [
             "support.function.C99.c",
             "entity.name.function.c",
-            "meta.function-call.c",
+            // "meta.function-call.c",
         ],
         "settings": {"foreground": "#dcdcaa"},
     },

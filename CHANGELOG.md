@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.124 *(July 1, 2018)*
+- Don't highlight function bodies as functions in C/C++.
+
 ## 0.0.123 *(June 27, 2018)*
 - Don't highlight examples in Python docstrings.
 - Do highlight single line Python docstrings.

@@ -251,8 +251,7 @@
 		{
 			"scope": [
 				"support.function.C99.c",
-				"entity.name.function.c",
-				"meta.function-call.c"
+				"entity.name.function.c"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
@@ -1249,6 +1248,14 @@
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"meta.component.decoration entity.name.label.ts"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
 			}
 		},
 		{

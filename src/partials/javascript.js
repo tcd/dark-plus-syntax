@@ -217,4 +217,13 @@ module.exports = [
             // "fontStyle": "italic",
         },
     },
+    // =========================================================================
+    // Angular
+    // =========================================================================
+    {
+        scope: [
+            "meta.component.decoration entity.name.label.ts",
+        ],
+        settings: {"foreground": "#9cdcfe"},
+    },
 ];
