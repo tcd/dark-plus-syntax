@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.128 *(July 3, 2018)*
+- Tweaks to Haskell highlighting.
+
 ## 0.0.127 *(July 3, 2018)*
 - Add support for Haskell & Kotlin.
 

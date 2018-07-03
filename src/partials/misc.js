@@ -142,7 +142,14 @@ module.exports = [
     // },
     {
         "scope": [
+            "meta.preprocessor.haskell",
+        ],
+        "settings": {"foreground": "#608b4e"},
+    },
+    {
+        "scope": [
             "storage.type.haskell",
+            "support.other.module.haskell",
         ],
         "settings": {"foreground": "#4ec9b0"},
     },
