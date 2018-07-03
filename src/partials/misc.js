@@ -132,6 +132,21 @@ module.exports = [
         "settings": {"foreground": "#505050"},
     },
     // =========================================================================
+    // Haskell
+    // =========================================================================
+    // {
+    //     "scope": [
+    //         "constant.other.haskell",
+    //     ],
+    //     "settings": {"foreground": "#d7ba7d"},
+    // },
+    {
+        "scope": [
+            "storage.type.haskell",
+        ],
+        "settings": {"foreground": "#4ec9b0"},
+    },
+    // =========================================================================
     // Dart
     // =========================================================================
     {
@@ -149,23 +164,6 @@ module.exports = [
     {
         "scope": ["meta.declaration.dart"],
         "settings": {"foreground": "#9cdcfe"},
-    },
-    // =========================================================================
-    // Java/Kotlin/Groovy/Scala
-    // =========================================================================
-    {
-        "scope": ["punctuation.separator.period.java"],
-        "settings": {"foreground": "#c586c0"},
-    },
-    {
-        "scope": [
-            "storage.type.builtin.kotlin",
-            "storage.type.builtin.collection.kotlin",
-            "storage.type.scala",
-            "storage.type.primitive.scala",
-            "meta.colon.scala",
-        ],
-        "settings": {"foreground": "#4ec9b0"},
     },
     // =========================================================================
     // Elm

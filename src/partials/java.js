@@ -9,10 +9,53 @@ module.exports = [
     },
     {
         "scope": [
+            "punctuation.separator.period.java",
+        ],
+        "settings": {"foreground": "#c586c0"},
+    },
+    // =========================================================================
+    // Kotlin
+    // =========================================================================
+    {
+        "scope": [
+            "storage.type.builtin.kotlin",
+            "storage.type.builtin.collection.kotlin",
+            "entity.name.package.kotlin",
+        ],
+        "settings": {"foreground": "#4ec9b0"},
+    },
+    {
+        "scope": [
+            "meta.template.expression.kotlin",
+        ],
+        "settings": { "foreground": "#9cdcfe" },
+    },
+    {
+        "scope": [
+            "keyword.hard.kotlin",
+        ],
+        "settings": {"foreground": "#c586c0"},
+    },
+    // =========================================================================
+    // Scala
+    // =========================================================================
+    {
+        "scope": [
+            "storage.type.scala",
+            "storage.type.primitive.scala",
+            "meta.colon.scala",
+        ],
+        "settings": {"foreground": "#4ec9b0"},
+    },
+    // =========================================================================
+    // Groovy
+    // =========================================================================
+    {
+        "scope": [
             // "constant.other.key.groovy",
             "source.groovy.embedded.source",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        "settings": {"foreground": "#9cdcfe"},
     },
     {
         "scope": [
@@ -20,24 +63,24 @@ module.exports = [
             "keyword.operator.arithmetic.groovy",
             "keyword.control.exception.groovy",
         ],
-        "settings": { "foreground": "#c586c0" },
+        "settings": {"foreground": "#c586c0"},
     },
     {
         "scope": [
             "punctuation.section.embedded.groovy",
             "constant.other.groovy",
         ],
-        "settings": { "foreground": "#569cd6" },
+        "settings": {"foreground": "#569cd6"},
     },
     {
         "scope": [
             "meta.method.groovy",
             // "meta.method-call.groovy",
         ],
-        "settings": { "foreground": "#dcdcaa" },
+        "settings": {"foreground": "#dcdcaa"},
     },
     {
         "scope": "constant.character.escape.groovy",
-        "settings": { "foreground": "#d7ba7d" },
+        "settings": {"foreground": "#d7ba7d"},
     },
 ]

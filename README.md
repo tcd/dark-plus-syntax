@@ -22,6 +22,7 @@
 - Elixir
 - Erlang
 - Go
+- Haskell
 - HTML
   - ECR/EEX/EJS/ERB
   - Handlebars
@@ -29,6 +30,7 @@
   - Pug/Jade
   - Twig
 - Java
+  - Kotlin
   - Groovy
 - JavaScript
   - JSON
@@ -63,6 +65,8 @@
 - [bungcip/better-toml](https://github.com/bungcip/better-toml)
 - [dunstontc/vscode-rust-syntax](https://github.com/dunstontc/vscode-rust-syntax)
 - [goessner/mdmath](https://github.com/goessner/mdmath)
+- [fwcd/KotlinLanguageServer](https://github.com/fwcd/KotlinLanguageServer)
+<!-- - [~~mathiasfrohlich/vscode-kotlin~~](https://github.com/mathiasfrohlich/vscode-kotlin) -->
 
 
 ## Resources & References

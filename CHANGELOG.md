@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.127 *(July 3, 2018)*
+- Add support for Haskell & Kotlin.
+
 ## 0.0.126 *(July 2, 2018)*
 - Normalize Python decorator highlighting.
 

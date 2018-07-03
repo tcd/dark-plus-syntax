@@ -988,6 +988,50 @@
 		},
 		{
 			"scope": [
+				"punctuation.separator.period.java"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.builtin.kotlin",
+				"storage.type.builtin.collection.kotlin",
+				"entity.name.package.kotlin"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"meta.template.expression.kotlin"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"keyword.hard.kotlin"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.scala",
+				"storage.type.primitive.scala",
+				"meta.colon.scala"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
 				"source.groovy.embedded.source"
 			],
 			"settings": {
@@ -2134,6 +2178,14 @@
 		},
 		{
 			"scope": [
+				"storage.type.haskell"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
 				"keyword.control.new.dart"
 			],
 			"settings": {
@@ -2162,26 +2214,6 @@
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.separator.period.java"
-			],
-			"settings": {
-				"foreground": "#c586c0"
-			}
-		},
-		{
-			"scope": [
-				"storage.type.builtin.kotlin",
-				"storage.type.builtin.collection.kotlin",
-				"storage.type.scala",
-				"storage.type.primitive.scala",
-				"meta.colon.scala"
-			],
-			"settings": {
-				"foreground": "#4ec9b0"
 			}
 		},
 		{
