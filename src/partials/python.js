@@ -2,7 +2,7 @@ module.exports = [
     {
         "scope": [
             "string.quoted.docstring.multi.python",
-            "string.quoted.docstring.single.python",
+            // "string.quoted.docstring.single.python",
             "string.quoted.docstring.multi.python keyword.control.flow.python",
         ],
         "settings": {"foreground": "#608b4e"},
@@ -10,8 +10,9 @@ module.exports = [
     {
         "scope": [
             "variable.language.special.self.python",
-            "variable.parameter.function.language.special.self.python",
             "support.function.magic.python",
+            "support.variable.magic.python",
+            "variable.parameter.function.language.special.self.python",
             "meta.function.decorator.python support.type.python",
         ],
         "settings": {"fontStyle": "italic"},
@@ -99,7 +100,10 @@ module.exports = [
         "settings": { "foreground": "#c586c0" },
     },
     {
-        "scope": ["constant.character.escape.python"],
+        "scope": [
+            "constant.character.escape.python",
+            "string.quoted.binary.single.python"
+        ],
         "settings": { "foreground": "#d7ba7d" },
     },
 ];

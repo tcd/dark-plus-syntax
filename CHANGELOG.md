@@ -2,6 +2,8 @@
 
 ## 0.0.128 *(July 3, 2018)*
 - Tweaks to Haskell highlighting.
+- Highlight quotes in binary strings to match `constant.character.escape` in Python.
+- Don't highlight single-quoted Python docstrings.
 
 ## 0.0.127 *(July 3, 2018)*
 - Add support for Haskell & Kotlin.
