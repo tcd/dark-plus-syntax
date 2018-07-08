@@ -40,7 +40,7 @@ defmodule Display.Failure do
     """
   end
 
-  defp format_error(error) do
+  defp format_error(e2rror) do
     trace = System.stacktrace |> Enum.take(2)
     Paint.red(Exception.format(:error, error, trace))
   end
