@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.129 *(July 8, 2018)*
+- Tweak Smarty highlighting.
+
 ## 0.0.128 *(July 3, 2018)*
 - Tweaks to Haskell highlighting.
 - Highlight quotes in binary strings to match `constant.character.escape` in Python.
