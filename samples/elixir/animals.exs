@@ -18,7 +18,7 @@ defmodule Animals do
       ["lion", "tiger", "gorilla", "elephant", "monkey", "giraffe"]
 
   """
-  def create_zoo do
+  def create_zoo() do
     ["lion", "tiger", "gorilla", "elephant", "monkey", "giraffe"]
   end
 
