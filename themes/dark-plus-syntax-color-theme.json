@@ -785,7 +785,8 @@
 			"scope": [
 				"parameter.variable.function.elixir",
 				"source.elixir.embedded.source",
-				"variable.other.readwrite.module.elixir"
+				"variable.other.readwrite.module.elixir",
+				"variable.other.anonymous.elixir"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -815,7 +816,6 @@
 				"constant.other.symbol.elixir",
 				"punctuation.section.embedded.elixir",
 				"punctuation.definition.variable.elixir",
-				"variable.other.anonymous.elixir",
 				"variable.language.elixir",
 				"source.elixir.embedded.source punctuation.section.embedded.elixir"
 			],
@@ -1162,7 +1162,6 @@
 				"keyword.operator.spread",
 				"keyword.operator.module.all.js",
 				"meta.brace.angle.ts",
-				"keyword.control.as.ts",
 				"meta.brace.angle.tsx",
 				"keyword.control.as.tsx",
 				"comment.line.triple-slash.directive.ts",
@@ -1177,7 +1176,8 @@
 				"punctuation.definition.template-expression.end.tsx",
 				"punctuation.quasi.element.end.js",
 				"punctuation.quasi.element.begin.js",
-				"punctuation.section.embedded.coffee"
+				"punctuation.section.embedded.coffee",
+				"punctuation.definition.binding-pattern.object"
 			],
 			"settings": {
 				"foreground": "#569cd6"

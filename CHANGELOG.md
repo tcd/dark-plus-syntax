@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.130 *(July 22, 2018)*
+- Update color of anonymous variables in Elixir.
+- Highlight curly braces in JS/TS destructuring as storage (blue).
+
 ## 0.0.129 *(July 8, 2018)*
 - Tweak Smarty highlighting.
 
