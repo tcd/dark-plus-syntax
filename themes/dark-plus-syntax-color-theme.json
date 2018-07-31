@@ -28,7 +28,9 @@
 		{
 			"scope": [
 				"comment",
-				"comment.line.double-slash.js"
+				"comment.line.double-slash.js",
+				"comment.block.html",
+				"comment.block.handlebars"
 			],
 			"settings": {
 				"foreground": "#505050"
@@ -1109,10 +1111,7 @@
 		},
 		{
 			"scope": [
-				"constant.character.escape.js",
-				"variable.other.constant.object",
-				"variable.other.constant.property",
-				"variable.other.constant"
+				"constant.character.escape.js"
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
@@ -2325,8 +2324,9 @@
 			}
 		},
 		{
-			"name": "Mustaches",
 			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
 				"meta.directive.vue",
 				"expression.embedded.vue",
 				"punctuation.definition.generic.begin.html",

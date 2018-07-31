@@ -3,6 +3,8 @@ module.exports = [
         "scope": [
             "comment",
             "comment.line.double-slash.js",
+            "comment.block.html",
+            "comment.block.handlebars",
         ],
         "settings": {"foreground": "#505050"},
     },

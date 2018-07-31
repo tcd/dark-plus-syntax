@@ -1,5 +1,5 @@
 // Normal Comments
-/* Normal Comments */
+/* Line Comments */
 /**
  * Doc Comments
  * param:
@@ -19,9 +19,8 @@ var step = coroutine(function* () {
 });
 
 
-/**
- * Content inside Multiline Comments
- *
+/*
+ * Block Comments
  */
 step();
 step(10);

@@ -36,9 +36,9 @@ module.exports = [
     {
         scope: [
             "constant.character.escape.js",
-            "variable.other.constant.object",
-            "variable.other.constant.property",
-            "variable.other.constant",
+            // "variable.other.constant.object",
+            // "variable.other.constant.property",
+            // "variable.other.constant",
         ],
         settings: {"foreground": "#d7ba7d"},
     },

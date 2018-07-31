@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.131 *(July 31, 2018)*
+- Don't highlight HTML comments as doc comments.
+- Highlight JS/TS constants as variables.
+
 ## 0.0.130 *(July 22, 2018)*
 - Update color of anonymous variables in Elixir.
 - Highlight curly braces in JS/TS destructuring as storage (blue).

@@ -72,9 +72,10 @@ module.exports = [
         "settings": { "foreground": "#d4d4d4" },
     },
     {
-        "name": "Mustaches",
         "scope": [
             // "entity.name.tag.template.html",
+            "punctuation.section.embedded.begin.php",
+            "punctuation.section.embedded.end.php",
             "meta.directive.vue",
             "expression.embedded.vue",
             "punctuation.definition.generic.begin.html",
