@@ -84,6 +84,7 @@ module.exports = [
             // "variable.language.super.tsx",
             "storage.type.function.arrow.js",
             "keyword.operator.spread",
+            "keyword.operator.rest",
             "keyword.operator.module.all.js",
             "meta.brace.angle.ts",
             // "keyword.control.as.js",

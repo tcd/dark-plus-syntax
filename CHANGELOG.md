@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.132 *(August 3, 2018)*
+- Highlight JS/TS rest operator as storage (blue).
+
 ## 0.0.131 *(July 31, 2018)*
 - Don't highlight HTML comments as doc comments.
 - Highlight JS/TS constants as variables.
