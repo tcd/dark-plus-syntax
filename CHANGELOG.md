@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.133 *(August 6, 2018)*
+- Tone down colors in JS/TS doc comments.
+
 ## 0.0.132 *(August 3, 2018)*
 - Highlight JS/TS rest operator as storage (blue).
 

@@ -3,6 +3,7 @@ module.exports = [
         scope: [
             "comment.block",
             "comment.block.documentation.js",
+            "comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc",
             // "comment.block.js",
             // "comment.block.ts",
             // "meta.tag.ts",
@@ -12,6 +13,18 @@ module.exports = [
             // "punctuation.definition.comment.js"
         ],
         settings: {"foreground": "#608b4e"},
+    },
+    {
+        scope: [
+            "comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc",
+            "punctuation.definition.bracket.curly.begin.jsdoc",
+            "punctuation.definition.bracket.curly.end.jsdoc",
+            "storage.type.class.jsdoc",
+        ],
+        settings: {
+            "foreground": "#608b4e",
+            "fontStyle": "italic",
+        },
     },
     {
         scope: "punctuation.definition.comment.js",
