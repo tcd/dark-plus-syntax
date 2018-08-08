@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 0.0.134 *(August 8, 2018)*
+- Golang changes:
+  - Purpled bitwise operators in Go.
+  - Highlight blank identifier (`_`) as a language keyword.
+
 ## 0.0.133 *(August 6, 2018)*
 - Tone down colors in JS/TS doc comments.
 

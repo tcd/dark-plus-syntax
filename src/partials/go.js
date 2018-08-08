@@ -5,6 +5,7 @@ module.exports = [
             "keyword.operator.arithmetic.go",
             "keyword.operator.comparison.go",
             "keyword.operator.address.go",
+            "keyword.operator.arithmetic.bitwise.go",
             "punctuation.terminator.go",
             "punctuation.other.colon.go",
             "punctuation.other.period.go",
@@ -57,8 +58,8 @@ module.exports = [
     {
         scope: [
             "constant.other.placeholder.go",
+            "variable.other.blank.go",
             "keyword.operator.address.go",
-            "keyword.operator.arithmetic.bitwise.go",
         ],
         settings: {
             "foreground": "#569cd6",
