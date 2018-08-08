@@ -49,12 +49,14 @@ module.exports = [
             "foreground": "#d7ba7d",
         },
     },
-    // {
-    //     scope: "entity.name.package.go",
-    //     settings: {
-    //         "foreground": "#9cdcfe",
-    //     },
-    // },
+    {
+        scope: [
+            "punctuation.terminator.go",
+        ],
+        settings: {
+            "foreground": "#d4d4d4",
+        },
+    },
     {
         scope: [
             "constant.other.placeholder.go",

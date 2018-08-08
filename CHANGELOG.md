@@ -2,6 +2,7 @@
 
 ## 0.0.136 *(August 8, 2018)*
 - Don't highlight Go package names as variables.
+- Don't highlight Go semicolons as operators.
 - Fixed issue with paren highlighting in CSS/SCSS.
 
 ## 0.0.135 *(August 8, 2018)*
