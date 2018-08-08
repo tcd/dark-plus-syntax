@@ -49,12 +49,12 @@ module.exports = [
             "foreground": "#d7ba7d",
         },
     },
-    {
-        scope: "entity.name.package.go",
-        settings: {
-            "foreground": "#9cdcfe",
-        },
-    },
+    // {
+    //     scope: "entity.name.package.go",
+    //     settings: {
+    //         "foreground": "#9cdcfe",
+    //     },
+    // },
     {
         scope: [
             "constant.other.placeholder.go",

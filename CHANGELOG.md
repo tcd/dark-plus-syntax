@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.136 *(August 8, 2018)*
+- Don't highlight Go package names as variables.
+- Fixed issue with paren highlighting in CSS/SCSS.
+
 ## 0.0.135 *(August 8, 2018)*
 - Build with changes from *v0.0.134*.
 
