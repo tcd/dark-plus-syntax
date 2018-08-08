@@ -906,6 +906,7 @@
 				"keyword.operator.arithmetic.go",
 				"keyword.operator.comparison.go",
 				"keyword.operator.address.go",
+				"keyword.operator.arithmetic.bitwise.go",
 				"punctuation.terminator.go",
 				"punctuation.other.colon.go",
 				"punctuation.other.period.go",
@@ -954,8 +955,8 @@
 		{
 			"scope": [
 				"constant.other.placeholder.go",
-				"keyword.operator.address.go",
-				"keyword.operator.arithmetic.bitwise.go"
+				"variable.other.blank.go",
+				"keyword.operator.address.go"
 			],
 			"settings": {
 				"foreground": "#569cd6"

@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.135 *(August 8, 2018)*
+- Build with changes from *v0.0.134*.
+
 ## 0.0.134 *(August 8, 2018)*
 - Golang changes:
   - Purpled bitwise operators in Go.
