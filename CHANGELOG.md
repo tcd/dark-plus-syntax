@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.138 *(August 9, 2018)*
+- Highlight *keyword.operator.ellipsis.go* as storage (blue).
+
 ## 0.0.137 *(August 8, 2018)*
 - Do highlight Go semicolons as operators.
 

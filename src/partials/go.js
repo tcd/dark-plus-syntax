@@ -62,6 +62,7 @@ module.exports = [
             "constant.other.placeholder.go",
             "variable.other.blank.go",
             "keyword.operator.address.go",
+            "keyword.operator.ellipsis.go",
         ],
         settings: {
             "foreground": "#569cd6",
