@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.137 *(August 8, 2018)*
+- Do highlight Go semicolons as operators.
+
 ## 0.0.136 *(August 8, 2018)*
 - Don't highlight Go package names as variables.
 - Don't highlight Go semicolons as operators.

@@ -953,14 +953,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.terminator.go"
-			],
-			"settings": {
-				"foreground": "#d4d4d4"
-			}
-		},
-		{
-			"scope": [
 				"constant.other.placeholder.go",
 				"variable.other.blank.go",
 				"keyword.operator.address.go"
