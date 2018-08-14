@@ -29,10 +29,14 @@ module.exports = [
     // },
     {
         scope: [
+            "source.go storage.type",
+            // These don't need to be defined explicitly, the above scope covers them. I just left them to be thorough.
             "storage.type.boolean.go",
             "storage.type.byte.go",
             "storage.type.numeric.go",
             "storage.type.string.go",
+            "storage.type.error.go",
+            "storage.type.rune.go",
         ],
         settings: {
             "foreground": "#4ec9b0",

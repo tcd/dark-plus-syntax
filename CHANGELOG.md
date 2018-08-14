@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.139 *(August 14, 2018)*
+- Normalize highlighting for `error` & `rune` types in Go.
+
 ## 0.0.138 *(August 9, 2018)*
 - Highlight *keyword.operator.ellipsis.go* as storage (blue).
 

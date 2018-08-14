@@ -52,3 +52,31 @@ func roundRobin(strategies []strategy) ([]int, int) {
 	gamesPerStrategy := gamesPerSeries * (len(strategies) - 1) // no self play
 	return wins, gamesPerStrategy
 }
+
+func play(strategy0, strategy1 strategy) int {
+	strategies := []strategy{strategy0, strategy1}
+	var s score
+	var turnIsOver bool
+	currentPlayer := rand.Intn(2) // Randomly decide who plays first
+	for s.player+s.thisTurn < win {
+		action := strategies[currentPlayer](s)
+		s, turnIsOver = action(s)
+		if turnIsOver {
+			currentPlayer = (currentPlayer + 1) % 2
+		}
+	}
+	return currentPlayer
+}
+
+func check(err error) {
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+}
+func checkRune(err rune) {
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+}

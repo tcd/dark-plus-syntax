@@ -931,10 +931,13 @@
 		},
 		{
 			"scope": [
+				"source.go storage.type",
 				"storage.type.boolean.go",
 				"storage.type.byte.go",
 				"storage.type.numeric.go",
-				"storage.type.string.go"
+				"storage.type.string.go",
+				"storage.type.error.go",
+				"storage.type.rune.go"
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
