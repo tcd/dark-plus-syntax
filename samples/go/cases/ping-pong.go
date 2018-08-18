@@ -1,3 +1,5 @@
+package main
+
 type Ball struct{ hits int }
 
 func main() {

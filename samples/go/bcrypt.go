@@ -28,8 +28,7 @@ const (
 // not match.
 var ErrMismatchedHashAndPassword = errors.New("crypto/bcrypt: hashedPassword is not the hash of the given password")
 
-// The error returned from CompareHashAndPassword when a hash is too short to
-// be a bcrypt hash.
+// The error returned from CompareHashAndPassword when a hash is too short to be a bcrypt hash.
 var ErrHashTooShort = errors.New("crypto/bcrypt: hashedSecret too short to be a bcrypted password")
 
 // The error returned from CompareHashAndPassword when a hash was created with
