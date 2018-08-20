@@ -18,6 +18,8 @@ Ordinal date:					2014-305
 var input string
 var r = regexp.MustCompile("(?P<ISO8601>(?P<year>\\d{4})(\\-W((?P<week>\\d{1,2})\\-(?P<weekday>\\d)?)|\\-(?P<month>\\d{2})\\-(?P<day>\\d{2})(T(?P<hour>\\d{2}):(?P<min>\\d{2})(:(?P<sec>\\d{2})(\\+\\d{2}:\\d{2}Z?)?)?)?|\\-(?P<yearday>\\d{1,3})))")
 
+var tpl = `my name is {{input}}`
+
 func main() {
 	input = `
 2014-06-06

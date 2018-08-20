@@ -65,6 +65,7 @@ module.exports = [
         scope: [
             "constant.other.placeholder.go",
             "variable.other.blank.go",
+            "keyword.operator.pointer.go",
             "keyword.operator.address.go",
             "keyword.operator.ellipsis.go",
         ],

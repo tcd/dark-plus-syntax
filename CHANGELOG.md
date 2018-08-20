@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.140 *(August 19, 2018)*
+- Normalize highlighting for address operators in Go.
+
 ## 0.0.139 *(August 14, 2018)*
 - Normalize highlighting for `error` & `rune` types in Go.
 

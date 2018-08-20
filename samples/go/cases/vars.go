@@ -16,6 +16,7 @@ type person struct {
 var j uint64
 var i, rounds uint64
 var wg sync.WaitGroup
+var tpl *template.Template
 
 var magicCipherData = []byte{
 	0x4f,
