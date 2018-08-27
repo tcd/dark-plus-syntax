@@ -1475,6 +1475,7 @@
 		},
 		{
 			"scope": [
+				"string.other.link.description.markdown",
 				"string.other.link.title.markdown"
 			],
 			"settings": {
@@ -1484,6 +1485,14 @@
 		{
 			"scope": [
 				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown"
+			],
+			"settings": {
+				"foreground": "#404040"
+			}
+		},
+		{
+			"scope": [
 				"markup.fenced_code.block.markdown punctuation.definition.markdown",
 				"punctuation.definition.italic.markdown",
 				"punctuation.definition.bold.markdown",

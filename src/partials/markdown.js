@@ -79,14 +79,21 @@ module.exports = [
     },
     {
         "scope": [
-                // "meta.link.inline.markdown"
-                    "string.other.link.title.markdown",
+            // "meta.link.inline.markdown"
+            "string.other.link.description.markdown",
+            "string.other.link.title.markdown",
         ],
         "settings": {"foreground": "#9cdcfe"},
     },
     {
         "scope": [
             "markup.underline.link.markdown",
+            "markup.underline.link.image.markdown",
+        ],
+        "settings": { "foreground": "#404040" },
+    },
+    {
+        "scope": [
             "markup.fenced_code.block.markdown punctuation.definition.markdown",
             "punctuation.definition.italic.markdown",
             "punctuation.definition.bold.markdown",

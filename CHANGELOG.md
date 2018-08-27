@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.141 *(August 25, 2018)*
+- Normalize colors for image links in Markdown.
+
 ## 0.0.140 *(August 19, 2018)*
 - Normalize highlighting for address operators in Go.
 

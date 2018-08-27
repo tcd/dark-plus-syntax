@@ -420,7 +420,7 @@ int main (int argc, char** argv)
   for (xx = 0; xx < 20; xx++) {
     *(my_ptr + xx) = 20 - xx; // my_ptr[xx] = 20-xx
   } // Initialize memory to 20, 19, 18, 17... 2, 1 (as ints)
-  
+
   // Be careful passing user-provided values to malloc! If you want
   // to be safe, you can use calloc instead (which, unlike malloc, also zeros out the memory)
   int* my_other_ptr = calloc(20, sizeof(int));
