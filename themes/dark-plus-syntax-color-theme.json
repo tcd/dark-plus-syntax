@@ -2506,6 +2506,41 @@
 		},
 		{
 			"scope": [
+				"punctuation.tag.liquid"
+			],
+			"settings": {
+				"foreground": "#606060"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.output.liquid"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"support.variable.liquid",
+				"support.class.liquid"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.tag.liquid",
+				"keyword.operator.liquid",
+				"entity.name.tag.liquid"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
 				"keyword.operator.quantifier.regexp",
 				"keyword.operator.quantifier.regexp.js"
 			],

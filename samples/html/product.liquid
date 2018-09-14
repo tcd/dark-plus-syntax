@@ -1,0 +1,755 @@
+{%- include 'bold-product' with product, hide_action: 'break', output: 'none' -%}
+</main>
+<style>
+    .main-content {
+        min-height: auto !important;
+        height: 0px !important;
+        padding: 0px;
+    }
+</style>
+<!-- rod image enlarge modal -->
+<div class="modal fade" id="chartModal" tabindex="-1" role="dialog" aria-labelledby="chartModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content modal-chart-content">
+      <div class="modal-chart-body">
+        <img class="modal-chart-img" src=" ">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div itemscope itemtype="http://schema.org/Product" class="page-container">
+  <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
+  <meta itemprop="image" content="{{ product.featured_image.src | product_img_url: 'grande' }}">
+  {%- unless product.handle contains "fedex" -%}
+  <div class="row">
+        <h6 class="col-md-12 col-md-offset-1 nav-links-product mt-40">
+            <a href="/collections/rods">Products </a>
+            <span>/</span>
+            {%- for collection in product.collections -%} {%- if collection.handle == 'freshwater' or collection.handle == 'saltwater' or collection.handle == 'fly' or collection.handle == 'ice' or collection.handle == 'accessories' -%}
+            <a href="{{collection.url}}">
+                {{ collection.title }} {%- else -%} {%- endif -%} {%- endfor -%}</a>
+            <span>/</span>
+            <a href="#">{{ product.title }}</a>
+        </h6>
+        <h1 class="hidden" itemprop="name" style="display: none !important">{{ product.title }}</h1>
+    </div>
+  {%- endunless -%}
+    <div class="row">
+        {%- if collection.handle contains 'accessories' -%}
+        <div class="col-md-12">
+            <img class="accessories-product-img" src="{{ product.images[0] | product_img_url: '400x400' }}" alt="{{ product.title }}">
+        </div>
+      	{%- elsif product.handle contains 'fedex' -%}
+      	<div class="col-md-12">
+            <img class="accessories-product-img" src="{{ product.images[0] | product_img_url: '780x250' }}" alt="{{ product.title }}">
+        </div>
+        {%- else -%}
+        <div class="col-md-12 product-img-mobile">
+            <img id="product-img" class="product-img" src="{{ product.images[0] | product_img_url: '4000x4000' }}" alt="{{ product.title }}">
+        </div>
+        {%- endif -%}
+    </div>
+
+{%- include 'product-guide' -%}
+ {%- if product.handle contains 'fedex' -%}
+<div class="col-md-12 short-description fedex-page-description mb-40" itemprop="description">
+    {{ product.description }}
+</div>
+<form action="/cart/add" method="post">
+    <div class="variant-container-fedex" style="width: 95%;">
+        <div class="product-variants">
+            {%- for variant in product.variants -%}
+            <div class="select-container hidden" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                <meta itemprop="priceCurrency" content="{{ shop.currency }}">
+                <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
+                <div class="prices">
+                {%- if product.compare_at_price > product.price -%}
+                <span class="compare-price">{{ product.compare_at_price_max | money }}</span>
+                <span class="price on-sale" itemprop="price">{{ product.price | money | remove: '$' }}</span>
+                {%- else -%}
+                <span class="price" itemprop="price">{{ product.price | money | remove: '$' }}</span>
+                {%- endif -%}
+                </div>
+                <input class="product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+            </div>
+            {%- endfor -%}
+        </div>
+        {%- if product.tags contains 'NOTFORSALE' -%}
+        <input type="submit" class="btn addtocart button secondary radius expand btn-light" name="add" value="Visit a St Croix retailer"
+            id="purchase" disabled="disabled" style="margin: 20px auto; display: block;" /> {%- else -%}
+        <div class="quantity-container">
+            <label class=" text-center quantity-font" for="quantity">Qty: </label>
+            <input type="number" class=" qty" id="quantity" name="quantity" value="1" />
+            <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                id="purchase" />
+        </div>
+        {%- endif -%}
+    </div>
+</form>
+{%- else -%}
+<div class="col-lg-12 short-description product-page-description" itemprop="description">
+    {{ product.description }}
+</div>
+{%- endif -%}
+<form action="/cart/add" method="post">
+    <div class="col-md-12 mb-10">
+        <div class="product-filter-wrapper" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="{{ shop.currency }}">
+            <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
+            <div class="prices" style="display:none !important">
+                {%- if product.compare_at_price > product.price -%}
+                <span class="compare-price">{{ product.compare_at_price_max | money }}</span>
+                <span class="price on-sale" itemprop="price">{{ product.price | money | remove: '$' }}</span>
+                {%- else -%}
+                <span class="price" itemprop="price">{{ product.price | money | remove: '$' }}</span>
+                {%- endif -%}
+            </div>
+            {%- for collection in product.collections -%}
+          	{%- if collection.title == 'Freshwater' or collection.title == 'Saltwater' -%}
+            <div class="variant-container hidden-sm hidden-xs hidden-md">
+                <h3 class="customize-rod">Select Models</h3>
+                <div class="product-variants" style="display: none;">
+                    <a href="../../../pages/engineering" target="_blank">
+                        <h5 class="custom-head">Length / Power / Action</h5>
+                    </a>
+                    {%- for variant in product.variants -%}
+                    <div class="select-container">
+                        <input class="product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                        <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+                    </div>
+                    {%- endfor -%}
+                </div>
+                {%- if collection.title == 'Freshwater' or collection.title == 'Saltwater' -%}
+                <input type="submit" class="btn addtocart button secondary radius expand btn-light" name="add" value="Visit a St Croix retailer"
+                    id="purchase" disabled="disabled" style="margin: 20px auto; display: block;" /> {% else %}
+                <!-- <div class="quantity-container">
+                    <label class="text-center quantity-font" for="quantity">Qty: </label>
+                    <input type="number" class="qty" id="quantity" name="quantity" value="1" />
+                    <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                        id="purchase" />
+                </div> -->
+                {%- endif -%}
+            </div>
+            <h3 class="mobile-customize-rod">Select Models</h3>
+            <div class="mobile-product-variants" style="display: none">
+                <h5 class="mobile-custom-head">Length / Power / Action</h5>
+                {%- for variant in product.variants -%}
+                <div class="mobile-select-container">
+                    <input class="mobile-product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                    <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+                </div>
+                {%- endfor -%}
+            </div>
+            {%- if collection.title == 'Freshwater' or collection.title == 'Saltwater' -%}
+            <input type="submit" class="btn addtocart button secondary radius expand btn-light hidden-xl hidden-lg" name="add" value="Visit a St Croix retailer"
+                id="purchase" disabled="disabled" style="margin: 20px auto; display: block;" /> {% else %}
+            <!-- <div class="quantity-container hidden-xl hidden-lg">
+                <label class="text-center quantity-font" for="quantity">Qty: </label>
+                <input type="number" class="qty" id="quantity" name="quantity" value="1" />
+                <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                    id="purchase" />
+            </div> -->
+            {%- endif -%} {%- elsif collection.title == 'Fly' -%}
+            <div class="variant-container hidden-sm hidden-xs hidden-md">
+                <h3 class="customize-rod">Select Models</h3>
+                <div class="product-variants" style="display: none;">
+                    <a href="/pages/engineering" target="_blank">
+                        <h5 class="custom-head">Length / Line Wt. / Pieces</h5>
+                    </a>
+                    {%- for variant in product.variants -%}
+                    <div class="select-container">
+                        <input class="product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                        <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+                    </div>
+                    {%- endfor -%}
+                </div>
+                {%- if collection.title == 'Fly' -%}<!-- not for sale previous *soft launch* -->
+                <input type="submit" class="btn addtocart button secondary radius expand btn-light" name="add" value="Visit a St Croix retailer"
+                    id="purchase" disabled="disabled" style="margin: 20px auto; display: block;" /> {% else %}
+                <!-- <div class="quantity-container">
+                    <label class="text-center quantity-font" for="quantity">Qty: </label>
+                    <input type="number" class="qty" id="quantity" name="quantity" value="1" />
+                    <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                        id="purchase" />
+                </div> -->
+                {%- endif -%}
+            </div>
+            <h3 class="mobile-customize-rod">Select Models</h3>
+            <div class="mobile-product-variants" style="display: none">
+                <h5 class="mobile-custom-head">Length / Line Wt. / Pieces</h5>
+                {%- for variant in product.variants -%}
+                <div class="mobile-select-container">
+                    <input class="mobile-product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                    <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+                </div>
+                {%- endfor -%}
+            </div>
+            {%- if collection.title == 'Fly' -%}<!-- not for sale previous *soft launch -->
+            <input type="submit" class="btn addtocart button secondary radius expand btn-light hidden-xl hidden-lg hidden-md" name="add"
+                value="Visit a St Croix retailer" id="purchase" disabled="disabled" style="margin: 20px auto; display: block;"
+            /> {%- else -%}
+            <!-- <div class="quantity-container hidden-xl hidden-lg hidden-md">
+                <label class="text-center quantity-font" for="quantity">Qty: </label>
+                <input type="number" class="qty" id="quantity" name="quantity" value="1" />
+                <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                    id="purchase" />
+            </div> -->
+            {%- endif -%}
+            {%- elsif collection.title == 'Ice' -%}
+            <div class="variant-container hidden-sm hidden-xs">
+                <h3 class="customize-rod">Select Models</h3>
+                <div class="product-variants" style="display: none;">
+                    <a href="/pages/engineering" target="_blank">
+                        <h5 class="custom-head">Length / Power</h5>
+                    </a>
+                    {%- for variant in product.variants -%}
+                    <div class="select-container">
+                        <input class="product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                        <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+                    </div>
+                    {%- endfor -%}
+                </div>
+                {%- if collection.title == 'Ice' -%}<!-- not for sale previous *soft launch -->
+            <input type="submit" class="btn addtocart button secondary radius expand btn-light" name="add"
+                value="Visit a St Croix retailer" id="purchase" disabled="disabled" style="margin: 20px auto; display: block;"
+            /> {%- else -%}
+            <!-- <div class="quantity-container hidden-xl hidden-lg hidden-md">
+                <label class="text-center quantity-font" for="quantity">Qty: </label>
+                <input type="number" class="qty" id="quantity" name="quantity" value="1" />
+                <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                    id="purchase" />
+            </div> -->
+            {%- endif -%}
+            </div>
+            <h3 class="mobile-customize-rod">Select Models</h3>
+            <div class="mobile-product-variants" style="display: none">
+                <h5 class="mobile-custom-head">Length / Power</h5>
+                {%- for variant in product.variants -%}
+                <div class="mobile-select-container">
+                    <input class="mobile-product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                    <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+                </div>
+                {%- endfor -%}
+            </div>
+            {%- if collection.title == 'Ice' -%}<!-- not for sale previous *soft launch -->
+            <input type="submit" class="btn addtocart button secondary radius expand btn-light hidden-xl hidden-lg hidden-md" name="add"
+                value="Visit a St Croix retailer" id="purchase" disabled="disabled" style="margin: 20px auto; display: block;"
+            /> {%- else -%}
+            <!-- <div class="quantity-container hidden-xl hidden-lg hidden-md">
+                <label class="text-center quantity-font" for="quantity">Qty: </label>
+                <input type="number" class="qty" id="quantity" name="quantity" value="1" />
+                <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                    id="purchase" />
+            </div> -->
+            {%- endif -%}
+            {%- elsif collection.title == 'Accessories' -%}
+            <div class="variant-container hidden-sm hidden-xs">
+                <div class="product-variants" style="display: none;">
+                    {%- for variant in product.variants -%}
+                    <div class="select-container" style="visibility: hidden";>
+                        <input class="product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                        <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+                    </div>
+                    {%- endfor -%}
+                </div>
+                <input type="submit" class="btn addtocart button secondary radius expand btn-light" name="add"
+                value="Visit a St Croix retailer {{ product.price | money }}" id="purchase" disabled="disabled" style="margin: 20px auto; display: block;"/>
+                <!-- <div class="quantity-container">
+                    <label class="text-center quantity-font" for="quantity">Qty: </label>
+                    <input type="number" class="qty" id="quantity" name="quantity" value="1" />
+                    <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                        id="purchase" />
+                </div> -->
+            </div>
+            <div class="mobile-product-variants" style="display: none">
+                {%- for variant in product.variants -%}
+                <div class="mobile-select-container" style="visibility: hidden";>
+                    <input class="mobile-product-select" type="radio" id="product-select" name="id" value="{{ variant.id }}">
+                    <label for="id">{{ variant.title }} - {{ variant.price | money_with_currency | remove: 'USD' }}</label>
+                </div>
+                {%- endfor -%}
+            </div>
+            <input type="submit" class="btn addtocart button secondary radius expand btn-light hidden-xl hidden-lg hidden-md" name="add"
+                value="Visit a St Croix retailer {{ product.price | money }}" id="purchase" disabled="disabled" style="margin: 20px auto; display: block;"
+            />
+            <!-- <div class="quantity-container hidden-xl hidden-lg hidden-md">
+                <label class="text-center quantity-font" for="quantity">Qty: </label>
+                <input type="number" class="qty" id="quantity" name="quantity" value="1" />
+                <input type="submit" class="btn addtocart button secondary radius expand product-list-btn" name="add" value="Add to Cart"
+                    id="purchase" />
+            </div> -->
+            {%- else -%} {%- endif -%} {%- endfor -%}
+        </div>
+    </div>
+</form>
+</div>
+<div class="container">
+    <div class="col-md-12">
+        <img id="product-divider" src="https://cdn.shopify.com/s/files/1/2298/3555/files/SC-lines-min.png?7733298989749245490" style="width: 100%; height: 6px; margin-top: 20px;" alt="st croix divider">
+    </div>
+    <div class="row">
+        {%-  if product.type contains 'RODS' -%}
+        <div class="col-md-4 mt-50 pt-25 hidden-sm hidden-xs">
+            <iframe width="100%" height="250px" src="https://www.youtube.com/embed/xssak3jRUB8?rel=0&amp;showinfo=0" frameborder="0"
+                gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+        {%- else -%}
+        {%- endif -%}
+        {%- if product.type contains 'RODS' -%}
+        <div class="col-md-8">
+            <div class="product-tabs product-list-tabs">
+                <ul>
+                    <li class="tab-link features-tab tab-active" data-tab="tab-1">Features</li>
+                    <li class="tab-link specs-tab" data-tab="tab-2">Specs</li>
+                    <li class="tab-link reviews-tab" data-tab="tab-3">Reviews</li>
+                </ul>
+                <div id="tab-1" class="tab-content features-tab-content tab-open">
+                    <p>{{ product.description }}</p>
+                </div>
+                <div id="tab-2" class="tab-content specs-tab-content">
+                  <div class="img-specs-container">
+                  	<span class="hover-roll roll-spec" style="display: none; visiblity: hidden;"></span>
+                    <img id="chartimg" class="img-specs" src="{{ product.images[1] | product_img_url: '3000x3000' }}" alt="{{ product.images[1].alt }}"/>
+                  </div>
+                  	{% if product.images.size > 2 %}
+                    <span class="handle-chart-link">Show Rod Handle Chart</span>
+                    <span class="handle-chart" style="display: none">
+                      <div class="img-handle-container">
+                      	<span class="hover-roll roll-handle" style="display: none;"></span>
+                        <img class="img-handle" src="{{ product.images.last | product_img_url: '700x700' }}" alt="{{ product.images.last.alt }}">
+                      </div>
+                    </span>
+                    {%- endif -%}
+                </div>
+                <div id="tab-3" class="tab-content reviews-tab-content">
+                    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+                </div>
+                <div class="product-logo-container">
+                    <a href="../../../pages/technology">
+                        {%- if product.description contains 'IPC' -%}
+                        <div class="technology-badge img-fluid">
+                            {{ 'IPC-badge-min.png' | asset_url | img_tag: 'IPC Technology Badge' }}
+                        </div>
+                        {%- endif -%} {%- if product.description contains 'ART' -%}
+                        <div class="technology-badge img-fluid">
+                            {{ 'ART-badge-min.png' | asset_url | img_tag: 'ART Technology Badge' }}
+                        </div>
+                        {%- endif -%} {%- if product.description contains 'FRS' -%}
+                        <div class="technology-badge img-fluid">
+                            {{ 'FRS-badge-min.png' | asset_url | img_tag: 'FRS Technology Badge' }}
+                        </div>
+                        {%- endif -%} {%- if product.description contains 'TET' -%}
+                        <div class="technology-badge img-fluid">
+                            {{ 'TET-badge-min.png' | asset_url | img_tag: 'TET Technology Badge' }}
+                        </div>
+                        {%- endif -%}
+                    </a>
+                </div>
+            </div>
+        </div>
+        {%- elsif product.handle contains 'fedex' -%}
+        <div class="col-md-12">
+            <div class="product-tabs product-list-tabs">
+                <ul>
+                    <li class="tab-link tab-active" data-tab="tab-3">Reviews</li>
+                </ul>
+                <div id="tab-3" class="tab-content" style="display: block;">
+                    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+                </div>
+            </div>
+        </div>
+        {% elsif product.tags contains 'accessories' %}
+        <div class="col-md-12">
+            <div class="product-tabs product-list-tabs">
+                <ul>
+                    <li class="tab-link tab-active" data-tab="tab-1">Features</li>
+                    <li class="tab-link" data-tab="tab-3">Reviews</li>
+                </ul>
+                <div id="tab-1" class="tab-content tab-open">
+                    <p>{{ product.description }}</p>
+                </div>
+                <div id="tab-3" class="tab-content">
+                    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+                </div>
+            </div>
+        </div>
+        {%- endif -%}
+    </div>
+</div>
+<div class="row">
+    {%- if product.type contains 'RODS' -%}
+    <div class="col-xs-12 hidden-md hidden-lg hidden-xl">
+        <iframe width="100%" height="250px" src="https://www.youtube.com/embed/xssak3jRUB8?rel=0&amp;showinfo=0" frameborder="0"
+            gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    </div>
+    {%- else -%} {%- endif -%}
+</div>
+<script>
+              (function () {
+
+                  var youtube = document.querySelectorAll(".youtube");
+
+                  for (var i = 0; i < youtube.length; i++) {
+
+                      var source = "https://img.youtube.com/vi/" + youtube[i].dataset.embed + "/sddefault.jpg";
+
+                      var image = new Image();
+                      image.src = source;
+                      image.addEventListener("load", function () {
+                          youtube[i].appendChild(image);
+                     }(i));
+
+                      youtube[i].addEventListener("click", function () {
+
+                         var iframe = document.createElement("iframe");
+
+                          iframe.setAttribute("frameborder", "0");
+                          iframe.setAttribute("allowfullscreen", "");
+                          iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.embed + "?rel=0&showinfo=0&autoplay=1");
+
+                         this.innerHTML = "";
+                         this.appendChild(iframe);
+                      });
+                 };
+
+             })();
+          </script>
+{%- assign number_of_related_products = settings.number_of_related_products | plus:1 -%}
+{%- if collection == null or collection.handle == 'frontpage' or collection.handle == 'all' -%}
+{%- assign found_a_collection = false -%}
+{%- for c in product.collections -%}
+  {%- if found_a_collection == false and c.handle != 'frontpage' and c.handle != 'all' and c.all_products_count > 1 -%}
+    {%- assign found_a_collection = true -%}
+    {%- assign collection = c -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if collection -%}
+<section class="related-products">
+  {%- if settings.related_products_title != blank -%}
+    <h5 class="related-title">{% include 'multilang' with settings.related_products_title %}</h5>
+  {%- endif -%}
+
+  <div class="products-grid row owl-carousel">
+    {%- if settings.related_products_per_row != blank and settings.related_products_per_row != '5' -%}
+      {%- assign product_grid = 12 | divided_by: settings.related_products_per_row -%}
+      {%- assign columns = true -%}
+    {%- endif -%}
+
+    {%- assign current_product = product -%}
+    {%- assign current_product_found = false -%}
+    {%- for product in collection.products limit: number_of_related_products -%}
+
+      {%- if product.handle == current_product.handle -%}
+         {%- assign current_product_found = true -%}
+      {%- else -%}
+         {%- unless current_product_found == false and forloop.last -%}
+          {%- include 'product-grid-item-category' -%}
+         {%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>
+<script>
+window.onload = function() {
+  jQuery(document).ready(function() {
+    jQuery(".related-products .products-grid").owlCarousel({
+      pagination: false,
+      navigation: true,
+      items: {{ section.settings.related_products_per_row }},
+      itemsDesktopSmall: [991, 3],
+      itemsTablet: [768, 3],
+      itemsTabletSmall: [767, 2],
+      itemsMobile: [479, 2]
+    });
+  });
+  };
+</script>
+{%- endif -%}
+{{ 'option_selection.js' | shopify_asset_url | script_tag }}
+
+
+{% schema %}
+  {
+    "name": "Product pages",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Moreview"
+      },
+    {
+        "type": "radio",
+        "id": "style_moreview",
+        "label": "Type of Moreview",
+        "options": [
+          {
+            "value": "horizontal",
+            "label": "Horizontal Moreview"
+          },
+          {
+            "value": "vertical",
+            "label": "Vertical Moreview"
+          }
+        ],
+        "default": "vertical"
+      },
+      {
+        "type": "header",
+        "content": "Details"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_prev_next_product",
+        "label": "Display Prev\/Next Product?",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "display_sample_vendor",
+        "label": "Display Sample Vendor?",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "display_availability",
+        "label": "Display Availability?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "text_availability",
+        "label": "Text Availability",
+        "default": "Availability"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_product_type",
+        "label": "Display Product Type?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "text_product_type",
+        "label": "Text Product Type",
+        "default": "Product Type"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_vendor",
+        "label": "Display Vendor?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "text_vendor",
+        "label": "Text Vendor",
+        "default": "Vendor"
+      },
+      {
+        "type": "text",
+        "id": "text_countdown",
+        "label": "Text Countdown",
+        "default": "Limited-Time Offers, End in:"
+      },
+      {
+        "type": "radio",
+        "id": "show_desc",
+        "label": "Short description",
+        "options": [
+          {
+            "value": "no-show",
+            "label": "No"
+          },
+          {
+            "value": "short",
+            "label": "Yes"
+          },
+          {
+            "value": "full",
+            "label": "Show Full Description"
+          }
+        ],
+        "default": "short"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_color_swatch",
+        "label": "Use Color Swatch?",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "display_subtotal",
+        "label": "Display Subtotal?",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "display_product_detail_tag",
+        "label": "Display Tags?",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "display_product_detail_share",
+        "label": "Display Product Share?",
+        "default": true
+      },
+      {
+        "type": "radio",
+        "id": "show_tab",
+        "label": "Horizontal Tab or Vertical Tab",
+        "options": [
+          {
+            "value": "horizontal",
+            "label": "Horizontal Tab"
+          },
+          {
+            "value": "vertical",
+            "label": "Vertical Tab"
+          }
+        ],
+        "default": "horizontal"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_product_detail_description",
+        "label": "Display Product Description?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "product_description_title",
+        "label": "Product Description Title",
+        "default": "Product Description"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_custom_tab",
+        "label": "Display Shipping & Returns?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "custom_tab_title",
+        "label": "Title Shipping & Returns",
+        "default": "Shipping & Returns"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_tab_content",
+        "label": "Shipping & Returns"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_custom_tab_2",
+        "label": "Display Custom Tab?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "custom_tab_title_2",
+        "label": "Title Custom Tab",
+        "default": "Custom Tab"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_size_chart",
+        "label": "Display Size Chart?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "custom_size_chart_title",
+        "label": "Custom Size Chart Title",
+        "default": "Size Chart"
+      },
+      {
+        "type": "image_picker",
+        "id": "custom_size_chart",
+        "label": "Size Chart Image"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_size_chart_content",
+        "label": "Custom Size Chart Content"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_product_reviews",
+        "label": "Display Product Reviews?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "product_review_title",
+        "label": "Product Reviews Title",
+        "default": "Customer Reviews"
+      },
+      {
+        "type": "header",
+        "content": "Related Products"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_related_products",
+        "label": "Display Related Products?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "related_products_title",
+        "label": "Title of related products block",
+        "default": "Related Products"
+      },
+      {
+        "type": "text",
+        "id": "number_of_related_products",
+        "label": "Number of related products",
+        "default": "8"
+      },
+      {
+        "type": "select",
+        "id": "related_products_per_row",
+        "label": "Products per row",
+        "options": [
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "5",
+            "label": "5"
+          }
+        ],
+        "default": "5"
+      },
+      {
+        "type": "radio",
+        "id": "related_products_type",
+        "label": "Type of related products",
+        "options": [
+          {
+            "value": "tags",
+            "label": "By Tags"
+          },
+          {
+            "value": "collection",
+            "label": "By Collection"
+          }
+        ],
+        "default": "collection"
+      }
+    ]
+  }
+{% endschema %} {% stylesheet %} {% endstylesheet
+%} {% javascript %} {% endjavascript %}

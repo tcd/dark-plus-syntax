@@ -225,4 +225,36 @@ module.exports = [
         ],
         "settings": { "foreground": "#569cd6" },
     },
+    // =========================================================================
+    // Liquid
+    // =========================================================================
+    {
+        "scope": [
+            "punctuation.tag.liquid",
+        ],
+        "settings": { "foreground": "#606060" },
+    },
+    {
+        "scope": [
+            "punctuation.output.liquid",
+            // "support.class.liquid",
+        ],
+        "settings": { "foreground": "#4ec9b0" },
+    },
+    {
+        "scope": [
+            "support.variable.liquid",
+            "support.class.liquid",
+
+        ],
+        "settings": { "foreground": "#9cdcfe" },
+    },
+    {
+        "scope": [
+            "punctuation.tag.liquid",
+            "keyword.operator.liquid",
+            "entity.name.tag.liquid",
+        ],
+        "settings": { "foreground": "#c586c0" },
+    },
 ];

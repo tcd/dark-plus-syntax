@@ -29,6 +29,7 @@
   - Jinja2
   - Pug/Jade
   - Twig
+  - Liquid
 - Java
   - Kotlin
   - Groovy
@@ -67,7 +68,7 @@
 - [goessner/mdmath](https://github.com/goessner/mdmath)
 - [JustusAdam/language-haskell](https://github.com/JustusAdam/language-haskell)
 - [fwcd/KotlinLanguageServer](https://github.com/fwcd/KotlinLanguageServer)
-<!-- - [~~mathiasfrohlich/vscode-kotlin~~](https://github.com/mathiasfrohlich/vscode-kotlin) -->
+- [GingerBear/vscode-liquid](https://github.com/GingerBear/vscode-liquid)
 
 
 ## Resources & References

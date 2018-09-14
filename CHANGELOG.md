@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.142 *(September 14, 2018)*
+- Add support for Liquid templates.
+
 ## 0.0.141 *(August 25, 2018)*
 - Normalize colors for image links in Markdown.
 
