@@ -7,7 +7,7 @@ int main()
     FILE *file;
     file = fopen("hello.txt", "r");
 
-    if (file == NULL)
+    if(file == NULL)
     {
         printf("Error!");
         exit(1);
@@ -15,7 +15,7 @@ int main()
 
     if (file)
     {
-        while ((c = getc(file)) != EOF)
+        while((c = getc(file)) != EOF)
             putchar(c);
         fclose(file);
     }

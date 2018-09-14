@@ -84,12 +84,12 @@ void cli_show_plist (void)
   printf("\n");
 }
 
-void cli_print_version (void)
+void cli_print_version(void)
 {
   printf("%s %s\n\n", "VXZ", "1.0");
 }
 
-void cli_print_help (void)
+void cli_print_help(void)
 {
   cli_print_version();
 
@@ -103,7 +103,7 @@ void cli_print_help (void)
   }
 }
 
-int cli_parser (int argc, const char** argv, struct cli_info* args_info)
+int cli_parser(int argc, const char** argv, struct cli_info* args_info)
 {
   static struct option longopts[] = {
     { "help",         no_argument,        NULL, 'h' },
