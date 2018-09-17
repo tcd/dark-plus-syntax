@@ -588,8 +588,7 @@
 				"punctuation.section.function.scss",
 				"punctuation.section.keyframes.begin.scss",
 				"punctuation.section.keyframes.end.scss",
-				"constant.other.scss",
-				"meta.at-rule.include.scss"
+				"constant.other.scss"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -616,6 +615,7 @@
 				"variable.scss",
 				"variable.other.less",
 				"support.type.vendored.property-name.css",
+				"meta.at-rule.include.scss",
 				"support.constant.vendored.property-value.css"
 			],
 			"settings": {
@@ -1482,7 +1482,10 @@
 			}
 		},
 		{
-			"scope": "beginning.punctuation.definition.list.markdown",
+			"scope": [
+				"beginning.punctuation.definition.list.markdown",
+				"punctuation.definition.list.begin.markdown"
+			],
 			"settings": {
 				"foreground": "#6796e6"
 			}

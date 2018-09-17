@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.145 *(September 17, 2018)*
+- Update group name for markdown list punctuation.
+
 ## 0.0.144 *(September 17, 2018)*
 - Change color for include rules in SCSS.
 

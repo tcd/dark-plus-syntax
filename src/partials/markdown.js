@@ -74,7 +74,10 @@ module.exports = [
         "settings": { "foreground": "#608b4e" },
     },
     {
-        "scope": "beginning.punctuation.definition.list.markdown",
+        "scope": [
+            "beginning.punctuation.definition.list.markdown",
+            "punctuation.definition.list.begin.markdown",
+        ],
         "settings": { "foreground": "#6796e6" },
     },
     {
