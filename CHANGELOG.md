@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.144 *(September 17, 2018)*
+- Change color for include rules in SCSS.
+
 ## 0.0.143 *(September 17, 2018)*
 - Fix highlighting for include rules in SCSS.
 - Italicize `!important`/`!default` in CSS et al.
