@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 0.0.143 *(September 17, 2018)*
+- Fix highlighting for include rules in SCSS.
+- Italicize `!important`/`!default` in CSS et al.
+
 ## 0.0.142 *(September 14, 2018)*
 - Add support for Liquid templates.
 

@@ -26,3 +26,22 @@ func filter(numbers []int, callback func(int) bool) []int {
 	}
 	return xs
 }
+
+// Toggle the `Done` attribute of a Todo.
+func Toggle(date string, tds Todos) {
+	index := getIndex(date, tds)
+	td := tds[index]
+	td.toggle()
+}
+
+// Drop a todo from Todos.
+// This is a poor way to go about this. Needs much improvement.
+func Drop(date string, tds Todos) Todos {
+	var result Todos
+	for _, v := range tds {
+		if v.Date != date {
+			result = append(result, v)
+		}
+	}
+	return result
+}

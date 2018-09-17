@@ -21,6 +21,18 @@ module.exports = [
     },
     {
         "scope": [
+            "keyword.other.important.css",
+            "keyword.other.important.sass",
+            "keyword.other.important.scss",
+            "keyword.other.important.less",
+
+            "keyword.other.default.scss",
+            "keyword.other.default.sass",
+        ],
+        "settings": {"fontStyle": "italic"},
+    },
+    {
+        "scope": [
             "entity.other.attribute-name.class.css",
             "entity.other.attribute-name.class.mixin.css",
             "entity.other.attribute-name.id.css",
@@ -53,6 +65,7 @@ module.exports = [
             "punctuation.section.keyframes.begin.scss",
             "punctuation.section.keyframes.end.scss",
             "constant.other.scss",
+            "meta.at-rule.include.scss",
         ],
         "settings": { "foreground": "#d4d4d4" },
     },
