@@ -24,6 +24,7 @@
         "*.psql": "sql",
         "*.tmpl": "gohtml",
         ".{dockerignore,eslintignore,npmignore,vscodeignore}": "gitignore",
-        "algorithm": "c"
+        "algorithm": "c",
+        "chrono": "c"
     }
 }

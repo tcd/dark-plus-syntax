@@ -47,6 +47,7 @@
   - CMake
   - CSV
   - Makefile
+  - NGINX
   - Terraform
   - TOML
   - YAML

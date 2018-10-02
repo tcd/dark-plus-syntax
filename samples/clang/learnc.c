@@ -512,7 +512,7 @@ printf("%s\n", c); // => ".tset a si sihT"
 as we can return only one variable
 to change values of more than one variables we use call by reference
 */
-void swapTwoNumbers(int *a, int *b)
+void swapTwoNumbers(int *a, int *b, ...)
 {
     int temp = *a;
     *a = *b;

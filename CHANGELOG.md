@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.145 *(October 2, 2018)*
+- Tweak NGINX highlighting & update language list in readme.
+
 ## 0.0.145 *(September 17, 2018)*
 - Update group name for markdown list punctuation.
 
