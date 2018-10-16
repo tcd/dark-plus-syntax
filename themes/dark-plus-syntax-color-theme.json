@@ -1825,6 +1825,22 @@
 		},
 		{
 			"scope": [
+				"keyword.language.gherkin.feature.step"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"text.gherkin.feature entity.name.type.class.tsx"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
 				"entity.name.type.param.rust punctuation.other.comma.rust",
 				"keyword.operator.path.rust"
 			],

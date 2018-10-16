@@ -1,6 +1,9 @@
 # ChangeLog
 
-## 0.0.145 *(October 2, 2018)*
+## 0.0.147 *(October 16, 2018)*
+- Add Cucumber support.
+
+## 0.0.146 *(October 2, 2018)*
 - Tweak NGINX highlighting & update language list in readme.
 
 ## 0.0.145 *(September 17, 2018)*

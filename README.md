@@ -41,6 +41,7 @@
 - Python
 - Ruby
   - Vagrant
+  - Cucumber (Gherkin)
 - Rust
 - Swift
 - Misc.
@@ -70,6 +71,7 @@
 - [JustusAdam/language-haskell](https://github.com/JustusAdam/language-haskell)
 - [fwcd/KotlinLanguageServer](https://github.com/fwcd/KotlinLanguageServer)
 - [GingerBear/vscode-liquid](https://github.com/GingerBear/vscode-liquid)
+- [alexkrechik/VSCucumberAutoComplete](https://github.com/alexkrechik/VSCucumberAutoComplete)
 
 
 ## Resources & References

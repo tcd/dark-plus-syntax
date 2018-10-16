@@ -1,0 +1,131 @@
+
+# no bells
+set bell-style none
+
+# =============================================================================
+# History
+# =============================================================================
+
+# Try to stay at the same the cursor position when moving through the history.
+# set history-preserve-point on
+set history-preserve-point off
+
+# =============================================================================
+# Autocompletion
+# =============================================================================
+
+# Make Tab autocompletion case-insensitive (cd ~/dow<Tab> => cd ~/Downloads/).
+set completion-ignore-case On
+
+# When autocompleting symlinks to directories, immediately add a trailing "/".
+set mark-symlinked-directories on
+
+# Do not expand "~" to the home directory when completing.
+# (The actual value passed on to the command still is expanded, though. Which is good.)
+# "Off" is the default value, but some servers override this, so I override the override.
+set expand-tilde off
+
+# Flip through autocompletion matches with Shift-Tab.
+# "\e[Z": menu-complete
+
+# on menu-complete, first display the common prefix, then cycle through the
+# options when hitting TAB
+set menu-complete-display-prefix on
+
+# Do not autocomplete hidden files ("dot files") unless the pattern explicitly begins with a dot.
+# set match-hidden-files on
+set match-hidden-files off
+
+# Show all autocomplete results at once.
+set page-completions off
+
+# If there are more than 200 possible completions for a word, ask to show them all.
+set completion-query-items 100
+
+# Immediately show all possible completions.
+set show-all-if-ambiguous on
+
+# Don't display control characters like ^C if I input them
+set echo-control-characters off
+
+
+# When completing directories, add a trailing slash
+set mark-directories on
+
+# Don't re-complete already completed text in the middle of a word
+# set skip-completed-text on
+
+# Show extra file information when completing, like `ls -F` does
+set visible-stats on
+
+
+# Allow UTF-8 input and output, instead of showing stuff like $'\0123\0456'
+# set input-meta on
+# set output-meta on
+# set convert-meta off
+
+# =============================================================================
+# mappings
+# =============================================================================
+# Use the text that has already been typed as the prefix for searching through
+# commands (i.e. more intelligent Up/Down behavior)
+"\e[B": history-search-forward
+"\e[A": history-search-backward
+
+"\e[1;5D": backward-word
+"\eOd": backward-word
+
+"\e[1;5C": forward-word
+"\eOc": forward-word
+
+
+# =============================================================================
+# vi-mode
+# =============================================================================
+
+# Uncomment to enable vi-mode!
+#set editing-mode vi
+
+# $if mode=vi
+# 	# Insert mode settings
+# 	set keymap vi-insert
+#
+# 	"\C-p": history-search-backward
+# 	"\C-n": history-search-forward
+# 	"\C-l": clear-screen
+#
+# 	# Shortcut for inserting a grep pipeline at eol
+# 	"\C-g": "\e$a | grep "
+#
+# 	# Ctrl+left/right for word movement
+# 	"\e\e[C": forward-word
+# 	"\e\e[D": backward-word
+# 	"\e[1;5C": forward-word
+# 	"\e[1;5D": backward-word
+#
+# 	# Disable left and right cursor movement
+# 	"\e[C": redraw-current-line
+# 	"\e[D": redraw-current-line
+#
+# 	# Command mode settings
+# 	set keymap vi-command
+#
+# 	"gg": beginning-of-history
+# 	"G": end-of-history
+#
+# 	# Shortcut for inserting a grep pipeline at eol
+# 	"\C-g": "$a | grep "
+#
+# 	# Ctrl+left/right for word movement
+# 	"\e\e[C": forward-word
+# 	"\e\e[D": backward-word
+# 	"\e[1;5C": forward-word
+# 	"\e[1;5D": backward-word
+#
+# 	# Disable left and right cursor movement
+# 	"\e[C": redraw-current-line
+# 	"\e[D": redraw-current-line
+# $endif
+
+#  vim: set ft=readline ts=2 sw=2 tw=80 noet :
+

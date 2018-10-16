@@ -174,4 +174,31 @@ module.exports = [
         ],
         "settings": {"foreground": "#4ec9b0"},
     },
+    // =========================================================================
+    // Cucumber (Gherkin)
+    // =========================================================================
+    {
+        "scope": [
+            "keyword.language.gherkin.feature.step",
+        ],
+        "settings": {"foreground": "#c586c0"},
+    },
+    // {
+    //     "scope": [
+    //         "keyword.control.cucumber.table",
+    //     ],
+    //     "settings": {"foreground": "#ce9178"},
+    // },
+    // {
+    //     "scope": [
+    //         "string.language.gherkin.scenario.title.title",
+    //     ],
+    //     "settings": {"foreground": "#9CDCFE"},
+    // },
+    {
+        "scope": [
+        "text.gherkin.feature entity.name.type.class.tsx",
+        ],
+        "settings": {"foreground": "#4ec9b0"},
+    },
 ];
