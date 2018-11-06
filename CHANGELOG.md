@@ -1,7 +1,8 @@
 # ChangeLog
 
-## 0.0.147 *(October 16, 2018)*
+## 0.0.147 *(November 6, 2018)*
 - Add Cucumber support.
+- Italicize `f` in Python f-strings.
 
 ## 0.0.146 *(October 2, 2018)*
 - Tweak NGINX highlighting & update language list in readme.

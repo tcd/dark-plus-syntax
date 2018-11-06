@@ -12,6 +12,7 @@ module.exports = [
             "variable.language.special.self.python",
             "support.function.magic.python",
             "support.variable.magic.python",
+            "storage.type.string.python",
             "variable.parameter.function.language.special.self.python",
             "meta.function.decorator.python support.type.python",
         ],
