@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.148 *(December 18, 2018)*
+- Change colon coloring in Python.
+
 ## 0.0.147 *(November 6, 2018)*
 - Add Cucumber support.
 - Italicize `f` in Python f-strings.

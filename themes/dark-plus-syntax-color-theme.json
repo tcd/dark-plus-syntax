@@ -1590,7 +1590,7 @@
 				"punctuation.definition.dict.end.python",
 				"punctuation.parenthesis.begin.python",
 				"punctuation.parenthesis.end.python",
-				"punctuation.separator.colon.python",
+				"punctuation.separator.dict.python",
 				"punctuation.section.function.begin.python",
 				"meta.function.parameters.begin.python",
 				"meta.function.parameters.end.python"
@@ -1601,6 +1601,8 @@
 		},
 		{
 			"scope": [
+				"punctuation.section.function.begin.python",
+				"punctuation.section.class.begin.python",
 				"variable.language.special.self.python",
 				"variable.parameter.function.language.special.self.python",
 				"constant.character.format.placeholder.other.python",
@@ -1650,7 +1652,8 @@
 				"keyword.operator.comparison.python",
 				"keyword.operator.assignment.python",
 				"keyword.operator.logical.python",
-				"punctuation.separator.slice.python"
+				"punctuation.separator.slice.python",
+				"punctuation.separator.colon.python"
 			],
 			"settings": {
 				"foreground": "#c586c0"

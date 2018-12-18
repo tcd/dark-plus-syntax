@@ -42,7 +42,8 @@ module.exports = [
             "punctuation.definition.dict.end.python",
             "punctuation.parenthesis.begin.python",
             "punctuation.parenthesis.end.python",
-            "punctuation.separator.colon.python",
+            // "punctuation.separator.colon.python",
+            "punctuation.separator.dict.python",
             "punctuation.section.function.begin.python",
             "meta.function.parameters.begin.python",
             "meta.function.parameters.end.python",
@@ -52,7 +53,8 @@ module.exports = [
     },
     {
         "scope": [
-            // "punctuation.section.function.begin.python",
+            "punctuation.section.function.begin.python",
+            "punctuation.section.class.begin.python",
             "variable.language.special.self.python",
             "variable.parameter.function.language.special.self.python",
             "constant.character.format.placeholder.other.python",
@@ -84,7 +86,6 @@ module.exports = [
         "scope": [
             "support.type.python",
             "entity.name.type.class.python",
-            // "punctuation.section.class.begin.python",
             "punctuation.separator.annotation.python",
             "punctuation.separator.annotation.result.python",
         ],
@@ -97,6 +98,7 @@ module.exports = [
             "keyword.operator.assignment.python",
             "keyword.operator.logical.python",
             "punctuation.separator.slice.python",
+            "punctuation.separator.colon.python",
         ],
         "settings": { "foreground": "#c586c0" },
     },
