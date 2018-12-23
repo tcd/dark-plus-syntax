@@ -348,6 +348,14 @@
 		},
 		{
 			"scope": [
+				"source.cpp keyword.operator.bitwise.shift.c"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
 				"keyword.operator.macro.crystal"
 			],
 			"settings": {

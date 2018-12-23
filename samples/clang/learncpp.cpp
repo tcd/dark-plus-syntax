@@ -256,8 +256,7 @@ foo(bar(tempObjectFun()))
 // which case its life gets extended to the current scope:
 
 void constReferenceTempObjectFun() {
-  // constRef gets the temporary object, and it is valid until the end of this
-  // function.
+  // constRef gets the temporary object, and it is valid until the end of this function.
   const string& constRef = tempObjectFun();
   ...
 }

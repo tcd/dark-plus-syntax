@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 0.0.149 *(December 23, 2018)*
+- Highlight C++ bitwise shift operators (`<<`/`>>`) as Storage keywords (dark blue).
+
 ## 0.0.148 *(December 18, 2018)*
 - Change colon coloring in Python.
 
