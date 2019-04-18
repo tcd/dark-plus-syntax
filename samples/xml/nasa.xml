@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?> <rss version="2.0" xml:base="http://www.nasa.gov/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>NASA Breaking News</title>
+        <description>A RSS news feed containing the latest NASA news articles and press releases.</description>
+ <link>http://www.nasa.gov/</link>
+ <atom:link rel="self" href="http://www.nasa.gov/rss/dyn/breaking_news.rss" />
+ <language>en-us</language>
+ <managingEditor>jim.wilson@nasa.gov</managingEditor>
+ <webMaster>brian.dunbar@nasa.gov</webMaster>
+ <docs>http://blogs.harvard.edu/tech/rss</docs>
+ <item> <title>NASA Television to Broadcast Launch, Docking of Space Station Cargo Ship</title>
+ <link>http://www.nasa.gov/press-release/nasa-television-to-broadcast-launch-docking-of-space-station-cargo-ship</link>
+ <description>A Russian Progress cargo ship is scheduled to launch on a three-hour flight to the International Space Station Thursday, April 4.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/44170959294_bbde8062f7_k.jpg?itok=TWnOR-No" length="955992" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-television-to-broadcast-launch-docking-of-space-station-cargo-ship</guid>
+ <pubDate>Thu, 28 Mar 2019 10:34 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>442346</dc:identifier>
+</item>
+ <item> <title>NASA Administrator Statement on Return to Moon in Next Five Years</title>
+ <link>http://www.nasa.gov/press-release/nasa-administrator-statement-on-return-to-moon-in-next-five-years</link>
+ <description>The following is a statement from NASA Administrator Jim Bridenstine on Tuesday’s announcement by Vice President Mike Pence, at the fifth meeting of the National Space Council, about putting American astronauts back on the Moon in the next five years:</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/5thspacecouncil.jpg?itok=JvV1pvUG" length="944791" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-administrator-statement-on-return-to-moon-in-next-five-years</guid>
+ <pubDate>Tue, 26 Mar 2019 18:27 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>442251</dc:identifier>
+</item>
+ <item> <title>NASA Updates Spacewalk Assignments, Announces Final Preview Briefing</title>
+ <link>http://www.nasa.gov/press-release/nasa-updates-spacewalk-assignments-announces-final-preview-briefing</link>
+ <description>With the first in a series of three spacewalks successfully completed at the International Space Station, NASA has updated astronaut assignments for the remaining two spacewalks and will preview the third in an upcoming news conference on NASA Television and the agency’s website.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/hague_mcclain_koch.jpg?itok=tEpPTS-I" length="377306" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-updates-spacewalk-assignments-announces-final-preview-briefing</guid>
+ <pubDate>Mon, 25 Mar 2019 16:53 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>442185</dc:identifier>
+</item>
+ <item> <title>NASA Television to Broadcast Fifth Meeting of the National Space Council</title>
+ <link>http://www.nasa.gov/press-release/nasa-television-to-broadcast-fifth-meeting-of-the-national-space-council</link>
+ <description>NASA Television and the agency’s website will provide live coverage of the fifth meeting of the National Space Council starting at 1 p.m. EDT Tuesday, March 26.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/ksc-20180221-ph_kls01_0126.jpg?itok=A19bMz8Y" length="11975460" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-television-to-broadcast-fifth-meeting-of-the-national-space-council</guid>
+ <pubDate>Mon, 25 Mar 2019 16:14 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>442180</dc:identifier>
+</item>
+ <item> <title>NASA Selects Three Additional Informal Learning Institutions to Engage Learners in its Mission</title>
+ <link>http://www.nasa.gov/stem/nasa-selects-three-additional-informal-learning-institutions-to-engage-learners-in-its.html</link>
+ <description>NASA’s Teams Engaging Affiliated Museums and Informal Institutions (TEAM II) has selected three additional informal education organizations to supplement the initial group selected in June 2018.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/meatball-1041.jpg?itok=peuMD06B" length="73324" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/stem/nasa-selects-three-additional-informal-learning-institutions-to-engage-learners-in-its.html</guid>
+ <pubDate>Mon, 25 Mar 2019 13:12 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>442155</dc:identifier>
+</item>
+ <item> <title>NASA Mission Reveals Asteroid Has Big Surprises</title>
+ <link>http://www.nasa.gov/press-release/nasa-mission-reveals-asteroid-has-big-surprises</link>
+ <description>A NASA spacecraft that will return a sample of a near-Earth asteroid named Bennu to Earth in 2023 made the first-ever close-up observations of particle plumes erupting from an asteroid’s surface.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/3_lauretta_bennu_particle_jets_0.jpg?itok=VSyANYXP" length="242882" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-mission-reveals-asteroid-has-big-surprises</guid>
+ <pubDate>Tue, 19 Mar 2019 12:33 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>441821</dc:identifier>
+</item>
+ <item> <title>NASA Television to Air Three Upcoming Spacewalks, Preview Briefing</title>
+ <link>http://www.nasa.gov/press-release/nasa-television-to-air-three-upcoming-spacewalks-preview-briefing</link>
+ <description>Four astronauts are preparing for their first spacewalks outside the International Space Station, scheduled for March 22, March 29 and April 8.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/iss058e015358medium.jpg?itok=_y8Fk5CD" length="175159" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-television-to-air-three-upcoming-spacewalks-preview-briefing</guid>
+ <pubDate>Fri, 15 Mar 2019 17:06 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>441648</dc:identifier>
+</item>
+ <item> <title>NASA Invites Media to 17th SpaceX Cargo Launch to Space Station</title>
+ <link>http://www.nasa.gov/press-release/nasa-invites-media-to-17th-spacex-cargo-launch-to-space-station</link>
+ <description>Media accreditation now is open for the next SpaceX delivery of supplies, equipment and science investigations to the International Space Station.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/m19-018.jpg?itok=3_1EDoZD" length="554047" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-invites-media-to-17th-spacex-cargo-launch-to-space-station</guid>
+ <pubDate>Fri, 15 Mar 2019 12:52 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>441623</dc:identifier>
+</item>
+ <item> <title>NASA Astronauts Hague, Koch Arrive Safely at Space Station</title>
+ <link>http://www.nasa.gov/press-release/nasa-astronauts-hague-koch-arrive-safely-at-space-station</link>
+ <description>Three crew members have arrived safely at the International Space Station, following a successful launch and docking of their Soyuz MS-12 spacecraft Thursday.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/d2cita_wkaabdbk.jpg?itok=lWTXdnAG" length="3088975" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-astronauts-hague-koch-arrive-safely-at-space-station</guid>
+ <pubDate>Thu, 14 Mar 2019 20:55 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>441588</dc:identifier>
+</item>
+ <item> <title>NASA to Host Media Teleconference on Asteroid Sample Return Mission</title>
+ <link>http://www.nasa.gov/press-release/nasa-to-host-media-teleconference-on-asteroid-sample-return-mission</link>
+ <description>NASA is hosting a media teleconference at 1:30 p.m. EDT Tuesday, March 19, to announce new science from the agency’s first mission to return to Earth an asteroid sample that may contain unaltered material from the very beginning of our solar system.</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/osirisrextagprint2016_1.jpg?itok=WR9yC31z" length="2558888" type="image/jpeg" />
+ <guid isPermaLink="false">http://www.nasa.gov/press-release/nasa-to-host-media-teleconference-on-asteroid-sample-return-mission</guid>
+ <pubDate>Thu, 14 Mar 2019 12:00 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/breaking_news.rss">NASA Breaking News</source>
+ <dc:identifier>441555</dc:identifier>
+</item>
+</channel>
+</rss>
