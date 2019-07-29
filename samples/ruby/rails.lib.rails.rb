@@ -4,12 +4,12 @@ require "rails/ruby_version_check"
 
 require "pathname"
 
-require "active_support"
-require "active_support/dependencies/autoload"
-require "active_support/core_ext/kernel/reporting"
-require "active_support/core_ext/module/delegation"
-require "active_support/core_ext/array/extract_options"
-require "active_support/core_ext/object/blank"
+require 'active_support'
+require 'active_support/dependencies/autoload'
+require 'active_support/core_ext/kernel/reporting'
+require 'active_support/core_ext/module/delegation'
+require 'active_support/core_ext/array/extract_options'
+require 'active_support/core_ext/object/blank'
 
 require "rails/application"
 require "rails/version"
