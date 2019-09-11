@@ -1,7 +1,13 @@
 # ChangeLog
 
 
-## 0.0.150 *(July 19, 2019)*
+## 0.0.151 *(September 11, 2019)*
+- Update Diff colors (remove background to improve visibility).
+- Add Terminal colors to theme.
+- Update readme.
+- Fix typo in changelog.
+
+## 0.0.150 *(July 29, 2019)*
 - Slight refactoring of project structure.
 - Update colors for Error, Warning, and Info squiggles. (Red, Yellow, and Green respectively.)
 

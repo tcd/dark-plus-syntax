@@ -68,6 +68,12 @@ module.exports = {
     "gitDecoration.conflictingResourceForeground": "#d16969",
     // "gitDecoration.submoduleResourceForeground": "",
 
+    "diffEditor.insertedTextBackground": "#1e1e1e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
+    "diffEditor.removedTextBackground": "#1e1e1e",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
+    // "diffEditor.border": "",                 // Border color between the two text editors.
+
     // "merge.currentHeaderBackground": "",                 // Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
     // "merge.currentContentBackground": "",                // Current content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
     // "merge.incomingHeaderBackground": "",                // Incoming header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
@@ -83,24 +89,25 @@ module.exports = {
     // Terminal Colors
     // ========================================================================
 
-    // "terminal.background": "#1e1e1e",
-    // "terminal.foreground": "#d4d4d4",
-    // "terminal.ansiBlack": "#808080",
-    // "terminal.ansiBrightBlack": "#808080",
-    // "terminal.ansiRed": "#d16969",
-    // "terminal.ansiBrightRed": "#d16969",
-    // "terminal.ansiBlue": "#569cd6",
-    // "terminal.ansiBrightBlue": "#569cd6",
-    // "terminal.ansiGreen": "#608b4e",
-    // "terminal.ansiBrightGreen": "#608b4e",
-    // "terminal.ansiCyan": "#4ec9b0",
-    // "terminal.ansiBrightCyan": "#4ec9b0",
-    // "terminal.ansiYellow": "#d7ba7d",
-    // "terminal.ansiBrightYellow": "#d7ba7d",
-    // "terminal.ansiMagenta": "#c586c0",
-    // "terminal.ansiBrightMagenta": "#c586c0",
-    // "terminal.ansiWhite": "#d4d4d4",
-    // "terminal.ansiBrightWhite": "#d4d4d4",
-    // "terminal.selectionBackground": "#add6ff26",
-    // "terminalCursor.foreground": "#808080",
+    "terminal.selectionBackground": "#add6ff26",
+    "terminalCursor.foreground": "#808080",
+
+    "terminal.background": "#1e1e1e",
+    "terminal.foreground": "#d4d4d4",
+    "terminal.ansiBlack": "#1e1e1e",
+    "terminal.ansiBrightBlack": "#808080",
+    "terminal.ansiRed": "#d16969",
+    "terminal.ansiBrightRed": "#d16969",
+    "terminal.ansiBlue": "#569cd6",
+    "terminal.ansiBrightBlue": "#9cdcfe",
+    "terminal.ansiGreen": "#608b4e",
+    "terminal.ansiBrightGreen": "#b5cea8",
+    "terminal.ansiCyan": "#4ec9b0",
+    "terminal.ansiBrightCyan": "#4ec9b0",
+    "terminal.ansiYellow": "#d7ba7d",
+    "terminal.ansiBrightYellow": "#ce9178",
+    "terminal.ansiMagenta": "#c586c0",
+    "terminal.ansiBrightMagenta": "#c586c0",
+    "terminal.ansiWhite": "#d4d4d4",
+    "terminal.ansiBrightWhite": "#808080",
 }

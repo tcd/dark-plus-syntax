@@ -1,4 +1,5 @@
 # {minor tweaks}
+
 [![GitHub issues](https://img.shields.io/github/issues/dunstontc/dark-plus-syntax.svg)](https://github.com/dunstontc/dark-plus-syntax/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue)](https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax)
@@ -54,6 +55,7 @@
   - YAML
 
 ## Tested with
+
 - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)
 - [joshpeng/Sublime-Babel-VSCode](https://github.com/joshpeng/Sublime-Babel-VSCode)
 - [vuejs/vetur](https://github.com/vuejs/vetur)
@@ -75,8 +77,10 @@
 
 
 ## Resources & References
+
 - [Microsoft/vscode-textmate](https://github.com/Microsoft/vscode-textmate)
 - [Scope Naming](https://www.sublimetext.com/docs/3/scope_naming.html)
+- [VSCode Theme Colors](https://code.visualstudio.com/api/references/theme-color)
 
 ## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
 
