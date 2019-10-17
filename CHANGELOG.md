@@ -1,6 +1,9 @@
 # ChangeLog
 
 
+## 0.0.152 *(October 17, 2019)*
+- Update color of Keyword Arguments in Ruby.
+
 ## 0.0.151 *(September 11, 2019)*
 - Update Diff colors (remove background to improve visibility).
 - Add Terminal colors to theme.

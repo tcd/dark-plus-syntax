@@ -1707,6 +1707,7 @@
 				"variable.other.ruby",
 				"variable.other.constant.ruby",
 				"constant.language.symbol.hashkey.ruby",
+				"constant.language.symbol.hashkey.parameter.function.ruby",
 				"variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby"
 			],
 			"settings": {
@@ -1800,6 +1801,7 @@
 				"keyword.operator.arithmetic.ruby",
 				"punctuation.separator.method.ruby",
 				"constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
+				"constant.language.symbol.hashkey.parameter.function.ruby punctuation.definition.constant.hashkey.ruby",
 				"source.ruby punctuation.separator.key-value"
 			],
 			"settings": {

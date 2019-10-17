@@ -4,6 +4,7 @@ module.exports = [
             "variable.other.ruby",
             "variable.other.constant.ruby",
             "constant.language.symbol.hashkey.ruby",
+            "constant.language.symbol.hashkey.parameter.function.ruby",
             "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
          ],
         "settings": {"foreground": "#9cdcfe"},
@@ -89,6 +90,7 @@ module.exports = [
             "keyword.operator.arithmetic.ruby",
             "punctuation.separator.method.ruby",
             "constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
+            "constant.language.symbol.hashkey.parameter.function.ruby punctuation.definition.constant.hashkey.ruby",
             "source.ruby punctuation.separator.key-value",
         ],
         "settings": {"foreground": "#c586c0"},
@@ -129,9 +131,17 @@ module.exports = [
     // =========================================================================
     // {
     //     "scope": [
+    //         "comment.line.keyword.punctuation.yard.ruby",
     //         "comment.line.keyword.yard.ruby",
-    //     ],
-    //     "settings": {"foreground": "#569cd6"},
+    //         "comment.line.parameter.yard.ruby",
+    //         "comment.line.type.yard.ruby",
+    //         "comment.line.string.yard.ruby",
+    //         // "comment.line.punctuation.yard.ruby",
+    //      ],
+    //     "settings": {
+    //         "foreground": "#608b4e",
+    //         // "fontStyle": "italic",
+    //     },
     // },
     // {
     //     "scope": [
@@ -147,15 +157,9 @@ module.exports = [
     // },
     // {
     //     "scope": [
-    //         // "comment.line.keyword.yard.ruby",
-    //         "comment.line.parameter.yard.ruby",
-    //         // "comment.line.type.yard.ruby",
-    //         "comment.line.string.yard.ruby",
+    //         "comment.line.punctuation.yard.ruby",
     //      ],
-    //     "settings": {
-    //         "foreground": "#608b4e",
-    //         "fontStyle": "italic",
-    //     },
+    //     "settings": {"foreground": "#505050"},
     // },
     // =========================================================================
     // erb
