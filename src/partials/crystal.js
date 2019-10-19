@@ -25,7 +25,7 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.separator.variable.crystal", // `|var|`
+            "punctuation.separator.variable.crystal", // |var|
             "punctuation.separator.object.crystal",
             "punctuation.definition.parameters.crystal",
         ],
@@ -40,30 +40,32 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.separator.method.crystal", // `.`
+            "punctuation.separator.method.crystal", // .
         ],
         "settings": {"foreground": "#c586c0"},
     },
     {
         "scope": [
             "support.class.crystal",
-            "punctuation.separator.other.crystal",            // `::/:`
+            "punctuation.separator.other.crystal",            // ::/:
         ],
         "settings": {"foreground": "#4ec9b0"},
     },
     {
         "scope": [
             "variable.language.crystal",
-            "punctuation.section.embedded.crystal",           // `#{}`
-            "keyword.control.special-method.crystal",         // `new/include/extend/raise`
-            "source.crystal punctuation.separator.key-value", // `=>`
+            "punctuation.section.embedded.crystal",           // #{}
+            "punctuation.section.embedded.begin.crystal",     // #{}
+            "punctuation.section.embedded.end.crystal",       // #{}
+            "keyword.control.special-method.crystal",         // new/include/extend/raise
+            "source.crystal punctuation.separator.key-value", // =>
         ],
         "settings": {"foreground": "#569cd6"},
     },
     {
         "scope": [
             "string.quoted.single.crystal",
-            "constant.other.symbol.crystal",                  // `:symbol`
+            "constant.other.symbol.crystal",                  // :symbol
         ],
         "settings": {"foreground": "#d7ba7d"},
     },

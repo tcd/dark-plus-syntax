@@ -435,6 +435,8 @@
 			"scope": [
 				"variable.language.crystal",
 				"punctuation.section.embedded.crystal",
+				"punctuation.section.embedded.begin.crystal",
+				"punctuation.section.embedded.end.crystal",
 				"keyword.control.special-method.crystal",
 				"source.crystal punctuation.separator.key-value"
 			],
