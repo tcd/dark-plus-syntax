@@ -3,6 +3,8 @@
 
 ## 0.0.153 *(October 18, 2019)*
 - Assorted improvements to Crystal syntax highlighting.
+- Add GraphQL support.
+- Add GraphQL samples.
 
 ## 0.0.152 *(October 17, 2019)*
 - Update color of Keyword Arguments in Ruby.

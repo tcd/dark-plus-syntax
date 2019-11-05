@@ -7,6 +7,7 @@ const css        = require('./src/partials/css');
 const csv        = require('./src/partials/csv');
 const defaults   = require('./src/partials/defaults');
 const elixir     = require('./src/partials/elixir');
+const graphql    = require('./src/partials/graphql');
 const golang     = require('./src/partials/go');
 const html       = require('./src/partials/html');
 const java       = require('./src/partials/java');
@@ -34,6 +35,7 @@ let tokenz = nop.concat(
     csv,
     elixir,
     golang,
+    graphql,
     java,
     javascript,
     make,

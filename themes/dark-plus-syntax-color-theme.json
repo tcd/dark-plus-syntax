@@ -1035,6 +1035,34 @@
 		},
 		{
 			"scope": [
+				"entity.scalar.graphql",
+				"entity.name.fragment.graphql"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.or.graphql",
+				"punctuation.assignment.graphql"
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"graphql.description.SINGLELINE",
+				"string.block.description.graphql.DOCSTRING",
+				"string.description.graphql"
+			],
+			"settings": {
+				"foreground": "#608b4e"
+			}
+		},
+		{
+			"scope": [
 				"storage.modifier.import.java",
 				"variable.language.wildcard.java",
 				"storage.modifier.package.java"
