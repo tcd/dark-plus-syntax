@@ -1,0 +1,47 @@
+"""Rate provided by a rate definition or a participant."""
+union DeliveryRateProvider = DeliveryRateDefinition | DeliveryParticipant
+
+"""The criteria (weight or price) that the field must meet based on the operator."""
+union DeliveryConditionCriteria = Weight | MoneyV2
+
+"""Information about the price charged to a shop every plan period."""
+union AppPricingDetails = AppUsagePricing | AppRecurringPricing
+
+"""The value of the pricing object."""
+union PricingValue = PricingPercentageValue | MoneyV2
+
+"""The value of the price rule."""
+union PriceRuleValue = PriceRulePercentValue | PriceRuleFixedAmountValue
+
+"""Information about the payment instrument used for this transaction."""
+union TenderTransactionDetails = TenderTransactionCreditCardDetails
+
+"""An automatic discount."""
+union DiscountAutomatic = DiscountAutomaticBxgy | DiscountAutomaticBasic
+
+"""The value of the discount and how it will be applied."""
+union DiscountCustomerGetsValue = DiscountOnQuantity | DiscountAmount | DiscountPercentage
+
+"""The type of discount that will be applied. Currently, only percentage off is supported."""
+union DiscountEffect = DiscountPercentage
+
+"""Entitled or prerequisite items on a discount. An item could be either collection or product or product_variant."""
+union DiscountItems = AllDiscountItems | DiscountProducts | DiscountCollections
+
+"""The prerequisite quantity required for the discount to be applicable."""
+union DiscountCustomerBuysValue = DiscountQuantity
+
+"""The minimum subtotal or quantity requirements for the discount."""
+union DiscountMinimumRequirement = DiscountMinimumQuantity | DiscountMinimumSubtotal
+
+"""A code discount."""
+union DiscountCode = DiscountCodeBasic | DiscountCodeBxgy | DiscountCodeFreeShipping
+
+"""The selection of customers who can use this discount."""
+union DiscountCustomerSelection = DiscountCustomerAll | DiscountCustomers | DiscountCustomerSavedSearches
+
+"""The selection of shipping countries to which this discount applies."""
+union DiscountShippingDestinationSelection = DiscountCountryAll | DiscountCountries
+
+"""The main embed of a comment event."""
+union CommentEventEmbed = Order | DraftOrder | Customer | Product | ProductVariant

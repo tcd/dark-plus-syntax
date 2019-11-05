@@ -1,0 +1,199 @@
+"An object with an ID to support global identification."
+interface Node {
+  id: ID!
+}
+
+"Represents information about the metafields associated to the specified resource."
+interface HasMetafields {
+  metafield(
+    "Container for a set of metafields (maximum of 20 characters)."
+    namespace: String!
+    "Identifier for the metafield (maximum of 30 characters)."
+    key: String!
+  ): Metafield
+  metafields(
+    "Finds all metafields with a specific namespace under the resource."
+    namespace: String
+    "Returns up to the first `n` elements from the list."
+    first: Int
+    "Returns the elements that come after the specified cursor."
+    after: String
+    "Returns up to the last `n` elements from the list."
+    last: Int
+    "Returns the elements that come before the specified cursor."
+    before: String
+    "Reverse the order of the underlying list."
+    reverse: Boolean = false
+  ): MetafieldConnection!
+  privateMetafield(
+    "The namespace for the private metafield."
+    namespace: String!
+    "The key for the private metafield."
+    key: String!
+  ): PrivateMetafield
+  privateMetafields(
+    "Filter the private metafields by namespace."
+    namespace: String
+    "Returns up to the first `n` elements from the list."
+    first: Int
+    "Returns the elements that come after the specified cursor."
+    after: String
+    "Returns up to the last `n` elements from the list."
+    last: Int
+    "Returns the elements that come before the specified cursor."
+    before: String
+    "Reverse the order of the underlying list."
+    reverse: Boolean = false
+  ): PrivateMetafieldConnection!
+}
+
+"Interoperability metadata for types which directly correspond to a REST Admin API resource."
+interface LegacyInteroperability {
+  legacyResourceId: UnsignedInt64!
+}
+
+"Represents an error in the input of a mutation."
+interface DisplayableError {
+  "Path to the input field which caused the error."
+  field: [String]
+  "The error message."
+  message: String!
+}
+
+"Published translations associated with the resource."
+interface HasPublishedTranslations {
+  translations(
+    "Filters translations locale."
+    locale: String!
+  ): [PublishedTranslation]!
+}
+
+"Represents a resource that can be published to a channel. A publishable resource can be either a Product or Collection."
+interface Publishable {
+  availablePublicationCount: Int!
+  publicationCount(
+    "Include only the resource's publications that are published. If false, then return all the resource's publications including future publications."
+    onlyPublished: Boolean = true
+  ): Int!
+  publishedOnChannel("The ID of the channel to check." channelId: ID!): Boolean!
+  publishedOnCurrentChannel: Boolean!
+  publishedOnCurrentPublication: Boolean!
+  publishedOnPublication(
+    "The ID of the publication to check."
+    publicationId: ID!
+  ): Boolean!
+  resourcePublications(
+    "Return only the resources that are published. If false, then return all resource publications."
+    onlyPublished: Boolean = true
+    "Returns up to the first `n` elements from the list."
+    first: Int
+    "Returns the elements that come after the specified cursor."
+    after: String
+    "Returns up to the last `n` elements from the list."
+    last: Int
+    "Returns the elements that come before the specified cursor."
+    before: String
+    "Reverse the order of the underlying list."
+    reverse: Boolean = false
+  ): ResourcePublicationConnection!
+  unpublishedChannels(
+    "Returns up to the first `n` elements from the list."
+    first: Int
+    "Returns the elements that come after the specified cursor."
+    after: String
+    "Returns up to the last `n` elements from the list."
+    last: Int
+    "Returns the elements that come before the specified cursor."
+    before: String
+    "Reverse the order of the underlying list."
+    reverse: Boolean = false
+  ): ChannelConnection!
+  unpublishedPublications(
+    "Returns up to the first `n` elements from the list."
+    first: Int
+    "Returns the elements that come after the specified cursor."
+    after: String
+    "Returns up to the last `n` elements from the list."
+    last: Int
+    "Returns the elements that come before the specified cursor."
+    before: String
+    "Reverse the order of the underlying list."
+    reverse: Boolean = false
+  ): PublicationConnection!
+}
+
+"A default cursor for use in pagination. The default cursor can be used for next and previous navigation."
+interface Navigable {
+  defaultCursor: String!
+}
+
+"Online Store preview URL of the object."
+interface OnlineStorePreviewable {
+  onlineStorePreviewUrl: URL
+}
+
+"Services and features purchased once by the store."
+interface AppPurchase {
+  createdAt: DateTime!
+  name: String!
+  price: MoneyV2!
+  status: AppPurchaseStatus!
+  test: Boolean!
+}
+
+"The subject line of a comment event."
+interface CommentEventSubject {
+  hasTimelineComment: Boolean!
+  id: ID!
+}
+
+"Connector to event records on a compatible host."
+interface HasEvents {
+  events(
+    "Returns up to the first `n` elements from the list."
+    first: Int
+    "Returns the elements that come after the specified cursor."
+    after: String
+    "Returns up to the last `n` elements from the list."
+    last: Int
+    "Returns the elements that come before the specified cursor."
+    before: String
+    "Reverse the order of the underlying list."
+    reverse: Boolean = false
+    "Sort the underlying list by the given key."
+    sortKey: EventSortKeys = ID
+    "Supported filter parameters:\n - `comments`\n - `created_at`\n - `subject_type`\n  - `verb`\nSee the detailed [search syntax](https://help.shopify.com/api/getting-started/search-syntax)."
+    query: String
+  ): EventConnection!
+}
+
+"Events chronicle resource activities such as the creation of an article, the fulfillment of an order, or the addition of a product."
+interface Event {
+  appTitle: String
+  attributeToApp: Boolean!
+  attributeToUser: Boolean!
+  createdAt: DateTime!
+  criticalAlert: Boolean!
+  id: ID!
+  message: FormattedString!
+}
+
+"Represents events preceding a customer order, such as shop sessions."
+interface CustomerMoment {
+  occurredAt: DateTime!
+}
+
+"Discount applications capture the intentions of a discount source at the time of application on an order's line items or shipping lines."
+interface DiscountApplication {
+  allocationMethod: DiscountApplicationAllocationMethod!
+  index: Int!
+  targetSelection: DiscountApplicationTargetSelection!
+  targetType: DiscountApplicationTargetType!
+  value: PricingValue!
+}
+
+"The charge descriptors for a payments account."
+interface ShopifyPaymentsChargeStatementDescriptor {
+  default: String
+  prefix: String!
+}
