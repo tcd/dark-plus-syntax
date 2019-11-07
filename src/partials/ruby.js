@@ -1,6 +1,13 @@
 module.exports = [
     {
         "scope": [
+            "punctuation.definition.string.begin.ruby",
+            "punctuation.definition.string.end.ruby",
+        ],
+        "settings": {"foreground": "#ce9178"},
+    },
+    {
+        "scope": [
             "variable.other.ruby",
             "variable.other.constant.ruby",
             "constant.language.symbol.hashkey.ruby",
@@ -10,9 +17,7 @@ module.exports = [
         "settings": {"foreground": "#9cdcfe"},
     },
     {
-        "scope": [
-            "variable.other.readwrite.instance.ruby",
-        ],
+        "scope": ["variable.other.readwrite.instance.ruby"],
         "settings": {"fontStyle": "italic"},
     },
     {

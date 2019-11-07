@@ -12,16 +12,16 @@ module.exports = {
     "editorIndentGuide.background": "#404040",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
-    "diffEditor.insertedTextBorder": "#608b4e",
-    "diffEditor.removedTextBorder": "#d16969",
+
+    // "diffEditor.insertedTextBorder": "#608b4e",
+    // "diffEditor.removedTextBorder": "#d16969",
+
     // "editor.findMatchBackground": "#cc00b1",
     // "editor.findMatchHighlightBackground": "#007acc",
+
     "editorGutter.addedBackground": "#608b4e",
     "editorGutter.modifiedBackground": "#d7ba7d",
     "editorGutter.deletedBackground": "#d16969",
-    "editorOverviewRuler.addedForeground": "#608b4e",
-    "editorOverviewRuler.modifiedForeground": "#d7ba7d",
-    "editorOverviewRuler.deletedForeground": "#d16969",
 
     // "editorOverviewRuler.border": "", // Color of the overview ruler border.
     // "editorOverviewRuler.findMatchForeground": "", // Overview ruler marker color for find matches. The color must not be opaque to not hide underlying decorations.
@@ -29,12 +29,12 @@ module.exports = {
     // "editorOverviewRuler.selectionHighlightForeground": "", //Overview ruler marker color for selection highlights. The color must not be opaque to not hide underlying decorations.
     // "editorOverviewRuler.wordHighlightForeground": "", //Overview ruler marker color for symbol highlights. The color must not be opaque to not hide underlying decorations.
     // "editorOverviewRuler.wordHighlightStrongForeground": "", // Overview ruler marker color for write-access symbol highlights. The color must not be opaque to not hide underlying decorations.
-    // "editorOverviewRuler.modifiedForeground": "", // Overview ruler marker color for modified content.
-    // "editorOverviewRuler.addedForeground": "", // Overview ruler marker color for added content.
-    // "editorOverviewRuler.deletedForeground": "", // Overview ruler marker color for deleted content.
-    // "editorOverviewRuler.errorForeground": "", // Overview ruler marker color for errors.
-    // "editorOverviewRuler.warningForeground": "", // Overview ruler marker color for warnings.
-    // "editorOverviewRuler.infoForeground": "", // Overview ruler marker color for infos.
+    "editorOverviewRuler.modifiedForeground": "#d7ba7d", // Overview ruler marker color for modified content.
+    "editorOverviewRuler.addedForeground": "#608b4e", // Overview ruler marker color for added content.
+    "editorOverviewRuler.deletedForeground": "#d16969", // Overview ruler marker color for deleted content.
+    "editorOverviewRuler.errorForeground": "#d16969", // Overview ruler marker color for errors.
+    "editorOverviewRuler.warningForeground": "#d7ba7d", // Overview ruler marker color for warnings.
+    "editorOverviewRuler.infoForeground": "#9cdcfe", // Overview ruler marker color for infos.
 
     // "notificationCenter.border": "", // Notification Center border color.
     // "notificationCenterHeader.foreground": "", // Notification Center header foreground color.
@@ -53,8 +53,8 @@ module.exports = {
     // "editorError.border": "#d16969",
     "editorWarning.foreground": "#d7ba7d",
     // "editorWarning.border": "#d7ba7d",
-    "editorInfo.foreground": "#608b4e",
-    // "editorInfo.border": "#608b4e",
+    "editorInfo.foreground": "#9cdcfe",
+    // "editorInfo.border": "#9cdcfe",
 
     // ========================================================================
     // Git Colors
@@ -68,10 +68,10 @@ module.exports = {
     "gitDecoration.conflictingResourceForeground": "#d16969",
     // "gitDecoration.submoduleResourceForeground": "",
 
-    "diffEditor.insertedTextBackground": "#1e1e1e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
-    "diffEditor.removedTextBackground": "#1e1e1e",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
+    // "diffEditor.insertedTextBackground": "#608b4e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
+    // "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
+    // "diffEditor.removedTextBackground": "#d16969",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+    // "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
     // "diffEditor.border": "",                 // Border color between the two text editors.
 
     // "merge.currentHeaderBackground": "",                 // Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.

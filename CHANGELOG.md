@@ -1,7 +1,14 @@
 # ChangeLog
 
 
-## 0.0.153 *(October 18, 2019)*
+## 0.0.154 *(November 7, 2019)*
+- Fix typo in changelog.
+- Update language list in readme.
+- Highlight Ruby HEREDOC delimiters as Strings.
+- Roll back change to Diff highlighting from commit [3ec2c04](https://github.com/dunstontc/dark-plus-syntax/commit/3ec2c0400e32061eed6c7090c0248cb0da21b659). See [Issue #7](https://github.com/dunstontc/dark-plus-syntax/issues/7)
+- Change Info level highlights to light blue.
+
+## 0.0.153 *(November 5, 2019)*
 - Assorted improvements to Crystal syntax highlighting.
 - Add GraphQL support.
 - Add GraphQL samples.

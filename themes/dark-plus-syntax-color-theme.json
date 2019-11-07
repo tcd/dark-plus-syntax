@@ -10,25 +10,24 @@
 		"editorIndentGuide.background": "#404040",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"diffEditor.insertedTextBorder": "#608b4e",
-		"diffEditor.removedTextBorder": "#d16969",
 		"editorGutter.addedBackground": "#608b4e",
 		"editorGutter.modifiedBackground": "#d7ba7d",
 		"editorGutter.deletedBackground": "#d16969",
-		"editorOverviewRuler.addedForeground": "#608b4e",
 		"editorOverviewRuler.modifiedForeground": "#d7ba7d",
+		"editorOverviewRuler.addedForeground": "#608b4e",
 		"editorOverviewRuler.deletedForeground": "#d16969",
+		"editorOverviewRuler.errorForeground": "#d16969",
+		"editorOverviewRuler.warningForeground": "#d7ba7d",
+		"editorOverviewRuler.infoForeground": "#9cdcfe",
 		"editorError.foreground": "#d16969",
 		"editorWarning.foreground": "#d7ba7d",
-		"editorInfo.foreground": "#608b4e",
+		"editorInfo.foreground": "#9cdcfe",
 		"gitDecoration.modifiedResourceForeground": "#608b4e",
 		"gitDecoration.addedResourceForeground": "#608b4e",
 		"gitDecoration.deletedResourceForeground": "#d7ba7d",
 		"gitDecoration.untrackedResourceForeground": "#d7ba7d",
 		"gitDecoration.ignoredResourceForeground": "#808080",
 		"gitDecoration.conflictingResourceForeground": "#d16969",
-		"diffEditor.insertedTextBackground": "#1e1e1e",
-		"diffEditor.removedTextBackground": "#1e1e1e",
 		"terminal.selectionBackground": "#add6ff26",
 		"terminalCursor.foreground": "#808080",
 		"terminal.background": "#1e1e1e",
@@ -1730,6 +1729,15 @@
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin.ruby",
+				"punctuation.definition.string.end.ruby"
+			],
+			"settings": {
+				"foreground": "#ce9178"
 			}
 		},
 		{

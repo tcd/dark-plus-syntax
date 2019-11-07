@@ -1,3 +1,7 @@
+# ==============================================================================
+# rdoc
+# ==============================================================================
+
 # Converts the object into textual markup given a specific `format`
 # (defaults to `:html`)
 #
@@ -11,7 +15,7 @@
 # format.
 #
 def to_format(format = :html)
-# format the object
+    # format the object
 end
 
 # ==============================================================================
@@ -35,6 +39,10 @@ def clean(user, host, time = Time.now) end
 def activate(user, host, time = Time.now) end
 
 class Resource
+    prepend AModule
+    extend SomeModule
+    include SomeModule
+    include SomeModule::AnotherModule
     # Defines a new property
     # @param [String] name the property name
     # @param [Class] type the property's type

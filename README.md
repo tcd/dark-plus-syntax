@@ -18,51 +18,51 @@
 - C/C++
 - Crystal
 - CSS
-  - Stylus
-  - SCSS
+    - Stylus
+    - SCSS
 - Elixir
 - Erlang
 - Go
 - Haskell
 - HTML
-  - ECR/EEX/EJS/ERB
-  - Handlebars
-  - Jinja2
-  - Pug/Jade
-  - Twig
-  - Liquid
+    - ECR/EEX/EJS/ERB
+    - Handlebars
+    - Jinja2
+    - Pug/Jade
+    - Twig
+    - Liquid
 - Java
-  - Kotlin
-  - Groovy
+    - Kotlin
+    - Groovy
 - JavaScript
-  - JSON
-  - JSX
-  - TypeScript
+    - JSON
+    - JSX
+    - TypeScript
 - Markdown
 - Python
 - Ruby
-  - Vagrant
-  - Cucumber (Gherkin)
+    - Vagrant
+    - Cucumber (Gherkin)
 - Rust
 - Swift
 - Misc.
-  - CMake
-  - CSV
-  - Makefile
-  - NGINX
-  - Terraform
-  - TOML
-  - YAML
+    - CMake
+    - CSV
+    - GraphQL
+    - Makefile
+    - NGINX
+    - Terraform
+    - TOML
+    - YAML
 
-## Tested with
+## Tested With
 
-- [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)
-- [joshpeng/Sublime-Babel-VSCode](https://github.com/joshpeng/Sublime-Babel-VSCode)
-- [vuejs/vetur](https://github.com/vuejs/vetur)
-- [Microsoft/vscode-go](https://github.com/Microsoft/vscode-go)
+> I'm not necessarily endorsing the plugins on this list, I've just made sure this theme takes advantage of the syntax groups that they define.
+>
+> If you like this theme but it doesn't support a certain language or plugin that you use, feel free to [open an issue](https://github.com/dunstontc/dark-plus-syntax/issues/new) and I'll look into it.
+
 - [dunstontc/viml](https://github.com/dunstontc/viml)
 - [mauve/vscode-terraform](https://github.com/mauve/vscode-terraform)
-- [Digitalbrainstem/ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar)
 - [jakebathman/mysql-syntax](https://github.com/jakebathman/mysql-syntax)
 - [robinbentley/vscode-sass-indented](https://github.com/robinbentley/vscode-sass-indented)
 - [mechatroner/vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv)
@@ -72,8 +72,20 @@
 - [goessner/mdmath](https://github.com/goessner/mdmath)
 - [JustusAdam/language-haskell](https://github.com/JustusAdam/language-haskell)
 - [fwcd/KotlinLanguageServer](https://github.com/fwcd/KotlinLanguageServer)
-- [GingerBear/vscode-liquid](https://github.com/GingerBear/vscode-liquid)
-- [alexkrechik/VSCucumberAutoComplete](https://github.com/alexkrechik/VSCucumberAutoComplete)
+- JavaScript
+    - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)
+    - [joshpeng/Sublime-Babel-VSCode](https://github.com/joshpeng/Sublime-Babel-VSCode)
+    - [Digitalbrainstem/ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar)
+    - [vuejs/vetur](https://github.com/vuejs/vetur)
+- Go
+    - [Microsoft/vscode-go](https://github.com/Microsoft/vscode-go)
+    - [dunstontc/vscode-go-syntax](https://github.com/dunstontc/vscode-go-syntax)
+- Ruby
+    - [GingerBear/vscode-liquid](https://github.com/GingerBear/vscode-liquid)
+    - [alexkrechik/VSCucumberAutoComplete](https://github.com/alexkrechik/VSCucumberAutoComplete)
+- GraphQL
+    - [kumarharsh/graphql-for-vscode](https://github.com/kumarharsh/graphql-for-vscode)
+    - [prisma-labs/vscode-graphql](https://github.com/prisma-labs/vscode-graphql)
 
 
 ## Resources & References
