@@ -19,23 +19,6 @@ module.exports = {
     // "editor.findMatchBackground": "#cc00b1",
     // "editor.findMatchHighlightBackground": "#007acc",
 
-    "editorGutter.addedBackground": "#608b4e",
-    "editorGutter.modifiedBackground": "#d7ba7d",
-    "editorGutter.deletedBackground": "#d16969",
-
-    // "editorOverviewRuler.border": "", // Color of the overview ruler border.
-    // "editorOverviewRuler.findMatchForeground": "", // Overview ruler marker color for find matches. The color must not be opaque to not hide underlying decorations.
-    // "editorOverviewRuler.rangeHighlightForeground": "", //Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque to not hide underlying decorations.
-    // "editorOverviewRuler.selectionHighlightForeground": "", //Overview ruler marker color for selection highlights. The color must not be opaque to not hide underlying decorations.
-    // "editorOverviewRuler.wordHighlightForeground": "", //Overview ruler marker color for symbol highlights. The color must not be opaque to not hide underlying decorations.
-    // "editorOverviewRuler.wordHighlightStrongForeground": "", // Overview ruler marker color for write-access symbol highlights. The color must not be opaque to not hide underlying decorations.
-    "editorOverviewRuler.modifiedForeground": "#d7ba7d", // Overview ruler marker color for modified content.
-    "editorOverviewRuler.addedForeground": "#608b4e", // Overview ruler marker color for added content.
-    "editorOverviewRuler.deletedForeground": "#d16969", // Overview ruler marker color for deleted content.
-    "editorOverviewRuler.errorForeground": "#d16969", // Overview ruler marker color for errors.
-    "editorOverviewRuler.warningForeground": "#d7ba7d", // Overview ruler marker color for warnings.
-    "editorOverviewRuler.infoForeground": "#9cdcfe", // Overview ruler marker color for infos.
-
     // "notificationCenter.border": "", // Notification Center border color.
     // "notificationCenterHeader.foreground": "", // Notification Center header foreground color.
     // "notificationCenterHeader.background": "", // Notification Center header background color.
@@ -45,16 +28,43 @@ module.exports = {
     // "notifications.border": "", // Notification border color separating from other notifications in the Notification Center.
     // "notificationLink.foreground": "", // Notification links foreground color.
 
+    // "editorOverviewRuler.border": "", // Color of the overview ruler border.
+    // "editorOverviewRuler.findMatchForeground": "", // Overview ruler marker color for find matches. The color must not be opaque to not hide underlying decorations.
+    // "editorOverviewRuler.rangeHighlightForeground": "", //Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque to not hide underlying decorations.
+    // "editorOverviewRuler.selectionHighlightForeground": "", //Overview ruler marker color for selection highlights. The color must not be opaque to not hide underlying decorations.
+    // "editorOverviewRuler.wordHighlightForeground": "", //Overview ruler marker color for symbol highlights. The color must not be opaque to not hide underlying decorations.
+    // "editorOverviewRuler.wordHighlightStrongForeground": "", // Overview ruler marker color for write-access symbol highlights. The color must not be opaque to not hide underlying decorations.
+
+    // =========================================================================
+    // Change Indicators
+    // =========================================================================
+
+    "editorGutter.addedBackground": "#608b4e",
+    "editorOverviewRuler.addedForeground": "#608b4e", // Overview ruler marker color for added content.
+    "editorGutter.modifiedBackground": "#d7ba7d",
+    "editorOverviewRuler.modifiedForeground": "#d7ba7d", // Overview ruler marker color for modified content.
+    "editorGutter.deletedBackground": "#d16969",
+    "editorOverviewRuler.deletedForeground": "#d16969", // Overview ruler marker color for deleted content.
+
+
     // ========================================================================
-    // Error Squiggles & Box Border Colors
+    // Error, Warning, & Info
     // ========================================================================
 
-    "editorError.foreground": "#d16969",
+    // Error
+    "editorError.foreground": "#d16969", // Error squiggles
     // "editorError.border": "#d16969",
-    "editorWarning.foreground": "#d7ba7d",
+    "editorOverviewRuler.errorForeground": "#d16969", // Overview ruler marker color for errors.
+
+    // Warning
+    "editorWarning.foreground": "#d7ba7d", // Warning squiggles
     // "editorWarning.border": "#d7ba7d",
-    "editorInfo.foreground": "#9cdcfe",
+    "editorOverviewRuler.warningForeground": "#d7ba7d", // Overview ruler marker color for warnings.
+
+    // Info
+    "editorInfo.foreground": "#9cdcfe",  // Info squiggles
     // "editorInfo.border": "#9cdcfe",
+    "editorOverviewRuler.infoForeground": "#d4d4d4", // Overview ruler marker color for infos.
 
     // ========================================================================
     // Git Colors

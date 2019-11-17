@@ -78,6 +78,7 @@ module.exports = [
             "support.class.ruby",
             "entity.name.type.class.ruby",
             "entity.other.inherited-class.ruby",
+            // "punctuation.separator.namespace.ruby",
         ],
         "settings": {"foreground": "#4ec9b0"},
     },

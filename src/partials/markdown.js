@@ -1,5 +1,7 @@
 module.exports = [
-    // SECTION: markup
+    // =========================================================================
+    // Markup
+    // =========================================================================
     {
         "scope": "markup.underline",
         "settings": { "fontStyle": "underline" },
@@ -45,6 +47,10 @@ module.exports = [
         "scope": "fenced_code.block.language",
         "settings": { "foreground": "#4ec9b0" },
     },
+
+    // =========================================================================
+    // Markdown
+    // =========================================================================
     {
         "scope": "markup.italic.markdown",
         "settings": {
@@ -102,6 +108,11 @@ module.exports = [
             "punctuation.definition.bold.markdown",
             "punctuation.definition.raw.markdown",
             "beginning.punctuation.definition.quote.markdown",
+            "meta.link.reference.def.markdown punctuation.definition.constant.markdown",
+            "meta.link.reference.def.markdown punctuation.separator.key-value.markdown",
+            "meta.link.reference.markdown punctuation.definition.constant.begin.markdown",
+            "meta.link.reference.markdown punctuation.definition.constant.end.markdown",
+            "meta.image.reference.markdown punctuation.definition.constant.markdown",
             "block-dollars",
             "inline-dollars",
         ],
@@ -109,16 +120,28 @@ module.exports = [
     },
     {
         "scope": [
-            "constant.other.reference.link.markdown",
-            "meta.link.reference.markdown",
-            "punctuation.definition.constant.begin.markdown",
+            // "meta.link.reference.markdown",
+            "meta.link.reference.def.markdown constant.other.reference.link.markdown",
+            // "punctuation.definition.constant.begin.markdown",
         ],
         "settings": { "foreground": "#569cd6" },
     },
-    // {
-    //     "scope": "meta.separator.markdown",
-    //     "settings": { "foreground": "#007acc" }
-    // },
+    {
+        "scope": [
+            "meta.link.reference.markdown constant.other.reference.link.markdown",
+            "meta.image.reference.markdown constant.other.reference.link.markdown",
+        ],
+        "settings": {
+            "fontStyle": "italic",
+            "foreground": "#404040",
+        },
+    },
+    {
+        "scope": [
+            "meta.link.reference.def.markdown markup.underline.link.markdown",
+        ],
+        "settings": { "foreground": "#ce9178" },
+    },
     // =========================================================================
     // Org Mode
     // =========================================================================

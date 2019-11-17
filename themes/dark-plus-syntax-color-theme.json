@@ -11,17 +11,17 @@
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"editorGutter.addedBackground": "#608b4e",
-		"editorGutter.modifiedBackground": "#d7ba7d",
-		"editorGutter.deletedBackground": "#d16969",
-		"editorOverviewRuler.modifiedForeground": "#d7ba7d",
 		"editorOverviewRuler.addedForeground": "#608b4e",
+		"editorGutter.modifiedBackground": "#d7ba7d",
+		"editorOverviewRuler.modifiedForeground": "#d7ba7d",
+		"editorGutter.deletedBackground": "#d16969",
 		"editorOverviewRuler.deletedForeground": "#d16969",
-		"editorOverviewRuler.errorForeground": "#d16969",
-		"editorOverviewRuler.warningForeground": "#d7ba7d",
-		"editorOverviewRuler.infoForeground": "#9cdcfe",
 		"editorError.foreground": "#d16969",
+		"editorOverviewRuler.errorForeground": "#d16969",
 		"editorWarning.foreground": "#d7ba7d",
+		"editorOverviewRuler.warningForeground": "#d7ba7d",
 		"editorInfo.foreground": "#9cdcfe",
+		"editorOverviewRuler.infoForeground": "#d4d4d4",
 		"gitDecoration.modifiedResourceForeground": "#608b4e",
 		"gitDecoration.addedResourceForeground": "#608b4e",
 		"gitDecoration.deletedResourceForeground": "#d7ba7d",
@@ -1578,6 +1578,11 @@
 				"punctuation.definition.bold.markdown",
 				"punctuation.definition.raw.markdown",
 				"beginning.punctuation.definition.quote.markdown",
+				"meta.link.reference.def.markdown punctuation.definition.constant.markdown",
+				"meta.link.reference.def.markdown punctuation.separator.key-value.markdown",
+				"meta.link.reference.markdown punctuation.definition.constant.begin.markdown",
+				"meta.link.reference.markdown punctuation.definition.constant.end.markdown",
+				"meta.image.reference.markdown punctuation.definition.constant.markdown",
 				"block-dollars",
 				"inline-dollars"
 			],
@@ -1587,12 +1592,28 @@
 		},
 		{
 			"scope": [
-				"constant.other.reference.link.markdown",
-				"meta.link.reference.markdown",
-				"punctuation.definition.constant.begin.markdown"
+				"meta.link.reference.def.markdown constant.other.reference.link.markdown"
 			],
 			"settings": {
 				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"meta.link.reference.markdown constant.other.reference.link.markdown",
+				"meta.image.reference.markdown constant.other.reference.link.markdown"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#404040"
+			}
+		},
+		{
+			"scope": [
+				"meta.link.reference.def.markdown markup.underline.link.markdown"
+			],
+			"settings": {
+				"foreground": "#ce9178"
 			}
 		},
 		{

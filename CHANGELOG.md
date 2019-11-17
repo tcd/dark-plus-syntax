@@ -1,7 +1,17 @@
 # ChangeLog
 
 
+## 0.0.155 *(November 16, 2019)*
+
+### Changed
+
+- Change highlighting for Markdown reference links.
+- Organize UI colors related to *Error*, *Warning*, and*Info* elements.
+
 ## 0.0.154 *(November 7, 2019)*
+
+### Changed
+
 - Fix typo in changelog.
 - Update language list in readme.
 - Highlight Ruby HEREDOC delimiters as Strings.
@@ -9,9 +19,15 @@
 - Change Info level highlights to light blue.
 
 ## 0.0.153 *(November 5, 2019)*
-- Assorted improvements to Crystal syntax highlighting.
+
+### Added
+
 - Add GraphQL support.
 - Add GraphQL samples.
+
+### Changed
+
+- Assorted improvements to Crystal syntax highlighting.
 
 ## 0.0.152 *(October 17, 2019)*
 - Update color of Keyword Arguments in Ruby.
