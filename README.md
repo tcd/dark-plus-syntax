@@ -95,5 +95,3 @@
 - [VSCode Theme Colors](https://code.visualstudio.com/api/references/theme-color)
 
 ## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
-
-
