@@ -2,7 +2,17 @@
 
 ## master (unreleased)
 
-- Revamp YAML highlighting.
+## 0.0.157 *(November 18, 2019)*
+
+### Add
+
+- Shake up YAML highlighting a bit.
+
+### Remove
+
+- Roll back YARD highlighting for the moment. It's distracting. Feel free to open an issue if you disagree. (Or see [this comment][that comment])
+
+[that comment]: https://github.com/lsegal/yard/issues/1217#issuecomment-555238759
 
 ## 0.0.156 *(November 18, 2019)*
 
