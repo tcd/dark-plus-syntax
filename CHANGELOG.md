@@ -1,5 +1,22 @@
-# ChangeLog
+# Changelog
 
+## master (unreleased)
+
+- Revamp YAML highlighting.
+
+## 0.0.156 *(November 18, 2019)*
+
+### Added
+
+- Add *Contributing* section to the readme (addresses [Issue #6][issue 6])
+- Add highlighting for YARD doc comments in Ruby (in response to [YARD Issue #1217][yard 1217])
+
+[issue 6]: https://github.com/dunstontc/dark-plus-syntax/issues/6
+[yard 1217]: https://github.com/lsegal/yard/issues/1217
+
+### Changed
+
+- Remove bootstrap as a dev dependency (Honestly not sure when or why that was added)
 
 ## 0.0.155 *(November 16, 2019)*
 
@@ -15,8 +32,11 @@
 - Fix typo in changelog.
 - Update language list in readme.
 - Highlight Ruby HEREDOC delimiters as Strings.
-- Roll back change to Diff highlighting from commit [3ec2c04](https://github.com/dunstontc/dark-plus-syntax/commit/3ec2c0400e32061eed6c7090c0248cb0da21b659). See [Issue #7](https://github.com/dunstontc/dark-plus-syntax/issues/7)
+- Roll back change to Diff highlighting from commit [3ec2c04][3ec2c04]. See [Issue #7][issue 7]
 - Change Info level highlights to light blue.
+
+[3ec2c04]: https://github.com/dunstontc/dark-plus-syntax/commit/3ec2c0400e32061eed6c7090c0248cb0da21b659
+[issue 7]: https://github.com/dunstontc/dark-plus-syntax/issues/7
 
 ## 0.0.153 *(November 5, 2019)*
 
