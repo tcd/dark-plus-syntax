@@ -135,38 +135,38 @@ module.exports = [
     // =========================================================================
     // yard
     // =========================================================================
-    // {
-    //     "scope": [
-    //         "comment.line.keyword.punctuation.yard.ruby",
-    //         "comment.line.keyword.yard.ruby",
-    //         "comment.line.parameter.yard.ruby",
-    //         "comment.line.type.yard.ruby",
-    //         "comment.line.string.yard.ruby",
-    //         // "comment.line.punctuation.yard.ruby",
-    //      ],
-    //     "settings": {
-    //         "foreground": "#608b4e",
-    //         // "fontStyle": "italic",
-    //     },
-    // },
-    // {
-    //     "scope": [
-    //         "comment.line.type.yard.ruby",
-    //     ],
-    //     "settings": {"foreground": "#4ec9b0"},
-    // },
-    // {
-    //     "scope": [
-    //         "comment.line.parameter.yard.ruby",
-    //      ],
-    //     "settings": {"foreground": "#9cdcfe"},
-    // },
-    // {
-    //     "scope": [
-    //         "comment.line.punctuation.yard.ruby",
-    //      ],
-    //     "settings": {"foreground": "#505050"},
-    // },
+    {
+        "scope": [
+            "comment.line.keyword.punctuation.yard.ruby",
+            "comment.line.keyword.yard.ruby",
+            "comment.line.parameter.yard.ruby",
+            "comment.line.type.yard.ruby",
+            "comment.line.string.yard.ruby",
+            // "comment.line.punctuation.yard.ruby",
+         ],
+        "settings": {
+            "foreground": "#608b4e",
+            // "fontStyle": "italic",
+        },
+    },
+    {
+        "scope": [
+            "comment.line.type.yard.ruby",
+        ],
+        "settings": {"foreground": "#4ec9b0"},
+    },
+    {
+        "scope": [
+            "comment.line.parameter.yard.ruby",
+         ],
+        "settings": {"foreground": "#9cdcfe"},
+    },
+    {
+        "scope": [
+            "comment.line.punctuation.yard.ruby",
+         ],
+        "settings": {"foreground": "#505050"},
+    },
     // =========================================================================
     // erb
     // =========================================================================

@@ -39,27 +39,32 @@ module.exports = [
     // =========================================================================
     // YAML
     // =========================================================================
-    {
-        "scope": ["comment.line.number-sign.yaml"],
-        "settings": {"foreground": "#505050"},
-    },
-    {
-        "scope": ["constant.language.boolean.yaml"],
-        "settings": {"foreground": "#c586c0"},
-    },
-    {
-        "scope": ["entity.name.tag.yaml"],
-        "settings": {"foreground": "#569cd6"},
-    },
-    {
-        "scope": [
-            "entity.other.document.begin.yaml",
-            "entity.other.document.end.yaml",
-            "punctuation.definition.block.sequence.item.yaml",
-            // "punctuation.separator.key-value.mapping.yaml",
-        ],
-        "settings": { "foreground": "#c586c0" },
-    },
+    // {
+    //     "scope": ["comment.line.number-sign.yaml"],
+    //     "settings": {"foreground": "#505050"},
+    // },
+    // {
+    //     "scope": [
+    //         "constant.language.boolean.yaml",
+    //         "punctuation.definition.alias.yaml", // Asterisk (<<: *user_defaults)
+    //     ],
+    //     "settings": {"foreground": "#569cd6"},
+    // },
+    // {
+    //     "scope": ["entity.name.tag.yaml"],
+    //     "settings": {"foreground": "#9cdcfe"},
+    // },
+    // {
+    //     "scope": [
+    //         "entity.other.document.begin.yaml",
+    //         "entity.other.document.end.yaml",
+    //         "punctuation.definition.block.sequence.item.yaml",
+    //         "punctuation.separator.key-value.mapping.yaml",
+    //         "storage.modifier.chomping-indicator.yaml",
+    //         "punctuation.definition.directive.begin.yaml",
+    //     ],
+    //     "settings": { "foreground": "#c586c0" },
+    // },
     // =========================================================================
     // TOML
     // =========================================================================
