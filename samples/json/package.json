@@ -1,0 +1,40 @@
+{
+	"name": "dark-plus-syntax",
+	"displayName": "dark-plus-syntax",
+	"description": "VS Code's default dark theme, but just a little bit better.",
+	"version": "0.0.157",
+	"publisher": "dunstontc",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dunstontc/dark-plus-syntax.git"
+	},
+	"engines": {"vscode": "^1.15.0"},
+	"categories": ["Themes"],
+	"contributes": {
+		"themes": [
+			{
+				"label": "dark-plus-syntax",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-plus-syntax-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"write-json-file": "^2.2.0"
+	},
+	"scripts": {
+        "build": "node index.js",
+        "publish": "vsce publish"
+    },
+	"galleryBanner": {
+		"color": "#569cd6",
+		"theme": "dark"
+	},
+	"icon": "assets/128.png",
+	"__metadata": {
+		"id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b7f",
+		"publisherDisplayName": "dunstontc",
+		"publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
+	}
+}
