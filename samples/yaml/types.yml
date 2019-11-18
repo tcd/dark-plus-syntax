@@ -1,0 +1,20 @@
+---
+numbers:
+    foo: .inf
+    bar: -.Inf
+    plop: .NAN
+    foo : 1230.15
+    bar : 1230150.0
+    foo: 1230.15
+    bar:  12.3015e+05
+    foo: 12345
+    bar: 0x12d4
+    plop: 023332
+nulls:
+    foo: ~
+    bar: null
+booleans:
+    foo: True
+    bar: False
+    light: On
+    TV: Off

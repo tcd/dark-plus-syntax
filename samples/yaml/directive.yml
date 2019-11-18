@@ -1,0 +1,17 @@
+---
+name: Directive
+description: |
+  Data for a [GraphQL directive](https://graphql.github.io/graphql-spec/draft/#sec-Language.Directives).
+
+  See the [GraphQL spec](https://graphql.github.io/graphql-spec/draft/#sec-Type-System.Directives) or [Apollo's docs](https://www.apollographql.com/docs/graphql-tools/schema-directives/) for reference.
+attrs:
+- name: name
+  type: String
+  read_only: true
+- name: description
+  type: String,nil
+- name: locations
+  description: Objects on which the directive can be used.
+  type: Array<String>
+- name: args
+  type: Array<Gql::Models::Argument>

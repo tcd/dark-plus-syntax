@@ -1,0 +1,24 @@
+server_defaults: &server_defaults
+  ip: 192.168.1.5
+  port: 2000
+
+user_defaults: &user_defaults
+  name: root
+  password: root
+
+database: &default
+  server:
+    <<: *server_defaults
+  db_name: test
+  user:
+    <<: *user_defaults
+
+foo_database:
+  <<: *default
+  server:
+    <<: *server_defaults
+    port: 2001
+  db_name: foo
+  user:
+    <<: *user_defaults
+    password: foo_root
