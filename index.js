@@ -25,43 +25,36 @@ const terraform  = require('./src/partials/terraform');
 
 const ui_colors  = require('./src/partials/ui-colors');
 
-let nop = [];
-let tokenz = nop.concat(
-    defaults,
-    c,
-    crystal,
-    csharp,
-    css,
-    csv,
-    elixir,
-    golang,
-    graphql,
-    java,
-    javascript,
-    make,
-    markup,
-    python,
-    ruby,
-    rust,
-    swift,
-    todo,
-    terraform,
-    misc,
-    html,
-    regex,
-);
-
-let base = {
+const theme = {
     "name": "dark-plus-syntax",
     "type": "dark",
     "colors": ui_colors,
-    "tokenColors": tokenz,
+    "tokenColors": [
+        ...defaults,
+        ...c,
+        ...crystal,
+        ...csharp,
+        ...css,
+        ...csv,
+        ...elixir,
+        ...golang,
+        ...graphql,
+        ...java,
+        ...javascript,
+        ...make,
+        ...markup,
+        ...python,
+        ...ruby,
+        ...rust,
+        ...swift,
+        ...todo,
+        ...terraform,
+        ...misc,
+        ...html,
+        ...regex,
+    ],
 };
 
-const output = './themes/dark-plus-syntax-color-theme.json';
+const out_file = './themes/dark-plus-syntax-color-theme.json';
 
-let now = new Date();
-let timestamp = `  ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
-const complete = `=============\n${timestamp}\n=== Done! ===\n`;
-
-writeJsonFile(output, base).then(() => console.log(complete));
+writeJsonFile(out_file, theme).then(console.log("=== build successful ===\n"));
