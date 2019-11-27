@@ -1,6 +1,10 @@
 # Changelog
 
-## master (unreleased)
+## branch: v1 (unreleased)
+
+### Changed
+
+- Refactoring code to use the same scope-color associations for a light version of the theme.
 
 ## 0.0.157 *(November 18, 2019)*
 
