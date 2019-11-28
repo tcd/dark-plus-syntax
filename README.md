@@ -112,7 +112,7 @@ Those files are imported, merged, and written out to `themes/dark-plus-syntax-co
 
 ## Italic Comments
 
-This theme doesn't have italic comments (idk why not), but you can get them by adding this to your `settings.json` file:
+This theme doesn't have italic comments (idk why), but you can get them by adding this to your `settings.json` file:
 
 ```json
 "editor.tokenColorCustomizations": {
