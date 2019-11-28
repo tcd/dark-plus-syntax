@@ -1,5 +1,6 @@
 # {minor tweaks}
 
+[![Build Status](https://travis-ci.org/dunstontc/dark-plus-syntax.svg?branch=master)](https://travis-ci.org/dunstontc/dark-plus-syntax)
 [![GitHub issues](https://img.shields.io/github/issues/dunstontc/dark-plus-syntax.svg)](https://github.com/dunstontc/dark-plus-syntax/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue)](https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax)
