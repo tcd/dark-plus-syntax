@@ -4,6 +4,11 @@
 
 ## 0.0.158 *(November 27, 2019)*
 
+### Added
+
+- Instructions for adding italic comments added to readme.
+- Build badge added to readme.
+
 ### Changed
 
 - Cleaned up build process slightly.
@@ -12,7 +17,6 @@
     - `keyword.control.as.tsx`
     - `punctuation.definition.typeparameters.begin.tsx`
     - `punctuation.definition.typeparameters.end.tsx`
-
 
 ## 0.0.157 *(November 18, 2019)*
 
