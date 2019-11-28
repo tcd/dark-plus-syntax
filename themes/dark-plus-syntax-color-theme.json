@@ -1258,11 +1258,12 @@
 				"keyword.operator.module.all.js",
 				"meta.brace.angle.ts",
 				"meta.brace.angle.tsx",
-				"keyword.control.as.tsx",
 				"comment.line.triple-slash.directive.ts",
 				"punctuation.definition.tag.directive.ts",
 				"punctuation.definition.typeparameters.begin.ts",
 				"punctuation.definition.typeparameters.end.ts",
+				"punctuation.definition.typeparameters.begin.tsx",
+				"punctuation.definition.typeparameters.end.tsx",
 				"punctuation.definition.template-expression.begin.js",
 				"punctuation.definition.template-expression.end.js",
 				"punctuation.definition.template-expression.begin.ts",
@@ -1307,7 +1308,9 @@
 			"scope": [
 				"keyword.operator.js",
 				"punctuation.accessor.js",
+				"punctuation.accessor.jsx",
 				"punctuation.accessor.ts",
+				"punctuation.accessor.tsx",
 				"keyword.operator.typeof.js",
 				"keyword.operator.logical.js",
 				"keyword.operator.in.js",
@@ -1319,6 +1322,7 @@
 				"keyword.operator.expression.of.ts",
 				"keyword.operator.expression.in.js",
 				"keyword.operator.expression.in.ts",
+				"keyword.control.as.tsx",
 				"punctuation.definition.section.case-statement.js"
 			],
 			"settings": {

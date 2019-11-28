@@ -2,9 +2,21 @@
 
 ## master (unreleased)
 
+## 0.0.158 *(November 27, 2019)*
+
+### Changed
+
+- Cleaned up build process slightly.
+- Update TypeScript React (TSX) highlighting to match TypeScript (TS).
+    - `punctuation.accessor.jsx`
+    - `keyword.control.as.tsx`
+    - `punctuation.definition.typeparameters.begin.tsx`
+    - `punctuation.definition.typeparameters.end.tsx`
+
+
 ## 0.0.157 *(November 18, 2019)*
 
-### Add
+### Added
 
 - Shake up YAML highlighting a bit.
 
