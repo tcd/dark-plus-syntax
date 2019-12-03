@@ -2,6 +2,13 @@
 
 ## master (unreleased)
 
+## 0.0.159 *(December 3, 2019)*
+
+### Changed
+
+- Changed indent guide color to match `Dark+`.
+    - `editorIndentGuide.activeBackground`
+
 ## 0.0.158 *(November 27, 2019)*
 
 ### Added
