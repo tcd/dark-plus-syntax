@@ -5,6 +5,7 @@
 ### Changed
 
 - Refactoring code to use the same scope-color associations for a light version of the theme.
+- Fix JavaScript definitions.
 
 ## 0.0.157 *(November 18, 2019)*
 

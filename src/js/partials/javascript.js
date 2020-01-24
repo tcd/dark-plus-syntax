@@ -138,6 +138,10 @@ module.exports = [
     },
     {
         scope: [
+            "support.function.js",
+            "meta.function-call.js support.function.js",
+            "entity.name.function.js",
+            "meta.function-call.js entity.name.function.js",
             "variable.function.js",
             "meta.function-call.method.with-arguments.js",
             "keyword.control.require.ts",
