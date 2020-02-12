@@ -2,6 +2,12 @@
 
 ## master (unreleased)
 
+## 0.0.160 *(February 12, 2020)*
+
+### Changed
+
+- Consistently highlight TypeScript decorators as functions.
+
 ## 0.0.159 *(December 3, 2019)*
 
 ### Changed
