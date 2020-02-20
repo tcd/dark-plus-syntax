@@ -1259,7 +1259,6 @@
 				"keyword.operator.module.all.js",
 				"meta.brace.angle.ts",
 				"meta.brace.angle.tsx",
-				"keyword.control.as.tsx",
 				"comment.line.triple-slash.directive.ts",
 				"punctuation.definition.tag.directive.ts",
 				"punctuation.definition.typeparameters.begin.ts",

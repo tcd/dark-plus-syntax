@@ -1,6 +1,10 @@
 # Changelog
 
-## master (unreleased)
+## 0.0.161 *(February 20, 2020)*
+
+### Changed
+
+- Fix `keyword.control.as.tsx`, because the changes in *v0.0.158* weren't correct.
 
 ## 0.0.160 *(February 12, 2020)*
 
