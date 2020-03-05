@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.162 *(March 4, 2020)*
+
+### Changed
+
+- Fix various highlighting groups; mainly focused on scopes within TypeScript decorators.
+
 ## 0.0.161 *(February 20, 2020)*
 
 ### Changed

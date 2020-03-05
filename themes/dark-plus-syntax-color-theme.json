@@ -1240,7 +1240,8 @@
 				"meta.brace.square.js",
 				"entity.quasi.element.js",
 				"comment.block.documentation.js keyword.operator.accessor.js",
-				"punctuation.definition.binding-pattern.object"
+				"punctuation.definition.binding-pattern.object",
+				"meta.brace.square.ts"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -1302,8 +1303,7 @@
 				"keyword.control.require.ts",
 				"punctuation.decorator.js",
 				"punctuation.decorator.ts",
-				"meta.decorator.ts",
-				"meta.decorator.ts variable.other.readwrite.ts"
+				"meta.decorator.ts"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
@@ -1342,7 +1342,8 @@
 				"meta.object-literal.key string.quoted.single",
 				"meta.object-literal.key string.quoted.double",
 				"string.quoted.single meta.object-literal.key",
-				"string.quoted.double meta.object-literal.key"
+				"string.quoted.double meta.object-literal.key",
+				"meta.decorator.ts variable.other.readwrite.ts"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
