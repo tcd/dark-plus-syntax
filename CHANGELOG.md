@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.163 *(March 8, 2020)*
+
+### Changed
+
+- More updates to decorator highlighting.
+- Updates to some TypeScript operators.
+
 ## 0.0.162 *(March 4, 2020)*
 
 ### Changed

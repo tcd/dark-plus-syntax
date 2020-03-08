@@ -17,7 +17,7 @@ export class DemoService {
 	public desktop: ChatData;
 
 	/** Data URI to use for placeholder for Facebook joke. */
-	public readonly facebookPicDataUri: Promise<string>		= (
+	public readonly facebookPicDataUri: Promise<string> = (
 		!this.envService.isMobile ?
 			Promise.reject('') :
 			request({retries: 5, url: '/assets/img/fbimagealt.txt'})
@@ -26,7 +26,7 @@ export class DemoService {
 	);
 
 	/** Frame containing Facebook profile picture. */
-	public readonly facebookPicFrame: string			= this.envService.isMobile ? '' : `
+	public readonly facebookPicFrame: string = this.envService.isMobile ? '' : `
 		<div class='facebook-pic image-frame real'>
 			<iframe
 				src='https://www.facebook.com/plugins/comments.php?href=https://www.${
@@ -42,7 +42,7 @@ export class DemoService {
 	)();
 
 	/** Placeholder div for absolutely positioned iframe to sit on top of. */
-	public readonly facebookPicPlaceholder: string		= `
+	public readonly facebookPicPlaceholder: string = `
 		<div class='facebook-pic image-frame'>&nbsp;</div>
 	`;
 
