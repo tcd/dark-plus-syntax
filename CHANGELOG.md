@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.164 *(March 19, 2020)*
+
+### Changed
+
+- Fix color of switch-case colons in TypeScript.
+
 ## 0.0.163 *(March 8, 2020)*
 
 ### Changed
