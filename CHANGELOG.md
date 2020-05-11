@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.166 *(May 11, 2020)*
+
+### Changed
+
+- Fixed issue with extension `publisher` metadata.
+
 ## 0.0.165 *(May 11, 2020)*
 
 ### Added
