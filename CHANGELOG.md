@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.165 *(May 11, 2020)*
+
+### Added
+
+- Added support for scopes provided by Angular Language Service. (Kind of WIP, may change up soon. Open to feedback.)
+
 ## 0.0.164 *(March 19, 2020)*
 
 ### Changed

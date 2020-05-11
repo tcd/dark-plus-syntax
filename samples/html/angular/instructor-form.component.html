@@ -1,0 +1,34 @@
+<div class="instructor-form" mdl-shadow="3">
+  <h2 class="text-center">New Instructor</h2>
+  <form [formGroup]="createInstructorForm" (ngSubmit)="onSubmit(createInstructorForm.value)">
+    <div class="full-width">
+      <mdl-textfield type="email" formControlName="email"           floating-label label="email"      error-msg="input must be a valid email"></mdl-textfield>
+      <mdl-textfield type="email" formControlName="alt_email"       floating-label label="alt. email" error-msg="input must be a valid email"></mdl-textfield>
+      <mdl-textfield type="text"  formControlName="first_name"      floating-label label="first name"></mdl-textfield>
+      <mdl-textfield type="text"  formControlName="middle_name"     floating-label label="middle name"></mdl-textfield>
+      <mdl-textfield type="text"  formControlName="last_name"       floating-label label="last name"></mdl-textfield>
+      <mdl-textfield type="text"  formControlName="preferred_name"  floating-label label="preferred name"></mdl-textfield>
+      <mdl-textfield type="text"  formControlName="title"           floating-label label="title"></mdl-textfield>
+      <mdl-textfield type="text"  formControlName="phone"           floating-label label="phone"></mdl-textfield>
+      <mdl-textfield type="text"  formControlName="github_username" floating-label label="github username"></mdl-textfield>
+      <mdl-checkbox               formControlName="active"          [mdl-ripple]="true">Active</mdl-checkbox>
+      <!-- google_classroom_id: new FormControl(""), -->
+    </div>
+    <div *ngIf="submitting$ | async; then t1 else t2"></div>
+  </form>
+  <div *ngIf="error$ | async">
+  <span class="mdl-color-text--red-A700">{{ (error$ | async) }}</span>
+  </div>
+</div>
+
+<ng-template #t1>
+  <div>
+    <mdl-spinner active single-color></mdl-spinner>
+  </div>
+</ng-template>
+
+<ng-template #t2>
+  <button type="submit" class="submit-button" mdl-button mdl-ripple mdl-button-type="raised" mdl-colored="primary">
+    Submit
+  </button>
+</ng-template>

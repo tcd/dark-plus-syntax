@@ -56,7 +56,7 @@ export class LoginPageComponent implements OnInit {
     }
 
     public get userName() {
-        var claims: any = this.oauthService.getIdentityClaims();
+        var claims: any = this.oauthService.getIdentityClaims()
         if (!claims) return null
         return claims.given_name
     }

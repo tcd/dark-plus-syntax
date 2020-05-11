@@ -1161,8 +1161,6 @@
 				"comment.block",
 				"comment.block.documentation.js",
 				"comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc",
-				"comment.line.triple-slash.directive.ts",
-				"comment.block.documentation.ts",
 				"comment.line.shebang.js"
 			],
 			"settings": {
@@ -1296,9 +1294,9 @@
 			"scope": [
 				"support.function.js",
 				"meta.function-call.js support.function.js",
-				"entity.name.function.js",
-				"meta.function-call.js entity.name.function.js",
-				"variable.function.js",
+				"entity.name.function",
+				"meta.function-call entity.name.function",
+				"variable.function",
 				"meta.function-call.method.with-arguments.js",
 				"keyword.control.require.ts",
 				"punctuation.decorator.js",
@@ -1306,7 +1304,8 @@
 				"meta.decorator.ts",
 				"meta.decorator.js",
 				"meta.decorator.ts variable.other.readwrite.ts",
-				"meta.decorator.js variable.other.readwrite.js"
+				"meta.decorator.js variable.other.readwrite.js",
+				"source.ts meta.class.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts"
 			],
 			"settings": {
 				"foreground": "#dcdcaa"
@@ -1398,6 +1397,15 @@
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.triple-slash.directive.ts",
+				"comment.block.documentation.ts"
+			],
+			"settings": {
+				"foreground": "#608b4e"
 			}
 		},
 		{
@@ -2741,6 +2749,47 @@
 			],
 			"settings": {
 				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"text.html.derivative punctuation.definition.block.ts",
+				"text.html.derivative expression.ng keyword.operator.logical.ts",
+				"punctuation.definition.ng-binding-name.begin.html",
+				"punctuation.definition.ng-binding-name.end.html"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.ng-binding-name.property.html",
+				"entity.other.ng-binding-name.event.html",
+				"entity.other.ng-binding-name.template.html",
+				"entity.other.ng-binding-name.two-way.html"
+			],
+			"settings": {
+				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"meta.ng-binding.event.html punctuation.separator.key-value.html",
+				"meta.ng-binding.property.html punctuation.separator.key-value.html",
+				"meta.ng-binding.template.html punctuation.separator.key-value.html",
+				"meta.ng-binding.two-way.html punctuation.separator.key-value.html",
+				"meta.ng-binding.event.html punctuation.definition.string.begin.html",
+				"meta.ng-binding.event.html punctuation.definition.string.end.html",
+				"meta.ng-binding.property.html punctuation.definition.string.begin.html",
+				"meta.ng-binding.property.html punctuation.definition.string.end.html",
+				"meta.ng-binding.template.html punctuation.definition.string.begin.html",
+				"meta.ng-binding.template.html punctuation.definition.string.end.html",
+				"meta.ng-binding.two-way.html punctuation.definition.string.begin.html",
+				"meta.ng-binding.two-way.html punctuation.definition.string.end.html"
+			],
+			"settings": {
+				"foreground": "#4ec9b0"
 			}
 		},
 		{

@@ -1,14 +1,12 @@
 module.exports = [
+    // =========================================================================
+    // JavaScript
+    // =========================================================================
     {
         scope: [
             "comment.block",
             "comment.block.documentation.js",
             "comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc",
-            // "comment.block.js",
-            // "comment.block.ts",
-            // "meta.tag.ts",
-            "comment.line.triple-slash.directive.ts",
-            "comment.block.documentation.ts",
             "comment.line.shebang.js",
             // "punctuation.definition.comment.js"
         ],
@@ -141,9 +139,9 @@ module.exports = [
         scope: [
             "support.function.js",
             "meta.function-call.js support.function.js",
-            "entity.name.function.js",
-            "meta.function-call.js entity.name.function.js",
-            "variable.function.js",
+            "entity.name.function",
+            "meta.function-call entity.name.function",
+            "variable.function",
             "meta.function-call.method.with-arguments.js",
             "keyword.control.require.ts",
             "punctuation.decorator.js",
@@ -152,6 +150,7 @@ module.exports = [
             "meta.decorator.js",
             "meta.decorator.ts variable.other.readwrite.ts",
             "meta.decorator.js variable.other.readwrite.js",
+            "source.ts meta.class.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts",
         ],
         settings: {"foreground": "#dcdcaa"},
     },
@@ -242,6 +241,18 @@ module.exports = [
             "foreground": "#4ec9b0",
             // "fontStyle": "italic",
         },
+    },
+    // =========================================================================
+    // TypeScript
+    // =========================================================================
+    {
+        scope: [
+            // "comment.block.ts",
+            // "meta.tag.ts",
+            "comment.line.triple-slash.directive.ts",
+            "comment.block.documentation.ts",
+        ],
+        settings: {"foreground": "#608b4e"},
     },
     // =========================================================================
     // Angular

@@ -257,4 +257,60 @@ module.exports = [
         ],
         "settings": { "foreground": "#c586c0" },
     },
+    // =========================================================================
+    // Angular Templates
+    // =========================================================================
+    {
+        "scope": [
+            // {{ mustaches }}
+            "text.html.derivative punctuation.definition.block.ts",
+            // Angular pipe "|"
+            "text.html.derivative expression.ng keyword.operator.logical.ts",
+            // Directive Punctuation
+            "punctuation.definition.ng-binding-name.begin.html",
+            "punctuation.definition.ng-binding-name.end.html",
+        ],
+        "settings": { "foreground": "#4ec9b0" },
+    },
+    // {
+    //     "scope": [
+    //         // {{ ; }} ¯\_(ツ)_/¯
+    //         "expression.ng",
+    //     ],
+    //     "settings": { "foreground": "#c586c0" },
+    // },
+    {
+        "scope": [
+            // directives
+            "entity.other.ng-binding-name.property.html", // [title], [value]
+            "entity.other.ng-binding-name.event.html",    // (click), (ngSubmit)
+            "entity.other.ng-binding-name.template.html", // *ngIf, *ngFor
+            "entity.other.ng-binding-name.two-way.html",  // [(ngModel)]
+        ],
+        "settings": {
+            "foreground": "#9cdcfe",
+            // "fontStyle": "italic",
+        },
+    },
+    {
+        "scope": [
+            // =
+            "meta.ng-binding.event.html punctuation.separator.key-value.html",
+            "meta.ng-binding.property.html punctuation.separator.key-value.html",
+            "meta.ng-binding.template.html punctuation.separator.key-value.html",
+            "meta.ng-binding.two-way.html punctuation.separator.key-value.html",
+            // String punctuation
+            "meta.ng-binding.event.html punctuation.definition.string.begin.html",
+            "meta.ng-binding.event.html punctuation.definition.string.end.html",
+            "meta.ng-binding.property.html punctuation.definition.string.begin.html",
+            "meta.ng-binding.property.html punctuation.definition.string.end.html",
+            "meta.ng-binding.template.html punctuation.definition.string.begin.html",
+            "meta.ng-binding.template.html punctuation.definition.string.end.html",
+            "meta.ng-binding.two-way.html punctuation.definition.string.begin.html",
+            "meta.ng-binding.two-way.html punctuation.definition.string.end.html",
+        ],
+        "settings": {
+            "foreground": "#4ec9b0",
+        },
+    },
 ];

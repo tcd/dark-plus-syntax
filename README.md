@@ -73,6 +73,7 @@
 - [dunstontc/vscode-rust-syntax](https://github.com/dunstontc/vscode-rust-syntax)
 - [goessner/mdmath](https://github.com/goessner/mdmath)
 - [fwcd/KotlinLanguageServer](https://github.com/fwcd/KotlinLanguageServer)
+- [angular/vscode-ng-language-service](https://github.com/angular/vscode-ng-language-service)
 - JavaScript
     - [michaelgmcd/vscode-language-babel](https://github.com/michaelgmcd/vscode-language-babel)
     - [joshpeng/Sublime-Babel-VSCode](https://github.com/joshpeng/Sublime-Babel-VSCode)
