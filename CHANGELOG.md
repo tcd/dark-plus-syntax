@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.167 *(May 17, 2020)*
+
+### Added
+
+- Highlight the optional chain operator (`?.`) in TypeScript.
+
 ## 0.0.166 *(May 11, 2020)*
 
 ### Changed

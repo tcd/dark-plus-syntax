@@ -253,6 +253,10 @@ module.exports = [
             "comment.block.documentation.ts",
         ],
         settings: {"foreground": "#608b4e"},
+        scope: [
+            "punctuation.accessor.optional.ts",
+        ],
+        settings: {"foreground": "#c586c0"},
     },
     // =========================================================================
     // Angular

@@ -1401,11 +1401,10 @@
 		},
 		{
 			"scope": [
-				"comment.line.triple-slash.directive.ts",
-				"comment.block.documentation.ts"
+				"punctuation.accessor.optional.ts"
 			],
 			"settings": {
-				"foreground": "#608b4e"
+				"foreground": "#c586c0"
 			}
 		},
 		{
