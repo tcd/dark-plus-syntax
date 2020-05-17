@@ -5,14 +5,22 @@
 	"version": "0.0.167",
 	"publisher": "dunstontc",
 	"license": "MIT",
-	"repository": { "type": "git", "url": "https://github.com/dunstontc/dark-plus-syntax.git" },
-    "scripts": {
-        "build": "node index.js",
-        "publish": "vsce publish",
-        "test": "true"
-    },
-	"engines": {"vscode": "^1.15.0"},
-	"categories": ["Themes"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dunstontc/dark-plus-syntax.git"
+	},
+	"scripts": {
+		"build": "node index.js",
+		"watch": "watch 'npm run build' src",
+		"publish": "vsce publish",
+		"test": "true"
+	},
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Themes"
+	],
 	"contributes": {
 		"themes": [
 			{
@@ -22,8 +30,14 @@
 			}
 		]
 	},
-	"devDependencies": { "write-json-file": "^2.2.0" },
-	"galleryBanner": { "color": "#569cd6", "theme": "dark" },
+	"devDependencies": {
+        "watch": "^1.0.2",
+        "write-json-file": "^2.2.0"
+	},
+	"galleryBanner": {
+		"color": "#569cd6",
+		"theme": "dark"
+	},
 	"icon": "assets/128.png",
 	"__metadata": {
 		"id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b7f",

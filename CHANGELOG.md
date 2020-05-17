@@ -5,6 +5,7 @@
 ### Added
 
 - Highlight the optional chain operator (`?.`) in TypeScript.
+- Added `watch` NPM command to rebuild on changes.
 
 ## 0.0.166 *(May 11, 2020)*
 
