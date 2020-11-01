@@ -1,6 +1,7 @@
 const writeJsonFile = require('write-json-file');
 
 const c          = require('./src/partials/c');
+const cfml       = require('./src/partials/cfml');
 const crystal    = require('./src/partials/crystal');
 const csharp     = require('./src/partials/cs');
 const css        = require('./src/partials/css');
@@ -32,6 +33,7 @@ const theme = {
     "tokenColors": [
         ...defaults,
         ...c,
+        ...cfml,
         ...crystal,
         ...csharp,
         ...css,

@@ -32,6 +32,7 @@
     - Pug/Jade
     - Twig
     - Liquid
+    - CFML
 - Java
     - Kotlin
     - Groovy
