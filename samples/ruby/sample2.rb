@@ -58,4 +58,11 @@ class OBA < Blueprint
     self.outputs(gA, gE)
     self.lock
   end
+
+  # @return [String]
+  def to_s()
+    type = pull_request ? "pull request" : "issue"
+    return "#{repo} - #{type} ##{number} - #{title}"
+  end
+
 end
