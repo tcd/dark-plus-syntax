@@ -5,8 +5,11 @@ module.exports = {
 
     "list.dropBackground": "#383b3d",
 
+    "editorLineNumber.activeForeground": "#608b4e",
+
     "editor.background": "#1e1e1e",
     "editor.foreground": "#d4d4d4",
+
     "editor.selectionHighlightBackground": "#add6ff26",
     "editor.inactiveSelectionBackground": "#3a3d41",
     "editorIndentGuide.activeBackground": "#707070",
@@ -79,11 +82,11 @@ module.exports = {
     "gitDecoration.conflictingResourceForeground": "#d16969",
     // "gitDecoration.submoduleResourceForeground": "",
 
-    // "diffEditor.insertedTextBackground": "#608b4e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
-    // "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
-    // "diffEditor.removedTextBackground": "#d16969",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
-    // "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
-    // "diffEditor.border": "",                 // Border color between the two text editors.
+    "diffEditor.insertedTextBackground": "#608b4e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
+    "diffEditor.removedTextBackground": "#d16969",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+    "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
+    "diffEditor.border": "",                 // Border color between the two text editors.
 
     // "merge.currentHeaderBackground": "",                 // Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
     // "merge.currentContentBackground": "",                // Current content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
@@ -105,7 +108,8 @@ module.exports = {
 
     "terminal.background": "#1e1e1e",
     "terminal.foreground": "#d4d4d4",
-    "terminal.ansiBlack": "#1e1e1e",
+
+    "terminal.ansiBlack": "#808080",
     "terminal.ansiBrightBlack": "#808080",
     "terminal.ansiRed": "#d16969",
     "terminal.ansiBrightRed": "#d16969",
@@ -120,5 +124,5 @@ module.exports = {
     "terminal.ansiMagenta": "#c586c0",
     "terminal.ansiBrightMagenta": "#c586c0",
     "terminal.ansiWhite": "#d4d4d4",
-    "terminal.ansiBrightWhite": "#808080",
+    "terminal.ansiBrightWhite": "#d4d4d4",
 }

@@ -119,6 +119,7 @@ module.exports = [
             "punctuation.definition.entity.end.bracket.square.css",
             "entity.other.attribute-name.pseudo-element.css",
             "entity.other.attribute-name.pseudo-class.css",
+            "support.constant.mathematical-symbols.scss",
             // "text.html.basic meta.embedded.block.html source.css meta.selector.css entity.other.attribute-name.pseudo-class.css"
         ],
         "settings": { "foreground": "#c586c0" },

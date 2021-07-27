@@ -3,6 +3,7 @@ module.exports = [
         "scope": [
             "punctuation.definition.string.begin.ruby",
             "punctuation.definition.string.end.ruby",
+            "source.ruby string.quoted.double.interpolated.ruby",
         ],
         "settings": {"foreground": "#ce9178"},
     },
@@ -13,6 +14,7 @@ module.exports = [
             "constant.language.symbol.hashkey.ruby",
             "constant.language.symbol.hashkey.parameter.function.ruby",
             "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
+            "meta.function.method.with-arguments.ruby constant.other.symbol.hashkey.parameter.function.ruby",
          ],
         "settings": {"foreground": "#9cdcfe"},
     },
@@ -65,8 +67,10 @@ module.exports = [
             "punctuation.section.embedded.begin.ruby",
             "punctuation.section.embedded.end.ruby",
             "variable.other.readwrite.global.pre-defined.ruby",
-            "string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
-            "string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
+            // "string.quoted.double.interpolated.ruby punctuation.section.embedded.begin.ruby",
+            // "string.quoted.double.interpolated.ruby punctuation.section.embedded.end.ruby",
+            "punctuation.section.embedded.begin.ruby",
+            "punctuation.section.embedded.end.ruby",
             "string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",
             "string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.end.ruby",
         ],
@@ -97,6 +101,7 @@ module.exports = [
             "punctuation.separator.method.ruby",
             "constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
             "constant.language.symbol.hashkey.parameter.function.ruby punctuation.definition.constant.hashkey.ruby",
+            "meta.function.method.with-arguments.ruby constant.other.symbol.hashkey.parameter.function.ruby punctuation.definition.constant.ruby",
             "source.ruby punctuation.separator.key-value",
         ],
         "settings": {"foreground": "#c586c0"},
@@ -116,8 +121,6 @@ module.exports = [
     },
     {
         "scope": [
-            "punctuation.section.regexp.begin.ruby",
-            "punctuation.section.regexp.end.ruby",
             "punctuation.definition.group.ruby",
             "punctuation.definition.character-class.ruby",
             "punctuation.definition.character-class.begin.ruby",
@@ -127,10 +130,26 @@ module.exports = [
     },
     {
         "scope": [
+            "punctuation.section.regexp.begin.ruby",
+            "punctuation.section.regexp.end.ruby",
+        ],
+        "settings": {"foreground": "#d16969"},
+    },
+    {
+        "scope": [
             "keyword.operator.quantifier.ruby",
             "string.regexp.arbitrary-repetition.ruby",
         ],
         "settings": {"foreground": "#b5cea8"},
+    },
+    {
+        "scope": [
+            "punctuation.definition.string.begin.ruby",
+            "punctuation.definition.string.end.ruby",
+            "source.ruby string.quoted.double.interpolated.ruby",
+            "string.quoted.double.interpolated.ruby",
+        ],
+        "settings": {"foreground": "#ce9178"},
     },
     // =========================================================================
     // yard

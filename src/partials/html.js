@@ -51,6 +51,15 @@ module.exports = [
         ],
         "settings": { "foreground": "#d4d4d4" },
     },
+    {
+        "scope": [
+            // Custom Elements
+            "meta.tag.custom.start.html entity.name.tag.html",
+            "meta.tag.custom.end.html entity.name.tag.html",
+            "text.html.derivative meta.tag.custom.end.html entity.name.tag.html",
+        ],
+        "settings": { "foreground": "#4ec9b0" },
+    },
     // {
     //     "name": "Template Tags",
     //     "scope": [

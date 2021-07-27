@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.0.168 *(July 27th, 2021)*
+
+## Changed
+
+- Update Ruby highlighting.
+- Update CSS highlighting.
+- Highlight custom elements in HTML.
+- Updates to some UI components.
+
 ## 0.0.167 *(May 17, 2020)*
 
 ### Added
