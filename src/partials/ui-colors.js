@@ -82,11 +82,11 @@ module.exports = {
     "gitDecoration.conflictingResourceForeground": "#d16969",
     // "gitDecoration.submoduleResourceForeground": "",
 
-    "diffEditor.insertedTextBackground": "#608b4e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
-    "diffEditor.removedTextBackground": "#d16969",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
-    "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
-    "diffEditor.border": "",                 // Border color between the two text editors.
+    // "diffEditor.insertedTextBackground": "#608b4e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
+    // "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
+    // "diffEditor.removedTextBackground": "#d16969",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+    // "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
+    // "diffEditor.border": "",                 // Border color between the two text editors.
 
     // "merge.currentHeaderBackground": "",                 // Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
     // "merge.currentContentBackground": "",                // Current content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.

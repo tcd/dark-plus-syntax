@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.169 *(July 27th, 2021)*
+
+## Changed
+
+- Roll back horrendous git diff colors.
+
 ## 0.0.168 *(July 27th, 2021)*
 
 ## Changed
