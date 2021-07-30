@@ -57,6 +57,7 @@ module.exports = [
             "meta.tag.custom.start.html entity.name.tag.html",
             "meta.tag.custom.end.html entity.name.tag.html",
             "text.html.derivative meta.tag.custom.end.html entity.name.tag.html",
+            "text.html.derivative meta.tag.custom.start.html entity.name.tag.html",
         ],
         "settings": { "foreground": "#4ec9b0" },
     },

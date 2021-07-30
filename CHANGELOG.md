@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.170 *(July 30th, 2021)*
+
+## Changed
+
+- Update colors for custom HTML tags. (again)
+
 ## 0.0.169 *(July 27th, 2021)*
 
 ## Changed
