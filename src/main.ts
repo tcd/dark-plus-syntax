@@ -1,22 +1,31 @@
-import { writeJsonFile } from "write-json-file"
+import { writeJsonFile } from "./util"
 
-import * as Languages from "./theme/languages"
+import { VsCodeTheme } from "@types"
+
+import * as _Languages from "./theme/languages"
 import { ui } from "./theme/ui"
 
-const tokenColors = (Languages as unknown as any[]).flatMap(x => x)
+const Languages = _Languages as Object
+// console.log(typeof(Languages))
+const scopes = Object.values(Languages)[0]
+// console.log(scopes)
+// console.log(typeof(scopes))
+const tokenColors = scopes.flat()
+console.log(tokenColors)
 
-const theme: VsCodeTextmate.VsCodeTheme = {
+const theme: VsCodeTheme = {
     name: "dark-plus-syntax",
     type: "dark",
     colors: ui,
     tokenColors: tokenColors,
 }
 
+// console.log(theme)
+
 const writeTheme = (theme): void => {
     const outFilePath = "./themes/dark-plus-syntax-color-theme.json"
-    writeJsonFile(outFilePath, theme).then(() => {
-        console.log("=== build successful ===\n")
-    })
+    writeJsonFile(outFilePath, theme)
+    console.log("=== build successful ===\n")
 }
 
 writeTheme(theme)

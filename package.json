@@ -38,7 +38,8 @@
         "build": "node index.js",
         "watch": "watch 'npm run build' src",
         "publish": "vsce publish",
-        "test": "true"
+        "test": "true",
+        "start": "ts-node -r tsconfig-paths/register ./src/main.ts"
     },
     "devDependencies": {
         "@types/node": "^17.0.10",
@@ -48,6 +49,7 @@
         "eslint": "^8.7.0",
         "ts-node": "^10.4.0",
         "tsconfig-paths": "^3.12.0",
+        "tslib": "^2.3.1",
         "typescript": "^4.5.5",
         "write-json-file": "^5.0.0"
     }

@@ -5,8 +5,8 @@
         // "esModuleInterop": true,
         // "forceConsistentCasingInFileNames": true,
         // "isolatedModules": true,
-        // "lib": ["dom", "esnext"],
-        // "module": "esnext",
+        "lib": ["dom", "esnext"],
+        "module": "CommonJS",
         // "moduleResolution": "node",
         // "noEmit": true,
         // "noFallthroughCasesInSwitch": true,
@@ -17,20 +17,21 @@
         // "strict": false,
         // "noImplicitAny": false,
         // "target": "es5",
-        // "baseUrl": "./",
+        "baseUrl": ".",
         "paths": {
             // "@app/*": ["./src/*"],
             // "@util":  ["./src/util/index.ts"],
-            // "@types": ["./src/@types/index.ts"],
+            "@types": ["./src/@types/index.ts"],
         },
-        "typeRoots": [
-            "./src/@types"
-        ]
+        // "typeRoots": [
+        //     "src/@types"
+        // ]
     },
     "include": [
-        "./src/**/*.ts",
+        "src/**/*.ts",
     ],
     "exclude": [
-        "**/ignore/*",
+        "ignore",
+        "samples",
     ]
 }
