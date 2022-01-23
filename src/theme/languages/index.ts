@@ -1,35 +1,72 @@
-export * from "./html"
-export * from "./java"
-export * from "./styles"
+import { Html } from "./html"
+import { Java } from "./java"
+import { Styles } from "./styles"
 
-export * from "./c"
-export * from "./cfml"
-export * from "./cpp"
-export * from "./crystal"
-export * from "./cs"
-export * from "./dart"
-export * from "./elixir"
-// export * from "./elm"
-export * from "./erlang"
-export * from "./git"
-export * from "./go"
-export * from "./graphql"
-export * from "./haskell"
-export * from "./ini"
-export * from "./javascript"
-export * from "./lisp"
-export * from "./makefile"
-export * from "./markdown"
-export * from "./nginx"
-export * from "./org-mode"
-export * from "./python"
-export * from "./regexp"
-export * from "./ruby"
-export * from "./rust"
-export * from "./smarty"
-export * from "./swift"
-export * from "./terraform"
-export * from "./todo-txt"
-export * from "./toml"
-export * from "./vcard"
-export * from "./viml"
+import { c } from "./c"
+import { cfml } from "./cfml"
+import { cpp } from "./cpp"
+import { crystal } from "./crystal"
+import { cs } from "./cs"
+import { dart } from "./dart"
+import { elixir } from "./elixir"
+import { elm } from "./elm"
+import { erlang } from "./erlang"
+import { git } from "./git"
+import { go } from "./go"
+import { graphql } from "./graphql"
+import { haskell } from "./haskell"
+import { ini } from "./ini"
+import { javaScript } from "./javascript"
+import { lisp } from "./lisp"
+import { makefile } from "./makefile"
+import { markdown } from "./markdown"
+import { nginx } from "./nginx"
+import { orgMode } from "./org-mode"
+import { python } from "./python"
+import { regexp } from "./regexp"
+import { ruby } from "./ruby"
+import { rust } from "./rust"
+import { smarty } from "./smarty"
+import { swift } from "./swift"
+import { terraform } from "./terraform"
+import { todoTxt } from "./todo-txt"
+import { toml } from "./toml"
+import { vcard } from "./vcard"
+import { viml } from "./viml"
+
+export const Languages = [
+    ...Html,
+    ...Java,
+    ...Styles,
+    ...c,
+    ...cfml,
+    ...cpp,
+    ...crystal,
+    ...cs,
+    ...dart,
+    ...elixir,
+    ...elm,
+    ...erlang,
+    ...git,
+    ...go,
+    ...graphql,
+    ...haskell,
+    ...ini,
+    ...javaScript,
+    ...lisp,
+    ...makefile,
+    ...markdown,
+    ...nginx,
+    ...orgMode,
+    ...python,
+    ...regexp,
+    ...ruby,
+    ...rust,
+    ...smarty,
+    ...swift,
+    ...terraform,
+    ...todoTxt,
+    ...toml,
+    ...vcard,
+    ...viml,
+]

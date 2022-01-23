@@ -2,22 +2,25 @@ import { writeJsonFile } from "./util"
 
 import { VsCodeTheme } from "@types"
 
-import * as _Languages from "./theme/languages"
+import { Languages } from "./theme/languages"
+import { defaults } from "./theme/defaults"
 import { ui } from "./theme/ui"
 
-const Languages = _Languages as Object
 // console.log(typeof(Languages))
-const scopes = Object.values(Languages)[0]
+// const scopes = Object.values(Languages)[0]
 // console.log(scopes)
 // console.log(typeof(scopes))
-const tokenColors = scopes.flat()
-console.log(tokenColors)
+// const tokenColors = scopes.flat()
+// console.log(tokenColors)
 
 const theme: VsCodeTheme = {
     name: "dark-plus-syntax",
     type: "dark",
     colors: ui,
-    tokenColors: tokenColors,
+    tokenColors: [
+        ...defaults,
+        ...Languages,
+    ],
 }
 
 // console.log(theme)

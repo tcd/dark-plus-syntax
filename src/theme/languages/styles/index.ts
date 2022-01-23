@@ -1,3 +1,9 @@
-export * from "./css"
-export * from "./stylus"
-export * from "./styled-components"
+import { css } from "./css"
+import { stylus } from "./stylus"
+import { styledComponents } from "./styled-components"
+
+export const Styles = [
+    ...css,
+    ...stylus,
+    ...styledComponents,
+]
