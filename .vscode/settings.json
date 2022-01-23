@@ -1,0 +1,23 @@
+{
+    "highlight.regexes": {
+        "(?<=colors.)(very_light_gray)": { "decorations": [{ "backgroundColor": "#d4d4d4", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(light_gray)":      { "decorations": [{ "backgroundColor": "#808080", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(atom_gray)":       { "decorations": [{ "backgroundColor": "#282c34", "color": "white", "fontStyle": "italic" }] },
+        "(?<=colors.)(very_dark_gray)":  { "decorations": [{ "backgroundColor": "#1e1e1e", "color": "white", "fontStyle": "italic" }] },
+        "(?<=colors.)(bright_black)":    { "decorations": [{ "backgroundColor": "#303030", "color": "white", "fontStyle": "italic" }] },
+        "(?<=colors.)(dark_red)":        { "decorations": [{ "backgroundColor": "#f44747", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(light_red)":       { "decorations": [{ "backgroundColor": "#d16969", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(orange)":          { "decorations": [{ "backgroundColor": "#ce9178", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(light_yellow)":    { "decorations": [{ "backgroundColor": "#dcdcaa", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(dark_yellow)":     { "decorations": [{ "backgroundColor": "#d7ba7d", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(puke)":            { "decorations": [{ "backgroundColor": "#b5cea8", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(green)":           { "decorations": [{ "backgroundColor": "#608b4e", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(cyan)":            { "decorations": [{ "backgroundColor": "#4ec9b0", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(light_blue)":      { "decorations": [{ "backgroundColor": "#9cdcfe", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(dark_blue)":       { "decorations": [{ "backgroundColor": "#569cd6", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(magenta)":         { "decorations": [{ "backgroundColor": "#c586c0", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(bright_blue)":     { "decorations": [{ "backgroundColor": "#007acc", "color": "black", "fontStyle": "italic" }] },
+        "(?<=colors.)(selection)":       { "decorations": [{ "backgroundColor": "#264f78", "color": "white", "fontStyle": "italic" }] },
+        "(?<=colors.)(purple)":          { "decorations": [{ "backgroundColor": "#646695", "color": "white", "fontStyle": "italic" }] },
+    },
+}
