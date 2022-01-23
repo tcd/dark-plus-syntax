@@ -6,7 +6,9 @@ export const html = [
         "settings": { "foreground": "#808080" },
     },
     {
-        "scope": "entity.other.attribute-name",
+        "scope": [
+            "entity.other.attribute-name",
+        ],
         "settings": { "foreground": "#9cdcfe" },
     },
     {
@@ -73,12 +75,12 @@ export const html = [
     //     "settings": { "foreground": "#569cd6" }
     // },
     {
-        "scope": "constant.character.entity.html",
+        "scope": ["constant.character.entity.html"],
         "settings": { "foreground": "#d7ba7d" },
     },
     {
         "name": "don't highlight ejs and erb as errors",
-        "scope": "invalid.illegal.bad-angle-bracket.html",
+        "scope": ["invalid.illegal.bad-angle-bracket.html"],
         "settings": { "foreground": "#d4d4d4" },
     },
     {

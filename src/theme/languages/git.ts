@@ -7,11 +7,11 @@ export const git = [
         "settings": {"foreground": "#505050"},
     },
     {
-        "scope": "support.function.git-rebase",
+        "scope": ["support.function.git-rebase"],
         "settings": { "foreground": "#9cdcfe" },
     },
     {
-        "scope": "constant.sha.git-rebase",
+        "scope": ["constant.sha.git-rebase"],
         "settings": { "foreground": "#b5cea8" },
     },
 ]

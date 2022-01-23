@@ -29,7 +29,9 @@ export const groovy = [
         "settings": {"foreground": "#dcdcaa"},
     },
     {
-        "scope": "constant.character.escape.groovy",
+        "scope": [
+            "constant.character.escape.groovy"
+        ],
         "settings": {"foreground": "#d7ba7d"},
     },
 ]

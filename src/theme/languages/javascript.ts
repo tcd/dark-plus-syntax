@@ -26,7 +26,7 @@ export const javaScript = [
         },
     },
     {
-        scope: "punctuation.definition.comment.js",
+        scope: ["punctuation.definition.comment.js"],
         settings: {"foreground": "#404040"},
     },
     {

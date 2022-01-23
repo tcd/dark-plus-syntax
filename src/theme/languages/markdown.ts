@@ -3,7 +3,7 @@ export const markdown = [
     // Markup
     // =========================================================================
     {
-        "scope": "markup.underline",
+        "scope": ["markup.underline"],
         "settings": { "fontStyle": "underline" },
     },
     {
@@ -21,37 +21,37 @@ export const markdown = [
         "settings": { "fontStyle": "italic" },
     },
     {
-        "scope": "markup.heading",
+        "scope": ["markup.heading"],
         "settings": {
             // "fontStyle": "bold",
             "foreground": "#569cd6",
         },
     },
     {
-        "scope": "markup.inserted",
+        "scope": ["markup.inserted"],
         "settings": { "foreground": "#b5cea8" },
     },
     {
-        "scope": "markup.deleted",
+        "scope": ["markup.deleted"],
         "settings": { "foreground": "#ce9178" },
     },
     {
-        "scope": "markup.changed",
+        "scope": ["markup.changed"],
         "settings": { "foreground": "#569cd6" },
     },
     {
-        "scope": "markup.inline.raw",
+        "scope": ["markup.inline.raw"],
         "settings": { "foreground": "#ce9178" },
     },
     // =========================================================================
     // Markdown
     // =========================================================================
     {
-        "scope": "fenced_code.block.language",
+        "scope": ["fenced_code.block.language"],
         "settings": { "foreground": "#4ec9b0" },
     },
     {
-        "scope": "markup.italic.markdown",
+        "scope": ["markup.italic.markdown"],
         "settings": {
             "fontStyle": "italic",
             "foreground": "#9cdcfe",
