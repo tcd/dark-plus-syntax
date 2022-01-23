@@ -9,6 +9,7 @@ module.exports = [
             "comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc",
             "comment.line.shebang.js",
             // "punctuation.definition.comment.js"
+            "comment.block.documentation.js punctuation.definition.comment.js",
         ],
         settings: {"foreground": "#608b4e"},
     },
@@ -241,6 +242,38 @@ module.exports = [
             "foreground": "#4ec9b0",
             // "fontStyle": "italic",
         },
+    },
+    // =========================================================================
+    // TSX
+    // =========================================================================
+    {
+        "scope": [
+            "string.template.tsx meta.template.expression.tsx meta.embedded.line.tsx meta.brace.round.tsx",
+            "punctuation.separator.key-value.tsx",
+            "punctuation.accessor.tsx",
+        ],
+        "settings": {"foreground": "#d4d4d4"},
+    },
+    {
+        "scope": [
+            "punctuation.accessor.optional.tsx",
+            "punctuation.accessor.tsx",
+        ],
+        "settings": {"foreground": "#C586C0"},
+    },
+    {
+        "scope": [
+            "keyword.operator.optional.tsx",
+        ],
+        "settings": {"foreground": "#4EC9B0"},
+    },
+    {
+        "scope": [
+            "punctuation.definition.binding-pattern.array.tsx",
+            "punctuation.definition.typeparameters.begin.tsx",
+            "punctuation.definition.typeparameters.end.tsx",
+        ],
+        "settings": {"foreground": "#569CD6"},
     },
     // =========================================================================
     // TypeScript

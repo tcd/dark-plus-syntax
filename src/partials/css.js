@@ -94,6 +94,15 @@ module.exports = [
     },
     {
         "scope": [
+            "source.css meta.at-rule.keyframes.body.css entity.other.keyframe-offset.css",
+        ],
+        "settings": {
+            "foreground": "#9CDCFE",
+            "fontStyle": "italic",
+        },
+    },
+    {
+        "scope": [
             "meta.attribute-selector.css",
         ],
         "settings": { "foreground": "#4ec9b0" },

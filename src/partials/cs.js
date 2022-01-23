@@ -1,6 +1,27 @@
 module.exports = [
     {
         "scope": [
+            "meta.comment.razor comment.block.razor",
+            "meta.comment.razor keyword.control.razor.comment.star",
+            "meta.comment.razor keyword.control.cshtml.transition",
+        ],
+        "settings": {"foreground": "#608B4E"},
+    },
+    {
+        "scope": [
+            "meta.preprocessor.cs",
+            "meta.preprocessor.cs string.unquoted.preprocessor.message.cs",
+            "meta.preprocessor.cs punctuation.separator.hash.cs",
+            "meta.preprocessor.cs keyword.preprocessor.region.cs",
+            "meta.preprocessor.cs keyword.preprocessor.endregion.cs",
+        ],
+        "settings": {
+            "foreground": "#608B4E",
+            "fontStyle": "italic",
+        },
+    },
+    {
+        "scope": [
             "entity.name.tag.localname.cs",
             "punctuation.definition.tag.cs",
             "punctuation.terminator.statement.cs",
@@ -16,6 +37,8 @@ module.exports = [
             "punctuation.curlybrace.close.cs",
             "punctuation.squarebracket.open.cs",
             "punctuation.squarebracket.close.cs",
+            "string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.open.cs",
+            "string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.close.cs",
         ],
         "settings": { "foreground": "#d4d4d4" },
     },
@@ -26,6 +49,8 @@ module.exports = [
             "entity.name.variable.field.cs",
             "entity.name.variable.local.cs",
             "meta.interpolation.cs variable.other.object.property.cs",
+            "entity.name.variable.tuple-element.cs",
+            "entity.name.variable.enum-member.cs",
         ],
         "settings": { "foreground": "#9cdcfe" },
     },
@@ -45,6 +70,7 @@ module.exports = [
             "storage.type.generic.cs",
             "storage.type.modifier.cs",
             "storage.type.variable.cs",
+            // "variable.other.object.cs",
         ],
         "settings": {
             "foreground": "#4ec9b0" },
@@ -100,4 +126,12 @@ module.exports = [
         ],
         "settings": { "foreground": "#c586c0" },
     },
+    // {
+    //     "scope": [
+    //         "keyword.other.base.cs",
+    //     ],
+    //     "settings": {
+    //         "fontStyle": "italic",
+    //     },
+    // },
 ];

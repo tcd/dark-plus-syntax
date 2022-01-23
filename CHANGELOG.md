@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.171 *(January 22nd, 2022)*
+
+## Changed
+
+- Small updates to the following languages:
+  - CSS
+  - TSX (TypeScript React)
+  - C#
+  - CSHTML
+
 ## 0.0.170 *(July 30th, 2021)*
 
 ## Changed

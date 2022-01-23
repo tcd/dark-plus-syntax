@@ -518,6 +518,29 @@
 		},
 		{
 			"scope": [
+				"meta.comment.razor comment.block.razor",
+				"meta.comment.razor keyword.control.razor.comment.star",
+				"meta.comment.razor keyword.control.cshtml.transition"
+			],
+			"settings": {
+				"foreground": "#608B4E"
+			}
+		},
+		{
+			"scope": [
+				"meta.preprocessor.cs",
+				"meta.preprocessor.cs string.unquoted.preprocessor.message.cs",
+				"meta.preprocessor.cs punctuation.separator.hash.cs",
+				"meta.preprocessor.cs keyword.preprocessor.region.cs",
+				"meta.preprocessor.cs keyword.preprocessor.endregion.cs"
+			],
+			"settings": {
+				"foreground": "#608B4E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
 				"entity.name.tag.localname.cs",
 				"punctuation.definition.tag.cs",
 				"punctuation.terminator.statement.cs",
@@ -534,7 +557,9 @@
 				"punctuation.curlybrace.open.cs",
 				"punctuation.curlybrace.close.cs",
 				"punctuation.squarebracket.open.cs",
-				"punctuation.squarebracket.close.cs"
+				"punctuation.squarebracket.close.cs",
+				"string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.open.cs",
+				"string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.close.cs"
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -546,7 +571,9 @@
 				"entity.name.variable.parameter.cs",
 				"entity.name.variable.field.cs",
 				"entity.name.variable.local.cs",
-				"meta.interpolation.cs variable.other.object.property.cs"
+				"meta.interpolation.cs variable.other.object.property.cs",
+				"entity.name.variable.tuple-element.cs",
+				"entity.name.variable.enum-member.cs"
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
@@ -719,6 +746,15 @@
 			],
 			"settings": {
 				"foreground": "#9cdcfe"
+			}
+		},
+		{
+			"scope": [
+				"source.css meta.at-rule.keyframes.body.css entity.other.keyframe-offset.css"
+			],
+			"settings": {
+				"foreground": "#9CDCFE",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1225,7 +1261,8 @@
 				"comment.block",
 				"comment.block.documentation.js",
 				"comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc",
-				"comment.line.shebang.js"
+				"comment.line.shebang.js",
+				"comment.block.documentation.js punctuation.definition.comment.js"
 			],
 			"settings": {
 				"foreground": "#608b4e"
@@ -1461,6 +1498,43 @@
 			],
 			"settings": {
 				"foreground": "#4ec9b0"
+			}
+		},
+		{
+			"scope": [
+				"string.template.tsx meta.template.expression.tsx meta.embedded.line.tsx meta.brace.round.tsx",
+				"punctuation.separator.key-value.tsx",
+				"punctuation.accessor.tsx"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.accessor.optional.tsx",
+				"punctuation.accessor.tsx"
+			],
+			"settings": {
+				"foreground": "#C586C0"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.optional.tsx"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.binding-pattern.array.tsx",
+				"punctuation.definition.typeparameters.begin.tsx",
+				"punctuation.definition.typeparameters.end.tsx"
+			],
+			"settings": {
+				"foreground": "#569CD6"
 			}
 		},
 		{
