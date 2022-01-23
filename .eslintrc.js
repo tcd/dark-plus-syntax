@@ -1,22 +1,21 @@
 module.exports = {
-    "root": true,
-    "env": { "node": true },
-    "parserOptions": {
-      "ecmaVersion": 2017,
-      "ecmaFeatures": { "jsx": false },
-      "sourceType": "module"
+    root: true,
+    env: {
+        node: true,
     },
-    "rules": {
-      "comma-dangle": ["error", "always-multiline"],
-      "curly": "error",
-      "eqeqeq": "off",
-      "id-length": ["error", { "min": 3 }],
-    //   "indent": ["error", 4],
-      "indent": "off",
-      "linebreak-style": ["error", "unix"],
-      "no-inline-comments": "off",
-      "no-console": "off",
-      "quotes": "off",
-      "semi": ["error", "always"],
-    }
-  }
+    parserOptions: {
+        ecmaVersion: 13,
+        ecmaFeatures: { "jsx": false },
+        sourceType: "module",
+    },
+    parser: "@typescript-eslint/parser",
+    plugins: [
+        "@typescript-eslint",
+    ],
+    rules: {
+        semi: ["warn", "never"],
+        "comma-dangle": ["warn", "always-multiline"],
+        "linebreak-style": ["error", "unix"],
+        quotes: ["warn", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
+    },
+}

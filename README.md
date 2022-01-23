@@ -7,9 +7,9 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue)](https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax)
 
 <div align="center">
-    <a href="https://github.com/Microsoft/vscode">
-        <img src="https://raw.githubusercontent.com/dunstontc/dark-plus-syntax/master/assets/512.png" alt="logo">
-    </a>
+  <a href="https://github.com/Microsoft/vscode">
+    <img src="https://raw.githubusercontent.com/dunstontc/dark-plus-syntax/master/assets/512.png" alt="logo">
+  </a>
 </div>
 
 **Enjoy!**
@@ -56,6 +56,7 @@
     - Terraform
     - TOML
     - YAML
+
 
 ## Tested With
 
