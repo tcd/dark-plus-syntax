@@ -57,6 +57,25 @@ const theme = {
     ],
 };
 
+// let monacoTheme = []
+
+// theme.tokenColors.forEach(tokenColor => {
+
+//     if (Array.isArray(tokenColor.scope)) {
+//         tokenColor.scope.forEach(scope => {
+//             monacoTheme.push({
+//                 token: scope,
+//                 foreground: tokenColor.settings.foreground,
+//             })
+//         })
+//     } else {
+//         monacoTheme.push({
+//             token: tokenColor.scope,
+//             foreground: tokenColor.settings.foreground,
+//         })
+//     }
+// })
+
 const out_file = './themes/dark-plus-syntax-color-theme.json';
 
 writeJsonFile(out_file, theme).then(console.log("=== build successful ===\n"));
