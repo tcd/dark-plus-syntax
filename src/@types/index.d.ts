@@ -48,7 +48,16 @@ declare namespace VsCodeTextMate{
      * At least one value (`foreground` or `fontStyle`) must be present.
      */
     export interface TokenStyleData {
+        /** Foreground color */
         foreground?: HexColorString | undefined
+        /**
+         * Any combination of the following values:
+         *
+         * - "italic"
+         * - "bold"
+         * - "underline"
+         * - "strikethrough"
+         */
         fontStyle?: FontStyleString | undefined
     }
 

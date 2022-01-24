@@ -8,8 +8,8 @@ export const styledComponents: VsCodeTextMate.TextMateRules = [
     },
     {
         "scope": [
-           "constant.hex.css",
-           "meta.identifier.css",
+            "constant.hex.css",
+            "meta.identifier.css",
         ],
         "settings": { "foreground": "#ce9178" },
     },
@@ -27,4 +27,4 @@ export const styledComponents: VsCodeTextMate.TextMateRules = [
         ],
         "settings": { "foreground": "#4ec9b0" },
     },
-];
+]

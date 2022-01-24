@@ -1,4 +1,12 @@
 {
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
     "highlight.regexes": {
         "(?<=colors.)(very_light_gray)": { "decorations": [{ "backgroundColor": "#d4d4d4", "color": "black", "fontStyle": "italic" }] },
         "(?<=colors.)(light_gray)":      { "decorations": [{ "backgroundColor": "#808080", "color": "black", "fontStyle": "italic" }] },

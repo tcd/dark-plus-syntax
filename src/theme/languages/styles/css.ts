@@ -29,7 +29,7 @@ export const css: VsCodeTextMate.TextMateRules = [
             "keyword.other.default.scss",
             "keyword.other.default.sass",
         ],
-        "settings": {"fontStyle": "italic"},
+        "settings": { "fontStyle": "italic" },
     },
     {
         "scope": [
@@ -79,7 +79,7 @@ export const css: VsCodeTextMate.TextMateRules = [
         "settings": { "foreground": "#569cd6" },
     },
     {
-        "name" : "Variables",
+        "name":  "Variables",
         "scope": [
             "support.type.property-name.media.css",
             "support.type.property-name",
@@ -98,7 +98,7 @@ export const css: VsCodeTextMate.TextMateRules = [
         ],
         "settings": {
             "foreground": "#9CDCFE",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     {
@@ -108,7 +108,7 @@ export const css: VsCodeTextMate.TextMateRules = [
         "settings": { "foreground": "#4ec9b0" },
     },
     {
-        "name": "CSS property value",
+        "name":  "CSS property value",
         "scope": [
             "support.constant.property-value",
             "support.constant.font-name",

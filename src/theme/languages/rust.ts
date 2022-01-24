@@ -4,21 +4,21 @@ export const rust: VsCodeTextMate.TextMateRules = [
             "entity.name.type.param.rust punctuation.other.comma.rust",
             "keyword.operator.path.rust",
         ],
-        "settings": {"foreground": "#d4d4d4"},
+        "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": [
             "meta.attribute.rust",
             "comment.line.documentation.rust",
         ],
-        "settings": {"foreground": "#608b4e"},
+        "settings": { "foreground": "#608b4e" },
     },
     {
         "scope": [
             "keyword.operator.misc.rust",
             "keyword.operator.sigil.rust",
         ],
-        "settings": {"foreground": "#c586c0"},
+        "settings": { "foreground": "#c586c0" },
     },
     {
         "scope": [
@@ -36,7 +36,7 @@ export const rust: VsCodeTextMate.TextMateRules = [
             "string.quoted.single.rust", // DEPRECATED
             "constant.character.rust",
         ],
-        "settings": {"foreground": "#d7ba7d"},
+        "settings": { "foreground": "#d7ba7d" },
     },
     {
         "scope": [
@@ -44,7 +44,7 @@ export const rust: VsCodeTextMate.TextMateRules = [
             "support.constant.core.rust",
             "variable.language.ignored.rust",
         ],
-        "settings": {"foreground": "#569cd6"},
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": [
@@ -53,7 +53,7 @@ export const rust: VsCodeTextMate.TextMateRules = [
         ],
         "settings": {
             "foreground": "#569cd6",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     {
@@ -72,6 +72,6 @@ export const rust: VsCodeTextMate.TextMateRules = [
             "meta.type_params.rust",
             // "keyword.operator.path.rust",
         ],
-        "settings": {"foreground": "#4ec9b0"},
+        "settings": { "foreground": "#4ec9b0" },
     },
 ]

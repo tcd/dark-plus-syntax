@@ -29,23 +29,23 @@ export const todoTxt: VsCodeTextMate.TextMateRules = [
     //     "settings": { "foreground": "#606060" },
     // },
     {
-        "scope": ["meta.item.priority.a.todo"],
+        "scope":    ["meta.item.priority.a.todo"],
         "settings": { "foreground": "#f44747" },
     },
     {
-        "scope": ["meta.item.priority.b.todo"],
+        "scope":    ["meta.item.priority.b.todo"],
         "settings": { "foreground": "#d16969" },
     },
     {
-        "scope": ["meta.item.priority.c.todo"],
+        "scope":    ["meta.item.priority.c.todo"],
         "settings": { "foreground": "#ce9178" },
     },
     {
-        "scope": ["meta.item.priority.d.todo"],
+        "scope":    ["meta.item.priority.d.todo"],
         "settings": { "foreground": "#d7ba7d" },
     },
     {
-        "scope": ["meta.item.priority.e.todo"],
+        "scope":    ["meta.item.priority.e.todo"],
         "settings": { "foreground": "#dcdcaa" },
     },
 ]

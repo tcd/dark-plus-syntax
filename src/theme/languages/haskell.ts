@@ -9,13 +9,13 @@ export const haskell: VsCodeTextMate.TextMateRules = [
         "scope": [
             "meta.preprocessor.haskell",
         ],
-        "settings": {"foreground": "#608b4e"},
+        "settings": { "foreground": "#608b4e" },
     },
     {
         "scope": [
             "storage.type.haskell",
             "support.other.module.haskell",
         ],
-        "settings": {"foreground": "#4ec9b0"},
+        "settings": { "foreground": "#4ec9b0" },
     },
 ]

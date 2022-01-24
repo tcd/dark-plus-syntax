@@ -5,6 +5,6 @@ export const scala: VsCodeTextMate.TextMateRules = [
             "storage.type.primitive.scala",
             "meta.colon.scala",
         ],
-        "settings": {"foreground": "#4ec9b0"},
+        "settings": { "foreground": "#4ec9b0" },
     },
 ]

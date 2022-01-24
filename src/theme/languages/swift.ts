@@ -1,6 +1,6 @@
 export const swift: VsCodeTextMate.TextMateRules = [
     {
-        "scope": ["comment.punctuation.comma.swift"],
+        "scope":    ["comment.punctuation.comma.swift"],
         "settings": { "foreground": "#d4d4d4" },
     },
     {
@@ -15,7 +15,7 @@ export const swift: VsCodeTextMate.TextMateRules = [
             "punctuation.section.embedded.begin.swift",
             "punctuation.section.embedded.end.swift",
         ],
-        "settings": {"foreground": "#569cd6"},
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": [
@@ -24,7 +24,7 @@ export const swift: VsCodeTextMate.TextMateRules = [
         ],
         "settings": {
             "foreground": "#569cd6",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     {

@@ -1,6 +1,6 @@
 {
     "ts-node": {
-        // "require": ["tsconfig-paths/register"],
+        "require": ["tsconfig-paths/register"],
         "files": true,
     },
     "include": [
@@ -16,10 +16,31 @@
     "compilerOptions": {
         "module": "CommonJS",
         "target": "ES6",
+        // "allowJs": false,
+        // "allowSyntheticDefaultImports": true,
+        // "esModuleInterop": true,
+        // "forceConsistentCasingInFileNames": true,
+        // "isolatedModules": true,
         "lib": [
             "dom",
             "esnext",
         ],
+        // "moduleResolution": "node",
+        // "noEmit": true,
+        // "noFallthroughCasesInSwitch": true,
+        // "resolveJsonModule": true,
+        // "downlevelIteration": true,
+        // "skipLibCheck": true,
+        // "sourceMap": true,
+        // "strict": false,
+        // "noImplicitAny": false,
+        "baseUrl": ".",
+        "paths": {
+            // "@app/*": ["./src/*"],
+            // "@util":  ["./src/util/index.ts"],
+            // "@types": ["./src/@types/index.ts"],
+            "@colors": ["./src/colors/index.ts"],
+        },
         "typeRoots": [
             "./src/types",
             "./node_modules/@types"

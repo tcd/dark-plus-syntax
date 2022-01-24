@@ -4,7 +4,7 @@ export const groovy: VsCodeTextMate.TextMateRules = [
             // "constant.other.key.groovy",
             "source.groovy.embedded.source",
         ],
-        "settings": {"foreground": "#9cdcfe"},
+        "settings": { "foreground": "#9cdcfe" },
     },
     {
         "scope": [
@@ -12,26 +12,26 @@ export const groovy: VsCodeTextMate.TextMateRules = [
             "keyword.operator.arithmetic.groovy",
             "keyword.control.exception.groovy",
         ],
-        "settings": {"foreground": "#c586c0"},
+        "settings": { "foreground": "#c586c0" },
     },
     {
         "scope": [
             "punctuation.section.embedded.groovy",
             "constant.other.groovy",
         ],
-        "settings": {"foreground": "#569cd6"},
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": [
             "meta.method.groovy",
             // "meta.method-call.groovy",
         ],
-        "settings": {"foreground": "#dcdcaa"},
+        "settings": { "foreground": "#dcdcaa" },
     },
     {
         "scope": [
-            "constant.character.escape.groovy"
+            "constant.character.escape.groovy",
         ],
-        "settings": {"foreground": "#d7ba7d"},
+        "settings": { "foreground": "#d7ba7d" },
     },
 ]

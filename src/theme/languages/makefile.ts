@@ -1,15 +1,21 @@
 export const makefile: VsCodeTextMate.TextMateRules = [
     {
-        "scope": ["comment.line.number-sign.makefile"],
-        "settings": {"foreground": "#608b4e"},
+        "scope": [
+            "comment.line.number-sign.makefile",
+        ],
+        "settings": { "foreground": "#608b4e" },
     },
     {
-        "scope": ["variable.other.makefile"],
-        "settings": {"foreground": "#9cdcfe"},
+        "scope": [
+            "variable.other.makefile",
+        ],
+        "settings": { "foreground": "#9cdcfe" },
     },
     {
-        "scope": ["variable.language.makefile"],
-        "settings": {"foreground": "#569cd6"},
+        "scope": [
+            "variable.language.makefile",
+        ],
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": [
@@ -32,7 +38,9 @@ export const makefile: VsCodeTextMate.TextMateRules = [
     // CMake
     // =========================================================================
     {
-        "scope": ["storage.source.cmake"],
-        "settings": {"foreground": "#9cdcfe"},
+        "scope": [
+            "storage.source.cmake",
+        ],
+        "settings": { "foreground": "#9cdcfe" },
     },
 ]

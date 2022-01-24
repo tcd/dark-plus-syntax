@@ -5,12 +5,12 @@ export const java: VsCodeTextMate.TextMateRules = [
             "variable.language.wildcard.java",
             "storage.modifier.package.java",
         ],
-        "settings": {"foreground": "#d4d4d4"},
+        "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": [
             "punctuation.separator.period.java",
         ],
-        "settings": {"foreground": "#c586c0"},
+        "settings": { "foreground": "#c586c0" },
     },
 ]

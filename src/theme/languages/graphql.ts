@@ -17,8 +17,8 @@ export const graphql: VsCodeTextMate.TextMateRules = [
         "scope": [
             "graphql.description.SINGLELINE",            // kumarharsh/graphql-for-vscode
             "string.block.description.graphql.DOCSTRING", // kumarharsh/graphql-for-vscode
-            "string.description.graphql"
+            "string.description.graphql",
         ],
-        "settings": {"foreground": "#608b4e"},
+        "settings": { "foreground": "#608b4e" },
     },
 ]

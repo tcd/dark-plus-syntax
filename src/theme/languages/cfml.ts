@@ -36,19 +36,19 @@ export const cfml: VsCodeTextMate.TextMateRules = [
         "scope": [
             "entity.name.tag.custom.cfml",
         ],
-        "settings": { "foreground": "#4EC9B0", },
+        "settings": { "foreground": "#4EC9B0" },
     },
     {
         "scope": [
             "entity.name.tag.cfml",
         ],
-        "settings": { "foreground": "#808080", },
+        "settings": { "foreground": "#808080" },
     },
     {
         "scope": [
             "punctuation.definition.tag.begin.cfml",
             "punctuation.definition.tag.end.cfml",
         ],
-        "settings": { "foreground": "#505050", },
+        "settings": { "foreground": "#505050" },
     },
-];
+]

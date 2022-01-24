@@ -5,7 +5,7 @@ export const python: VsCodeTextMate.TextMateRules = [
             // "string.quoted.docstring.single.python",
             "string.quoted.docstring.multi.python keyword.control.flow.python",
         ],
-        "settings": {"foreground": "#608b4e"},
+        "settings": { "foreground": "#608b4e" },
     },
     {
         "scope": [
@@ -16,7 +16,7 @@ export const python: VsCodeTextMate.TextMateRules = [
             "variable.parameter.function.language.special.self.python",
             "meta.function.decorator.python support.type.python",
         ],
-        "settings": {"fontStyle": "italic"},
+        "settings": { "fontStyle": "italic" },
     },
     {
         "scope": [
@@ -105,7 +105,7 @@ export const python: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "constant.character.escape.python",
-            "string.quoted.binary.single.python"
+            "string.quoted.binary.single.python",
         ],
         "settings": { "foreground": "#d7ba7d" },
     },

@@ -5,27 +5,27 @@ export const c: VsCodeTextMate.TextMateRules = [
             "entity.name.function.c",
             // "meta.function-call.c",
         ],
-        "settings": {"foreground": "#dcdcaa"},
+        "settings": { "foreground": "#dcdcaa" },
     },
     {
         "scope": [
             "comment.block.c",
             "punctuation.terminator.statement.c",
         ],
-        "settings": {"foreground": "#505050"},
+        "settings": { "foreground": "#505050" },
     },
     {
         "scope": [
             "string.quoted.single.c",
         ],
-        "settings": {"foreground": "#d7ba7d"},
+        "settings": { "foreground": "#d7ba7d" },
     },
     {
         "scope": [
             "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c punctuation.definition.string.begin.c",
             "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c punctuation.definition.string.end.c",
         ],
-        "settings": {"foreground": "#808080"},
+        "settings": { "foreground": "#808080" },
     },
     {
         "scope": [
@@ -39,7 +39,7 @@ export const c: VsCodeTextMate.TextMateRules = [
             "punctuation.separator.delimiter.c",
 
         ],
-        "settings": {"foreground": "#d4d4d4"},
+        "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": [
@@ -49,21 +49,21 @@ export const c: VsCodeTextMate.TextMateRules = [
             "string.quoted.other.lt-gt.include.c",
             "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c",
         ],
-        "settings": {"foreground": "#9cdcfe"},
+        "settings": { "foreground": "#9cdcfe" },
     },
     {
         "scope": [
             "punctuation.separator.pointer-access.c",
             "keyword.control.directive.include.c",
         ],
-        "settings": {"foreground": "#c586c0"},
+        "settings": { "foreground": "#c586c0" },
     },
     {
         "scope": [
             "storage.type.c",
             "support.type.mac-classic.c",
         ],
-        "settings": {"foreground": "#4ec9b0"},
+        "settings": { "foreground": "#4ec9b0" },
     },
     {
         "scope": [
@@ -71,6 +71,6 @@ export const c: VsCodeTextMate.TextMateRules = [
             "constant.language.c",
             "keyword.operator.sizeof.c",
         ],
-        "settings": {"foreground": "#569cd6"},
+        "settings": { "foreground": "#569cd6" },
     },
 ]

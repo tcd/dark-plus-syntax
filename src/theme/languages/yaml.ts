@@ -61,7 +61,7 @@ export const yaml: VsCodeTextMate.TextMateRules = [
         ],
         "settings": {
             "foreground": "#569cd6",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     // {

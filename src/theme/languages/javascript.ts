@@ -11,7 +11,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             // "punctuation.definition.comment.js"
             "comment.block.documentation.js punctuation.definition.comment.js",
         ],
-        settings: {"foreground": "#608b4e"},
+        settings: { "foreground": "#608b4e" },
     },
     {
         scope: [
@@ -22,19 +22,21 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
         ],
         settings: {
             "foreground": "#608b4e",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     {
-        scope: ["punctuation.definition.comment.js"],
-        settings: {"foreground": "#404040"},
+        scope: [
+            "punctuation.definition.comment.js",
+        ],
+        settings: { "foreground": "#404040" },
     },
     {
         scope: [
             "comment.line.double-slash.js",
             "meta.embedded.expression.js source.js.jsx comment.block.js",
         ],
-        settings: {"foreground": "#505050"},
+        settings: { "foreground": "#505050" },
     },
     {
         scope: [
@@ -42,7 +44,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
         ],
         settings: {
             "foreground": "#569cd6",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     {
@@ -52,7 +54,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             // "variable.other.constant.property",
             // "variable.other.constant",
         ],
-        settings: {"foreground": "#d7ba7d"},
+        settings: { "foreground": "#d7ba7d" },
     },
     {
         scope: [
@@ -63,7 +65,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "punctuation.definition.string.template.end.js",
             "punctuation.definition.string.template.end.ts",
         ],
-        settings: {"foreground": "#ce9178"},
+        settings: { "foreground": "#ce9178" },
     },
     {
         scope: [
@@ -82,7 +84,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "punctuation.definition.binding-pattern.object",
             "meta.brace.square.ts",
         ],
-        settings: {"foreground": "#d4d4d4"},
+        settings: { "foreground": "#d4d4d4" },
     },
     {
         scope: [
@@ -123,7 +125,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             // "variable.other.constant.property.js",
             // "variable.other.constant.js",
         ],
-        settings: {"foreground": "#569cd6"},
+        settings: { "foreground": "#569cd6" },
     },
     {
         scope: [
@@ -134,7 +136,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "meta.tag.without-attributes.js meta.jsx.children.js",
             "meta.jsx.children.js",
         ],
-        settings: {"foreground": "#d4d4d4"},
+        settings: { "foreground": "#d4d4d4" },
     },
     {
         scope: [
@@ -153,7 +155,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "meta.decorator.js variable.other.readwrite.js",
             "source.ts meta.class.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts",
         ],
-        settings: {"foreground": "#dcdcaa"},
+        settings: { "foreground": "#dcdcaa" },
     },
     {
         scope: [
@@ -171,7 +173,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "keyword.operator.expression.in",
             "punctuation.definition.section.case-statement",
         ],
-        settings: {"foreground": "#c586c0"},
+        settings: { "foreground": "#c586c0" },
     },
     {
         scope: [
@@ -188,7 +190,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "meta.decorator.ts meta.objectliteral.ts meta.object.member.ts variable.other.readwrite.ts",
             "meta.decorator.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
         ],
-        settings: {"foreground": "#9cdcfe"},
+        settings: { "foreground": "#9cdcfe" },
     },
     {
         scope: [
@@ -208,7 +210,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "support.variable.object.process",
             "support.variable.property.process",
         ],
-        settings: {"foreground": "#4ec9b0"},
+        settings: { "foreground": "#4ec9b0" },
     },
     {
         scope: [
@@ -252,20 +254,20 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "punctuation.separator.key-value.tsx",
             "punctuation.accessor.tsx",
         ],
-        "settings": {"foreground": "#d4d4d4"},
+        "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": [
             "punctuation.accessor.optional.tsx",
             "punctuation.accessor.tsx",
         ],
-        "settings": {"foreground": "#C586C0"},
+        "settings": { "foreground": "#C586C0" },
     },
     {
         "scope": [
             "keyword.operator.optional.tsx",
         ],
-        "settings": {"foreground": "#4EC9B0"},
+        "settings": { "foreground": "#4EC9B0" },
     },
     {
         "scope": [
@@ -273,7 +275,7 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "punctuation.definition.typeparameters.begin.tsx",
             "punctuation.definition.typeparameters.end.tsx",
         ],
-        "settings": {"foreground": "#569CD6"},
+        "settings": { "foreground": "#569CD6" },
     },
     // =========================================================================
     // TypeScript
@@ -285,13 +287,13 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
             "comment.line.triple-slash.directive.ts",
             "comment.block.documentation.ts",
         ],
-        settings: {"foreground": "#608b4e"},
+        settings: { "foreground": "#608b4e" },
     },
     {
         scope: [
             "punctuation.accessor.optional.ts",
         ],
-        settings: {"foreground": "#c586c0"},
+        settings: { "foreground": "#c586c0" },
     },
     // =========================================================================
     // Angular
@@ -300,6 +302,6 @@ export const javaScript: VsCodeTextMate.TextMateRules = [
         scope: [
             "meta.component.decoration entity.name.label.ts",
         ],
-        settings: {"foreground": "#9cdcfe"},
+        settings: { "foreground": "#9cdcfe" },
     },
 ]

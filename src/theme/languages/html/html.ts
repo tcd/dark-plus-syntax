@@ -75,12 +75,14 @@ export const html: VsCodeTextMate.TextMateRules = [
     //     "settings": { "foreground": "#569cd6" }
     // },
     {
-        "scope": ["constant.character.entity.html"],
+        "scope": [
+            "constant.character.entity.html",
+        ],
         "settings": { "foreground": "#d7ba7d" },
     },
     {
-        "name": "don't highlight ejs and erb as errors",
-        "scope": ["invalid.illegal.bad-angle-bracket.html"],
+        "name":     "don't highlight ejs and erb as errors",
+        "scope":    ["invalid.illegal.bad-angle-bracket.html"],
         "settings": { "foreground": "#d4d4d4" },
     },
     {
@@ -101,7 +103,7 @@ export const html: VsCodeTextMate.TextMateRules = [
     // Jade/Pug
     // =========================================================================
     {
-        "name": "Mustaches",
+        "name":  "Mustaches",
         "scope": [
             "string.interpolated.jade",
         ],

@@ -9,7 +9,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
         "settings": {"foreground": "#505050"},
     },
     {
-        "name": "Special Comments",
+        "name":  "Special Comments",
         "scope": [
             "comment.block.js",
             "comment.line.shebang.js",
@@ -23,7 +23,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
         "settings": {"foreground": "#608b4e"},
     },
     {
-        "name": "Curly Braces, Semicolons, etc.",
+        "name":  "Curly Braces, Semicolons, etc.",
         "scope": [
             "meta.tag.sgml.html",
             "meta.tag.sgml.doctype.html",
@@ -43,7 +43,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
         "settings": {"foreground": "#505050"},
     },
     {
-        "scope": ["meta.embedded.block.sql"],
+        "scope":    ["meta.embedded.block.sql"],
         "settings": {"foreground": "#d4d4d4"},
     },
     {
@@ -55,7 +55,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
         "settings": {"foreground": "#b5cea8"},
     },
     {
-        "scope": [ "invalid"],
+        "scope":    ["invalid"],
         "settings": {"foreground": "#f44747"},
     },
     {
@@ -68,7 +68,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
         "settings": {"foreground": "#d7ba7d"},
     },
     {
-        "scope": ["meta.diff.header"],
+        "scope":    ["meta.diff.header"],
         "settings": {"foreground": "#569cd6"},
     },
     {
@@ -107,7 +107,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
         "settings": {"foreground": "#dcdcaa"},
     },
     {
-        "name": "Type declaration and references",
+        "name":  "Type declaration and references",
         "scope": [
             "meta.return-type",
             "support.class",
@@ -132,7 +132,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
         "settings": {"foreground": "#4ec9b0"},
     },
     {
-        "name": "Types declaration and references, TS grammar specific",
+        "name":  "Types declaration and references, TS grammar specific",
         "scope": [
             "meta.type.cast.expr",
             "meta.type.new.expr",
@@ -166,23 +166,23 @@ export const defaults: VsCodeTextMate.TextMateRules = [
         ],
         "settings": {
             "foreground": "#ce9178",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     {
-        "scope": ["token.info-token"],
+        "scope":    ["token.info-token"],
         "settings": {"foreground": "#569cd6"},
     },
     {
-        "scope": ["token.warn-token"],
+        "scope":    ["token.warn-token"],
         "settings": {"foreground": "#d7ba7d"},
     },
     {
-        "scope": ["token.error-token"],
+        "scope":    ["token.error-token"],
         "settings": {"foreground": "#f44747"},
     },
     {
-        "scope": ["token.debug-token"],
+        "scope":    ["token.debug-token"],
         "settings": {"foreground": "#c586c0"},
     },
 ]

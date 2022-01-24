@@ -5,7 +5,7 @@ export const cs: VsCodeTextMate.TextMateRules = [
             "meta.comment.razor keyword.control.razor.comment.star",
             "meta.comment.razor keyword.control.cshtml.transition",
         ],
-        "settings": {"foreground": "#608B4E"},
+        "settings": { "foreground": "#608B4E" },
     },
     {
         "scope": [
@@ -17,7 +17,7 @@ export const cs: VsCodeTextMate.TextMateRules = [
         ],
         "settings": {
             "foreground": "#608B4E",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     {
@@ -82,7 +82,7 @@ export const cs: VsCodeTextMate.TextMateRules = [
         ],
         "settings": {
             "foreground": "#569cd6",
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
         },
     },
     {

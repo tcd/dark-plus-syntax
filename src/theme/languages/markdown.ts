@@ -3,7 +3,9 @@ export const markdown: VsCodeTextMate.TextMateRules = [
     // Markup
     // =========================================================================
     {
-        "scope": ["markup.underline"],
+        "scope": [
+            "markup.underline"
+        ],
         "settings": { "fontStyle": "underline" },
     },
     {
@@ -58,10 +60,10 @@ export const markdown: VsCodeTextMate.TextMateRules = [
         },
     },
     {
-        "scope": [ "markup.bold.markdown" ],
+        "scope": ["markup.bold.markdown"],
         "settings": {
-            "fontStyle": "bold",
             "foreground": "#569cd6",
+            "fontStyle":  "bold",
         },
     },
     {
@@ -131,7 +133,7 @@ export const markdown: VsCodeTextMate.TextMateRules = [
             "meta.image.reference.markdown constant.other.reference.link.markdown",
         ],
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle":  "italic",
             "foreground": "#404040",
         },
     },

@@ -5,7 +5,7 @@ export const kotlin: VsCodeTextMate.TextMateRules = [
             "storage.type.builtin.collection.kotlin",
             "entity.name.package.kotlin",
         ],
-        "settings": {"foreground": "#4ec9b0"},
+        "settings": { "foreground": "#4ec9b0" },
     },
     {
         "scope": [
@@ -17,6 +17,6 @@ export const kotlin: VsCodeTextMate.TextMateRules = [
         "scope": [
             "keyword.hard.kotlin",
         ],
-        "settings": {"foreground": "#c586c0"},
+        "settings": { "foreground": "#c586c0" },
     },
 ]

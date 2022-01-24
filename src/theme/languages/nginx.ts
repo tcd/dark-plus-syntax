@@ -4,14 +4,14 @@ export const nginx: VsCodeTextMate.TextMateRules = [
             "source.nginx constant.character.brace",
             "source.nginx constant.character.paren",
         ],
-        "settings": {"foreground": "#d4d4d4"},
+        "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": [
             "source.nginx constant.character.brace",
             "source.nginx constant.character.end",
         ],
-        "settings": {"foreground": "#808080"},
+        "settings": { "foreground": "#808080" },
     },
     // {
     //     "scope": [
