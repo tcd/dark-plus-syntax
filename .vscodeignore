@@ -10,8 +10,8 @@ node_modules/**
 .vscode
 ignore
 node_modules
-samples
 src
+test
 .editorconfig
 .env
 .eslintrc.js

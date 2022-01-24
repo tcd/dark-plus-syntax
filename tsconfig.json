@@ -32,6 +32,6 @@
     ],
     "exclude": [
         "ignore",
-        "samples",
-    ]
+        "test/samples",
+    ],
 }
