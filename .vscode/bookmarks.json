@@ -1,0 +1,19 @@
+{
+	"files": [
+		{
+			"path": "node_modules/@types/vscode/index.d.ts",
+			"bookmarks": [
+				{
+					"line": 6465,
+					"column": 29,
+					"label": "vscode.ColorThemeKind"
+				},
+				{
+					"line": 6474,
+					"column": 30,
+					"label": "vscode.ColorTheme"
+				}
+			]
+		}
+	]
+}
