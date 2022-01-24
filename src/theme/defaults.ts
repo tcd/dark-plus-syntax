@@ -1,16 +1,16 @@
 export const defaults: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "comment",
             "comment.line.double-slash.js",
             "comment.block.html",
             "comment.block.handlebars",
         ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
     {
         "name":  "Special Comments",
-        "scope": [
+        scope: [
             "comment.block.js",
             "comment.line.shebang.js",
             "comment.line.number-sign.shebang.shell",
@@ -20,11 +20,11 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "comment.line.number-sign.ini",
             "comment.line.number-sign.yaml",
         ],
-        "settings": { "foreground": "#608b4e" },
+        settings: { foreground: "#608b4e" },
     },
     {
         "name":  "Curly Braces, Semicolons, etc.",
-        "scope": [
+        scope: [
             "meta.tag.sgml.html",
             "meta.tag.sgml.doctype.html",
             "meta.tag.sgml.html punctuation.definition.tag.html",
@@ -40,50 +40,50 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "punctuation.definition.italic.markdown",
             "punctuation.definition.bold.markdown",
         ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
     {
-        "scope": [
+        scope: [
             "meta.embedded.block.sql",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "constant.numeric",
             "keyword.other.unit",
             "meta.preprocessor.numeric",
         ],
-        "settings": { "foreground": "#b5cea8" },
+        settings: { foreground: "#b5cea8" },
     },
     {
-        "scope":    ["invalid"],
-        "settings": { "foreground": "#f44747" },
+        scope:    ["invalid"],
+        settings: { foreground: "#f44747" },
     },
     {
-        "scope": [
+        scope: [
             "meta.selector",
             "constant.character",
             "constant.other.symbol",
             "constant.character.escape",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
     {
-        "scope":    ["meta.diff.header"],
-        "settings": { "foreground": "#569cd6" },
+        scope:    ["meta.diff.header"],
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "string",
             "string.tag",
             "string.value",
             "meta.preprocessor.string",
         ],
-        "settings": { "foreground": "#ce9178" },
+        settings: { foreground: "#ce9178" },
     },
     {
-        "scope": [
+        scope: [
             "storage",
             "storage.type",
             "storage.modifier",
@@ -98,19 +98,19 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "keyword.operator.cast",
             "keyword.operator.sizeof",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.function",
             "support.function",
             "support.constant.handlebars",
         ],
-        "settings": { "foreground": "#dcdcaa" },
+        settings: { foreground: "#dcdcaa" },
     },
     {
         "name":  "Type declaration and references",
-        "scope": [
+        scope: [
             "meta.return-type",
             "support.class",
             "support.type",
@@ -131,11 +131,11 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "storage.type.primitive.array.groovy",
             "storage.type.primitive.groovy",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
         "name":  "Types declaration and references, TS grammar specific",
-        "scope": [
+        scope: [
             "meta.type.cast.expr",
             "meta.type.new.expr",
             "support.constant.math",
@@ -143,49 +143,49 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "support.constant.json",
             "entity.other.inherited-class",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.control",
             "keyword.operator",
         ],
-        "settings": { "foreground": "#C586C0" },
+        settings: { foreground: "#C586C0" },
     },
     {
-        "scope": [
+        scope: [
             "variable",
             "support.variable",
             "meta.definition.variable.name",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
 
     {
-        "scope": [
+        scope: [
             "code-runner.output code-runner.running string",
             "code-runner.running code-runner.done string",
         ],
-        "settings": {
-            "foreground": "#ce9178",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#ce9178",
+            fontStyle:  "italic",
         },
     },
     {
-        "scope":    ["token.info-token"],
-        "settings": { "foreground": "#569cd6" },
+        scope:    ["token.info-token"],
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope":    ["token.warn-token"],
-        "settings": { "foreground": "#d7ba7d" },
+        scope:    ["token.warn-token"],
+        settings: { foreground: "#d7ba7d" },
     },
     {
-        "scope":    ["token.error-token"],
-        "settings": { "foreground": "#f44747" },
+        scope:    ["token.error-token"],
+        settings: { foreground: "#f44747" },
     },
     {
-        "scope":    ["token.debug-token"],
-        "settings": { "foreground": "#c586c0" },
+        scope:    ["token.debug-token"],
+        settings: { foreground: "#c586c0" },
     },
 ]
 

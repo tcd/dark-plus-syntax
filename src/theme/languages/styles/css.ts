@@ -1,6 +1,6 @@
 export const css: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "meta.property-list.scss",
             "punctuation.terminator.rule.css",
             "punctuation.terminator.rule.scss",
@@ -17,10 +17,10 @@ export const css: VsCodeTextMate.TextMateRules = [
             "punctuation.section.supports.begin.bracket.curly",
             "punctuation.section.supports.end.bracket.curly",
         ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.other.important.css",
             "keyword.other.important.sass",
             "keyword.other.important.scss",
@@ -29,10 +29,10 @@ export const css: VsCodeTextMate.TextMateRules = [
             "keyword.other.default.scss",
             "keyword.other.default.sass",
         ],
-        "settings": { "fontStyle": "italic" },
+        settings: { fontStyle: "italic" },
     },
     {
-        "scope": [
+        scope: [
             "entity.other.attribute-name.class.css",
             "entity.other.attribute-name.class.mixin.css",
             "entity.other.attribute-name.id.css",
@@ -45,10 +45,10 @@ export const css: VsCodeTextMate.TextMateRules = [
             "meta.at-rule.keyframes.stylus entity.other.attribute-name.stylus",
             "meta.at-rule.keyframes.scss entity.other.attribute-name.scss",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
     {
-        "scope": [
+        scope: [
             "invalid.deprecated.color.system.css",
             "punctuation.section.function.begin.bracket.round.css",
             "punctuation.section.function.end.bracket.round.css",
@@ -66,21 +66,21 @@ export const css: VsCodeTextMate.TextMateRules = [
             "punctuation.section.keyframes.end.scss",
             "constant.other.scss",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.tag.css",
             "keyword.other.important.css",
             "keyword.other.default.scss",
             "punctuation.definition.interpolation.begin.bracket.curly",
             "punctuation.definition.interpolation.end.bracket.curly",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
         "name":  "Variables",
-        "scope": [
+        scope: [
             "support.type.property-name.media.css",
             "support.type.property-name",
             "variable.css",
@@ -90,26 +90,26 @@ export const css: VsCodeTextMate.TextMateRules = [
             "meta.at-rule.include.scss",
             "support.constant.vendored.property-value.css",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "source.css meta.at-rule.keyframes.body.css entity.other.keyframe-offset.css",
         ],
-        "settings": {
-            "foreground": "#9CDCFE",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#9CDCFE",
+            fontStyle:  "italic",
         },
     },
     {
-        "scope": [
+        scope: [
             "meta.attribute-selector.css",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
         "name":  "CSS property value",
-        "scope": [
+        scope: [
             "support.constant.property-value",
             "support.constant.font-name",
             "support.constant.media-type",
@@ -118,10 +118,10 @@ export const css: VsCodeTextMate.TextMateRules = [
             "constant.other.rgb-value",
             "support.constant.color",
         ],
-        "settings": { "foreground": "#ce9178" },
+        settings: { foreground: "#ce9178" },
     },
     {
-        "scope": [
+        scope: [
             "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
             "meta.selector.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
             "punctuation.definition.entity.begin.bracket.square.css",
@@ -131,6 +131,6 @@ export const css: VsCodeTextMate.TextMateRules = [
             "support.constant.mathematical-symbols.scss",
             // "text.html.basic meta.embedded.block.html source.css meta.selector.css entity.other.attribute-name.pseudo-class.css"
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
 ]

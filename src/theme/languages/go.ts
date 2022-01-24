@@ -12,20 +12,20 @@ export const go: VsCodeTextMate.TextMateRules = [
             "keyword.control.gotemplate",
         ],
         settings: {
-            "foreground": "#c586c0",
+            foreground: "#c586c0",
         },
     },
     {
         scope: [
             "string.quoted.double.gotemplate",
         ],
-        settings: { "foreground": "#ce9178" },
+        settings: { foreground: "#ce9178" },
     },
     // {
     //     scope: [
     //         "constant.other.rune.go",
     //     ],
-    //     settings: { "fontStyle": "italic" },
+    //     settings: { fontStyle: "italic" },
     // },
     {
         scope: [
@@ -39,7 +39,7 @@ export const go: VsCodeTextMate.TextMateRules = [
             "storage.type.rune.go",
         ],
         settings: {
-            "foreground": "#4ec9b0",
+            foreground: "#4ec9b0",
         },
     },
     {
@@ -50,7 +50,7 @@ export const go: VsCodeTextMate.TextMateRules = [
             "string.quoted.rune.go punctuation.definition.string.end.go",
         ],
         settings: {
-            "foreground": "#d7ba7d",
+            foreground: "#d7ba7d",
         },
     },
     // {
@@ -58,7 +58,7 @@ export const go: VsCodeTextMate.TextMateRules = [
     //         "punctuation.terminator.go",
     //     ],
     //     settings: {
-    //         "foreground": "#d4d4d4",
+    //         foreground: "#d4d4d4",
     //     },
     // },
     {
@@ -70,7 +70,7 @@ export const go: VsCodeTextMate.TextMateRules = [
             "keyword.operator.ellipsis.go",
         ],
         settings: {
-            "foreground": "#569cd6",
+            foreground: "#569cd6",
         },
     },
     // Templates
@@ -80,7 +80,7 @@ export const go: VsCodeTextMate.TextMateRules = [
             "punctuation.section.embedded.end.gotemplate",
         ],
         settings: {
-            "foreground": "#4ec9b0",
+            foreground: "#4ec9b0",
         },
     },
     {
@@ -88,7 +88,7 @@ export const go: VsCodeTextMate.TextMateRules = [
             "entity.alias.import.go",
         ],
         settings: {
-            "foreground": "#9cdcfe",
+            foreground: "#9cdcfe",
         },
     },
 ]

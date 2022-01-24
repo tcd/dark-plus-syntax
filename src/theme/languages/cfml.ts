@@ -3,52 +3,52 @@ export const cfml: VsCodeTextMate.TextMateRules = [
     // ColdFusion Markup Language
     // =========================================================================
     {
-        "scope": [
+        scope: [
             "comment.block.cfml",
             "comment.line.cfml",
         ],
-        "settings": { "foreground": "#608B4E" },
+        settings: { foreground: "#608B4E" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.definition.template-expression.begin.cfml",
             "punctuation.definition.template-expression.end.cfml",
             "constant.character.hash.cfml.start", // ilich/vscode-coldfusion
             "constant.character.hash.cfml.end",   // ilich/vscode-coldfusion
         ],
-        "settings": { "foreground": "#569CD6" },
+        settings: { foreground: "#569CD6" },
     },
     {
-        "scope": [
+        scope: [
             "meta.property.cfml",
             "meta.property.constant.cfml",
         ],
-        "settings": { "foreground": "#9CDCFE" },
+        settings: { foreground: "#9CDCFE" },
     },
     {
-        "scope": [
+        scope: [
             // "entity.name.tag.cfml",
             "punctuation.accessor.cfml",
         ],
-        "settings": { "foreground": "#C586C0" },
+        settings: { foreground: "#C586C0" },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.tag.custom.cfml",
         ],
-        "settings": { "foreground": "#4EC9B0" },
+        settings: { foreground: "#4EC9B0" },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.tag.cfml",
         ],
-        "settings": { "foreground": "#808080" },
+        settings: { foreground: "#808080" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.definition.tag.begin.cfml",
             "punctuation.definition.tag.end.cfml",
         ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
 ]

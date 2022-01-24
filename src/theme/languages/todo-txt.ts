@@ -1,6 +1,6 @@
 export const todoTxt: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "meta.item.done.todo",
             "meta.item.done.todo variable.priority.todo",
             "meta.item.done.todo variable.other",
@@ -8,44 +8,44 @@ export const todoTxt: VsCodeTextMate.TextMateRules = [
             "meta.item.done.todo string.quoted.single.todo",
             "meta.item.done.todo string.quoted.double.todo",
         ],
-        "settings": { "foreground": "#608b4e" },
+        settings: { foreground: "#608b4e" },
     },
     {
-        "scope": [
+        scope: [
             "constant.numeric.date.todo",
         ],
-        "settings": { "foreground": "#b5cea8" },
+        settings: { foreground: "#b5cea8" },
     },
     {
-        "scope": [
+        scope: [
             "string.quoted.single.todo",
             "string.quoted.double.todo",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     // {
-    //     "scope": [
+    //     scope: [
     //     ],
-    //     "settings": { "foreground": "#606060" },
+    //     settings: { foreground: "#606060" },
     // },
     {
-        "scope":    ["meta.item.priority.a.todo"],
-        "settings": { "foreground": "#f44747" },
+        scope:    ["meta.item.priority.a.todo"],
+        settings: { foreground: "#f44747" },
     },
     {
-        "scope":    ["meta.item.priority.b.todo"],
-        "settings": { "foreground": "#d16969" },
+        scope:    ["meta.item.priority.b.todo"],
+        settings: { foreground: "#d16969" },
     },
     {
-        "scope":    ["meta.item.priority.c.todo"],
-        "settings": { "foreground": "#ce9178" },
+        scope:    ["meta.item.priority.c.todo"],
+        settings: { foreground: "#ce9178" },
     },
     {
-        "scope":    ["meta.item.priority.d.todo"],
-        "settings": { "foreground": "#d7ba7d" },
+        scope:    ["meta.item.priority.d.todo"],
+        settings: { foreground: "#d7ba7d" },
     },
     {
-        "scope":    ["meta.item.priority.e.todo"],
-        "settings": { "foreground": "#dcdcaa" },
+        scope:    ["meta.item.priority.e.todo"],
+        settings: { foreground: "#dcdcaa" },
     },
 ]

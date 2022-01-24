@@ -1,37 +1,37 @@
 export const groovy: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             // "constant.other.key.groovy",
             "source.groovy.embedded.source",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.operator.assignment.groovy",
             "keyword.operator.arithmetic.groovy",
             "keyword.control.exception.groovy",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.section.embedded.groovy",
             "constant.other.groovy",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "meta.method.groovy",
             // "meta.method-call.groovy",
         ],
-        "settings": { "foreground": "#dcdcaa" },
+        settings: { foreground: "#dcdcaa" },
     },
     {
-        "scope": [
+        scope: [
             "constant.character.escape.groovy",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
 ]

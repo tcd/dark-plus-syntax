@@ -1,22 +1,22 @@
 export const kotlin: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "storage.type.builtin.kotlin",
             "storage.type.builtin.collection.kotlin",
             "entity.name.package.kotlin",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "meta.template.expression.kotlin",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.hard.kotlin",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
 ]

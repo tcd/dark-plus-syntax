@@ -1,21 +1,21 @@
 export const haskell: VsCodeTextMate.TextMateRules = [
     // {
-    //     "scope": [
+    //     scope: [
     //         "constant.other.haskell",
     //     ],
-    //     "settings": {"foreground": "#9cdcfe"},
+    //     settings: {foreground: "#9cdcfe"},
     // },
     {
-        "scope": [
+        scope: [
             "meta.preprocessor.haskell",
         ],
-        "settings": { "foreground": "#608b4e" },
+        settings: { foreground: "#608b4e" },
     },
     {
-        "scope": [
+        scope: [
             "storage.type.haskell",
             "support.other.module.haskell",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
 ]

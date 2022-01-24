@@ -1,22 +1,22 @@
 export const smarty: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "support.function.built-in.smarty",
         ],
-        // "settings": { "foreground": "#569cd6" },
-        "settings": { "foreground": "#c586c0" },
+        // settings: { foreground: "#569cd6" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "source.smarty punctuation.section.embedded.begin.smarty",
             "source.smarty punctuation.section.embedded.end.smarty",
         ],
-        "settings": { "foreground": "#808080" },
+        settings: { foreground: "#808080" },
     },
     {
-        "scope": [
+        scope: [
             "source.smarty",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
 ]

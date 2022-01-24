@@ -1,25 +1,25 @@
 export const html: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "punctuation.definition.tag",
         ],
-        "settings": { "foreground": "#808080" },
+        settings: { foreground: "#808080" },
     },
     {
-        "scope": [
+        scope: [
             "entity.other.attribute-name",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.definition.string.begin.html",
             "punctuation.definition.string.end.html",
         ],
-        "settings": { "foreground": "#ce9178" },
+        settings: { foreground: "#ce9178" },
     },
     {
-        "scope": [
+        scope: [
             "entity.tag",
             "entity.name.tag",
             "string.interpolated.jade",
@@ -32,10 +32,10 @@ export const html: VsCodeTextMate.TextMateRules = [
             "meta.tag.template.value.twig",
             "punctuation.section.tag.twig",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             // JS in html
             "text.html.basic meta.brace.round.js",
             "text.html.basic meta.brace.square.js",
@@ -51,42 +51,42 @@ export const html: VsCodeTextMate.TextMateRules = [
             "text.html.jinja punctuation.definition.block.js",
             "text.html.jinja punctuation.separator.comma.js",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             // Custom Elements
             "meta.tag.custom.start.html entity.name.tag.html",
             "meta.tag.custom.end.html entity.name.tag.html",
             "text.html.derivative meta.tag.custom.end.html entity.name.tag.html",
             "text.html.derivative meta.tag.custom.start.html entity.name.tag.html",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     // {
     //     "name": "Template Tags",
-    //     "scope": [
+    //     scope: [
     //         "string.interpolated.jade",
     //         "punctuation.section.embedded.begin.php",
     //         "punctuation.section.embedded.end.php",
     //         "meta.tag.template.value.twig",
     //         "punctuation.section.tag.twig",
     //     ],
-    //     "settings": { "foreground": "#569cd6" }
+    //     settings: { foreground: "#569cd6" }
     // },
     {
-        "scope": [
+        scope: [
             "constant.character.entity.html",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
     {
         "name":     "don't highlight ejs and erb as errors",
-        "scope":    ["invalid.illegal.bad-angle-bracket.html"],
-        "settings": { "foreground": "#d4d4d4" },
+        scope:    ["invalid.illegal.bad-angle-bracket.html"],
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             // "entity.name.tag.template.html",
             "punctuation.section.embedded.begin.php",
             "punctuation.section.embedded.end.php",
@@ -97,26 +97,26 @@ export const html: VsCodeTextMate.TextMateRules = [
             "punctuation.section.embedded.begin.smarty",
             "punctuation.section.embedded.end.smarty",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     // =========================================================================
     // Jade/Pug
     // =========================================================================
     {
         "name":  "Mustaches",
-        "scope": [
+        scope: [
             "string.interpolated.jade",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "meta.control.flow.jade",
             "meta.first-class.jade",
             "storage.type.function.jade",
             "storage.type.import.include.jade",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     // =========================================================================
     // Handlebars
@@ -126,7 +126,7 @@ export const html: VsCodeTextMate.TextMateRules = [
     // "meta.function.block.stardt.handlebars",
     // "meta.function.block.end.handlebars",
     {
-        "scope": [
+        scope: [
             // "text.html.handlebars",
             // "meta.function.inline.other.handlebars",
             "meta.function.block.start.handlebars",
@@ -134,34 +134,34 @@ export const html: VsCodeTextMate.TextMateRules = [
             "meta.function.block.start.handlebars support.constant.handlebars",
             "meta.function.block.end.handlebars support.constant.handlebars",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "support.constant.handlebars",
             // "meta.tag.mustache.js",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "variable.parameter.handlebars",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     // =========================================================================
     // ejs
     // =========================================================================
     {
-        "scope": [
+        scope: [
             "keyword.begin.tag.ejs",
             // "text.html.ejs keyword.begin.tag.ejs punctuation.accessor.js",
             // "text.html.ejs keyword.begin.tag.ejs keyword.operator.arithmetic.js",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js meta.brace.round.begin.js",
             "text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js meta.brace.round.end.js",
             "text.html.ejs keyword.begin.tag.ejs meta.group.braces.round.js",
@@ -172,32 +172,32 @@ export const html: VsCodeTextMate.TextMateRules = [
             "text.html.ejs punctuation.definition.parameters.begin.js",
             "text.html.ejs punctuation.definition.parameters.end.js",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "text.html.ejs keyword.operator.expression.typeof.js",
             "text.html.ejs keyword.operator.expression.instanceof.js",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     // =========================================================================
     // Vue
     // =========================================================================
     {
-        "scope": [
+        scope: [
             "text.html.vue-html meta.brace.round.js",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "text.html.vue-html meta.tag.other.html",
         ],
-        "settings": { "foreground": "#808080" },
+        settings: { foreground: "#808080" },
     },
     {
-        "scope": [
+        scope: [
             "text.html.vue-html source.directive.vue punctuation.definition.string.begin.html",
             "text.html.vue-html source.directive.vue punctuation.definition.string.end.html",
             // "source.vue text.html.vue-html meta.tag.inline.any.html meta.directive.vue entity.other.attribute-name.html",
@@ -205,77 +205,77 @@ export const html: VsCodeTextMate.TextMateRules = [
             "meta.directive.vue punctuation.separator.key-value.html",
             "meta.directive.vue entity.other.attribute-name.html",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     // {
-    // "scope": [],
-    // "settings": { "foreground": "#c586c0" },
+    // scope: [],
+    // settings: { foreground: "#c586c0" },
     // },
     // =========================================================================
     // Jinja2
     // =========================================================================
     {
-        "scope": [
+        scope: [
             "entity.other.jinja.delimiter.tag",
         ],
-        "settings": { "foreground": "#606060" },
+        settings: { foreground: "#606060" },
     },
     {
-        "scope": [
+        scope: [
             "entity.other.jinja.delimiter.variable",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "variable.other.jinja",
             // "variable.other.jinja.block"
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "variable.language.jinja",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     // =========================================================================
     // Liquid
     // =========================================================================
     {
-        "scope": [
+        scope: [
             "punctuation.tag.liquid",
         ],
-        "settings": { "foreground": "#606060" },
+        settings: { foreground: "#606060" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.output.liquid",
             // "support.class.liquid",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "support.variable.liquid",
             "support.class.liquid",
 
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.tag.liquid",
             "keyword.operator.liquid",
             "entity.name.tag.liquid",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     // =========================================================================
     // Angular Templates
     // =========================================================================
     {
-        "scope": [
+        scope: [
             // {{ mustaches }}
             "text.html.derivative punctuation.definition.block.ts",
             // Angular pipe "|"
@@ -284,30 +284,30 @@ export const html: VsCodeTextMate.TextMateRules = [
             "punctuation.definition.ng-binding-name.begin.html",
             "punctuation.definition.ng-binding-name.end.html",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     // {
-    //     "scope": [
+    //     scope: [
     //         // {{ ; }} ¯\_(ツ)_/¯
     //         "expression.ng",
     //     ],
-    //     "settings": { "foreground": "#c586c0" },
+    //     settings: { foreground: "#c586c0" },
     // },
     {
-        "scope": [
+        scope: [
             // directives
             "entity.other.ng-binding-name.property.html", // [title], [value]
             "entity.other.ng-binding-name.event.html",    // (click), (ngSubmit)
             "entity.other.ng-binding-name.template.html", // *ngIf, *ngFor
             "entity.other.ng-binding-name.two-way.html",  // [(ngModel)]
         ],
-        "settings": {
-            "foreground": "#9cdcfe",
-            // "fontStyle": "italic",
+        settings: {
+            foreground: "#9cdcfe",
+            // fontStyle: "italic",
         },
     },
     {
-        "scope": [
+        scope: [
             // =
             "meta.ng-binding.event.html punctuation.separator.key-value.html",
             "meta.ng-binding.property.html punctuation.separator.key-value.html",
@@ -323,8 +323,8 @@ export const html: VsCodeTextMate.TextMateRules = [
             "meta.ng-binding.two-way.html punctuation.definition.string.begin.html",
             "meta.ng-binding.two-way.html punctuation.definition.string.end.html",
         ],
-        "settings": {
-            "foreground": "#4ec9b0",
+        settings: {
+            foreground: "#4ec9b0",
         },
     },
 ]

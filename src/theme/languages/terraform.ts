@@ -1,31 +1,31 @@
 export const terraform: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "entity.name.section.terraform",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.other.section.begin.terraform",
             "keyword.other.section.end.terraform",
             "keyword.other.function.inline.terraform",
         ],
-        "settings": { "foreground": "#dcdcaa" },
+        settings: { foreground: "#dcdcaa" },
     },
     {
-        "scope": [
+        scope: [
             "storage.type.function.terraform",
             "entity.tag.embedded.start.terraform",
             "entity.tag.embedded.end.terraform",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "entity.other.attribute-name.terraform",
             "source.terraform.embedded.source",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
 ]

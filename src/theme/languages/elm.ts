@@ -1,30 +1,30 @@
 export const elm: VsCodeTextMate.TextMateRules = [
     // {
-    //     "scope": [
+    //     scope: [
     //         "punctuation.separator.comma.elm",
     //         "meta.declaration.exports.elm",
     //     ],
-    //     "settings": {"foreground": "#d4d4d4"},
+    //     settings: {foreground: "#d4d4d4"},
     // },
     // {
-    //     "scope": [
+    //     scope: [
     //         "constant.other.elm",
     //         // "meta.declaration.module.elm meta.declaration.exports.elm",
     //     ],
-    //     "settings": {"foreground": "#9cdcfe"},
+    //     settings: {foreground: "#9cdcfe"},
     // },
     // {
-    //     "scope": [
+    //     scope: [
     //         "support.constant.elm",
     //     ],
-    //     "settings": {"foreground": "#569cd6"},
+    //     settings: {foreground: "#569cd6"},
     // },
     // {
-    //     "scope": [
+    //     scope: [
     //         "storage.type.elm",
     //         "support.other.module.elm",
     //         "constant.language.empty-list.elm",
     //     ],
-    //     "settings": {"foreground": "#4ec9b0"},
+    //     settings: {foreground: "#4ec9b0"},
     // },
 ]

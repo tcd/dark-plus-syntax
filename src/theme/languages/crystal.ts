@@ -4,52 +4,52 @@ export const crystal: VsCodeTextMate.TextMateRules = [
             "keyword.operator.macro.crystal",
         ],
         settings: {
-            // "foreground": "#569cd6",
-            "fontStyle": "italic",
+            // foreground: "#569cd6",
+            fontStyle: "italic",
         },
     },
     // {
-    //     "scope": [
+    //     scope: [
     //         "punctuation.section.function.crystal",
     //     ],
-    //     "settings": {"foreground": "#808080"},
+    //     settings: {foreground: "#808080"},
     // },
     {
-        "scope": [
+        scope: [
             "string.regexp.group.crystal punctuation.definition.group.crystal",
         ],
-        "settings": { "foreground": "#808080" },
+        settings: { foreground: "#808080" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.variable.crystal", // |var|
             "punctuation.separator.object.crystal",
             "punctuation.definition.parameters.crystal",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "source.crystal.embedded.source",
             // "variable.other.crystal",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.method.crystal", // .
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "support.class.crystal",
             "punctuation.separator.other.crystal",            // ::/:
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "variable.language.crystal",
             "punctuation.section.embedded.crystal",           // #{}
             "punctuation.section.embedded.begin.crystal",     // #{}
@@ -57,13 +57,13 @@ export const crystal: VsCodeTextMate.TextMateRules = [
             "keyword.control.special-method.crystal",         // new/include/extend/raise
             "source.crystal punctuation.separator.key-value", // =>
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "string.quoted.single.crystal",
             "constant.other.symbol.crystal",                  // :symbol
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
 ]

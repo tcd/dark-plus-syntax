@@ -1,36 +1,36 @@
 export const swift: VsCodeTextMate.TextMateRules = [
     {
-        "scope":    ["comment.punctuation.comma.swift"],
-        "settings": { "foreground": "#d4d4d4" },
+        scope:    ["comment.punctuation.comma.swift"],
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.statement.swift",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "string-interpolation keyword.operator.swift",
             "punctuation.section.embedded.begin.swift",
             "punctuation.section.embedded.end.swift",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "variable.language.self.swift",
             "keyword.expressions-and-types.swift",
         ],
-        "settings": {
-            "foreground": "#569cd6",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#569cd6",
+            fontStyle:  "italic",
         },
     },
     {
-        "scope": [
+        scope: [
             "meta.embedded.line.swift",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
 ]

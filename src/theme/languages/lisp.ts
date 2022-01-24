@@ -1,21 +1,21 @@
 export const lisp: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "storage.type.function-type.lisp",
             "constant.language.lisp",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.constant.lisp",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.control.lisp",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
 ]

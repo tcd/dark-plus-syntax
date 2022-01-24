@@ -1,74 +1,74 @@
 export const elixir: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "comment.wildcard.elixir",
             "comment.unused.elixir",
         ],
-        "settings": {
-            "foreground": "#9cdcfe",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#9cdcfe",
+            fontStyle:  "italic",
         },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.section.function.elixir",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     // {
-    //     "scope":    ["comment.documentation.heredoc.elixir"],
-    //     "settings": { "foreground": "#608b4e" },
+    //     scope:    ["comment.documentation.heredoc.elixir"],
+    //     settings: { foreground: "#608b4e" },
     // },
     {
-        "scope": [
+        scope: [
             // "punctuation.definition.constant.elixir",
             "parameter.variable.function.elixir",
             "source.elixir.embedded.source",
             "variable.other.readwrite.module.elixir",
             "variable.other.anonymous.elixir",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.method.elixir",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
         "meta.module.elixir",
         "entity.name.type.module.elixir",
         "variable.other.readwrite.module.elixir",
         "variable.other.constant.elixir",
     ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "constant.other.symbol.elixir",
             "punctuation.section.embedded.elixir",
             "punctuation.definition.variable.elixir",
             "variable.language.elixir",
             "source.elixir.embedded.source punctuation.section.embedded.elixir",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "constant.other.symbol.elixir",
             "punctuation.definition.constant.elixir",
             "support.function.variable.quoted.single.elixir",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
     // =========================================================================
     // eex
     // =========================================================================
     {
-        "scope": [
+        scope: [
             "punctuation.section.embedded.elixir",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
 ]

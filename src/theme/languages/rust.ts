@@ -1,69 +1,69 @@
 export const rust: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "entity.name.type.param.rust punctuation.other.comma.rust",
             "keyword.operator.path.rust",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "meta.attribute.rust",
             "comment.line.documentation.rust",
         ],
-        "settings": { "foreground": "#608b4e" },
+        settings: { foreground: "#608b4e" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.operator.misc.rust",
             "keyword.operator.sigil.rust",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "storage.modifier.lifetime.rust",
             "entity.name.lifetime.rust",
             "constant.other.placeholder.rust",
         ],
-        "settings": {
-            // "fontStyle": "italic",
-            "foreground": "#9cdcfe",
+        settings: {
+            // fontStyle: "italic",
+            foreground: "#9cdcfe",
         },
     },
     {
-        "scope": [
+        scope: [
             "string.quoted.single.rust", // DEPRECATED
             "constant.character.rust",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
     {
-        "scope": [
+        scope: [
             // "constant.other.placeholder.rust", // Deprecated
             "support.constant.core.rust",
             "variable.language.ignored.rust",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "variable.language.rust",
             "variable.language.self.rust",
         ],
-        "settings": {
-            "foreground": "#569cd6",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#569cd6",
+            fontStyle:  "italic",
         },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.type.param.rust punctuation.definition.type.rust",
         ],
-        "settings": { "foreground": "#808080" },
+        settings: { foreground: "#808080" },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.type.rust",
             "storage.type.core.rust",
             "storage.class.std.rust",
@@ -72,6 +72,6 @@ export const rust: VsCodeTextMate.TextMateRules = [
             "meta.type_params.rust",
             // "keyword.operator.path.rust",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
 ]

@@ -1,10 +1,10 @@
 export const scala: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "storage.type.scala",
             "storage.type.primitive.scala",
             "meta.colon.scala",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
 ]

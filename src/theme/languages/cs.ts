@@ -1,37 +1,37 @@
 export const cs: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "meta.comment.razor comment.block.razor",
             "meta.comment.razor keyword.control.razor.comment.star",
             "meta.comment.razor keyword.control.cshtml.transition",
         ],
-        "settings": { "foreground": "#608B4E" },
+        settings: { foreground: "#608B4E" },
     },
     {
-        "scope": [
+        scope: [
             "meta.preprocessor.cs",
             "meta.preprocessor.cs string.unquoted.preprocessor.message.cs",
             "meta.preprocessor.cs punctuation.separator.hash.cs",
             "meta.preprocessor.cs keyword.preprocessor.region.cs",
             "meta.preprocessor.cs keyword.preprocessor.endregion.cs",
         ],
-        "settings": {
-            "foreground": "#608B4E",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#608B4E",
+            fontStyle:  "italic",
         },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.tag.localname.cs",
             "punctuation.definition.tag.cs",
             "punctuation.terminator.statement.cs",
             "source.cs comment.block.documentation.cs punctuation.definition.comment.cs",
             "source.cs comment.block.documentation.cs meta.tag.cs punctuation.separator.equals.cs",
         ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
     {
-        "scope": [
+        scope: [
             "string.bracers.round.cshtml",
             "punctuation.curlybrace.open.cs",
             "punctuation.curlybrace.close.cs",
@@ -40,10 +40,10 @@ export const cs: VsCodeTextMate.TextMateRules = [
             "string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.open.cs",
             "string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.close.cs",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.variable.property.cs",
             "entity.name.variable.parameter.cs",
             "entity.name.variable.field.cs",
@@ -52,19 +52,19 @@ export const cs: VsCodeTextMate.TextMateRules = [
             "entity.name.variable.tuple-element.cs",
             "entity.name.variable.enum-member.cs",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     // {
-    //     "scope": [
+    //     scope: [
     //         "variable.other.object.property.cs",
     //     ],
-    //     "settings": {
-    //         "foreground": "#9cdcfe",
-    //         "fontStyle": "italic",
+    //     settings: {
+    //         foreground: "#9cdcfe",
+    //         fontStyle: "italic",
     //     },
     // },
     {
-        "scope": [
+        scope: [
             "keyword.type.cs",
             "storage.type.cs",
             "storage.type.generic.cs",
@@ -72,21 +72,21 @@ export const cs: VsCodeTextMate.TextMateRules = [
             "storage.type.variable.cs",
             // "variable.other.object.cs",
         ],
-        "settings": {
-            "foreground": "#4ec9b0" },
+        settings: {
+            foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             // "storage.modifier.cs",
             "keyword.other.this.cs",
         ],
-        "settings": {
-            "foreground": "#569cd6",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#569cd6",
+            fontStyle:  "italic",
         },
     },
     {
-        "scope": [
+        scope: [
             "keyword.other.new.cs",
             "keyword.other.var.cs",
             "keyword.other.as.cs",
@@ -104,17 +104,17 @@ export const cs: VsCodeTextMate.TextMateRules = [
             "punctuation.definition.interpolation.begin.cs",
             "punctuation.definition.interpolation.end.cs",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.other.get.cs",
             "keyword.other.set.cs",
         ],
-        "settings": { "foreground": "#dcdcaa" },
+        settings: { foreground: "#dcdcaa" },
     },
     {
-        "scope": [
+        scope: [
             // "keyword.other.using.cs",
             "meta.preprocessor.cs punctuation.separator.hash.cs",
             "punctuation.accessor.cs",
@@ -124,14 +124,14 @@ export const cs: VsCodeTextMate.TextMateRules = [
             // "keyword.operator.logical.cs",
             // "keyword.operator.null-conditional.cs",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     // {
-    //     "scope": [
+    //     scope: [
     //         "keyword.other.base.cs",
     //     ],
-    //     "settings": {
-    //         "fontStyle": "italic",
+    //     settings: {
+    //         fontStyle: "italic",
     //     },
     // },
 ]

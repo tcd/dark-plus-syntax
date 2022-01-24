@@ -1,30 +1,30 @@
 export const styledComponents: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "punctuation.semi-colon.css",
             "meta.brace.curly.css",
         ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
     {
-        "scope": [
+        scope: [
             "constant.hex.css",
             "meta.identifier.css",
         ],
-        "settings": { "foreground": "#ce9178" },
+        settings: { foreground: "#ce9178" },
     },
     {
-        "scope": [
+        scope: [
             "constant.percentage.units.css",
             "constant.length.units.css",
             "entity.other.keyframe-offset.percentage.css",
         ],
-        "settings": { "foreground": "#b5cea8" },
+        settings: { foreground: "#b5cea8" },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.tag.styledcss.js",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
 ]

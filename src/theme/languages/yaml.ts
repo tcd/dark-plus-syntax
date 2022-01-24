@@ -1,26 +1,26 @@
 export const yaml: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "comment.line.number-sign.yaml",
             "punctuation.separator.key-value.mapping.yaml",    // `:`
         ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
     // {
-    //     "scope": [
+    //     scope: [
     //         "punctuation.definition.block.sequence.item.yaml", // `-`
     //         "punctuation.separator.key-value.mapping.yaml",    // `:`
     //     ],
-    //     "settings": {"foreground": "#d4d4d4d4"},
+    //     settings: {foreground: "#d4d4d4d4"},
     // },
     {
-        "scope": [
+        scope: [
             "constant.other.timestamp.yaml",
         ],
-        "settings": { "foreground": "#b5cea8" },
+        settings: { foreground: "#b5cea8" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.definition.sequence.begin.yaml", // Square brackets
             "punctuation.definition.sequence.end.yaml",   // Square brackets
             "punctuation.definition.mapping.begin.yaml",  // Curly brackets
@@ -28,10 +28,10 @@ export const yaml: VsCodeTextMate.TextMateRules = [
             "punctuation.separator.sequence.yaml",        // Commas
             "punctuation.separator.mapping.yaml",         // Commas
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "storage.type.tag-handle.yaml",
             "meta.property.yaml",
             "punctuation.definition.alias.yaml",    // "*" - (<<: *user_defaults)
@@ -39,10 +39,10 @@ export const yaml: VsCodeTextMate.TextMateRules = [
             "variable.other.alias.yaml",            // "user_defaults" - (<<: *user_defaults)
             // "entity.name.type.anchor.yaml",         // "Default" - (default: &default)
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             // "constant.language.boolean.yaml", // `true`, `false`, `yes`, `no`, `on`, and `off`
             // "constant.language.null.yaml", // `null` and `~`
             "keyword.control.property.anchor.yaml",  //  "&" - (default: &default)
@@ -52,49 +52,49 @@ export const yaml: VsCodeTextMate.TextMateRules = [
             "support.other.directive.reserved.yaml",       // "RESERVED" - (%RESERVED name parameter #comment)
             "punctuation.definition.directive.begin.yaml", // "%" - (%RESERVED name parameter #comment)
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "constant.language.boolean.yaml", // `true`, `false`, `yes`, `no`, `on`, and `off`
             "constant.language.null.yaml",    // `null` and `~`
         ],
-        "settings": {
-            "foreground": "#569cd6",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#569cd6",
+            fontStyle:  "italic",
         },
     },
     // {
-    //     "scope": ["entity.name.tag.yaml"],
-    //     "settings": {"foreground": "#9cdcfe"},
+    //     scope: ["entity.name.tag.yaml"],
+    //     settings: {foreground: "#9cdcfe"},
     // },
     {
-        "scope": [
+        scope: [
             "entity.other.document.begin.yaml", // `---`
             "entity.other.document.end.yaml",   // `...`
             "keyword.control.flow.block-scalar.literal.yaml", // `|`
             "storage.modifier.chomping-indicator.yaml", // (`-` in `|-`) or (`+` in `|+`)
             "punctuation.definition.block.sequence.item.yaml", // `-`
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "source.yaml string.quoted.double.yaml",
             "string.unquoted.plain.out.yaml entity.name.tag.yaml",
             "meta.flow-pair.key.yaml string.unquoted.plain.in.yaml entity.name.tag.yaml",
             "meta.flow-mapping.yaml string.quoted.double.yaml",
         ],
-        "settings": {
-            "foreground": "#9CDCFE",
+        settings: {
+            foreground: "#9CDCFE",
         },
     },
     {
-        "scope": [
+        scope: [
             "meta.flow-pair.value.yaml string.quoted.double.yaml",
         ],
-        "settings": {
-            "foreground": "#CE9178",
+        settings: {
+            foreground: "#CE9178",
         },
     },
 ]

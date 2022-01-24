@@ -1,6 +1,6 @@
 export const viml: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             // "constant.character",
             "constant.character.map.rhs.viml",
             "constant.character.map.special.viml",
@@ -8,12 +8,12 @@ export const viml: VsCodeTextMate.TextMateRules = [
             "constant.character.map.key.fn.viml",
             "constant.character.map.viml",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.definition.map.viml",
     ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
 ]

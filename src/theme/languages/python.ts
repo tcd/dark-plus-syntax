@@ -1,14 +1,14 @@
 export const python: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "string.quoted.docstring.multi.python",
             // "string.quoted.docstring.single.python",
             "string.quoted.docstring.multi.python keyword.control.flow.python",
         ],
-        "settings": { "foreground": "#608b4e" },
+        settings: { foreground: "#608b4e" },
     },
     {
-        "scope": [
+        scope: [
             "variable.language.special.self.python",
             "support.function.magic.python",
             "support.variable.magic.python",
@@ -16,10 +16,10 @@ export const python: VsCodeTextMate.TextMateRules = [
             "variable.parameter.function.language.special.self.python",
             "meta.function.decorator.python support.type.python",
         ],
-        "settings": { "fontStyle": "italic" },
+        settings: { fontStyle: "italic" },
     },
     {
-        "scope": [
+        scope: [
             "meta.function-call.arguments.python",
             "keyword.operator.assignment.python",
             "punctuation.separator.period.python",
@@ -49,10 +49,10 @@ export const python: VsCodeTextMate.TextMateRules = [
             "meta.function.parameters.end.python",
             // "meta.function.parameters.python",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.section.function.begin.python",
             "punctuation.section.class.begin.python",
             "variable.language.special.self.python",
@@ -61,18 +61,18 @@ export const python: VsCodeTextMate.TextMateRules = [
             "keyword.operator.unpacking.parameter.python",
             "keyword.operator.unpacking.arguments.python",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "meta.function-call.python",
             "meta.function-call.generic.python",
             "meta.function.decorator.python support.type.python",
         ],
-        "settings": { "foreground": "#dcdcaa" },
+        settings: { foreground: "#dcdcaa" },
     },
     {
-        "scope": [
+        scope: [
             "variable.parameter.function-call.python",
             "meta.structure.dictionary.key.python",
             "meta.function-call.arguments.python",
@@ -80,19 +80,19 @@ export const python: VsCodeTextMate.TextMateRules = [
             // "meta.item-access.python",
             "constant.other.caps.python",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "support.type.python",
             "entity.name.type.class.python",
             "punctuation.separator.annotation.python",
             "punctuation.separator.annotation.result.python",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.period.python",
             "keyword.operator.comparison.python",
             "keyword.operator.assignment.python",
@@ -100,13 +100,13 @@ export const python: VsCodeTextMate.TextMateRules = [
             "punctuation.separator.slice.python",
             "punctuation.separator.colon.python",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "constant.character.escape.python",
             "string.quoted.binary.single.python",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
 ]

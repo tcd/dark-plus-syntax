@@ -7,6 +7,8 @@ export const orgMode: VsCodeTextMate.TextMateRules = [
             "meta.link.inline.org punctuation.definition.string.end.org",
             "meta.link.inline.org markup.underline.link.org",
         ],
-        settings: { "foreground": "#505050" },
+        settings: {
+            foreground: "#505050",
+        },
     },
 ]

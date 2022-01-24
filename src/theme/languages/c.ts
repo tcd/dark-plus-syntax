@@ -1,34 +1,34 @@
 export const c: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "support.function.C99.c",
             "entity.name.function.c",
             // "meta.function-call.c",
         ],
-        "settings": { "foreground": "#dcdcaa" },
+        settings: { foreground: "#dcdcaa" },
     },
     {
-        "scope": [
+        scope: [
             "comment.block.c",
             "punctuation.terminator.statement.c",
         ],
-        "settings": { "foreground": "#505050" },
+        settings: { foreground: "#505050" },
     },
     {
-        "scope": [
+        scope: [
             "string.quoted.single.c",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
     {
-        "scope": [
+        scope: [
             "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c punctuation.definition.string.begin.c",
             "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c punctuation.definition.string.end.c",
         ],
-        "settings": { "foreground": "#808080" },
+        settings: { foreground: "#808080" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.section.arguments.begin.bracket.round.c",
             "punctuation.section.arguments.end.bracket.round.c",
             "punctuation.section.parens.begin.bracket.round.c",
@@ -39,38 +39,38 @@ export const c: VsCodeTextMate.TextMateRules = [
             "punctuation.separator.delimiter.c",
 
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             // "meta.function.c",
             "constant.other.variable.mac-classic.c",
             "string.quoted.double.include.c",
             "string.quoted.other.lt-gt.include.c",
             "meta.preprocessor.include.c string.quoted.other.lt-gt.include.c",
         ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.pointer-access.c",
             "keyword.control.directive.include.c",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "storage.type.c",
             "support.type.mac-classic.c",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             "constant.other.placeholder.c",
             "constant.language.c",
             "keyword.operator.sizeof.c",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
 ]

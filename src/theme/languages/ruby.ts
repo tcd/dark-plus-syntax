@@ -1,14 +1,14 @@
 export const ruby: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "punctuation.definition.string.begin.ruby",
             "punctuation.definition.string.end.ruby",
             "source.ruby string.quoted.double.interpolated.ruby",
         ],
-        "settings": { "foreground": "#ce9178" },
+        settings: { foreground: "#ce9178" },
     },
     {
-        "scope": [
+        scope: [
             "variable.other.ruby",
             "variable.other.constant.ruby",
             "constant.language.symbol.hashkey.ruby",
@@ -16,47 +16,47 @@ export const ruby: VsCodeTextMate.TextMateRules = [
             "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
             "meta.function.method.with-arguments.ruby constant.other.symbol.hashkey.parameter.function.ruby",
          ],
-        "settings": { "foreground": "#9cdcfe" },
+        settings: { foreground: "#9cdcfe" },
     },
     {
-        "scope":    ["variable.other.readwrite.instance.ruby"],
-        "settings": { "fontStyle": "italic" },
+        scope:    ["variable.other.readwrite.instance.ruby"],
+        settings: { fontStyle: "italic" },
     },
     {
-        "scope": [
+        scope: [
             "constant.character.escape.ruby",
             "constant.other.symbol.ruby",
             "constant.language.symbol.ruby",
             "punctuation.definition.constant.ruby",
         ],
-        "settings": { "foreground": "#d7ba7d" },
+        settings: { foreground: "#d7ba7d" },
     },
     {
-        "scope": [
+        scope: [
             "variable.language.self.ruby",
         ],
-        "settings": {
-            "foreground": "#569cd6",
-            "fontStyle":  "italic",
+        settings: {
+            foreground: "#569cd6",
+            fontStyle:  "italic",
         },
     },
     {
-        "scope": [
+        scope: [
             "constant.other.symbol.hashkey.ruby",
             // "constant.language.symbol.hashkey.ruby",
             "meta.embedded.line.ruby",
          ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "entity.name.function.ruby",
             "support.function.kernel.ruby",
          ],
-        "settings": { "foreground": "#dcdcaa" },
+        settings: { foreground: "#dcdcaa" },
     },
     {
-        "scope": [
+        scope: [
             "variable.language.ruby",
             // "constant.other.symbol.ruby",
             // "constant.language.symbol.ruby",
@@ -74,20 +74,20 @@ export const ruby: VsCodeTextMate.TextMateRules = [
             "string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",
             "string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.end.ruby",
         ],
-        "settings": { "foreground": "#569cd6" },
+        settings: { foreground: "#569cd6" },
     },
     {
-        "scope": [
+        scope: [
             "meta.class.ruby",
             "support.class.ruby",
             "entity.name.type.class.ruby",
             "entity.other.inherited-class.ruby",
             // "punctuation.separator.namespace.ruby",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     {
-        "scope": [
+        scope: [
             // "punctuation.separator.method.ruby",
             // "punctuation.separator.namespace.ruby",
             "keyword.control.def.ruby",
@@ -104,10 +104,10 @@ export const ruby: VsCodeTextMate.TextMateRules = [
             "meta.function.method.with-arguments.ruby constant.other.symbol.hashkey.parameter.function.ruby punctuation.definition.constant.ruby",
             "source.ruby punctuation.separator.key-value",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.namespace.ruby",
             "punctuation.separator.object.ruby",
             "punctuation.separator.arguments.ruby",
@@ -117,45 +117,45 @@ export const ruby: VsCodeTextMate.TextMateRules = [
             "punctuation.section.array.begin.ruby",
             "punctuation.section.array.end.ruby",
         ],
-        "settings": { "foreground": "#d4d4d4" },
+        settings: { foreground: "#d4d4d4" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.definition.group.ruby",
             "punctuation.definition.character-class.ruby",
             "punctuation.definition.character-class.begin.ruby",
             "punctuation.definition.character-class.end.ruby",
         ],
-        "settings": { "foreground": "#808080" },
+        settings: { foreground: "#808080" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.section.regexp.begin.ruby",
             "punctuation.section.regexp.end.ruby",
         ],
-        "settings": { "foreground": "#d16969" },
+        settings: { foreground: "#d16969" },
     },
     {
-        "scope": [
+        scope: [
             "keyword.operator.quantifier.ruby",
             "string.regexp.arbitrary-repetition.ruby",
         ],
-        "settings": { "foreground": "#b5cea8" },
+        settings: { foreground: "#b5cea8" },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.definition.string.begin.ruby",
             "punctuation.definition.string.end.ruby",
             "source.ruby string.quoted.double.interpolated.ruby",
             "string.quoted.double.interpolated.ruby",
         ],
-        "settings": { "foreground": "#ce9178" },
+        settings: { foreground: "#ce9178" },
     },
     // =========================================================================
     // yard
     // =========================================================================
     // {
-    //     "scope": [
+    //     scope: [
     //         "comment.line.keyword.punctuation.yard.ruby",
     //         "comment.line.keyword.yard.ruby",
     //         "comment.line.parameter.yard.ruby",
@@ -163,71 +163,71 @@ export const ruby: VsCodeTextMate.TextMateRules = [
     //         "comment.line.string.yard.ruby",
     //         // "comment.line.punctuation.yard.ruby",
     //      ],
-    //     "settings": {
-    //         "foreground": "#608b4e",
-    //         // "fontStyle": "italic",
+    //     settings: {
+    //         foreground: "#608b4e",
+    //         // fontStyle: "italic",
     //     },
     // },
     // {
-    //     "scope": [
+    //     scope: [
     //         "comment.line.type.yard.ruby",
     //     ],
-    //     "settings": {"foreground": "#4ec9b0"},
+    //     settings: {foreground: "#4ec9b0"},
     // },
     // {
-    //     "scope": [
+    //     scope: [
     //         "comment.line.parameter.yard.ruby",
     //      ],
-    //     "settings": {"foreground": "#9cdcfe"},
+    //     settings: {foreground: "#9cdcfe"},
     // },
     // {
-    //     "scope": [
+    //     scope: [
     //         "comment.line.punctuation.yard.ruby",
     //      ],
-    //     "settings": {"foreground": "#505050"},
+    //     settings: {foreground: "#505050"},
     // },
     // =========================================================================
     // erb
     // =========================================================================
     {
-        "scope": [
+        scope: [
             "meta.section.attributes.plain.haml constant.other.symbol.ruby",
             "meta.embedded.line.erb",
         ],
-        "settings": { "foreground": "#9CDCFE" },
+        settings: { foreground: "#9CDCFE" },
     },
     {
-        "scope": [
+        scope: [
             "text.html.erb punctuation.section.embedded.begin.erb",
             "text.html.erb punctuation.section.embedded.end.erb",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
     // =========================================================================
     // Cucumber (Gherkin)
     // =========================================================================
     {
-        "scope": [
+        scope: [
             "keyword.language.gherkin.feature.step",
         ],
-        "settings": { "foreground": "#c586c0" },
+        settings: { foreground: "#c586c0" },
     },
     // {
-    //     "scope": [
+    //     scope: [
     //         "keyword.control.cucumber.table",
     //     ],
-    //     "settings": {"foreground": "#ce9178"},
+    //     settings: {foreground: "#ce9178"},
     // },
     // {
-    //     "scope": [
+    //     scope: [
     //         "string.language.gherkin.scenario.title.title",
     //     ],
-    //     "settings": {"foreground": "#9CDCFE"},
+    //     settings: {foreground: "#9CDCFE"},
     // },
     {
-        "scope": [
+        scope: [
         "text.gherkin.feature entity.name.type.class.tsx",
         ],
-        "settings": { "foreground": "#4ec9b0" },
+        settings: { foreground: "#4ec9b0" },
     },
 ]

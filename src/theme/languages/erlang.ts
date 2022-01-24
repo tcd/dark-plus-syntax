@@ -1,23 +1,23 @@
 export const erlang: VsCodeTextMate.TextMateRules = [
     {
-        "scope": [
+        scope: [
             "punctuation.definition.placeholder.erlang",
             "constant.other.placeholder.erlang",
         ],
-        "settings": {
-            "foreground": "#d7ba7d",
+        settings: {
+            foreground: "#d7ba7d",
         },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.parameters.erlang",
         ],
-        "settings": {
-            "foreground": "#d4d4d4",
+        settings: {
+            foreground: "#d4d4d4",
         },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.section.directive.begin.erlang",
             "punctuation.section.directive.end.erlang",
             "punctuation.separator.module-function.erlang",
@@ -26,37 +26,37 @@ export const erlang: VsCodeTextMate.TextMateRules = [
             "keyword.operator.symbolic.erlang",
             "punctuation.separator.clause-head-body.erlang",
         ],
-        "settings": {
-            "foreground": "#c586c0",
+        settings: {
+            foreground: "#c586c0",
         },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.clauses.erlang",
             "punctuation.terminator.function.erlang",
         ],
-        "settings": {
-            "foreground": "#808080",
+        settings: {
+            foreground: "#808080",
         },
     },
     {
-        "scope": [
+        scope: [
             "punctuation.separator.function-arity.erlang",
             "variable.language.omitted.erlang",
             // "punctuation.separator.clause-head-body.erlang",
             // "keyword.operator.symbolic.erlang",
         ],
-        "settings": {
-            "foreground": "#569cd6",
+        settings: {
+            foreground: "#569cd6",
         },
     },
     {
-        "scope": [
+        scope: [
             "variable.other.erlang",
             // "constant.other.symbol.unquoted.erlang",
         ],
-        "settings": {
-            "foreground": "#9cdcfe",
+        settings: {
+            foreground: "#9cdcfe",
         },
     },
 ]
