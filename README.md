@@ -8,19 +8,21 @@
 
 <div align="center">
   <a href="https://github.com/Microsoft/vscode">
-    <img src="https://raw.githubusercontent.com/dunstontc/dark-plus-syntax/master/assets/512.png" alt="logo">
+    <img src="https://raw.githubusercontent.com/dunstontc/dark-plus-syntax/master/dist/assets/512.png" alt="logo">
   </a>
 </div>
 
 **Enjoy!**
 
-## Languages with Additions
+
+## Supported Languages
+
 - C#
 - C/C++
 - Crystal
 - CSS
-    - Stylus
     - SCSS
+    - Stylus
 - Elixir
 - Erlang
 - Go
@@ -36,10 +38,10 @@
 - Java
     - Kotlin
     - Groovy
+    - Scala
 - JavaScript
-    - JSON
-    - JSX
     - TypeScript
+    - JSX/TSX
 - Markdown
 - Python
 - Ruby
@@ -49,20 +51,23 @@
 - Swift
 - Misc.
     - CMake
-    - CSV
+    - CSV/TSV
     - GraphQL
     - Makefile
     - NGINX
     - Terraform
+    - JSON
     - TOML
     - YAML
 
 
 ## Tested With
 
-> I'm not necessarily endorsing the plugins on this list, I've just made sure this theme takes advantage of the syntax groups that they define.
+> I'm not necessarily endorsing the plugins on this list, <br/>
+> I've just made sure this theme takes advantage of the syntax groups that they define.
 >
-> If you like this theme but it doesn't support a certain language or plugin that you use, feel free to [open an issue](https://github.com/dunstontc/dark-plus-syntax/issues/new) and I'll look into it.
+> If you like this theme but it doesn't support a certain language or plugin that you use, <br/>
+> feel free to [open an issue](https://github.com/dunstontc/dark-plus-syntax/issues/new) and I'll look into it.
 
 - [fr1zle/vscode-elixir](https://github.com/fr1zle/vscode-elixir)
 - [bungcip/better-toml](https://github.com/bungcip/better-toml)
@@ -98,11 +103,13 @@
 - [Scope Naming](https://www.sublimetext.com/docs/3/scope_naming.html)
 - [VSCode Theme Colors](https://code.visualstudio.com/api/references/theme-color)
 
+
 ## Contributing
 
-The code is split up by language into individual JavaScript files, which live in `src/partials`.
+The code is split up (mainly by language) into individual TypeScript files, which live in `src/partials`.
 So if you wanted to see the Ruby colors, for example, those are in `src/partials/ruby.js`.
 Those files are imported, merged, and written out to `themes/dark-plus-syntax-color-theme.json`
+
 
 ### To make changes
 
@@ -112,19 +119,39 @@ Those files are imported, merged, and written out to `themes/dark-plus-syntax-co
 3. Run `npm run build` to build the theme file with the new changes.
 4. Go to  the *Debug* dropdown and click *Start Debugging* to run the new version of the theme locally.
 
+
 ## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
 
 ## Italic Comments
 
-This theme doesn't have italic comments (idk why), but you can get them by adding this to your `settings.json` file:
+This theme doesn't have italic comments, but you can get them by adding the following snippet to your `settings.json` file:
 
 ```json
 "editor.tokenColorCustomizations": {
   "textMateRules": [
     {
-      "scope": ["comment"],
-      "settings": {"fontStyle": "italic"},
+      "scope": [ "comment" ],
+      "settings": { "fontStyle": "italic" },
     },
   ]
 }
 ```
+
+## License
+
+Copyright © Clay Dunston <dunstontc@gmail.com>
+
+Licensed under the [MIT][badge-link-license] license
+
+
+[badge-image-ci]:       https://travis-ci.org/dunstontc/dark-plus-syntax.svg?branch=master
+[badge-image-issues]:   https://img.shields.io/github/issues/dunstontc/dark-plus-syntax.svg
+[badge-image-license]:  https://img.shields.io/badge/license-MIT-blue.svg
+[badge-image-installs]: https://vsmarketplacebadge.apphb.com/installs-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue
+[badge-image-version]:  https://vsmarketplacebadge.apphb.com/version-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue
+
+[badge-link-ci]:       https://travis-ci.org/dunstontc/dark-plus-syntax
+[badge-link-issues]:   https://github.com/dunstontc/dark-plus-syntax/issues
+[badge-link-license]:  https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE.md
+[badge-link-installs]: https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax
+[badge-link-version]:  https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax

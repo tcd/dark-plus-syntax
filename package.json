@@ -5,7 +5,7 @@
     "displayName": "dark-plus-syntax",
     "description": "VS Code's default dark theme, but just a little bit better.",
     "publisher": "dunstontc",
-    "icon": "assets/128.png",
+    "icon": "dist/assets/128.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/dunstontc/dark-plus-syntax.git"
@@ -21,7 +21,7 @@
             {
                 "label": "dark-plus-syntax",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dark-plus-syntax-color-theme.json"
+                "path": "./dist/themes/dark-plus-syntax-color-theme.json"
             }
         ]
     },
@@ -35,10 +35,10 @@
         "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
     },
     "scripts": {
+        "test": "true; # TODO: figure out how to test",
+        "publish": "vsce publish",
         "build": "node index.js",
         "watch": "watch 'npm run build' src",
-        "publish": "vsce publish",
-        "test": "true",
         "start": "ts-node -r tsconfig-paths/register ./src/main.ts"
     },
     "devDependencies": {
