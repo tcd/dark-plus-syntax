@@ -6,7 +6,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "comment.block.html",
             "comment.block.handlebars",
         ],
-        "settings": {"foreground": "#505050"},
+        "settings": { "foreground": "#505050" },
     },
     {
         "name":  "Special Comments",
@@ -20,7 +20,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "comment.line.number-sign.ini",
             "comment.line.number-sign.yaml",
         ],
-        "settings": {"foreground": "#608b4e"},
+        "settings": { "foreground": "#608b4e" },
     },
     {
         "name":  "Curly Braces, Semicolons, etc.",
@@ -40,11 +40,13 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "punctuation.definition.italic.markdown",
             "punctuation.definition.bold.markdown",
         ],
-        "settings": {"foreground": "#505050"},
+        "settings": { "foreground": "#505050" },
     },
     {
-        "scope":    ["meta.embedded.block.sql"],
-        "settings": {"foreground": "#d4d4d4"},
+        "scope": [
+            "meta.embedded.block.sql",
+        ],
+        "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": [
@@ -52,11 +54,11 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "keyword.other.unit",
             "meta.preprocessor.numeric",
         ],
-        "settings": {"foreground": "#b5cea8"},
+        "settings": { "foreground": "#b5cea8" },
     },
     {
         "scope":    ["invalid"],
-        "settings": {"foreground": "#f44747"},
+        "settings": { "foreground": "#f44747" },
     },
     {
         "scope": [
@@ -65,11 +67,11 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "constant.other.symbol",
             "constant.character.escape",
         ],
-        "settings": {"foreground": "#d7ba7d"},
+        "settings": { "foreground": "#d7ba7d" },
     },
     {
         "scope":    ["meta.diff.header"],
-        "settings": {"foreground": "#569cd6"},
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": [
@@ -78,7 +80,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "string.value",
             "meta.preprocessor.string",
         ],
-        "settings": {"foreground": "#ce9178"},
+        "settings": { "foreground": "#ce9178" },
     },
     {
         "scope": [
@@ -96,7 +98,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "keyword.operator.cast",
             "keyword.operator.sizeof",
         ],
-        "settings": {"foreground": "#569cd6"},
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": [
@@ -104,7 +106,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "support.function",
             "support.constant.handlebars",
         ],
-        "settings": {"foreground": "#dcdcaa"},
+        "settings": { "foreground": "#dcdcaa" },
     },
     {
         "name":  "Type declaration and references",
@@ -129,7 +131,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "storage.type.primitive.array.groovy",
             "storage.type.primitive.groovy",
         ],
-        "settings": {"foreground": "#4ec9b0"},
+        "settings": { "foreground": "#4ec9b0" },
     },
     {
         "name":  "Types declaration and references, TS grammar specific",
@@ -141,14 +143,14 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "support.constant.json",
             "entity.other.inherited-class",
         ],
-        "settings": {"foreground": "#4ec9b0"},
+        "settings": { "foreground": "#4ec9b0" },
     },
     {
         "scope": [
             "keyword.control",
             "keyword.operator",
         ],
-        "settings": {"foreground": "#C586C0"},
+        "settings": { "foreground": "#C586C0" },
     },
     {
         "scope": [
@@ -156,7 +158,7 @@ export const defaults: VsCodeTextMate.TextMateRules = [
             "support.variable",
             "meta.definition.variable.name",
         ],
-        "settings": {"foreground": "#9cdcfe"},
+        "settings": { "foreground": "#9cdcfe" },
     },
 
     {
@@ -171,19 +173,19 @@ export const defaults: VsCodeTextMate.TextMateRules = [
     },
     {
         "scope":    ["token.info-token"],
-        "settings": {"foreground": "#569cd6"},
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope":    ["token.warn-token"],
-        "settings": {"foreground": "#d7ba7d"},
+        "settings": { "foreground": "#d7ba7d" },
     },
     {
         "scope":    ["token.error-token"],
-        "settings": {"foreground": "#f44747"},
+        "settings": { "foreground": "#f44747" },
     },
     {
         "scope":    ["token.debug-token"],
-        "settings": {"foreground": "#c586c0"},
+        "settings": { "foreground": "#c586c0" },
     },
 ]
 
