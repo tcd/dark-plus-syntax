@@ -35,11 +35,11 @@
         "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
     },
     "scripts": {
-        "test": "true; # TODO: figure out how to test",
+        "start": "npm run build",
+        "build": "ts-node ./src/main.ts",
+        "watch": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/main.ts",
         "publish": "vsce publish",
-        "build": "node index.js",
-        "watch": "watch 'npm run build' src",
-        "start": "ts-node ./src/main.ts"
+        "test": "true; # TODO: figure out how to test"
     },
     "devDependencies": {
         "@types/eslint": "^8.4.1",
@@ -49,6 +49,8 @@
         "@typescript-eslint/parser": "^5.10.0",
         "cross-env": "^7.0.3",
         "eslint": "^8.7.0",
+        "eslint-plugin-jsdoc": "^37.6.3",
+        "nodemon": "^2.0.15",
         "ts-node": "^10.4.0",
         "tsconfig-paths": "^3.12.0",
         "tslib": "^2.3.1",
