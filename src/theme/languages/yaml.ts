@@ -4,7 +4,7 @@ export const yaml = [
             "comment.line.number-sign.yaml",
             "punctuation.separator.key-value.mapping.yaml",    // `:`
         ],
-        "settings": {"foreground": "#505050"},
+        "settings": { "foreground": "#505050" },
     },
     // {
     //     "scope": [
@@ -17,9 +17,8 @@ export const yaml = [
         "scope": [
             "constant.other.timestamp.yaml",
         ],
-        "settings": {"foreground": "#b5cea8"},
+        "settings": { "foreground": "#b5cea8" },
     },
-
     {
         "scope": [
             "punctuation.definition.sequence.begin.yaml", // Square brackets
@@ -29,7 +28,7 @@ export const yaml = [
             "punctuation.separator.sequence.yaml",        // Commas
             "punctuation.separator.mapping.yaml",         // Commas
         ],
-        "settings": {"foreground": "#d4d4d4"},
+        "settings": { "foreground": "#d4d4d4" },
     },
     {
         "scope": [
@@ -40,7 +39,7 @@ export const yaml = [
             "variable.other.alias.yaml",            // "user_defaults" - (<<: *user_defaults)
             // "entity.name.type.anchor.yaml",         // "Default" - (default: &default)
         ],
-        "settings": {"foreground": "#4ec9b0"},
+        "settings": { "foreground": "#4ec9b0" },
     },
     {
         "scope": [
@@ -53,7 +52,7 @@ export const yaml = [
             "support.other.directive.reserved.yaml",       // "RESERVED" - (%RESERVED name parameter #comment)
             "punctuation.definition.directive.begin.yaml", // "%" - (%RESERVED name parameter #comment)
         ],
-        "settings": {"foreground": "#569cd6"},
+        "settings": { "foreground": "#569cd6" },
     },
     {
         "scope": [
@@ -78,5 +77,24 @@ export const yaml = [
             "punctuation.definition.block.sequence.item.yaml", // `-`
         ],
         "settings": { "foreground": "#c586c0" },
+    },
+    {
+        "scope": [
+            "source.yaml string.quoted.double.yaml",
+            "string.unquoted.plain.out.yaml entity.name.tag.yaml",
+            "meta.flow-pair.key.yaml string.unquoted.plain.in.yaml entity.name.tag.yaml",
+            "meta.flow-mapping.yaml string.quoted.double.yaml",
+        ],
+        "settings": {
+            "foreground": "#9CDCFE",
+        },
+    },
+    {
+        "scope": [
+            "meta.flow-pair.value.yaml string.quoted.double.yaml",
+        ],
+        "settings": {
+            "foreground": "#CE9178",
+        },
     },
 ]
