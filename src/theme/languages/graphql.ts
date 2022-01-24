@@ -1,4 +1,4 @@
-export const graphql = [
+export const graphql: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "entity.scalar.graphql",        // prisma-labs/vscode-graphql

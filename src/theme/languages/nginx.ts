@@ -1,4 +1,4 @@
-export const nginx = [
+export const nginx: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "source.nginx constant.character.brace",

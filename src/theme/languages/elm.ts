@@ -1,4 +1,4 @@
-export const elm = [
+export const elm: VsCodeTextMate.TextMateRules = [
     // {
     //     "scope": [
     //         "punctuation.separator.comma.elm",

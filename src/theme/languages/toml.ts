@@ -1,4 +1,4 @@
-export const toml = [
+export const toml: VsCodeTextMate.TextMateRules = [
     {
         "scope": ["keyword.key.toml"],
         "settings": {"foreground": "#9cdcfe"},

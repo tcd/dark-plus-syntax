@@ -1,4 +1,4 @@
-export const crystal = [
+export const crystal: VsCodeTextMate.TextMateRules = [
     {
         scope: [
             "keyword.operator.macro.crystal",

@@ -1,4 +1,4 @@
-export const regexp = [
+export const regexp: VsCodeTextMate.TextMateRules = [
     // {
     //     "scope": [
     //     ],

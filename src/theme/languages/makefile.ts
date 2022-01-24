@@ -1,4 +1,4 @@
-export const makefile = [
+export const makefile: VsCodeTextMate.TextMateRules = [
     {
         "scope": ["comment.line.number-sign.makefile"],
         "settings": {"foreground": "#608b4e"},

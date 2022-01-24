@@ -1,4 +1,4 @@
-export const terraform = [
+export const terraform: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "entity.name.section.terraform",

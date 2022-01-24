@@ -1,4 +1,4 @@
-export const lisp = [
+export const lisp: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "storage.type.function-type.lisp",

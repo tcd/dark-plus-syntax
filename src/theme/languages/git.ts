@@ -1,4 +1,4 @@
-export const git = [
+export const git: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "punctuation.definition.variable.begin.gitignore",

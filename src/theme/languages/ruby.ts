@@ -1,4 +1,4 @@
-export const ruby = [
+export const ruby: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "punctuation.definition.string.begin.ruby",

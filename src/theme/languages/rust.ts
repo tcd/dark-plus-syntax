@@ -1,4 +1,4 @@
-export const rust = [
+export const rust: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "entity.name.type.param.rust punctuation.other.comma.rust",

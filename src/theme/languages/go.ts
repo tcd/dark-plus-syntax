@@ -1,4 +1,4 @@
-export const go = [
+export const go: VsCodeTextMate.TextMateRules = [
     {
         scope: [
             "keyword.operator.assignment.go",

@@ -1,4 +1,4 @@
-export const elixir = [
+export const elixir: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "comment.wildcard.elixir",

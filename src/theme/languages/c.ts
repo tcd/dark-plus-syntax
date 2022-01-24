@@ -1,4 +1,4 @@
-export const c = [
+export const c: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "support.function.C99.c",

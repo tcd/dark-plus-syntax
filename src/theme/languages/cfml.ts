@@ -1,4 +1,4 @@
-export const cfml = [
+export const cfml: VsCodeTextMate.TextMateRules = [
     // =========================================================================
     // ColdFusion Markup Language
     // =========================================================================

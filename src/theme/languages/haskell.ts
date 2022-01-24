@@ -1,4 +1,4 @@
-export const haskell = [
+export const haskell: VsCodeTextMate.TextMateRules = [
     // {
     //     "scope": [
     //         "constant.other.haskell",

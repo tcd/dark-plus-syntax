@@ -1,4 +1,4 @@
-export const swift = [
+export const swift: VsCodeTextMate.TextMateRules = [
     {
         "scope": ["comment.punctuation.comma.swift"],
         "settings": { "foreground": "#d4d4d4" },

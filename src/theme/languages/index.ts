@@ -34,7 +34,7 @@ import { toml } from "./toml"
 import { vcard } from "./vcard"
 import { viml } from "./viml"
 
-export const Languages = [
+export const Languages: VsCodeTextMate.TextMateRules = [
     ...Html,
     ...Java,
     ...Styles,

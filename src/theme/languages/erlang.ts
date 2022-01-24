@@ -1,4 +1,4 @@
-export const erlang = [
+export const erlang: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "punctuation.definition.placeholder.erlang",

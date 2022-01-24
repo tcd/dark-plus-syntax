@@ -1,4 +1,4 @@
-export const todoTxt = [
+export const todoTxt: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "meta.item.done.todo",

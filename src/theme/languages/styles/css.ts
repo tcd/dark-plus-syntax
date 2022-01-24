@@ -1,4 +1,4 @@
-export const css = [
+export const css: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "meta.property-list.scss",

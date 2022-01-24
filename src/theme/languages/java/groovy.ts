@@ -1,4 +1,4 @@
-export const groovy = [
+export const groovy: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             // "constant.other.key.groovy",

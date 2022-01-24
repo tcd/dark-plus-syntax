@@ -1,4 +1,4 @@
-export const java = [
+export const java: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "storage.modifier.import.java",

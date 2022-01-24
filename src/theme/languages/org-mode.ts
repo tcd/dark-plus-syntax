@@ -1,4 +1,4 @@
-export const orgMode = [
+export const orgMode: VsCodeTextMate.TextMateRules = [
     {
         scope: [
             "source.org comment.line",

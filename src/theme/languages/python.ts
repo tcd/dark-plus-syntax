@@ -1,4 +1,4 @@
-export const python = [
+export const python: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "string.quoted.docstring.multi.python",

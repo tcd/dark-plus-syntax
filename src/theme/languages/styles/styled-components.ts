@@ -1,4 +1,4 @@
-export const styledComponents = [
+export const styledComponents: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "punctuation.semi-colon.css",

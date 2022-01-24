@@ -4,14 +4,7 @@ import { Languages } from "./theme/languages"
 import { defaults } from "./theme/defaults"
 import { ui } from "./theme/ui"
 
-// console.log(typeof(Languages))
-// const scopes = Object.values(Languages)[0]
-// console.log(scopes)
-// console.log(typeof(scopes))
-// const tokenColors = scopes.flat()
-// console.log(tokenColors)
-
-const theme: VsCodeTextmate.VsCodeTheme = {
+const theme: VsCodeTextMate.VsCodeTheme = {
     name: "dark-plus-syntax",
     type: "dark",
     colors: ui,
@@ -20,8 +13,6 @@ const theme: VsCodeTextmate.VsCodeTheme = {
         ...Languages,
     ],
 }
-
-// console.log(theme)
 
 const writeTheme = (theme): void => {
     const outFilePath = "./dist/theme/dark-plus-syntax-color-theme.json"

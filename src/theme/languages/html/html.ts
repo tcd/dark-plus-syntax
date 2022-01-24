@@ -1,4 +1,4 @@
-export const html = [
+export const html: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "punctuation.definition.tag",

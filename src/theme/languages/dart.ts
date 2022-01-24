@@ -1,4 +1,4 @@
-export const dart = [
+export const dart: VsCodeTextMate.TextMateRules = [
     {
         "scope": ["keyword.control.new.dart"],
         "settings": {"foreground": "#569cd6"},

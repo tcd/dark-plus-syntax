@@ -1,4 +1,4 @@
-export const smarty = [
+export const smarty: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "support.function.built-in.smarty",

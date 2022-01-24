@@ -1,4 +1,4 @@
-export const defaults = [
+export const defaults: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "comment",
@@ -55,7 +55,7 @@ export const defaults = [
         "settings": {"foreground": "#b5cea8"},
     },
     {
-        "scope": "invalid",
+        "scope": [ "invalid"],
         "settings": {"foreground": "#f44747"},
     },
     {
@@ -68,7 +68,7 @@ export const defaults = [
         "settings": {"foreground": "#d7ba7d"},
     },
     {
-        "scope": "meta.diff.header",
+        "scope": ["meta.diff.header"],
         "settings": {"foreground": "#569cd6"},
     },
     {
@@ -170,19 +170,19 @@ export const defaults = [
         },
     },
     {
-        "scope": "token.info-token",
+        "scope": ["token.info-token"],
         "settings": {"foreground": "#569cd6"},
     },
     {
-        "scope": "token.warn-token",
+        "scope": ["token.warn-token"],
         "settings": {"foreground": "#d7ba7d"},
     },
     {
-        "scope": "token.error-token",
+        "scope": ["token.error-token"],
         "settings": {"foreground": "#f44747"},
     },
     {
-        "scope": "token.debug-token",
+        "scope": ["token.debug-token"],
         "settings": {"foreground": "#c586c0"},
     },
 ]

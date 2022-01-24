@@ -1,4 +1,4 @@
-export const viml = [
+export const viml: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             // "constant.character",

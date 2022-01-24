@@ -1,4 +1,4 @@
-export const yaml = [
+export const yaml: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "comment.line.number-sign.yaml",

@@ -1,4 +1,4 @@
-export const cs = [
+export const cs: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "meta.comment.razor comment.block.razor",

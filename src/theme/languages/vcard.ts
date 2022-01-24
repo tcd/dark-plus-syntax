@@ -1,7 +1,7 @@
 /**
  * [cstrachan88/vscode-vcard](https://github.com/cstrachan88/vscode-vcard)
  */
-export const vcard = [
+export const vcard: VsCodeTextMate.TextMateRules = [
     {
         scope: [
             "source.vcard support.function.vcard",

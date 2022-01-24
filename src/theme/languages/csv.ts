@@ -1,4 +1,4 @@
-export const csv = [
+export const csv: VsCodeTextMate.TextMateRules = [
     {
         "scope": "invalid.rainbow10",
         "settings": { "foreground": "#c586c0" },

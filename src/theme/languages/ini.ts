@@ -1,4 +1,4 @@
-export const ini = [
+export const ini: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "comment.line.number-sign.ini",

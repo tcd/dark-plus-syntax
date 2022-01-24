@@ -1,4 +1,4 @@
-export const kotlin = [
+export const kotlin: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "storage.type.builtin.kotlin",

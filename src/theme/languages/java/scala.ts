@@ -1,4 +1,4 @@
-export const scala = [
+export const scala: VsCodeTextMate.TextMateRules = [
     {
         "scope": [
             "storage.type.scala",

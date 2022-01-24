@@ -1,4 +1,4 @@
-export const javaScript = [
+export const javaScript: VsCodeTextMate.TextMateRules = [
     // =========================================================================
     // JavaScript
     // =========================================================================

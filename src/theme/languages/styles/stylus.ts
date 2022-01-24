@@ -1,4 +1,4 @@
-export const stylus = [
+export const stylus: VsCodeTextMate.TextMateRules = [
     {
         "scope": ["punctuation.definition.keyword.stylus"],
         "settings": { "foreground": "#c586c0" },
