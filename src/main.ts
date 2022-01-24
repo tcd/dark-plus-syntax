@@ -1,7 +1,5 @@
 import { writeJsonFile } from "./util"
 
-import { VsCodeTheme } from "@types"
-
 import { Languages } from "./theme/languages"
 import { defaults } from "./theme/defaults"
 import { ui } from "./theme/ui"
@@ -13,7 +11,7 @@ import { ui } from "./theme/ui"
 // const tokenColors = scopes.flat()
 // console.log(tokenColors)
 
-const theme: VsCodeTheme = {
+const theme: VsCodeTextmate.VsCodeTheme = {
     name: "dark-plus-syntax",
     type: "dark",
     colors: ui,
@@ -26,7 +24,7 @@ const theme: VsCodeTheme = {
 // console.log(theme)
 
 const writeTheme = (theme): void => {
-    const outFilePath = "./themes/dark-plus-syntax-color-theme.json"
+    const outFilePath = "./dist/theme/dark-plus-syntax-color-theme.json"
     writeJsonFile(outFilePath, theme)
     console.log("=== build successful ===\n")
 }

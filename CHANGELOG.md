@@ -7,6 +7,7 @@
 - Major structural changes:
   - Converted the source code to TypeScript
   - Entirely rewrote build process
+  - Moved language samples to test folder
 - Colors
   - Update yaml key colors to match JSON
 - Misc.

@@ -18,8 +18,6 @@ export type bright_blue     = "#007acc"
 export type selection       = "#264f78"
 export type purple          = "#646695"
 
-// export type HexColor = string
-
 export type HexColor =
     | very_light_gray
     | light_gray
