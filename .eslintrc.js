@@ -44,7 +44,7 @@ module.exports = {
         /**
          * Appropreate setting is probably `"key-spacing": ["warn", { "beforeColon": false }]`
          */
-        "key-spacing":                   ["warn", { "align": "value" }], // ♥️ https://eslint.org/docs/rules/key-spacing
+        // "key-spacing":                   ["warn", { "align": "value" }], // ♥️ https://eslint.org/docs/rules/key-spacing
         "object-curly-spacing":          ["warn", "always"], // https://eslint.org/docs/rules/object-curly-spacing
         // Not as importang
         "brace-style":                   ["warn", "1tbs", { "allowSingleLine": true }], // https://eslint.org/docs/rules/brace-style
