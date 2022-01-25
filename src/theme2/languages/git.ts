@@ -6,18 +6,18 @@ export const git: TextMateRuleData[] = [
             "punctuation.definition.variable.begin.gitignore",
             "punctuation.definition.variable.end.gitignore",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "support.function.git-rebase",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "constant.sha.git-rebase",
         ],
-        foreground: "#b5cea8",
+        foreground: SemanticColor.Numbers,
     },
 ]

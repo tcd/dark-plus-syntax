@@ -8,24 +8,24 @@ export const vcard: TextMateRuleData[] = [
         scopes: [
             "source.vcard support.function.vcard",
         ],
-        foreground: "#C586C0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "source.vcard support.function.vcard keyword.control.property.vcard",
         ],
-        foreground: "#9CDCFE",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "source.vcard support.function.vcard entity.name.type.attribute.vcard",
         ],
-        foreground: "#CE9178",
+        foreground: SemanticColor.Strings
     },
     {
         scopes: [
             "source.vcard support.function.vcard keyword.other.expansion.property.vcard",
         ],
-        foreground: "#569CD6",
+        foreground: SemanticColor.Keywords,
     },
 ]

@@ -13,13 +13,13 @@ export const go: TextMateRuleData[] = [
             "punctuation.other.period.go",
             "keyword.control.gotemplate",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "string.quoted.double.gotemplate",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings
     },
     // {
     //     scopes: [
@@ -38,7 +38,7 @@ export const go: TextMateRuleData[] = [
             "storage.type.error.go",
             "storage.type.rune.go",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -47,13 +47,13 @@ export const go: TextMateRuleData[] = [
             "string.quoted.rune.go punctuation.definition.string.begin.go",
             "string.quoted.rune.go punctuation.definition.string.end.go",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     // {
     //     scopes: [
     //         "punctuation.terminator.go",
     //     ],
-    //     foreground: "#d4d4d4",
+    //     foreground: SemanticColor.Foreground,
     // },
     {
         scopes: [
@@ -63,7 +63,7 @@ export const go: TextMateRuleData[] = [
             "keyword.operator.address.go",
             "keyword.operator.ellipsis.go",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     // Templates
     {
@@ -71,12 +71,12 @@ export const go: TextMateRuleData[] = [
             "punctuation.section.embedded.begin.gotemplate",
             "punctuation.section.embedded.end.gotemplate",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             "entity.alias.import.go",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
 ]

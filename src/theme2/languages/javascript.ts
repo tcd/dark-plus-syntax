@@ -13,7 +13,7 @@ export const javaScript: TextMateRuleData[] = [
             // "punctuation.definition.comment.js"
             "comment.block.documentation.js punctuation.definition.comment.js",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
     {
         scopes: [
@@ -22,27 +22,22 @@ export const javaScript: TextMateRuleData[] = [
             "punctuation.definition.bracket.curly.end.jsdoc",
             "storage.type.class.jsdoc",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
         fontStyle:  "italic",
     },
     {
         scopes: [
             "punctuation.definition.comment.js",
-        ],
-        foreground: "#404040",
-    },
-    {
-        scopes: [
             "comment.line.double-slash.js",
             "meta.embedded.expression.js source.js.jsx comment.block.js",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "variable.language.this",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
         fontStyle:  "italic",
     },
     {
@@ -52,7 +47,7 @@ export const javaScript: TextMateRuleData[] = [
             // "variable.other.constant.property",
             // "variable.other.constant",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     {
         scopes: [
@@ -63,7 +58,7 @@ export const javaScript: TextMateRuleData[] = [
             "punctuation.definition.string.template.end.js",
             "punctuation.definition.string.template.end.ts",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: [
@@ -82,7 +77,7 @@ export const javaScript: TextMateRuleData[] = [
             "punctuation.definition.binding-pattern.object",
             "meta.brace.square.ts",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -123,7 +118,7 @@ export const javaScript: TextMateRuleData[] = [
             // "variable.other.constant.property.js",
             // "variable.other.constant.js",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
@@ -134,7 +129,7 @@ export const javaScript: TextMateRuleData[] = [
             "meta.tag.without-attributes.js meta.jsx.children.js",
             "meta.jsx.children.js",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -153,7 +148,7 @@ export const javaScript: TextMateRuleData[] = [
             "meta.decorator.js variable.other.readwrite.js",
             "source.ts meta.class.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts",
         ],
-        foreground: "#dcdcaa",
+        foreground: SemanticColor.Functions,
     },
     {
         scopes: [
@@ -171,7 +166,7 @@ export const javaScript: TextMateRuleData[] = [
             "keyword.operator.expression.in",
             "punctuation.definition.section.case-statement",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -188,7 +183,7 @@ export const javaScript: TextMateRuleData[] = [
             "meta.decorator.ts meta.objectliteral.ts meta.object.member.ts variable.other.readwrite.ts",
             "meta.decorator.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
@@ -208,14 +203,14 @@ export const javaScript: TextMateRuleData[] = [
             "support.variable.object.process",
             "support.variable.property.process",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             "support.type.primitive.ts",
             "support.type.primitive.tsx",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
         // fontStyle: "italic",
     },
     // =========================================================================
@@ -236,7 +231,7 @@ export const javaScript: TextMateRuleData[] = [
             "meta.tag.without-attributes.js punctuation.section.embedded.begin.js",
             "meta.tag.without-attributes.js punctuation.section.embedded.end.js",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
         // fontStyle: "italic",
     },
     // =========================================================================
@@ -248,20 +243,20 @@ export const javaScript: TextMateRuleData[] = [
             "punctuation.separator.key-value.tsx",
             "punctuation.accessor.tsx",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "punctuation.accessor.optional.tsx",
             "punctuation.accessor.tsx",
         ],
-        foreground: "#C586C0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "keyword.operator.optional.tsx",
         ],
-        foreground: "#4EC9B0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -269,7 +264,7 @@ export const javaScript: TextMateRuleData[] = [
             "punctuation.definition.typeparameters.begin.tsx",
             "punctuation.definition.typeparameters.end.tsx",
         ],
-        foreground: "#569CD6",
+        foreground: SemanticColor.Keywords,
     },
     // =========================================================================
     // TypeScript
@@ -281,13 +276,13 @@ export const javaScript: TextMateRuleData[] = [
             "comment.line.triple-slash.directive.ts",
             "comment.block.documentation.ts",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
     {
         scopes: [
             "punctuation.accessor.optional.ts",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     // =========================================================================
     // Angular
@@ -296,6 +291,6 @@ export const javaScript: TextMateRuleData[] = [
         scopes: [
             "meta.component.decoration entity.name.label.ts",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
 ]

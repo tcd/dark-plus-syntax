@@ -2,19 +2,19 @@ import { TextMateRuleData, SemanticColor } from "@lib"
 
 export const toml: TextMateRuleData[] = [
     {
-        scope:    ["keyword.key.toml"],
-        foreground: "#9cdcfe",
+        scopes:    ["keyword.key.toml"],
+        foreground: SemanticColor.Variables,
     },
     {
-        scope:    ["constant.other.datetime-with-timezone.toml"],
-        foreground: "#b5cea8",
+        scopes:    ["constant.other.datetime-with-timezone.toml"],
+        foreground: SemanticColor.Numbers,
     },
     {
         scopes: [
             "meta.tag.table.toml",
             "punctuation.definition.keyValuePair.toml",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -22,7 +22,7 @@ export const toml: TextMateRuleData[] = [
             "entity.other.attribute-name.table.toml",
             "constant.other.boolean.toml",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
@@ -31,6 +31,6 @@ export const toml: TextMateRuleData[] = [
             "punctuation.definition.array.toml",
             "punctuation.definition.table.array.toml",
         ],
-        foreground: "#808080",
+        foreground: SemanticColor.Tags,
     },
 ]

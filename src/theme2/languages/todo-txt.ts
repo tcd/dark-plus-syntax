@@ -10,44 +10,39 @@ export const todoTxt: TextMateRuleData[] = [
             "meta.item.done.todo string.quoted.single.todo",
             "meta.item.done.todo string.quoted.double.todo",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
     {
         scopes: [
             "constant.numeric.date.todo",
         ],
-        foreground: "#b5cea8",
+        foreground: SemanticColor.Numbers,
     },
     {
         scopes: [
             "string.quoted.single.todo",
             "string.quoted.double.todo",
         ],
-        foreground: "#4ec9b0",
-    },
-    // {
-    //     scopes: [
-    //     ],
-    //     foreground: "#606060",
-    // },
-    {
-        scope:    ["meta.item.priority.a.todo"],
-        foreground: "#f44747",
+        foreground: SemanticColor.Types,
     },
     {
-        scope:    ["meta.item.priority.b.todo"],
-        foreground: "#d16969",
+        scopes:    ["meta.item.priority.a.todo"],
+        foreground: SemanticColor.Errors,
     },
     {
-        scope:    ["meta.item.priority.c.todo"],
-        foreground: "#ce9178",
+        scopes:    ["meta.item.priority.b.todo"],
+        foreground: SemanticColor.RegExp,
     },
     {
-        scope:    ["meta.item.priority.d.todo"],
-        foreground: "#d7ba7d",
+        scopes:    ["meta.item.priority.c.todo"],
+        foreground: SemanticColor.Strings,
     },
     {
-        scope:    ["meta.item.priority.e.todo"],
-        foreground: "#dcdcaa",
+        scopes:    ["meta.item.priority.d.todo"],
+        foreground: SemanticColor.Chars,
+    },
+    {
+        scopes:    ["meta.item.priority.e.todo"],
+        foreground: SemanticColor.Functions,
     },
 ]

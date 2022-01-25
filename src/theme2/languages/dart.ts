@@ -2,19 +2,19 @@ import { TextMateRuleData, SemanticColor } from "@lib"
 
 export const dart: TextMateRuleData[] = [
     {
-        scope:    ["keyword.control.new.dart"],
-        foreground: "#569cd6",
+        scopes:    ["keyword.control.new.dart"],
+        foreground: SemanticColor.Keywords,
     },
     {
-        scope:    ["punctuation.terminator.dart"],
-        foreground: "#505050",
+        scopes:    ["punctuation.terminator.dart"],
+        foreground: SemanticColor.Tags,
     },
     {
-        scope:    ["punctuation.dot.dart"],
-        foreground: "#c586c0",
+        scopes:    ["punctuation.dot.dart"],
+        foreground: SemanticColor.FlowControl,
     },
     {
-        scope:    ["meta.declaration.dart"],
-        foreground: "#9cdcfe",
+        scopes:    ["meta.declaration.dart"],
+        foreground: SemanticColor.Variables,
     },
 ]

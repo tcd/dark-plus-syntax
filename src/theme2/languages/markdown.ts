@@ -27,39 +27,39 @@ export const markdown: TextMateRuleData[] = [
     {
         scopes: ["markup.heading"],
         // fontStyle: "bold",
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: ["markup.inserted"],
-        foreground: "#b5cea8",
+        foreground: SemanticColor.Numbers,
     },
     {
         scopes: ["markup.deleted"],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: ["markup.changed"],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: ["markup.inline.raw"],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
     },
     // =========================================================================
     // Markdown
     // =========================================================================
     {
         scopes: ["fenced_code.block.language"],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: ["markup.italic.markdown"],
         fontStyle: "italic",
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: ["markup.bold.markdown"],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
         fontStyle:  "bold",
     },
     {
@@ -68,35 +68,36 @@ export const markdown: TextMateRuleData[] = [
             "entity.name.section.markdown",
             "punctuation.definition.heading.markdown",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "markup.quote.markdown",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
-    {
-        scopes: [
-            "beginning.punctuation.definition.list.markdown",
-            "punctuation.definition.list.begin.markdown",
-        ],
-        foreground: "#6796e6",
-    },
+    // FIXME: extra color
+    // {
+    //     scopes: [
+    //         "beginning.punctuation.definition.list.markdown",
+    //         "punctuation.definition.list.begin.markdown",
+    //     ],
+    //     foreground: "#6796e6",
+    // },
     {
         scopes: [
             // "meta.link.inline.markdown"
             "string.other.link.description.markdown",
             "string.other.link.title.markdown",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "markup.underline.link.markdown",
             "markup.underline.link.image.markdown",
         ],
-        foreground: "#404040",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
@@ -113,7 +114,7 @@ export const markdown: TextMateRuleData[] = [
             "block-dollars",
             "inline-dollars",
         ],
-        foreground: "#303030",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
@@ -121,20 +122,20 @@ export const markdown: TextMateRuleData[] = [
             "meta.link.reference.def.markdown constant.other.reference.link.markdown",
             // "punctuation.definition.constant.begin.markdown",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "meta.link.reference.markdown constant.other.reference.link.markdown",
             "meta.image.reference.markdown constant.other.reference.link.markdown",
         ],
-        foreground: "#404040",
+        foreground: SemanticColor.Tags,
         fontStyle:  "italic",
     },
     {
         scopes: [
             "meta.link.reference.def.markdown markup.underline.link.markdown",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
     },
 ]

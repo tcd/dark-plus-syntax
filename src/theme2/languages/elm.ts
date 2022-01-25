@@ -6,20 +6,20 @@ export const elm: TextMateRuleData[] = [
     //         "punctuation.separator.comma.elm",
     //         "meta.declaration.exports.elm",
     //     ],
-    //     foreground: "#d4d4d4",
+    //     foreground: SemanticColor.Foreground,
     // },
     // {
     //     scopes: [
     //         "constant.other.elm",
     //         // "meta.declaration.module.elm meta.declaration.exports.elm",
     //     ],
-    //     foreground: "#9cdcfe",
+    //     foreground: SemanticColor.Variables,
     // },
     // {
     //     scopes: [
     //         "support.constant.elm",
     //     ],
-    //     foreground: "#569cd6",
+    //     foreground: SemanticColor.Keywords,
     // },
     // {
     //     scopes: [
@@ -27,6 +27,6 @@ export const elm: TextMateRuleData[] = [
     //         "support.other.module.elm",
     //         "constant.language.empty-list.elm",
     //     ],
-    //     foreground: "#4ec9b0",
+    //     foreground: SemanticColor.Types,
     // },
 ]

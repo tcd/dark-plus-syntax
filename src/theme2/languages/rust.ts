@@ -6,21 +6,21 @@ export const rust: TextMateRuleData[] = [
             "entity.name.type.param.rust punctuation.other.comma.rust",
             "keyword.operator.path.rust",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "meta.attribute.rust",
             "comment.line.documentation.rust",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
     {
         scopes: [
             "keyword.operator.misc.rust",
             "keyword.operator.sigil.rust",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -29,14 +29,14 @@ export const rust: TextMateRuleData[] = [
             "constant.other.placeholder.rust",
         ],
         // fontStyle: "italic",
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "string.quoted.single.rust", // DEPRECATED
             "constant.character.rust",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     {
         scopes: [
@@ -44,21 +44,21 @@ export const rust: TextMateRuleData[] = [
             "support.constant.core.rust",
             "variable.language.ignored.rust",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "variable.language.rust",
             "variable.language.self.rust",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
         fontStyle:  "italic",
     },
     {
         scopes: [
             "entity.name.type.param.rust punctuation.definition.type.rust",
         ],
-        foreground: "#808080",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
@@ -70,6 +70,6 @@ export const rust: TextMateRuleData[] = [
             "meta.type_params.rust",
             // "keyword.operator.path.rust",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
 ]

@@ -6,14 +6,14 @@ export const graphql: TextMateRuleData[] = [
             "entity.scalar.graphql",        // prisma-labs/vscode-graphql
             "entity.name.fragment.graphql", // prisma-labs/vscode-graphql
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             "punctuation.or.graphql",         // prisma-labs/vscode-graphql
             "punctuation.assignment.graphql", // prisma-labs/vscode-graphql
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -21,6 +21,6 @@ export const graphql: TextMateRuleData[] = [
             "string.block.description.graphql.DOCSTRING", // kumarharsh/graphql-for-vscode
             "string.description.graphql",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
 ]

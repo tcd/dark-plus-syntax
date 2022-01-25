@@ -5,19 +5,19 @@ export const haskell: TextMateRuleData[] = [
     //     scopes: [
     //         "constant.other.haskell",
     //     ],
-    //    foreground: "#9cdcfe",
+    //    foreground: SemanticColor.Variables,
     // },
     {
         scopes: [
             "meta.preprocessor.haskell",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
     {
         scopes: [
             "storage.type.haskell",
             "support.other.module.haskell",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
 ]

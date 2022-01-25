@@ -5,20 +5,20 @@ export const html: TextMateRuleData[] = [
         scopes: [
             "punctuation.definition.tag",
         ],
-        foreground: "#808080",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "entity.other.attribute-name",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "punctuation.definition.string.begin.html",
             "punctuation.definition.string.end.html",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: [
@@ -34,7 +34,7 @@ export const html: TextMateRuleData[] = [
             "meta.tag.template.value.twig",
             "punctuation.section.tag.twig",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
@@ -53,7 +53,7 @@ export const html: TextMateRuleData[] = [
             "text.html.jinja punctuation.definition.block.js",
             "text.html.jinja punctuation.separator.comma.js",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -63,7 +63,7 @@ export const html: TextMateRuleData[] = [
             "text.html.derivative meta.tag.custom.end.html entity.name.tag.html",
             "text.html.derivative meta.tag.custom.start.html entity.name.tag.html",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     // {
     //     "name": "Template Tags",
@@ -74,18 +74,18 @@ export const html: TextMateRuleData[] = [
     //         "meta.tag.template.value.twig",
     //         "punctuation.section.tag.twig",
     //     ],
-    //     foreground: "#569cd6",
+    //     foreground: SemanticColor.Keywords,
     // },
     {
         scopes: [
             "constant.character.entity.html",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     {
         "name":     "don't highlight ejs and erb as errors",
-        scope:    ["invalid.illegal.bad-angle-bracket.html"],
-        foreground: "#d4d4d4",
+        scopes:    ["invalid.illegal.bad-angle-bracket.html"],
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -99,7 +99,7 @@ export const html: TextMateRuleData[] = [
             "punctuation.section.embedded.begin.smarty",
             "punctuation.section.embedded.end.smarty",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     // =========================================================================
     // Jade/Pug
@@ -109,7 +109,7 @@ export const html: TextMateRuleData[] = [
         scopes: [
             "string.interpolated.jade",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -118,7 +118,7 @@ export const html: TextMateRuleData[] = [
             "storage.type.function.jade",
             "storage.type.import.include.jade",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     // =========================================================================
     // Handlebars
@@ -136,20 +136,20 @@ export const html: TextMateRuleData[] = [
             "meta.function.block.start.handlebars support.constant.handlebars",
             "meta.function.block.end.handlebars support.constant.handlebars",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "support.constant.handlebars",
             // "meta.tag.mustache.js",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             "variable.parameter.handlebars",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     // =========================================================================
     // ejs
@@ -160,7 +160,7 @@ export const html: TextMateRuleData[] = [
             // "text.html.ejs keyword.begin.tag.ejs punctuation.accessor.js",
             // "text.html.ejs keyword.begin.tag.ejs keyword.operator.arithmetic.js",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -174,14 +174,14 @@ export const html: TextMateRuleData[] = [
             "text.html.ejs punctuation.definition.parameters.begin.js",
             "text.html.ejs punctuation.definition.parameters.end.js",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "text.html.ejs keyword.operator.expression.typeof.js",
             "text.html.ejs keyword.operator.expression.instanceof.js",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     // =========================================================================
     // Vue
@@ -190,13 +190,13 @@ export const html: TextMateRuleData[] = [
         scopes: [
             "text.html.vue-html meta.brace.round.js",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "text.html.vue-html meta.tag.other.html",
         ],
-        foreground: "#808080",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
@@ -207,11 +207,11 @@ export const html: TextMateRuleData[] = [
             "meta.directive.vue punctuation.separator.key-value.html",
             "meta.directive.vue entity.other.attribute-name.html",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     // {
     // scopes: [],
-    // foreground: "#c586c0",
+    // foreground: SemanticColor.FlowControl,
     // },
     // =========================================================================
     // Jinja2
@@ -220,26 +220,26 @@ export const html: TextMateRuleData[] = [
         scopes: [
             "entity.other.jinja.delimiter.tag",
         ],
-        foreground: "#606060",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "entity.other.jinja.delimiter.variable",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             "variable.other.jinja",
             // "variable.other.jinja.block"
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "variable.language.jinja",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     // =========================================================================
     // Liquid
@@ -248,14 +248,14 @@ export const html: TextMateRuleData[] = [
         scopes: [
             "punctuation.tag.liquid",
         ],
-        foreground: "#606060",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "punctuation.output.liquid",
             // "support.class.liquid",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -263,7 +263,7 @@ export const html: TextMateRuleData[] = [
             "support.class.liquid",
 
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
@@ -271,7 +271,7 @@ export const html: TextMateRuleData[] = [
             "keyword.operator.liquid",
             "entity.name.tag.liquid",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     // =========================================================================
     // Angular Templates
@@ -286,14 +286,14 @@ export const html: TextMateRuleData[] = [
             "punctuation.definition.ng-binding-name.begin.html",
             "punctuation.definition.ng-binding-name.end.html",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     // {
     //     scopes: [
     //         // {{ ; }} ¯\_(ツ)_/¯
     //         "expression.ng",
     //     ],
-    //     foreground: "#c586c0",
+    //     foreground: SemanticColor.FlowControl,
     // },
     {
         scopes: [
@@ -303,7 +303,7 @@ export const html: TextMateRuleData[] = [
             "entity.other.ng-binding-name.template.html", // *ngIf, *ngFor
             "entity.other.ng-binding-name.two-way.html",  // [(ngModel)]
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
         // fontStyle: "italic",
     },
     {
@@ -323,6 +323,6 @@ export const html: TextMateRuleData[] = [
             "meta.ng-binding.two-way.html punctuation.definition.string.begin.html",
             "meta.ng-binding.two-way.html punctuation.definition.string.end.html",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
 ]

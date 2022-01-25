@@ -7,7 +7,7 @@ export const cs: TextMateRuleData[] = [
             "meta.comment.razor keyword.control.razor.comment.star",
             "meta.comment.razor keyword.control.cshtml.transition",
         ],
-        foreground: "#608B4E",
+        foreground: SemanticColor.DocComments,
     },
     {
         scopes: [
@@ -17,7 +17,7 @@ export const cs: TextMateRuleData[] = [
             "meta.preprocessor.cs keyword.preprocessor.region.cs",
             "meta.preprocessor.cs keyword.preprocessor.endregion.cs",
         ],
-        foreground: "#608B4E",
+        foreground: SemanticColor.DocComments,
         fontStyle:  "italic",
     },
     {
@@ -28,7 +28,7 @@ export const cs: TextMateRuleData[] = [
             "source.cs comment.block.documentation.cs punctuation.definition.comment.cs",
             "source.cs comment.block.documentation.cs meta.tag.cs punctuation.separator.equals.cs",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Comments,
     },
     {
         scopes: [
@@ -40,7 +40,7 @@ export const cs: TextMateRuleData[] = [
             "string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.open.cs",
             "string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.close.cs",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -52,13 +52,13 @@ export const cs: TextMateRuleData[] = [
             "entity.name.variable.tuple-element.cs",
             "entity.name.variable.enum-member.cs",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     // {
     //     scopes: [
     //         "variable.other.object.property.cs",
     //     ],
-    //     foreground: "#9cdcfe",
+    //     foreground: SemanticColor.Variables,
     //     fontStyle: "italic",
     // },
     {
@@ -70,14 +70,14 @@ export const cs: TextMateRuleData[] = [
             "storage.type.variable.cs",
             // "variable.other.object.cs",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             // "storage.modifier.cs",
             "keyword.other.this.cs",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
         fontStyle:  "italic",
     },
     {
@@ -99,14 +99,14 @@ export const cs: TextMateRuleData[] = [
             "punctuation.definition.interpolation.begin.cs",
             "punctuation.definition.interpolation.end.cs",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "keyword.other.get.cs",
             "keyword.other.set.cs",
         ],
-        foreground: "#dcdcaa",
+        foreground: SemanticColor.Functions,
     },
     {
         scopes: [
@@ -119,7 +119,7 @@ export const cs: TextMateRuleData[] = [
             // "keyword.operator.logical.cs",
             // "keyword.operator.null-conditional.cs",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     // {
     //     scopes: [

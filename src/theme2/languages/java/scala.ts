@@ -7,6 +7,6 @@ export const scala: TextMateRuleData[] = [
             "storage.type.primitive.scala",
             "meta.colon.scala",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
 ]

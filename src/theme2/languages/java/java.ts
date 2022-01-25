@@ -7,12 +7,12 @@ export const java: TextMateRuleData[] = [
             "variable.language.wildcard.java",
             "storage.modifier.package.java",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "punctuation.separator.period.java",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
 ]

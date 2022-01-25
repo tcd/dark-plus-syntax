@@ -5,7 +5,7 @@ export const terraform: TextMateRuleData[] = [
         scopes: [
             "entity.name.section.terraform",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -13,7 +13,7 @@ export const terraform: TextMateRuleData[] = [
             "keyword.other.section.end.terraform",
             "keyword.other.function.inline.terraform",
         ],
-        foreground: "#dcdcaa",
+        foreground: SemanticColor.Functions,
     },
     {
         scopes: [
@@ -21,13 +21,13 @@ export const terraform: TextMateRuleData[] = [
             "entity.tag.embedded.start.terraform",
             "entity.tag.embedded.end.terraform",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "entity.other.attribute-name.terraform",
             "source.terraform.embedded.source",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
 ]

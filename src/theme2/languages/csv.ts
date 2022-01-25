@@ -2,43 +2,44 @@ import { TextMateRuleData, SemanticColor } from "@lib"
 
 export const csv: TextMateRuleData[] = [
     {
-        scope:    ["invalid.rainbow10"],
-        foreground: "#c586c0",
+        scopes:    ["invalid.rainbow10"],
+        foreground: SemanticColor.FlowControl,
+    },
+    // FIXME: extra color
+    // {
+    //     scopes:    ["makup.bold.rainbow9"],
+    //     foreground: "#007acc",
+    // },
+    {
+        scopes:    ["entity.name.type.rainbow8"],
+        foreground: SemanticColor.Keywords,
     },
     {
-        scope:    ["makup.bold.rainbow9"],
-        foreground: "#007acc",
+        scopes:    ["constant.numeric.rainbow7"],
+        foreground: SemanticColor.Variables,
     },
     {
-        scope:    ["entity.name.type.rainbow8"],
-        foreground: "#569cd6",
+        scopes:    ["variable.parameter.rainbow6"],
+        foreground: SemanticColor.Types,
     },
     {
-        scope:    ["constant.numeric.rainbow7"],
-        foreground: "#9cdcfe",
+        scopes:    ["string.rainbow5"],
+        foreground: SemanticColor.DocComments,
     },
     {
-        scope:    ["variable.parameter.rainbow6"],
-        foreground: "#4ec9b0",
+        scopes:    ["comment.rainbow4"],
+        foreground: SemanticColor.Functions,
     },
     {
-        scope:    ["string.rainbow5"],
-        foreground: "#608b4e",
+        scopes:    ["entity.name.function.rainbow3"],
+        foreground: SemanticColor.Chars,
     },
     {
-        scope:    ["comment.rainbow4"],
-        foreground: "#dcdcaa",
+        scopes:    ["keyword.rainbow2"],
+        foreground: SemanticColor.Strings
     },
     {
-        scope:    ["entity.name.function.rainbow3"],
-        foreground: "#d7ba7d",
-    },
-    {
-        scope:    ["keyword.rainbow2"],
-        foreground: "#ce9178",
-    },
-    {
-        scope:    ["rainbow1"],
-        foreground: "#d16969",
+        scopes:    ["rainbow1"],
+        foreground: SemanticColor.RegExp,
     },
 ]

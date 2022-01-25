@@ -6,18 +6,18 @@ export const lisp: TextMateRuleData[] = [
             "storage.type.function-type.lisp",
             "constant.language.lisp",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "keyword.constant.lisp",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "keyword.control.lisp",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
 ]

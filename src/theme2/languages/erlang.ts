@@ -6,13 +6,13 @@ export const erlang: TextMateRuleData[] = [
             "punctuation.definition.placeholder.erlang",
             "constant.other.placeholder.erlang",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     {
         scopes: [
             "punctuation.separator.parameters.erlang",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -24,14 +24,14 @@ export const erlang: TextMateRuleData[] = [
             "keyword.operator.symbolic.erlang",
             "punctuation.separator.clause-head-body.erlang",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "punctuation.separator.clauses.erlang",
             "punctuation.terminator.function.erlang",
         ],
-        foreground: "#808080",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
@@ -40,13 +40,13 @@ export const erlang: TextMateRuleData[] = [
             // "punctuation.separator.clause-head-body.erlang",
             // "keyword.operator.symbolic.erlang",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "variable.other.erlang",
             // "constant.other.symbol.unquoted.erlang",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
 ]

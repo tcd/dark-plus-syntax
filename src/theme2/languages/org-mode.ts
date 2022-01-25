@@ -9,6 +9,6 @@ export const orgMode: TextMateRuleData[] = [
             "meta.link.inline.org punctuation.definition.string.end.org",
             "meta.link.inline.org markup.underline.link.org",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
 ]

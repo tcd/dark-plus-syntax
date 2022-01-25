@@ -5,20 +5,20 @@ export const crystal: TextMateRuleData[] = [
         scopes: [
             "keyword.operator.macro.crystal",
         ],
-        // foreground: "#569cd6",
+        // foreground: SemanticColor.Keywords,
         fontStyle: "italic",
     },
     // {
     //     scopes: [
     //         "punctuation.section.function.crystal",
     //     ],
-    //     foreground: "#808080",
+    //     foreground: SemanticColor.Tags,
     // },
     {
         scopes: [
             "string.regexp.group.crystal punctuation.definition.group.crystal",
         ],
-        foreground: "#808080",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
@@ -26,27 +26,27 @@ export const crystal: TextMateRuleData[] = [
             "punctuation.separator.object.crystal",
             "punctuation.definition.parameters.crystal",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "source.crystal.embedded.source",
             // "variable.other.crystal",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "punctuation.separator.method.crystal", // .
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "support.class.crystal",
             "punctuation.separator.other.crystal",            // ::/:
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -57,13 +57,13 @@ export const crystal: TextMateRuleData[] = [
             "keyword.control.special-method.crystal",         // new/include/extend/raise
             "source.crystal punctuation.separator.key-value", // =>
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "string.quoted.single.crystal",
             "constant.other.symbol.crystal",                  // :symbol
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
 ]

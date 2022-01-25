@@ -6,14 +6,14 @@ export const nginx: TextMateRuleData[] = [
             "source.nginx constant.character.brace",
             "source.nginx constant.character.paren",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "source.nginx constant.character.brace",
             "source.nginx constant.character.end",
         ],
-        foreground: "#808080",
+        foreground: SemanticColor.Tags,
     },
     // {
     //     scopes: [
@@ -25,7 +25,7 @@ export const nginx: TextMateRuleData[] = [
     //         "source.nginx constant.language.directive.module.http",
     //
     //     ],
-    //     foreground: "#569cd6",
+    //     foreground: SemanticColor.Keywords,
     // },
     // {
     //     scopes: [
@@ -35,6 +35,6 @@ export const nginx: TextMateRuleData[] = [
     //         // "source.nginx constant.language.module.http.fastcgi",
     //         // // "source.nginx constant.language.directive.module.http",
     //     ],
-    //     foreground: "#9cdcfe",
+    //     foreground: SemanticColor.Variables,
     // },
 ]

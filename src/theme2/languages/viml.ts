@@ -10,12 +10,12 @@ export const viml: TextMateRuleData[] = [
             "constant.character.map.key.fn.viml",
             "constant.character.map.viml",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     {
         scopes: [
             "punctuation.definition.map.viml",
     ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
 ]

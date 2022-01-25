@@ -19,7 +19,7 @@ export const css: TextMateRuleData[] = [
             "punctuation.section.supports.begin.bracket.curly",
             "punctuation.section.supports.end.bracket.curly",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
@@ -47,7 +47,7 @@ export const css: TextMateRuleData[] = [
             "meta.at-rule.keyframes.stylus entity.other.attribute-name.stylus",
             "meta.at-rule.keyframes.scss entity.other.attribute-name.scss",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     {
         scopes: [
@@ -68,7 +68,7 @@ export const css: TextMateRuleData[] = [
             "punctuation.section.keyframes.end.scss",
             "constant.other.scss",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -78,7 +78,7 @@ export const css: TextMateRuleData[] = [
             "punctuation.definition.interpolation.begin.bracket.curly",
             "punctuation.definition.interpolation.end.bracket.curly",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         "name":  "Variables",
@@ -92,20 +92,20 @@ export const css: TextMateRuleData[] = [
             "meta.at-rule.include.scss",
             "support.constant.vendored.property-value.css",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "source.css meta.at-rule.keyframes.body.css entity.other.keyframe-offset.css",
         ],
-        foreground: "#9CDCFE",
+        foreground: SemanticColor.Variables,
         fontStyle:  "italic",
     },
     {
         scopes: [
             "meta.attribute-selector.css",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         "name":  "CSS property value",
@@ -118,7 +118,7 @@ export const css: TextMateRuleData[] = [
             "constant.other.rgb-value",
             "support.constant.color",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings
     },
     {
         scopes: [
@@ -131,6 +131,6 @@ export const css: TextMateRuleData[] = [
             "support.constant.mathematical-symbols.scss",
             // "text.html.basic meta.embedded.block.html source.css meta.selector.css entity.other.attribute-name.pseudo-class.css"
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
 ]

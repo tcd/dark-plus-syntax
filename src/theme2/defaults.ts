@@ -8,7 +8,7 @@ export const defaults: TextMateRuleData[] = [
             "comment.block.html",
             "comment.block.handlebars",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
     {
         "name":  "Special Comments",
@@ -22,7 +22,7 @@ export const defaults: TextMateRuleData[] = [
             "comment.line.number-sign.ini",
             "comment.line.number-sign.yaml",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
     {
         "name":  "Curly Braces, Semicolons, etc.",
@@ -42,13 +42,13 @@ export const defaults: TextMateRuleData[] = [
             "punctuation.definition.italic.markdown",
             "punctuation.definition.bold.markdown",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "meta.embedded.block.sql",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -56,11 +56,11 @@ export const defaults: TextMateRuleData[] = [
             "keyword.other.unit",
             "meta.preprocessor.numeric",
         ],
-        foreground: "#b5cea8",
+        foreground: SemanticColor.Numbers,
     },
     {
-        scope:    ["invalid"],
-        foreground: "#f44747",
+        scopes:    ["invalid"],
+        foreground: SemanticColor.Errors,
     },
     {
         scopes: [
@@ -69,11 +69,11 @@ export const defaults: TextMateRuleData[] = [
             "constant.other.symbol",
             "constant.character.escape",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     {
-        scope:    ["meta.diff.header"],
-        foreground: "#569cd6",
+        scopes:    ["meta.diff.header"],
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
@@ -82,7 +82,7 @@ export const defaults: TextMateRuleData[] = [
             "string.value",
             "meta.preprocessor.string",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: [
@@ -100,7 +100,7 @@ export const defaults: TextMateRuleData[] = [
             "keyword.operator.cast",
             "keyword.operator.sizeof",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
@@ -108,7 +108,7 @@ export const defaults: TextMateRuleData[] = [
             "support.function",
             "support.constant.handlebars",
         ],
-        foreground: "#dcdcaa",
+        foreground: SemanticColor.Functions,
     },
     {
         "name":  "Type declaration and references",
@@ -133,7 +133,7 @@ export const defaults: TextMateRuleData[] = [
             "storage.type.primitive.array.groovy",
             "storage.type.primitive.groovy",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         "name":  "Types declaration and references, TS grammar specific",
@@ -145,14 +145,14 @@ export const defaults: TextMateRuleData[] = [
             "support.constant.json",
             "entity.other.inherited-class",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             "keyword.control",
             "keyword.operator",
         ],
-        foreground: "#C586C0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -160,7 +160,7 @@ export const defaults: TextMateRuleData[] = [
             "support.variable",
             "meta.definition.variable.name",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
 
     {
@@ -168,24 +168,24 @@ export const defaults: TextMateRuleData[] = [
             "code-runner.output code-runner.running string",
             "code-runner.running code-runner.done string",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
         fontStyle:  "italic",
     },
     {
-        scope:    ["token.info-token"],
-        foreground: "#569cd6",
+        scopes:    ["token.info-token"],
+        foreground: SemanticColor.Keywords,
     },
     {
-        scope:    ["token.warn-token"],
-        foreground: "#d7ba7d",
+        scopes:    ["token.warn-token"],
+        foreground: SemanticColor.Chars,
     },
     {
-        scope:    ["token.error-token"],
-        foreground: "#f44747",
+        scopes:    ["token.error-token"],
+        foreground: SemanticColor.Errors,
     },
     {
-        scope:    ["token.debug-token"],
-        foreground: "#c586c0",
+        scopes:    ["token.debug-token"],
+        foreground: SemanticColor.FlowControl,
     },
 ]
 

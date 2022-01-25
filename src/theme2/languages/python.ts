@@ -7,7 +7,7 @@ export const python: TextMateRuleData[] = [
             // "string.quoted.docstring.single.python",
             "string.quoted.docstring.multi.python keyword.control.flow.python",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
     {
         scopes: [
@@ -51,7 +51,7 @@ export const python: TextMateRuleData[] = [
             "meta.function.parameters.end.python",
             // "meta.function.parameters.python",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -63,7 +63,7 @@ export const python: TextMateRuleData[] = [
             "keyword.operator.unpacking.parameter.python",
             "keyword.operator.unpacking.arguments.python",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
@@ -71,7 +71,7 @@ export const python: TextMateRuleData[] = [
             "meta.function-call.generic.python",
             "meta.function.decorator.python support.type.python",
         ],
-        foreground: "#dcdcaa",
+        foreground: SemanticColor.Functions,
     },
     {
         scopes: [
@@ -82,7 +82,7 @@ export const python: TextMateRuleData[] = [
             // "meta.item-access.python",
             "constant.other.caps.python",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
@@ -91,7 +91,7 @@ export const python: TextMateRuleData[] = [
             "punctuation.separator.annotation.python",
             "punctuation.separator.annotation.result.python",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -102,13 +102,13 @@ export const python: TextMateRuleData[] = [
             "punctuation.separator.slice.python",
             "punctuation.separator.colon.python",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "constant.character.escape.python",
             "string.quoted.binary.single.python",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
 ]

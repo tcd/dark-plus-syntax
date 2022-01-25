@@ -6,22 +6,22 @@ export const ini: TextMateRuleData[] = [
             "comment.line.number-sign.ini",
             "punctuation.definition.entity.ini",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "keyword.other.definition.ini",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     // {
     //     scopes: ["entity.name.section.group-title.ini"],
-    //     foreground: "#569cd6",
+    //     foreground: SemanticColor.Keywords,
     // },
     {
         scopes: [
             "punctuation.separator.key-value.ini",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
 ]

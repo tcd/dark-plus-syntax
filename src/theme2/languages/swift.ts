@@ -2,14 +2,14 @@ import { TextMateRuleData, SemanticColor } from "@lib"
 
 export const swift: TextMateRuleData[] = [
     {
-        scope:    ["comment.punctuation.comma.swift"],
-        foreground: "#d4d4d4",
+        scopes:    ["comment.punctuation.comma.swift"],
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "keyword.statement.swift",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -17,20 +17,20 @@ export const swift: TextMateRuleData[] = [
             "punctuation.section.embedded.begin.swift",
             "punctuation.section.embedded.end.swift",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "variable.language.self.swift",
             "keyword.expressions-and-types.swift",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
         fontStyle:  "italic",
     },
     {
         scopes: [
             "meta.embedded.line.swift",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
 ]

@@ -6,18 +6,18 @@ export const elixir: TextMateRuleData[] = [
             "comment.wildcard.elixir",
             "comment.unused.elixir",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
         fontStyle:  "italic",
     },
     {
         scopes: [
             "punctuation.section.function.elixir",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     // {
-    //     scope:    ["comment.documentation.heredoc.elixir"],
-    //     foreground: "#608b4e",
+    //     scopes:    ["comment.documentation.heredoc.elixir"],
+    //     foreground: SemanticColor.DocComments,
     // },
     {
         scopes: [
@@ -27,13 +27,13 @@ export const elixir: TextMateRuleData[] = [
             "variable.other.readwrite.module.elixir",
             "variable.other.anonymous.elixir",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "punctuation.separator.method.elixir",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -42,7 +42,7 @@ export const elixir: TextMateRuleData[] = [
         "variable.other.readwrite.module.elixir",
         "variable.other.constant.elixir",
     ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -52,7 +52,7 @@ export const elixir: TextMateRuleData[] = [
             "variable.language.elixir",
             "source.elixir.embedded.source punctuation.section.embedded.elixir",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
@@ -60,7 +60,7 @@ export const elixir: TextMateRuleData[] = [
             "punctuation.definition.constant.elixir",
             "support.function.variable.quoted.single.elixir",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     // =========================================================================
     // eex
@@ -69,6 +69,6 @@ export const elixir: TextMateRuleData[] = [
         scopes: [
             "punctuation.section.embedded.elixir",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
 ]

@@ -7,18 +7,18 @@ export const kotlin: TextMateRuleData[] = [
             "storage.type.builtin.collection.kotlin",
             "entity.name.package.kotlin",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             "meta.template.expression.kotlin",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "keyword.hard.kotlin",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
 ]

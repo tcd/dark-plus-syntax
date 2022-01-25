@@ -6,7 +6,7 @@ export const groovy: TextMateRuleData[] = [
             // "constant.other.key.groovy",
             "source.groovy.embedded.source",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
@@ -14,26 +14,26 @@ export const groovy: TextMateRuleData[] = [
             "keyword.operator.arithmetic.groovy",
             "keyword.control.exception.groovy",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
             "punctuation.section.embedded.groovy",
             "constant.other.groovy",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "meta.method.groovy",
             // "meta.method-call.groovy",
         ],
-        foreground: "#dcdcaa",
+        foreground: SemanticColor.Functions,
     },
     {
         scopes: [
             "constant.character.escape.groovy",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
 ]

@@ -5,26 +5,26 @@ export const makefile: TextMateRuleData[] = [
         scopes: [
             "comment.line.number-sign.makefile",
         ],
-        foreground: "#608b4e",
+        foreground: SemanticColor.DocComments,
     },
     {
         scopes: [
             "variable.other.makefile",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "variable.language.makefile",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "entity.name.function.target.makefile",
             "constant.character.escape.continuation.makefile",
         ],
-        foreground: "#dcdcaa",
+        foreground: SemanticColor.Functions,
     },
     {
         scopes: [
@@ -34,7 +34,7 @@ export const makefile: TextMateRuleData[] = [
             "keyword.control.endif.makefile",
             "constant.character.escape.continuation.makefile",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     // =========================================================================
     // CMake
@@ -43,6 +43,6 @@ export const makefile: TextMateRuleData[] = [
         scopes: [
             "storage.source.cmake",
         ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
 ]

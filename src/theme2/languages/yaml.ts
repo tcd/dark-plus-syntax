@@ -3,23 +3,28 @@ import { TextMateRuleData, SemanticColor } from "@lib"
 export const yaml: TextMateRuleData[] = [
     {
         scopes: [
-            "comment.line.number-sign.yaml",
             "punctuation.separator.key-value.mapping.yaml",    // `:`
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Foreground,
+    },
+    {
+        scopes: [
+            "comment.line.number-sign.yaml",
+        ],
+        foreground: SemanticColor.Comments,
     },
     // {
     //     scopes: [
     //         "punctuation.definition.block.sequence.item.yaml", // `-`
     //         "punctuation.separator.key-value.mapping.yaml",    // `:`
     //     ],
-    //     foreground: "#d4d4d4d4",
+    //     foreground: SemanticColor.Foreground,
     // },
     {
         scopes: [
             "constant.other.timestamp.yaml",
         ],
-        foreground: "#b5cea8",
+        foreground: SemanticColor.Numbers,
     },
     {
         scopes: [
@@ -30,7 +35,7 @@ export const yaml: TextMateRuleData[] = [
             "punctuation.separator.sequence.yaml",        // Commas
             "punctuation.separator.mapping.yaml",         // Commas
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -41,7 +46,7 @@ export const yaml: TextMateRuleData[] = [
             "variable.other.alias.yaml",            // "user_defaults" - (<<: *user_defaults)
             // "entity.name.type.anchor.yaml",         // "Default" - (default: &default)
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -54,19 +59,19 @@ export const yaml: TextMateRuleData[] = [
             "support.other.directive.reserved.yaml",       // "RESERVED" - (%RESERVED name parameter #comment)
             "punctuation.definition.directive.begin.yaml", // "%" - (%RESERVED name parameter #comment)
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "constant.language.boolean.yaml", // `true`, `false`, `yes`, `no`, `on`, and `off`
             "constant.language.null.yaml",    // `null` and `~`
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
         fontStyle:  "italic",
     },
     // {
     //     scopes: ["entity.name.tag.yaml"],
-    //     foreground: "#9cdcfe",
+    //     foreground: SemanticColor.Variables,
     // },
     {
         scopes: [
@@ -76,7 +81,7 @@ export const yaml: TextMateRuleData[] = [
             "storage.modifier.chomping-indicator.yaml", // (`-` in `|-`) or (`+` in `|+`)
             "punctuation.definition.block.sequence.item.yaml", // `-`
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -85,12 +90,12 @@ export const yaml: TextMateRuleData[] = [
             "meta.flow-pair.key.yaml string.unquoted.plain.in.yaml entity.name.tag.yaml",
             "meta.flow-mapping.yaml string.quoted.double.yaml",
         ],
-        foreground: "#9CDCFE",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "meta.flow-pair.value.yaml string.quoted.double.yaml",
         ],
-        foreground: "#CE9178",
+        foreground: SemanticColor.Strings,
     },
 ]

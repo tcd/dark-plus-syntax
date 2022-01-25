@@ -7,7 +7,7 @@ export const ruby: TextMateRuleData[] = [
             "punctuation.definition.string.end.ruby",
             "source.ruby string.quoted.double.interpolated.ruby",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: [
@@ -18,10 +18,10 @@ export const ruby: TextMateRuleData[] = [
             "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
             "meta.function.method.with-arguments.ruby constant.other.symbol.hashkey.parameter.function.ruby",
          ],
-        foreground: "#9cdcfe",
+        foreground: SemanticColor.Variables,
     },
     {
-        scope:    ["variable.other.readwrite.instance.ruby"],
+        scopes:    ["variable.other.readwrite.instance.ruby"],
         fontStyle: "italic",
     },
     {
@@ -31,13 +31,13 @@ export const ruby: TextMateRuleData[] = [
             "constant.language.symbol.ruby",
             "punctuation.definition.constant.ruby",
         ],
-        foreground: "#d7ba7d",
+        foreground: SemanticColor.Chars,
     },
     {
         scopes: [
             "variable.language.self.ruby",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
         fontStyle:  "italic",
     },
     {
@@ -46,14 +46,14 @@ export const ruby: TextMateRuleData[] = [
             // "constant.language.symbol.hashkey.ruby",
             "meta.embedded.line.ruby",
          ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
             "entity.name.function.ruby",
             "support.function.kernel.ruby",
          ],
-        foreground: "#dcdcaa",
+        foreground: SemanticColor.Functions,
     },
     {
         scopes: [
@@ -74,7 +74,7 @@ export const ruby: TextMateRuleData[] = [
             "string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.begin.ruby",
             "string.regexp.interpolated.ruby meta.embedded.line.ruby punctuation.section.embedded.end.ruby",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
@@ -84,7 +84,7 @@ export const ruby: TextMateRuleData[] = [
             "entity.other.inherited-class.ruby",
             // "punctuation.separator.namespace.ruby",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
@@ -104,7 +104,7 @@ export const ruby: TextMateRuleData[] = [
             "meta.function.method.with-arguments.ruby constant.other.symbol.hashkey.parameter.function.ruby punctuation.definition.constant.ruby",
             "source.ruby punctuation.separator.key-value",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     {
         scopes: [
@@ -117,7 +117,7 @@ export const ruby: TextMateRuleData[] = [
             "punctuation.section.array.begin.ruby",
             "punctuation.section.array.end.ruby",
         ],
-        foreground: "#d4d4d4",
+        foreground: SemanticColor.Foreground,
     },
     {
         scopes: [
@@ -126,21 +126,21 @@ export const ruby: TextMateRuleData[] = [
             "punctuation.definition.character-class.begin.ruby",
             "punctuation.definition.character-class.end.ruby",
         ],
-        foreground: "#808080",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "punctuation.section.regexp.begin.ruby",
             "punctuation.section.regexp.end.ruby",
         ],
-        foreground: "#d16969",
+        foreground: SemanticColor.RegExp,
     },
     {
         scopes: [
             "keyword.operator.quantifier.ruby",
             "string.regexp.arbitrary-repetition.ruby",
         ],
-        foreground: "#b5cea8",
+        foreground: SemanticColor.Numbers,
     },
     {
         scopes: [
@@ -149,7 +149,7 @@ export const ruby: TextMateRuleData[] = [
             "source.ruby string.quoted.double.interpolated.ruby",
             "string.quoted.double.interpolated.ruby",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings,
     },
     // =========================================================================
     // yard
@@ -163,26 +163,26 @@ export const ruby: TextMateRuleData[] = [
     //         "comment.line.string.yard.ruby",
     //         // "comment.line.punctuation.yard.ruby",
     //      ],
-    //      foreground: "#608b4e",
+    //      foreground: SemanticColor.DocComments,
     //      // fontStyle: "italic",
     // },
     // {
     //     scopes: [
     //         "comment.line.type.yard.ruby",
     //     ],
-    //     foreground: "#4ec9b0",
+    //     foreground: SemanticColor.Types,
     // },
     // {
     //     scopes: [
     //         "comment.line.parameter.yard.ruby",
     //      ],
-    //     foreground: "#9cdcfe",
+    //     foreground: SemanticColor.Variables,
     // },
     // {
     //     scopes: [
     //         "comment.line.punctuation.yard.ruby",
     //      ],
-    //     foreground: "#505050",
+    //      foreground: SemanticColor.Tags,
     // },
     // =========================================================================
     // erb
@@ -192,14 +192,14 @@ export const ruby: TextMateRuleData[] = [
             "meta.section.attributes.plain.haml constant.other.symbol.ruby",
             "meta.embedded.line.erb",
         ],
-        foreground: "#9CDCFE",
+        foreground: SemanticColor.Variables,
     },
     {
         scopes: [
             "text.html.erb punctuation.section.embedded.begin.erb",
             "text.html.erb punctuation.section.embedded.end.erb",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     // =========================================================================
     // Cucumber (Gherkin)
@@ -208,24 +208,24 @@ export const ruby: TextMateRuleData[] = [
         scopes: [
             "keyword.language.gherkin.feature.step",
         ],
-        foreground: "#c586c0",
+        foreground: SemanticColor.FlowControl,
     },
     // {
     //     scopes: [
     //         "keyword.control.cucumber.table",
     //     ],
-    //     foreground: "#ce9178",
+    //     foreground: SemanticColor.Strings
     // },
     // {
     //     scopes: [
     //         "string.language.gherkin.scenario.title.title",
     //     ],
-    //     foreground: "#9CDCFE",
+    //     foreground: SemanticColor.Variables,
     // },
     {
         scopes: [
         "text.gherkin.feature entity.name.type.class.tsx",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
 ]

@@ -2,23 +2,23 @@ import { TextMateRuleData, SemanticColor } from "@lib"
 
 export const stylus: TextMateRuleData[] = [
     {
-        scope:    ["punctuation.definition.keyword.stylus"],
-        foreground: "#c586c0",
+        scopes:    ["punctuation.definition.keyword.stylus"],
+        foreground: SemanticColor.FlowControl,
     },
     {
-        scope:    ["meta.interpolation.stylus"],
-        foreground: "#9cdcfe",
+        scopes:    ["meta.interpolation.stylus"],
+        foreground: SemanticColor.Variables,
     },
     {
-        scope:    ["variable.stylus"],
-        foreground: "#4ec9b0",
+        scopes:    ["variable.stylus"],
+        foreground: SemanticColor.Types,
     },
     {
-        scope:    ["entity.other.attribute-name.parent-selector-suffix.stylus"],
-        foreground: "#d7ba7d",
+        scopes:    ["entity.other.attribute-name.parent-selector-suffix.stylus"],
+        foreground: SemanticColor.Chars,
     },
     {
-        scope:    ["meta.interpolation.stylus meta.brace.curly"],
-        foreground: "#569cd6",
+        scopes:    ["meta.interpolation.stylus meta.brace.curly"],
+        foreground: SemanticColor.Keywords,
     },
 ]

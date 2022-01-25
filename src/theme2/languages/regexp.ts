@@ -4,14 +4,14 @@ export const regexp: TextMateRuleData[] = [
     // {
     //     scopes: [
     //     ],
-    //     foreground: "#9cdcfe",,
+    //     foreground: SemanticColor.Variables,,
     // },
     {
         scopes: [
             "keyword.operator.quantifier.regexp",
             "keyword.operator.quantifier.regexp.js",
         ],
-        foreground: "#b5cea8",
+        foreground: SemanticColor.Numbers,
     },
     {
         scopes: [
@@ -19,32 +19,32 @@ export const regexp: TextMateRuleData[] = [
             // "constant.regexp",
             // "constant.character.regexp",
         ],
-        foreground: "#d16969",
+        foreground: SemanticColor.RegExp,
     },
     {
         scopes: [
             "string.regexp constant.character.escape.backslash.regexp",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings
     },
     {
         scopes: [
             "constant.other.character-class.regexp",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [
             "keyword.control.anchor.regexp",
             "constant.other.character-class.regexp",
         ],
-        foreground: "#569cd6",
+        foreground: SemanticColor.Keywords,
     },
     {
         scopes: [
             "punctuation.definition.group.regexp",
             "punctuation.definition.character-class.regexp",
         ],
-        foreground: "#909090",
+        foreground: SemanticColor.Tags,
     },
 ]

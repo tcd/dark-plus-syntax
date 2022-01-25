@@ -6,14 +6,14 @@ export const styledComponents: TextMateRuleData[] = [
             "punctuation.semi-colon.css",
             "meta.brace.curly.css",
         ],
-        foreground: "#505050",
+        foreground: SemanticColor.Tags,
     },
     {
         scopes: [
             "constant.hex.css",
             "meta.identifier.css",
         ],
-        foreground: "#ce9178",
+        foreground: SemanticColor.Strings
     },
     {
         scopes: [
@@ -21,12 +21,12 @@ export const styledComponents: TextMateRuleData[] = [
             "constant.length.units.css",
             "entity.other.keyframe-offset.percentage.css",
         ],
-        foreground: "#b5cea8",
+        foreground: SemanticColor.Numbers,
     },
     {
         scopes: [
             "entity.name.tag.styledcss.js",
         ],
-        foreground: "#4ec9b0",
+        foreground: SemanticColor.Types,
     },
 ]
