@@ -34,7 +34,7 @@ import { toml } from "./toml"
 import { vcard } from "./vcard"
 import { viml } from "./viml"
 
-import { TextMateRuleData, SemanticColor } from "@lib"
+import { TextMateRuleData } from "@lib"
 
 export const Languages: TextMateRuleData[] = [
     ...Html,

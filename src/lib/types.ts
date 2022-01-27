@@ -113,8 +113,8 @@ export enum SemanticColor {
     /**
      * ## Used to color the following:
      *
-     * - Documentation
-     * - Doc Comments
+     * - Documentation Comments
+     * - TODO Comments
      * - Preprocessor Directives
      */
     DocComments = "DocComments",
