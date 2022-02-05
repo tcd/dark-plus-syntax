@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-bindActionCreators, connect;
+// bindActionCreators, connect;
 
 class Thinc extends Component {
   render() {

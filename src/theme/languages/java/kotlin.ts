@@ -1,5 +1,11 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * ## Extensions
+ *
+ * - [fwcd/vscode-kotlin](https://github.com/fwcd/vscode-kotlin)
+ *   - pretty bare bones
+ */
 export const kotlin: TextMateRuleData[] = [
     {
         scopes: [
@@ -18,6 +24,7 @@ export const kotlin: TextMateRuleData[] = [
     {
         scopes: [
             "keyword.hard.kotlin",
+            "keyword.operator.kotlin",
         ],
         foreground: SemanticColor.FlowControl,
     },

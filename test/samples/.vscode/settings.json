@@ -1,5 +1,5 @@
 {
-    // "editor.semanticHighlighting.enabled": true,
+    "editor.semanticHighlighting.enabled": true,
     "python.pythonPath": "/usr/local/bin/python3",
     "python.linting.enabled": false,
     "solargraph.diagnostics": false,
@@ -7,6 +7,8 @@
         "rubocop": false,
         "fasterer": false,
     },
+    "java.configuration.maven.notCoveredPluginExecutionSeverity": "ignore",
+    "java.errors.incompleteClasspath.severity": "ignore",
     "files.associations": {
         ".{aliases,path,viminfo}": "shellscript",
         "*.blade": "blade",

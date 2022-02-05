@@ -1,4 +1,4 @@
-import {PolymerElement,} from '@polymer/polymer/polymer-element.js';
+import {PolymerElement} from '@polymer/polymer/polymer-element.js';
 
 class MyComponent extends PolymerElement {
   constructor() {

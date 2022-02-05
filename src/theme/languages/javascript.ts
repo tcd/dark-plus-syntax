@@ -1,6 +1,15 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
 /**
+ * ## Languages
+ *
+ * - JavaScript
+ * - TypeScript
+ * - JSX
+ * - TSX
+ *
+ * ## Extensions
+ *
  * - [vuejs/vetur](https://github.com/vuejs/vetur)
  */
 export const javaScript: TextMateRuleData[] = [
@@ -11,9 +20,8 @@ export const javaScript: TextMateRuleData[] = [
         scopes: [
             "comment.block",
             "comment.block.documentation.js",
-            "comment.block.documentation.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc",
             "comment.line.shebang.js",
-            // "punctuation.definition.comment.js"
+            // "punctuation.definition.comment.js",
             "comment.block.documentation.js punctuation.definition.comment.js",
         ],
         foreground: SemanticColor.DocComments,
@@ -30,11 +38,20 @@ export const javaScript: TextMateRuleData[] = [
     },
     {
         scopes: [
-            "punctuation.definition.comment.js",
+            // "punctuation.definition.comment.js",
             "comment.line.double-slash.js",
             "meta.embedded.expression.js source.js.jsx comment.block.js",
         ],
-        foreground: SemanticColor.Tags,
+        foreground: SemanticColor.Comments,
+    },
+    {
+        scopes: [
+            "punctuation.terminator.statement.js",
+            "punctuation.terminator.statement.ts",
+            "punctuation.terminator.statement.jsx",
+            "punctuation.terminator.statement.tsx",
+        ],
+        foreground: SemanticColor.Noise,
     },
     {
         scopes: [
@@ -275,9 +292,18 @@ export const javaScript: TextMateRuleData[] = [
     // =========================================================================
     {
         scopes: [
-            // "comment.block.ts",
             // "meta.tag.ts",
             "comment.line.triple-slash.directive.ts",
+            "punctuation.definition.tag.directive.ts",
+            "entity.name.tag.directive.ts",
+        ],
+        foreground: SemanticColor.DocComments,
+        fontStyle: "italic",
+    },
+    {
+        scopes: [
+            // "comment.block.ts",
+            // "meta.tag.ts",
             "comment.block.documentation.ts",
         ],
         foreground: SemanticColor.DocComments,

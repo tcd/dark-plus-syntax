@@ -1,5 +1,15 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * ## Languages
+ *
+ *  - Elixir
+ *  - EEX
+ *
+ * ## Extensions
+ *
+ * - [dunstontc/vscode-elixir-syntax](https://github.com/dunstontc/vscode-elixir-syntax)
+ */
 export const elixir: TextMateRuleData[] = [
     {
         scopes: [
@@ -65,6 +75,12 @@ export const elixir: TextMateRuleData[] = [
     // =========================================================================
     // eex
     // =========================================================================
+    {
+        scopes: [
+            "punctuation.separator.label.js",
+        ],
+        foreground: SemanticColor.FlowControl,
+    },
     {
         scopes: [
             "punctuation.section.embedded.elixir",

@@ -1,0 +1,34 @@
+# https://www.educative.io/blog/advanced-yaml-syntax-cheatsheet
+
+definitions:
+  steps:
+    - step: &build-test
+        name: Build and test
+        script:
+          - mvn package
+        artifacts:
+          - target/**
+
+pipelines:
+  branches:
+    develop:
+      - step: *build-test
+    master:
+      - step: *build-test
+
+---
+# Ruby Psych
+dice: !ruby/Object:Dice [3, 6]
+
+---
+# perl YAML::XS, YAML.pm, YAML::Syck (Dump and Load)
+dice: !!perl/array:Dice [3, 6]
+
+---
+# perl YAML.pm, YAML::Syck (Load)
+dice: !perl/array:Dice [3, 6]
+
+---
+# Pyyaml
+dice: !!python/object/new:__main__.Dice
+  - !!python/tuple [3, 6]

@@ -1,5 +1,21 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * ## Languages
+ *
+ * - HTML
+ * - Handlebars
+ * - Jinja
+ *
+ * ## Extensions
+ *
+ * - [angular/vscode-ng-language-service](https://github.com/angular/vscode-ng-language-service)
+ * - [samuelcolvin/jinjahtml-vscode](https://github.com/samuelcolvin/jinjahtml-vscode)
+ *
+ * ## Resources
+ *
+ * - [Pug Docs](https://pugjs.org/api/getting-started.html)
+ */
 export const html: TextMateRuleData[] = [
     {
         scopes: [
@@ -105,7 +121,7 @@ export const html: TextMateRuleData[] = [
     // Jade/Pug
     // =========================================================================
     {
-        "name":  "Mustaches",
+        name:  "Mustaches",
         scopes: [
             "string.interpolated.jade",
         ],
@@ -116,9 +132,18 @@ export const html: TextMateRuleData[] = [
             "meta.control.flow.jade",
             "meta.first-class.jade",
             "storage.type.function.jade",
+            "storage.type.function.pug",
             "storage.type.import.include.jade",
+            "meta.control.flow.pug storage.type.function.pug",
+            "storage.type.import.include.pug",
         ],
         foreground: SemanticColor.FlowControl,
+    },
+    {
+        scopes: [
+            // "storage.type.function.pug",
+        ],
+        foreground: SemanticColor.Functions,
     },
     // =========================================================================
     // Handlebars
@@ -252,7 +277,7 @@ export const html: TextMateRuleData[] = [
     },
     {
         scopes: [
-            "punctuation.output.liquid",
+            // "punctuation.output.liquid",
             // "support.class.liquid",
         ],
         foreground: SemanticColor.Types,
@@ -267,9 +292,19 @@ export const html: TextMateRuleData[] = [
     },
     {
         scopes: [
+            "punctuation.output.liquid",
             "punctuation.tag.liquid",
             "keyword.operator.liquid",
             "entity.name.tag.liquid",
+        ],
+        foreground: SemanticColor.FlowControl,
+    },
+    // =========================================================================
+    // Slim
+    // =========================================================================
+    {
+        scopes: [
+            "meta.line.ruby.slim",
         ],
         foreground: SemanticColor.FlowControl,
     },
@@ -285,15 +320,22 @@ export const html: TextMateRuleData[] = [
             // Directive Punctuation
             "punctuation.definition.ng-binding-name.begin.html",
             "punctuation.definition.ng-binding-name.end.html",
+            "text.html.derivative expression.ng keyword.operator.logical.ts",
         ],
         foreground: SemanticColor.Types,
     },
+    {
+        scopes: [
+            "entity.other.ng-binding-name.ngFor.html",
+            "entity.other.ng-binding-name.ngIf.html",
+        ],
+        foreground: SemanticColor.FlowControl,
+    },
     // {
     //     scopes: [
-    //         // {{ ; }} ¯\_(ツ)_/¯
-    //         "expression.ng",
+    //         "text.html.derivative expression.ng keyword.operator.logical.ts",
     //     ],
-    //     foreground: SemanticColor.FlowControl,
+    //     foreground: SemanticColor.Functions,
     // },
     {
         scopes: [
@@ -309,10 +351,10 @@ export const html: TextMateRuleData[] = [
     {
         scopes: [
             // =
-            "meta.ng-binding.event.html punctuation.separator.key-value.html",
-            "meta.ng-binding.property.html punctuation.separator.key-value.html",
-            "meta.ng-binding.template.html punctuation.separator.key-value.html",
-            "meta.ng-binding.two-way.html punctuation.separator.key-value.html",
+            // "meta.ng-binding.event.html punctuation.separator.key-value.html",
+            // "meta.ng-binding.property.html punctuation.separator.key-value.html",
+            // "meta.ng-binding.template.html punctuation.separator.key-value.html",
+            // "meta.ng-binding.two-way.html punctuation.separator.key-value.html",
             // String punctuation
             "meta.ng-binding.event.html punctuation.definition.string.begin.html",
             "meta.ng-binding.event.html punctuation.definition.string.end.html",

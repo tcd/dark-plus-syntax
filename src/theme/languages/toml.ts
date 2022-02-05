@@ -1,17 +1,35 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * ## Extensions
+ *
+ * - [tamasfe/taplo](https://github.com/tamasfe/taplo)
+ */
 export const toml: TextMateRuleData[] = [
     {
-        scopes:    ["keyword.key.toml"],
+        scopes: [
+            "punctuation.definition.array.toml",
+            "punctuation.separator.array.toml",
+        ],
+        foreground: SemanticColor.Foreground,
+    },
+    {
+        scopes: [
+            "keyword.key.toml",
+        ],
         foreground: SemanticColor.Variables,
     },
     {
-        scopes:    ["constant.other.datetime-with-timezone.toml"],
+        scopes: [
+            "constant.other.datetime-with-timezone.toml",
+            "constant.other.time.datetime.offset.toml",
+        ],
         foreground: SemanticColor.Numbers,
     },
     {
         scopes: [
             "meta.tag.table.toml",
+            "punctuation.eq.toml",
             "punctuation.definition.keyValuePair.toml",
         ],
         foreground: SemanticColor.FlowControl,
@@ -26,10 +44,9 @@ export const toml: TextMateRuleData[] = [
     },
     {
         scopes: [
-            "source.toml",
+            // "source.toml",
             "punctuation.definition.table.toml",
-            "punctuation.definition.array.toml",
-            "punctuation.definition.table.array.toml",
+            "punctuation.definition.array.table.toml",
         ],
         foreground: SemanticColor.Tags,
     },

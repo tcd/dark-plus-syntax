@@ -5,6 +5,9 @@ import { TextMateRuleData, SemanticColor } from "@lib"
  * ## Extensions
  *
  * - [rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby)
+ * - Cucumber
+ *   - [alexkrechik/VSCucumberAutoComplete](https://github.com/alexkrechik/VSCucumberAutoComplete)
+ *   - [euclidity/vscode-cucumber](https://github.com/euclidity/vscode-cucumber)
  */
 export const ruby: TextMateRuleData[] = [
     {

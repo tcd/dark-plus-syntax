@@ -1,4 +1,4 @@
-import { SemanticColor, TextMateRuleData, writeJsonFile } from "@lib"
+import { writeJsonFile } from "@lib"
 import { Languages } from "./theme/languages"
 import { defaults } from "./theme/defaults"
 import { ui } from "./theme/ui"

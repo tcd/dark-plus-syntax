@@ -7,6 +7,7 @@ import { cfml } from "./cfml"
 import { cpp } from "./cpp"
 import { crystal } from "./crystal"
 import { cs } from "./cs"
+import { csv } from "./csv"
 import { dart } from "./dart"
 import { elixir } from "./elixir"
 import { elm } from "./elm"
@@ -17,6 +18,7 @@ import { graphql } from "./graphql"
 import { haskell } from "./haskell"
 import { ini } from "./ini"
 import { javaScript } from "./javascript"
+import { json } from "./json"
 import { lisp } from "./lisp"
 import { makefile } from "./makefile"
 import { markdown } from "./markdown"
@@ -33,6 +35,7 @@ import { todoTxt } from "./todo-txt"
 import { toml } from "./toml"
 import { vcard } from "./vcard"
 import { viml } from "./viml"
+import { yaml } from "./yaml"
 
 import { TextMateRuleData } from "@lib"
 
@@ -45,6 +48,7 @@ export const Languages: TextMateRuleData[] = [
     ...cpp,
     ...crystal,
     ...cs,
+    ...csv,
     ...dart,
     ...elixir,
     ...elm,
@@ -54,7 +58,9 @@ export const Languages: TextMateRuleData[] = [
     ...graphql,
     ...haskell,
     ...ini,
+    ...Java,
     ...javaScript,
+    ...json,
     ...lisp,
     ...makefile,
     ...markdown,
@@ -71,4 +77,5 @@ export const Languages: TextMateRuleData[] = [
     ...toml,
     ...vcard,
     ...viml,
+    ...yaml,
 ]

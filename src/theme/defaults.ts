@@ -35,14 +35,15 @@ export const defaults: TextMateRuleData[] = [
             "punctuation.definition.array.end.json",
             "punctuation.separator.array.json",
             "punctuation.terminator",
-            "punctuation.definition.string.begin.markdown",
-            "punctuation.definition.string.end.markdown",
-            "punctuation.definition.metadata.markdown",
             "invalid.illegal.bad-comments-or-CDATA.html",
-            "punctuation.definition.italic.markdown",
-            "punctuation.definition.bold.markdown",
         ],
         foreground: SemanticColor.Tags,
+    },
+    {
+        scopes: [
+            "punctuation.terminator",
+        ],
+        foreground: SemanticColor.Noise,
     },
     {
         scopes: [

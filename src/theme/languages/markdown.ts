@@ -102,11 +102,15 @@ export const markdown: TextMateRuleData[] = [
         scopes: [
             "markup.underline.link.markdown",
             "markup.underline.link.image.markdown",
+            "meta.link.email.lt-gt.markdown",
         ],
         foreground: SemanticColor.Noise,
     },
     {
         scopes: [
+            "punctuation.definition.string.begin.markdown",
+            "punctuation.definition.string.end.markdown",
+            "punctuation.definition.metadata.markdown",
             "punctuation.definition.metadata.markdown",
             "punctuation.definition.raw.markdown",
             "punctuation.definition.link.markdown",

@@ -3,12 +3,6 @@ import { TextMateRuleData, SemanticColor } from "@lib"
 export const yaml: TextMateRuleData[] = [
     {
         scopes: [
-            "punctuation.separator.key-value.mapping.yaml",    // `:`
-        ],
-        foreground: SemanticColor.Foreground,
-    },
-    {
-        scopes: [
             "comment.line.number-sign.yaml",
         ],
         foreground: SemanticColor.Comments,
@@ -80,6 +74,7 @@ export const yaml: TextMateRuleData[] = [
             "keyword.control.flow.block-scalar.literal.yaml", // `|`
             "storage.modifier.chomping-indicator.yaml", // (`-` in `|-`) or (`+` in `|+`)
             "punctuation.definition.block.sequence.item.yaml", // `-`
+            "punctuation.separator.key-value.mapping.yaml", // `:`
         ],
         foreground: SemanticColor.FlowControl,
     },

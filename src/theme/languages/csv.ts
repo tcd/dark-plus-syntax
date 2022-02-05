@@ -1,5 +1,10 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * ## Extensions
+ *
+ * - [mechatroner/vscode_rainbow_csv](https://github.com/mechatroner/vscode_rainbow_csv)
+ */
 export const csv: TextMateRuleData[] = [
     {
         scopes:    ["invalid.rainbow10"],
