@@ -36,4 +36,17 @@ export const groovy: TextMateRuleData[] = [
         ],
         foreground: SemanticColor.Chars,
     },
+    {
+        "name":  "Type declaration and references",
+        scopes: [
+            "storage.type.groovy",
+            "storage.type.annotation.groovy",
+            "storage.type.parameters.groovy",
+            "storage.type.generic.groovy",
+            "storage.type.object.array.groovy",
+            "storage.type.primitive.array.groovy",
+            "storage.type.primitive.groovy",
+        ],
+        foreground: SemanticColor.Types,
+    },
 ]

@@ -9,6 +9,7 @@ export const json: TextMateRuleData[] = [
             "punctuation.separator.dictionary.key-value.json",
             "punctuation.definition.array.begin.json",
             "punctuation.definition.array.end.json",
+            // "punctuation.separator.array.json",
         ],
         foreground: SemanticColor.Noise,
     },

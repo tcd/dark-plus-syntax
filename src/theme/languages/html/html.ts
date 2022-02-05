@@ -176,6 +176,12 @@ export const html: TextMateRuleData[] = [
         ],
         foreground: SemanticColor.Variables,
     },
+    {
+        scopes: [
+            "support.constant.handlebars",
+        ],
+        foreground: SemanticColor.Functions,
+    },
     // =========================================================================
     // ejs
     // =========================================================================
