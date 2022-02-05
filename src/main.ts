@@ -1,6 +1,6 @@
 import { SemanticColor, TextMateRuleData, writeJsonFile } from "@lib"
-import { Languages } from "./theme2/languages"
-import { defaults } from "./theme2/defaults"
+import { Languages } from "./theme/languages"
+import { defaults } from "./theme/defaults"
 import { ui } from "./theme/ui"
 
 import { DarkPlusPalette } from "@src/palettes"
