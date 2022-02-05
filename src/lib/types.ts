@@ -125,6 +125,10 @@ export enum SemanticColor {
      * HTML Tags
      */
     Tags = "Tags",
+    /**
+     * For values that don't need to stand out (comments, semicolons, etc)
+     */
+    Noise = "Noise",
 }
 
 /**

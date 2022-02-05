@@ -1,5 +1,12 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * ## Extensions
+ *
+ * - [crystal-lang-tools/vscode-crystal-lang](https://github.com/crystal-lang-tools/vscode-crystal-lang)
+ * - [dunstontc/vscode-crystal-syntax](https://github.com/dunstontc/vscode-crystal-syntax)
+ *   - Not much here
+ */
 export const crystal: TextMateRuleData[] = [
     {
         scopes: [

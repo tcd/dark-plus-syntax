@@ -1,13 +1,17 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * CSS and SCSS
+ *
+ * ## Extensions
+ *
+ * - [robinbentley/vscode-sass-indented](https://github.com/robinbentley/vscode-sass-indented)
+ */
 export const css: TextMateRuleData[] = [
     {
         scopes: [
             "meta.property-list.scss",
-            "punctuation.terminator.rule.css",
-            "punctuation.terminator.rule.scss",
             "punctuation.separator.key-value.css",
-            "punctuation.separator.list.comma.css",
             "punctuation.section.property-list.begin.bracket.curly",
             "punctuation.section.property-list.end.bracket.curly",
             "punctuation.section.media.begin.bracket.curly",
@@ -20,6 +24,13 @@ export const css: TextMateRuleData[] = [
             "punctuation.section.supports.end.bracket.curly",
         ],
         foreground: SemanticColor.Tags,
+    },
+    {
+        scopes: [
+            "punctuation.terminator.rule.css",
+            "punctuation.terminator.rule.scss",
+        ],
+        foreground: SemanticColor.Noise,
     },
     {
         scopes: [
@@ -52,6 +63,7 @@ export const css: TextMateRuleData[] = [
     {
         scopes: [
             "invalid.deprecated.color.system.css",
+            "punctuation.separator.list.comma.css",
             "punctuation.section.function.begin.bracket.round.css",
             "punctuation.section.function.end.bracket.round.css",
             "punctuation.definition.media-query.begin.bracket.round",
@@ -66,7 +78,10 @@ export const css: TextMateRuleData[] = [
             "punctuation.section.function.scss",
             "punctuation.section.keyframes.begin.scss",
             "punctuation.section.keyframes.end.scss",
+            "punctuation.separator.key-value.css",
+            "punctuation.separator.key-value.scss",
             "constant.other.scss",
+            // "meta.property-list.css punctuation.separator.key-value.css",
         ],
         foreground: SemanticColor.Foreground,
     },
@@ -81,7 +96,7 @@ export const css: TextMateRuleData[] = [
         foreground: SemanticColor.Keywords,
     },
     {
-        "name":  "Variables",
+        // "name":  "Variables",
         scopes: [
             "support.type.property-name.media.css",
             "support.type.property-name",
@@ -93,6 +108,16 @@ export const css: TextMateRuleData[] = [
             "support.constant.vendored.property-value.css",
         ],
         foreground: SemanticColor.Variables,
+    },
+    {
+        "name":  "Real Variables",
+        scopes: [
+            "variable.css",
+            "variable.argument.css",
+            "variable.scss",
+            "variable.other.less",
+        ],
+        foreground: SemanticColor.Types,
     },
     {
         scopes: [

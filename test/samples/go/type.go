@@ -53,6 +53,7 @@ func roundRobin(strategies []strategy) ([]int, int) {
 	return wins, gamesPerStrategy
 }
 
+// FIXME: `strategy` not highlighted as type in custom go syntax
 func play(strategy0, strategy1 strategy) int {
 	strategies := []strategy{strategy0, strategy1}
 	var s score

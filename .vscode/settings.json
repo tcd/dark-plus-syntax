@@ -43,5 +43,6 @@
         "(?<=SemanticColor.)(Keywords)":    { "decorations": [{ "backgroundColor": "#569cd6", "color": "black", "fontStyle": "italic" }] },
         "(?<=SemanticColor.)(FlowControl)": { "decorations": [{ "backgroundColor": "#c586c0", "color": "black", "fontStyle": "italic" }] },
         "(?<=SemanticColor.)(Tags)":        { "decorations": [{ "backgroundColor": "#808080", "color": "black", "fontStyle": "italic" }] },
+        "(?<=SemanticColor.)(Noise)":       { "decorations": [{ "backgroundColor": "#404040", "color": "white", "fontStyle": "italic" }] },
     },
 }

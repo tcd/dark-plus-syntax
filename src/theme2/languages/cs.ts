@@ -12,10 +12,14 @@ export const cs: TextMateRuleData[] = [
     {
         scopes: [
             "meta.preprocessor.cs",
+            "meta.preprocessor.cs punctuation.separator.hash.cs",
             "meta.preprocessor.cs string.unquoted.preprocessor.message.cs",
             "meta.preprocessor.cs punctuation.separator.hash.cs",
             "meta.preprocessor.cs keyword.preprocessor.region.cs",
             "meta.preprocessor.cs keyword.preprocessor.endregion.cs",
+            "meta.preprocessor.cs keyword.preprocessor.if.cs",
+            "meta.preprocessor.cs keyword.preprocessor.else.cs",
+            "meta.preprocessor.cs keyword.preprocessor.endif.cs",
         ],
         foreground: SemanticColor.DocComments,
         fontStyle:  "italic",
@@ -69,6 +73,7 @@ export const cs: TextMateRuleData[] = [
             "storage.type.modifier.cs",
             "storage.type.variable.cs",
             // "variable.other.object.cs",
+            "punctuation.separator.question-mark.cs", // nullable
         ],
         foreground: SemanticColor.Types,
     },
@@ -85,7 +90,7 @@ export const cs: TextMateRuleData[] = [
             "keyword.other.new.cs",
             "keyword.other.var.cs",
             "keyword.other.as.cs",
-            "keyword.other.is.cs",  // control? I don't think so.
+            // "keyword.other.is.cs",  // control? not sure.
             "keyword.other.base.cs",
             "keyword.other.where.cs",
             "keyword.other.typeof.cs",
@@ -93,7 +98,6 @@ export const cs: TextMateRuleData[] = [
             "keyword.operator.arrow.cs",
             "keyword.other.namespace.cs",
             "punctuation.separator.colon.cs",  // class extension
-            "punctuation.separator.question-mark.cs", // nullable
             "punctuation.definition.typeparameters.begin.cs",
             "punctuation.definition.typeparameters.end.cs",
             "punctuation.definition.interpolation.begin.cs",
@@ -111,11 +115,12 @@ export const cs: TextMateRuleData[] = [
     {
         scopes: [
             // "keyword.other.using.cs",
-            "meta.preprocessor.cs punctuation.separator.hash.cs",
+            // "meta.preprocessor.cs punctuation.separator.hash.cs",
             "punctuation.accessor.cs",
             "keyword.other.await.cs",
             "keyword.operator.assignment.cs",
             "keyword.operator.comparison.cs",
+            "keyword.other.is.cs",
             // "keyword.operator.logical.cs",
             // "keyword.operator.null-conditional.cs",
         ],

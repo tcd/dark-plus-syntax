@@ -814,7 +814,8 @@ public partial class SqlServerAdapter : ISqlAdapter
         if (first == null || first.id == null) return 0;
 
         var id = (int)first.id;
-        var propertyInfos = keyProperties as PropertyInfo[] ?? keyProperties.ToArray();
+        // FIXME: this breaks highlighting
+        // var propertyInfos = keyProperties as PropertyInfo[] ?? keyProperties.ToArray();
         if (propertyInfos.Length == 0) return id;
 
         var idProperty = propertyInfos[0];
@@ -870,7 +871,7 @@ public partial class SqlCeServerAdapter : ISqlAdapter
         if (r[0].id == null) return 0;
         var id = (int)r[0].id;
 
-        var propertyInfos = keyProperties as PropertyInfo[] ?? keyProperties.ToArray();
+        // var propertyInfos = keyProperties as PropertyInfo[] ?? keyProperties.ToArray();
         if (propertyInfos.Length == 0) return id;
 
         var idProperty = propertyInfos[0];

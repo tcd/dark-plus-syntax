@@ -20,6 +20,7 @@ transition: transform 0.3s ease-out;
   transform: translateX(-100vh);
 } */
 
+/* FIXME: broken syntax by media rule maybe */
 @media (min-width: 500px) {
   display: none;
 }

@@ -1,5 +1,21 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * ## Extensions
+ *
+ * - [Microsoft/vscode-go](https://github.com/Microsoft/vscode-go)
+ *   - very poor syntax provided
+ * - [dunstontc/vscode-go-syntax](https://github.com/dunstontc/vscode-go-syntax)
+ *   - `go`
+ *   - `gohtml`
+ *   - `gotemplate`
+ *
+ * ## File Types
+ *
+ * - `go`
+ * - `gohtml`
+ * - `gotemplate`
+ */
 export const go: TextMateRuleData[] = [
     {
         scopes: [
@@ -37,6 +53,7 @@ export const go: TextMateRuleData[] = [
             "storage.type.string.go",
             "storage.type.error.go",
             "storage.type.rune.go",
+            "entity.name.package.go",
         ],
         foreground: SemanticColor.Types,
     },

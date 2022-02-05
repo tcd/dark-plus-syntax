@@ -8,7 +8,7 @@ export const defaults: TextMateRuleData[] = [
             "comment.block.html",
             "comment.block.handlebars",
         ],
-        foreground: SemanticColor.Tags,
+        foreground: SemanticColor.Comments,
     },
     {
         "name":  "Special Comments",

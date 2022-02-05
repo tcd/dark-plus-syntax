@@ -1410,6 +1410,30 @@
         },
         {
             "scope": [
+                "comment.line.double-dash.elm"
+            ],
+            "settings": {
+                "foreground": "#505050"
+            }
+        },
+        {
+            "scope": [
+                "meta.value.elm"
+            ],
+            "settings": {
+                "foreground": "#9cdcfe"
+            }
+        },
+        {
+            "scope": [
+                "meta.module.name.elm keyword.other.period.elm"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": [
                 "punctuation.definition.placeholder.erlang",
                 "constant.other.placeholder.erlang"
             ],
@@ -1522,7 +1546,8 @@
                 "storage.type.numeric.go",
                 "storage.type.string.go",
                 "storage.type.error.go",
-                "storage.type.rune.go"
+                "storage.type.rune.go",
+                "entity.name.package.go"
             ],
             "settings": {
                 "foreground": "#4ec9b0"

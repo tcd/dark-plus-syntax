@@ -1,5 +1,11 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * ## Extensions
+ *
+ * - [bpruitt-goddard/vscode-mermaid-syntax-highlight](https://github.com/bpruitt-goddard/vscode-mermaid-syntax-highlight)
+ * - [goessner/mdmath](https://github.com/goessner/mdmath)
+ */
 export const markdown: TextMateRuleData[] = [
     // =========================================================================
     // Markup
@@ -76,14 +82,14 @@ export const markdown: TextMateRuleData[] = [
         ],
         foreground: SemanticColor.DocComments,
     },
-    // FIXME: extra color
-    // {
-    //     scopes: [
-    //         "beginning.punctuation.definition.list.markdown",
-    //         "punctuation.definition.list.begin.markdown",
-    //     ],
-    //     foreground: "#6796e6",
-    // },
+    // FIXME: extra color #6796e6
+    {
+        scopes: [
+            "beginning.punctuation.definition.list.markdown",
+            "punctuation.definition.list.begin.markdown",
+        ],
+        foreground: SemanticColor.Keywords,
+    },
     {
         scopes: [
             // "meta.link.inline.markdown"
@@ -97,30 +103,36 @@ export const markdown: TextMateRuleData[] = [
             "markup.underline.link.markdown",
             "markup.underline.link.image.markdown",
         ],
-        foreground: SemanticColor.Tags,
+        foreground: SemanticColor.Noise,
     },
     {
         scopes: [
-            "markup.fenced_code.block.markdown punctuation.definition.markdown",
+            "punctuation.definition.metadata.markdown",
+            "punctuation.definition.raw.markdown",
+            "punctuation.definition.link.markdown",
             "punctuation.definition.italic.markdown",
             "punctuation.definition.bold.markdown",
             "punctuation.definition.raw.markdown",
             "beginning.punctuation.definition.quote.markdown",
+            "markup.fenced_code.block.markdown punctuation.definition.markdown",
             "meta.link.reference.def.markdown punctuation.definition.constant.markdown",
             "meta.link.reference.def.markdown punctuation.separator.key-value.markdown",
             "meta.link.reference.markdown punctuation.definition.constant.begin.markdown",
             "meta.link.reference.markdown punctuation.definition.constant.end.markdown",
             "meta.image.reference.markdown punctuation.definition.constant.markdown",
+            "punctuation.definition.link.title.begin.markdown",
+            "punctuation.definition.link.title.end.markdown",
             "block-dollars",
             "inline-dollars",
         ],
-        foreground: SemanticColor.Tags,
+        foreground: SemanticColor.Noise,
     },
     {
         scopes: [
             // "meta.link.reference.markdown",
             "meta.link.reference.def.markdown constant.other.reference.link.markdown",
             // "punctuation.definition.constant.begin.markdown",
+            "text.html.markdown meta.paragraph.markdown meta.link.inet.markdown markup.underline.link.markdown",
         ],
         foreground: SemanticColor.Keywords,
     },
@@ -129,7 +141,7 @@ export const markdown: TextMateRuleData[] = [
             "meta.link.reference.markdown constant.other.reference.link.markdown",
             "meta.image.reference.markdown constant.other.reference.link.markdown",
         ],
-        foreground: SemanticColor.Tags,
+        foreground: SemanticColor.Noise,
         fontStyle:  "italic",
     },
     {

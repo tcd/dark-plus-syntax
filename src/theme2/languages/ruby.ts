@@ -1,5 +1,11 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+
+/**
+ * ## Extensions
+ *
+ * - [rubyide/vscode-ruby](https://github.com/rubyide/vscode-ruby)
+ */
 export const ruby: TextMateRuleData[] = [
     {
         scopes: [
@@ -13,6 +19,8 @@ export const ruby: TextMateRuleData[] = [
         scopes: [
             "variable.other.ruby",
             "variable.other.constant.ruby",
+            "constant.other.symbol.hashkey.ruby",
+            "constant.language.symbol.hashkey.ruby punctuation.definition.constant.ruby",
             "constant.language.symbol.hashkey.ruby",
             "constant.language.symbol.hashkey.parameter.function.ruby",
             "variable.other.readwrite.instance.ruby punctuation.definition.variable.ruby",
@@ -21,13 +29,16 @@ export const ruby: TextMateRuleData[] = [
         foreground: SemanticColor.Variables,
     },
     {
-        scopes:    ["variable.other.readwrite.instance.ruby"],
+        scopes: [
+            "variable.other.readwrite.instance.ruby",
+            "variable.other.readwrite.class.ruby",
+        ],
         fontStyle: "italic",
     },
     {
         scopes: [
-            "constant.character.escape.ruby",
             "constant.other.symbol.ruby",
+            "constant.character.escape.ruby",
             "constant.language.symbol.ruby",
             "punctuation.definition.constant.ruby",
         ],
@@ -42,7 +53,7 @@ export const ruby: TextMateRuleData[] = [
     },
     {
         scopes: [
-            "constant.other.symbol.hashkey.ruby",
+            // "constant.other.symbol.hashkey.ruby",
             // "constant.language.symbol.hashkey.ruby",
             "meta.embedded.line.ruby",
          ],
@@ -82,14 +93,14 @@ export const ruby: TextMateRuleData[] = [
             "support.class.ruby",
             "entity.name.type.class.ruby",
             "entity.other.inherited-class.ruby",
-            // "punctuation.separator.namespace.ruby",
+            "punctuation.separator.namespace.ruby",
+            // "variable.other.constant.ruby",
         ],
         foreground: SemanticColor.Types,
     },
     {
         scopes: [
             // "punctuation.separator.method.ruby",
-            // "punctuation.separator.namespace.ruby",
             "keyword.control.def.ruby",
             "keyword.control.class.ruby",
             "keyword.operator.other.ruby",
@@ -108,7 +119,7 @@ export const ruby: TextMateRuleData[] = [
     },
     {
         scopes: [
-            "punctuation.separator.namespace.ruby",
+            // "punctuation.separator.namespace.ruby",
             "punctuation.separator.object.ruby",
             "punctuation.separator.arguments.ruby",
             "punctuation.section.function.ruby",

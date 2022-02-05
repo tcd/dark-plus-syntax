@@ -16,4 +16,5 @@ export const DarkPlusPalette: SemanticColorPalette = {
     Comments:    "#505050",
     DocComments: "#608b4e",
     Tags:        "#808080",
+    Noise:       "#404040",
 }

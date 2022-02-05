@@ -1,5 +1,8 @@
 import { TextMateRuleData, SemanticColor } from "@lib"
 
+/**
+ * - [vuejs/vetur](https://github.com/vuejs/vetur)
+ */
 export const javaScript: TextMateRuleData[] = [
     // =========================================================================
     // JavaScript

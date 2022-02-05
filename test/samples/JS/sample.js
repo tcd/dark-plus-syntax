@@ -8,7 +8,8 @@
 function coroutine(g) {
     let it = g();
     return function () {
-        return it.next().apply(it, arguments);
+        // FIXME: `punctuation.accessor.optional.js`
+        return it?.next().apply(it, arguments);
     };
 }
 

@@ -5,7 +5,7 @@ const json5 = require('gulp-json5-to-json');
 let codeFolder = () => {
   if (process.platform === 'darwin') {
   } else if (process.platform === 'linux') {
-  } else if (process.platform === 'win32') {
+  } else if (process?.platform === 'win32') {
     return "FIXME: code settings folder on windows?"
   }
   switch (process.platform) {

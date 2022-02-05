@@ -1,5 +1,5 @@
 /**
- * [cstrachan88/vscode-vcard](https://github.com/cstrachan88/vscode-vcard)
+ * - [cstrachan88/vscode-vcard](https://github.com/cstrachan88/vscode-vcard)
  */
 import { TextMateRuleData, SemanticColor } from "@lib"
 
