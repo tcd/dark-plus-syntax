@@ -154,6 +154,7 @@ export const javaScript: TextMateRuleData[] = [
         scopes: [
             "keyword.operator.js",
             "punctuation.accessor.js",
+            "punctuation.accessor.optional.js",
             "punctuation.accessor.ts",
             "keyword.operator.typeof.js",
             "keyword.operator.logical.js",
