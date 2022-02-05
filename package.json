@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "name": "dark-plus-syntax",
     "displayName": "dark-plus-syntax",
@@ -44,7 +44,6 @@
     "devDependencies": {
         "@types/eslint": "^8.4.1",
         "@types/node": "^17.0.10",
-        "@types/vscode": "^1.63.1",
         "@typescript-eslint/eslint-plugin": "^5.10.0",
         "@typescript-eslint/parser": "^5.10.0",
         "cross-env": "^7.0.3",
