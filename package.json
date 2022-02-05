@@ -11,7 +11,7 @@
         "url": "https://github.com/dunstontc/dark-plus-syntax.git"
     },
     "engines": {
-        "vscode": "^1.15.0"
+        "vscode": "^1.63"
     },
     "categories": [
         "Themes"
