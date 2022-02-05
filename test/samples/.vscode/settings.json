@@ -1,0 +1,38 @@
+{
+    "editor.semanticHighlighting.enabled": true,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.linting.enabled": false,
+    "solargraph.diagnostics": false,
+    "ruby.lint": {
+        "rubocop": false,
+        "fasterer": false,
+    },
+    "java.configuration.maven.notCoveredPluginExecutionSeverity": "ignore",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "files.associations": {
+        ".{aliases,path,viminfo}": "shellscript",
+        "*.blade": "blade",
+        ".{babelrc,eslintrc,postcssrc,stylelintrc}": "jsonc",
+        "cargo.lock": "toml",
+        "Dockerfile.*": "dockerfile",
+        "Cargo.lock": "toml",
+        ".env": "properties",
+        "*.el": "lisp",
+        "*.ipynb": "json",
+        "Gemfile.lock": "gemfile",
+        "mix.lock": "elixir",
+        "*.mak": "makefile",
+        "Gopkg.lock": "toml",
+        "*.{jsonc,json5,JSON-tmLanguage}": "jsonc",
+        "*.{jinja,jinja2}": "html",
+        ".{nvimrc,ideavimrc}": "viml",
+        "*.plist": "xml",
+        "*.ractive": "javascript",
+        "shard.lock": "yaml",
+        "*.psql": "sql",
+        "*.tmpl": "gohtml",
+        ".{dockerignore,eslintignore,npmignore,vscodeignore}": "gitignore",
+        "algorithm": "c",
+        "chrono": "c"
+    }
+}

@@ -2,8 +2,26 @@
 .vscode-test/**
 .gitignore
 
-index.js
 **/tags
 src/**
 samples/**
 node_modules/**
+
+.vscode
+ignore
+node_modules
+src
+test
+.editorconfig
+.env
+.eslintrc.js
+.gitignore
+# .travis.yml
+# .vscodeignore
+package-lock.json
+!package.json
+tsconfig.json
+!CHANGELOG.md
+!LICENSE.md
+!README.md
+todo.txt
