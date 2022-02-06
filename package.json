@@ -4,11 +4,11 @@
     "name": "dark-plus-syntax",
     "displayName": "dark-plus-syntax",
     "description": "VS Code's default dark theme, but just a little bit better.",
-    "publisher": "dunstontc",
+    "publisher": "tcd",
     "icon": "dist/assets/128.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dunstontc/dark-plus-syntax.git"
+        "url": "https://github.com/tcd/dark-plus-syntax.git"
     },
     "engines": {
         "vscode": "^1.63.0"

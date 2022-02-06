@@ -1,8 +1,8 @@
 # {minor tweaks}
 
 [![Build Status](https://travis-ci.org/dunstontc/dark-plus-syntax.svg?branch=master)](https://travis-ci.org/dunstontc/dark-plus-syntax)
-[![GitHub issues](https://img.shields.io/github/issues/dunstontc/dark-plus-syntax.svg)](https://github.com/dunstontc/dark-plus-syntax/issues)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/dunstontc/dark-plus-syntax.svg)](https://github.com/tcd/dark-plus-syntax/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tcd/dark-plus-syntax/blob/master/LICENSE)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue)](https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax)
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue)](https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax)
 
@@ -62,7 +62,7 @@
     - YAML
 
 > If you like this theme but it doesn't support a certain language or plugin that you use, <br/>
-> feel free to [open an issue](https://github.com/dunstontc/dark-plus-syntax/issues/new) and I'll look into it.
+> feel free to [open an issue](https://github.com/tcd/dark-plus-syntax/issues/new) and I'll look into it.
 
 
 ## Contributing
@@ -88,7 +88,7 @@ Those files are imported, merged, and written out to `themes/dark-plus-syntax-co
 - [VSCode Theme Colors](https://code.visualstudio.com/api/references/theme-color)
 
 
-## [License](https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE)
+## [License](https://github.com/tcd/dark-plus-syntax/blob/master/LICENSE)
 
 
 ## Italic Comments
@@ -123,7 +123,7 @@ Licensed under the [MIT][badge-link-license] license
 [badge-image-version]:  https://vsmarketplacebadge.apphb.com/version-short/dunstontc.dark-plus-syntax.svg?style=flat&color=blue
 
 [badge-link-ci]:       https://travis-ci.org/dunstontc/dark-plus-syntax
-[badge-link-issues]:   https://github.com/dunstontc/dark-plus-syntax/issues
-[badge-link-license]:  https://github.com/dunstontc/dark-plus-syntax/blob/master/LICENSE.md
+[badge-link-issues]:   https://github.com/tcd/dark-plus-syntax/issues
+[badge-link-license]:  https://github.com/tcd/dark-plus-syntax/blob/master/LICENSE.md
 [badge-link-installs]: https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax
 [badge-link-version]:  https://marketplace.visualstudio.com/items?itemName=dunstontc.dark-plus-syntax
