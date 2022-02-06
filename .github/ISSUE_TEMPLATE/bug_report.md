@@ -4,7 +4,6 @@ about: Create a report to help us improve
 title: "[BUG] describe the bug"
 labels: 'bug'
 assignees: tcd
-
 ---
 
 # Bug
