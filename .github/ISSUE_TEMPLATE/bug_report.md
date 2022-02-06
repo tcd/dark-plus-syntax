@@ -9,29 +9,27 @@ assignees: tcd
 
 # Bug
 
+> Please replace everything in {curly brackets}
+
 
 ## Describe the bug
 
-> A clear and concise description of what the bug is.
+{ A clear and concise description of what the bug is }
 
 
 ## To Reproduce
 
-> Provide a text/code snippet where the buggy behavior is present.
->
-> I can't recreate or fix the issue without this.
+{ A text/code snippet where the buggy behavior is present }
 
 
 ## Screenshots
 
-> If applicable, add screenshots to help explain your problem.
+{ one or more screenshots to help explain your problem }
 
 
 ## Relevant Information
 
 ### VSCode
-
->  please complete the following information
 
 - Track: { standard or insiders (if you don't know, it's standard) }
 - Version: { vscode version }
