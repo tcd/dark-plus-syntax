@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1 *(February 7th, 2022)*
+
+### Fixed
+
+- Fix incorrect path to theme file in package.json
+
+
 ## 0.2.0 *(February 7th, 2022)*
 
 > Accidentally published `0.1.4` as stable instead of pre-release.

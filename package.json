@@ -1,5 +1,5 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "license": "MIT",
     "name": "dark-plus-syntax",
     "engines": {
@@ -56,7 +56,7 @@
             {
                 "label": "dark-plus-syntax",
                 "uiTheme": "vs-dark",
-                "path": "./dist/themes/dark-plus-syntax-color-theme.json"
+                "path": "./dist/theme/dark-plus-syntax-color-theme.json"
             }
         ]
     },
