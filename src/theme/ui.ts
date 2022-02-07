@@ -1,4 +1,4 @@
-import { TextMateRuleData, SemanticColor, VisualStudioCodeThemeColors } from "@types"
+import { VisualStudioCodeThemeColors } from "@types"
 
 export const ui: VisualStudioCodeThemeColors = {
     // "statusBar.background": "#303030",

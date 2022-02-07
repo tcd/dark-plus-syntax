@@ -1,8 +1,12 @@
 import { ThemeColorPalette } from "@types"
 
+const darkRed    = "#f44747"
+const darkYellow = "#d7ba7d"
+const green      = "#608b4e"
+const lightBlue  = "#9cdcfe"
+
 export const DarkPlusPalette: ThemeColorPalette = {
-    Foreground:  "#d4d4d4",
-    Background:  "#1e1e1e",
+    // Semantic
     Errors:      "#f44747",
     RegExp:      "#d16969",
     Strings:     "#ce9178",
@@ -17,4 +21,14 @@ export const DarkPlusPalette: ThemeColorPalette = {
     DocComments: "#608b4e",
     Tags:        "#808080",
     Noise:       "#404040",
+    // UI
+    Foreground:  "#d4d4d4",
+    Background:  "#1e1e1e",
+    Selection:   "#add6ff26",
+    Primary:     green,
+    Secondary:   "#007acc",
+    Error:       darkRed,
+    Warning:     darkYellow,
+    Info:        lightBlue,
+    Success:     green,
 }

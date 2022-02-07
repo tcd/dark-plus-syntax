@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.2 *(February 7th, 2022)*
+
+### Changed
+
+- Reorganize TypeScript types
+
+
 ## 0.2.1 *(February 7th, 2022)*
 
 ### Fixed

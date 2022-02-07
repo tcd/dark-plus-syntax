@@ -6,7 +6,7 @@ export interface TextMateRuleData {
     /**
      * Foreground color
      */
-    foreground?: SemanticColor | string | undefined
+    foreground?: SemanticColor
     /**
      * Any combination of the following values:
      *
