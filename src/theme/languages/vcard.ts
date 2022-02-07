@@ -20,7 +20,7 @@ export const vcard: TextMateRuleData[] = [
         scopes: [
             "source.vcard support.function.vcard entity.name.type.attribute.vcard",
         ],
-        foreground: SemanticColor.Strings
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: [

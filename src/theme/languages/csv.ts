@@ -41,7 +41,7 @@ export const csv: TextMateRuleData[] = [
     },
     {
         scopes:    ["keyword.rainbow2"],
-        foreground: SemanticColor.Strings
+        foreground: SemanticColor.Strings,
     },
     {
         scopes:    ["rainbow1"],

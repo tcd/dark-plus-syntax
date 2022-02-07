@@ -35,7 +35,7 @@ export const go: TextMateRuleData[] = [
         scopes: [
             "string.quoted.double.gotemplate",
         ],
-        foreground: SemanticColor.Strings
+        foreground: SemanticColor.Strings,
     },
     // {
     //     scopes: [

@@ -143,7 +143,7 @@ export const css: TextMateRuleData[] = [
             "constant.other.rgb-value",
             "support.constant.color",
         ],
-        foreground: SemanticColor.Strings
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: [

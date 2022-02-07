@@ -13,7 +13,7 @@ export const styledComponents: TextMateRuleData[] = [
             "constant.hex.css",
             "meta.identifier.css",
         ],
-        foreground: SemanticColor.Strings
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: [

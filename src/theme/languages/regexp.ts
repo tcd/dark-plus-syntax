@@ -25,7 +25,7 @@ export const regexp: TextMateRuleData[] = [
         scopes: [
             "string.regexp constant.character.escape.backslash.regexp",
         ],
-        foreground: SemanticColor.Strings
+        foreground: SemanticColor.Strings,
     },
     {
         scopes: [
