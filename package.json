@@ -2,38 +2,8 @@
     "version": "0.1.4",
     "license": "MIT",
     "name": "dark-plus-syntax",
-    "displayName": "dark-plus-syntax",
-    "description": "VS Code's default dark theme, but just a little bit better.",
-    "publisher": "tcd",
-    "icon": "dist/assets/128.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tcd/dark-plus-syntax.git"
-    },
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "dark-plus-syntax",
-                "uiTheme": "vs-dark",
-                "path": "./dist/themes/dark-plus-syntax-color-theme.json"
-            }
-        ]
-    },
-    "galleryBanner": {
-        "color": "#569cd6",
-        "theme": "dark"
-    },
-    "__metadata": {
-        "id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b7f",
-        "publisherDisplayName": "dunstontc",
-        "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
-    },
+    "repository": { "type": "git", "url": "https://github.com/tcd/dark-plus-syntax.git" },
+    "engines": { "vscode": "^1.63.0" },
     "scripts": {
         "start": "npm run build",
         "build": "ts-node ./src/main.ts",
@@ -41,9 +11,10 @@
         "lint": "eslint ./src/**/*.ts --fix",
         "format": "npm run lint",
         "publish": "vsce publish",
-        "test": "mocha --require ts-node/register --require tsconfig-paths/register test/**/*.test.ts"
+        "test": "nyc --require ts-node/register --require tsconfig-paths/register mocha test/**/*.test.ts"
     },
     "devDependencies": {
+        "@istanbuljs/nyc-config-typescript": "^1.0.2",
         "@types/chai": "^4.3.0",
         "@types/eslint": "^8.4.1",
         "@types/mocha": "^9.1.0",
@@ -56,9 +27,34 @@
         "eslint-plugin-jsdoc": "^37.6.3",
         "mocha": "^9.2.0",
         "nodemon": "^2.0.15",
-        "ts-node": "^10.4.0",
+        "nyc": "^15.1.0",
+        "source-map-support": "^0.5.21",
+        "ts-node": "^10.5.0",
         "tsconfig-paths": "^3.12.0",
         "tslib": "^2.3.1",
         "typescript": "^4.5.5"
+    },
+    "publisher": "dunstontc",
+    "displayName": "dark-plus-syntax",
+    "description": "VS Code's default dark theme, but just a little bit better.",
+    "categories": [ "Themes" ],
+    "icon": "dist/assets/128.png",
+    "galleryBanner": {
+        "color": "#569cd6",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "dark-plus-syntax",
+                "uiTheme": "vs-dark",
+                "path": "./dist/themes/dark-plus-syntax-color-theme.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b7f",
+        "publisherDisplayName": "dunstontc",
+        "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
     }
 }
