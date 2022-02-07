@@ -7,9 +7,11 @@ import { DarkPlusPalette } from "./palettes"
 const tokenColors = buildRules(DarkPlusPalette, [...defaults, ...Languages])
 
 const theme: VsCodeTextMate.VsCodeTheme = {
-    name:   "dark-plus-syntax",
-    type:   "dark",
-    colors: ui,
+    $schema:              "vscode://schemas/color-theme",
+    name:                 "dark-plus-syntax",
+    type:                 "dark",
+    semanticHighlighting: false,
+    colors:               ui,
     tokenColors,
 }
 
