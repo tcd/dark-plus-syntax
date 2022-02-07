@@ -18,7 +18,7 @@
  *   - [colorThemeData.ts](https://github.com/microsoft/vscode/blob/5c2b7b83dfc116c660acea9728129e199ae9f2fd/src/vs/workbench/services/themes/common/colorThemeData.ts)
  *   - [TMHelper.ts](https://github.com/microsoft/vscode/blob/5c2b7b83dfc116c660acea9728129e199ae9f2fd/src/vs/workbench/services/textMate/common/TMHelper.ts)
  */
-declare namespace VsCodeTextMate{
+declare namespace VsCodeTextMate {
 
     /**
      * [vscode - TokenClassificationRegistry](https://github.com/microsoft/vscode/blob/main/src/vs/platform/theme/common/tokenClassificationRegistry.ts#L308-L322)

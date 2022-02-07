@@ -1,16 +1,14 @@
-import { writeJsonFile } from "@lib"
+import { writeJsonFile, buildRules } from "@lib"
 import { Languages } from "./theme/languages"
 import { defaults } from "./theme/defaults"
 import { ui } from "./theme/ui"
-
-import { DarkPlusPalette } from "@src/palettes"
-import { buildRules } from "@lib"
+import { DarkPlusPalette } from "./palettes"
 
 const tokenColors = buildRules(DarkPlusPalette, [...defaults, ...Languages])
 
 const theme: VsCodeTextMate.VsCodeTheme = {
-    name: "dark-plus-syntax",
-    type: "dark",
+    name:   "dark-plus-syntax",
+    type:   "dark",
     colors: ui,
     tokenColors,
 }

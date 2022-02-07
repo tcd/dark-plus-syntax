@@ -23,5 +23,6 @@ export const buildRules = (palette: SemanticColorPalette, rules: TextMateRuleDat
 
         return textMateRule
     })
+
     return result
 }

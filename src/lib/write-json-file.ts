@@ -1,8 +1,13 @@
 import * as fs from "fs"
 
-export const writeJsonFile = (filePath, data) => {
+export const writeJsonFile = (filePath: string, data: any, compact: boolean = false) => {
     try {
-        let outData = JSON.stringify(data, null, 4)
+        let outData
+        if (compact) {
+            outData = JSON.stringify(data)
+        } else {
+            outData = JSON.stringify(data, null, 4)
+        }
         fs.writeFileSync(filePath, outData)
         console.log(`file written: ${filePath}`)
     } catch (error) {

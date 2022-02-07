@@ -18,9 +18,10 @@
         ]
     },
     "exclude": [
-        "../node_modules"
+        "../node_modules",
+        "./samples"
     ],
     "include": [
-        "./**/*.ts"
-    ]
+        "./tests/*.test.ts"
+    ],
 }
