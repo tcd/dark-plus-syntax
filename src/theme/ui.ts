@@ -13,11 +13,11 @@ export const ui = {
     "editor.foreground": "#d4d4d4",
 
     "editor.selectionHighlightBackground": "#add6ff26",
-    "editor.inactiveSelectionBackground": "#3a3d41",
-    "editorIndentGuide.activeBackground": "#707070",
-    "editorIndentGuide.background": "#404040",
-    "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb",
+    "editor.inactiveSelectionBackground":  "#3a3d41",
+    "editorIndentGuide.activeBackground":  "#707070",
+    "editorIndentGuide.background":        "#404040",
+    "activityBarBadge.background":         "#007acc",
+    "sideBarTitle.foreground":             "#bbbbbb",
 
     // "diffEditor.insertedTextBorder": "#608b4e",
     // "diffEditor.removedTextBorder": "#d16969",
@@ -45,12 +45,12 @@ export const ui = {
     // Change Indicators
     // =========================================================================
 
-    "editorGutter.addedBackground": "#608b4e",
-    "editorOverviewRuler.addedForeground": "#608b4e", // Overview ruler marker color for added content.
-    "editorGutter.modifiedBackground": "#d7ba7d",
+    "editorGutter.addedBackground":           "#608b4e",
+    "editorOverviewRuler.addedForeground":    "#608b4e", // Overview ruler marker color for added content.
+    "editorGutter.modifiedBackground":        "#d7ba7d",
     "editorOverviewRuler.modifiedForeground": "#d7ba7d", // Overview ruler marker color for modified content.
-    "editorGutter.deletedBackground": "#d16969",
-    "editorOverviewRuler.deletedForeground": "#d16969", // Overview ruler marker color for deleted content.
+    "editorGutter.deletedBackground":         "#d16969",
+    "editorOverviewRuler.deletedForeground":  "#d16969", // Overview ruler marker color for deleted content.
 
 
     // ========================================================================
@@ -58,17 +58,17 @@ export const ui = {
     // ========================================================================
 
     // Error
-    "editorError.foreground": "#d16969", // Error squiggles
+    "editorError.foreground":              "#d16969", // Error squiggles
     // "editorError.border": "#d16969",
     "editorOverviewRuler.errorForeground": "#d16969", // Overview ruler marker color for errors.
 
     // Warning
-    "editorWarning.foreground": "#d7ba7d", // Warning squiggles
+    "editorWarning.foreground":              "#d7ba7d", // Warning squiggles
     // "editorWarning.border": "#d7ba7d",
     "editorOverviewRuler.warningForeground": "#d7ba7d", // Overview ruler marker color for warnings.
 
     // Info
-    "editorInfo.foreground": "#9cdcfe",  // Info squiggles
+    "editorInfo.foreground":              "#9cdcfe",  // Info squiggles
     // "editorInfo.border": "#9cdcfe",
     "editorOverviewRuler.infoForeground": "#d4d4d4", // Overview ruler marker color for infos.
 
@@ -76,11 +76,11 @@ export const ui = {
     // Git Colors
     // ========================================================================
 
-    "gitDecoration.modifiedResourceForeground": "#608b4e",
-    "gitDecoration.addedResourceForeground": "#608b4e",
-    "gitDecoration.deletedResourceForeground": "#d7ba7d",
-    "gitDecoration.untrackedResourceForeground": "#d7ba7d",
-    "gitDecoration.ignoredResourceForeground": "#808080",
+    "gitDecoration.modifiedResourceForeground":    "#608b4e",
+    "gitDecoration.addedResourceForeground":       "#608b4e",
+    "gitDecoration.deletedResourceForeground":     "#d7ba7d",
+    "gitDecoration.untrackedResourceForeground":   "#d7ba7d",
+    "gitDecoration.ignoredResourceForeground":     "#808080",
     "gitDecoration.conflictingResourceForeground": "#d16969",
     // "gitDecoration.submoduleResourceForeground": "",
 
@@ -106,7 +106,7 @@ export const ui = {
     // ========================================================================
 
     "terminal.selectionBackground": "#add6ff26",
-    "terminalCursor.foreground": "#808080",
+    "terminalCursor.foreground":    "#808080",
 
     "terminal.background": "#1e1e1e",
     "terminal.foreground": "#d4d4d4",

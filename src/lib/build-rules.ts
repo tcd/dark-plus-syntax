@@ -5,7 +5,7 @@ export const buildRules = (palette: SemanticColorPalette, rules: TextMateRuleDat
     let result: VsCodeTextMate.TextMateRules = rules.map((rule) => {
 
         let textMateRule: VsCodeTextMate.TextMateRule = {
-            scope: rule.scopes,
+            scope:    rule.scopes,
             settings: {},
         }
 

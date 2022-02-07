@@ -11,7 +11,7 @@ export const defaults: TextMateRuleData[] = [
         foreground: SemanticColor.Comments,
     },
     {
-        "name":  "Special Comments",
+        "name": "Special Comments",
         scopes: [
             "comment.block.js",
             "comment.line.shebang.js",
@@ -25,7 +25,7 @@ export const defaults: TextMateRuleData[] = [
         foreground: SemanticColor.DocComments,
     },
     {
-        "name":  "Curly Braces, Semicolons, etc.",
+        "name": "Curly Braces, Semicolons, etc.",
         scopes: [
             "meta.tag.sgml.html",
             "meta.tag.sgml.doctype.html",
@@ -57,7 +57,9 @@ export const defaults: TextMateRuleData[] = [
         foreground: SemanticColor.Numbers,
     },
     {
-        scopes:    ["invalid"],
+        scopes: [
+            "invalid",
+        ],
         foreground: SemanticColor.Errors,
     },
     {
@@ -70,7 +72,7 @@ export const defaults: TextMateRuleData[] = [
         foreground: SemanticColor.Chars,
     },
     {
-        scopes:    ["meta.diff.header"],
+        scopes:     ["meta.diff.header"],
         foreground: SemanticColor.Keywords,
     },
     {
@@ -108,7 +110,7 @@ export const defaults: TextMateRuleData[] = [
         foreground: SemanticColor.Functions,
     },
     {
-        "name":  "Type declaration and references",
+        "name": "Type declaration and references",
         scopes: [
             "meta.return-type",
             "support.class",
@@ -119,7 +121,7 @@ export const defaults: TextMateRuleData[] = [
         foreground: SemanticColor.Types,
     },
     {
-        "name":  "Types declaration and references, TS grammar specific",
+        "name": "Types declaration and references, TS grammar specific",
         scopes: [
             "meta.type.cast.expr",
             "meta.type.new.expr",
@@ -155,19 +157,27 @@ export const defaults: TextMateRuleData[] = [
         fontStyle:  "italic",
     },
     {
-        scopes:    ["token.info-token"],
+        scopes: [
+            "token.info-token",
+        ],
         foreground: SemanticColor.Keywords,
     },
     {
-        scopes:    ["token.warn-token"],
+        scopes: [
+            "token.warn-token",
+        ],
         foreground: SemanticColor.Chars,
     },
     {
-        scopes:    ["token.error-token"],
+        scopes: [
+            "token.error-token",
+        ],
         foreground: SemanticColor.Errors,
     },
     {
-        scopes:    ["token.debug-token"],
+        scopes: [
+            "token.debug-token",
+        ],
         foreground: SemanticColor.FlowControl,
     },
 ]
