@@ -12,3 +12,4 @@ x 2018-03-17 Language support for todo.txt. No wonder this editor still has prob
 2022-02-07 Minify dist code.
 2022-02-07 Add Feature Request / Enhancement issue template.
 2022-02-07 Update .gitignore filetype associations. Add '.vscodeignore'.
+2022-02-07 Find replacement for travis-ci (no free tier anymore)

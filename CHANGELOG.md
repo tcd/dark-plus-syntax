@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.0 *(February 7th, 2022)*
+
+> Accidentally published `0.1.4` as stable instead of pre-release.
+>
+> Publishing this proper stable release for the people who update.
+
+### Changed
+
+- Update readme
+- Move "Contributing" docs to their own file.
+
+
 ## 0.1.4 (pre-release) *(February 7th, 2022)*
 - Migrate repository from [dunstontc/dark-plus-syntax](https://github.com/dunstontc/dark-plus-syntax.git) to [tcd/dark-plus-syntax](https://github.com/tcd/dark-plus-syntax.git).
 - Add GitHub issue templates.
