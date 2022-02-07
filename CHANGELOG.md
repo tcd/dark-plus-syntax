@@ -1,16 +1,21 @@
 # Changelog
 
+## 0.1.3 (pre-release) *(February 7th, 2022)*
+- Review all post-refactor (post v0.1.0) color settings; fixed/updated/changed accordingly.
+- Update readme.
+
+
 ## 0.1.0 (pre-release) *(February 5th, 2022)*
 ### Changed
 - Major structural changes:
-  - Converted the source code to TypeScript
-  - Entirely rewrote build process
-  - Moved language samples to test folder
+  - Convert the source code to Ty.peScript
+  - Entirely rewrote build process.
+  - Move language samples to test folder.
 - Colors
-  - Update yaml key colors to match JSON
+  - Update yaml key colors to match JSON.
   - Due to code refactoring, fewer colors are used. Many colors may be changed.
 - Misc.
-  - Reformatted the CHANGELOG
+  - Reformat the CHANGELOG.
 
 
 ## 0.0.171 *(January 22nd, 2022)*
