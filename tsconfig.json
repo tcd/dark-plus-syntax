@@ -22,7 +22,8 @@
         ],
         "baseUrl": ".",
         "paths": {
-            "@src/*": ["./src/*"],
+            "@root/*": ["./src/*"],
+            "@src": ["./src/index.ts"],
             "@colors": ["./src/colors/index.ts"],
             "@lib": ["./src/lib/index.ts"],
         },
