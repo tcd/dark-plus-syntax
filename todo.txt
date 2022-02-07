@@ -9,3 +9,6 @@ x 2018-03-17 Language support for todo.txt. No wonder this editor still has prob
 2018-05-02 Add +Go support for user-defined structs.
 2018-05-02 Add +Python support for "(Any|Callable|Dict|Intersection|List|Optional|Sequence|Tuple|TypeVar|Union)"
 2019-11-18 Add options. (highlight doc comments, italicize, etc.)
+2022-02-07 Minify dist code.
+2022-02-07 Add Feature Request / Enhancement issue template.
+2022-02-07 Update .gitignore filetype associations. Add '.vscodeignore'.

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4 (pre-release) *(February 7th, 2022)*
+- Migrate repository from [dunstontc/dark-plus-syntax](https://github.com/dunstontc/dark-plus-syntax.git) to [tcd/dark-plus-syntax](https://github.com/tcd/dark-plus-syntax.git).
+- Add GitHub issue templates.
+- [WIP] Add tests.
+
 ## 0.1.3 (pre-release) *(February 7th, 2022)*
 - Review all post-refactor (post v0.1.0) color settings; fixed/updated/changed accordingly.
 - Update readme.
