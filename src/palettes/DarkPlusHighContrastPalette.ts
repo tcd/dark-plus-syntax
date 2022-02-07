@@ -1,6 +1,6 @@
-import { SemanticColorPalette } from "@lib"
+import { ThemeColorPalette } from "@types"
 
-export const DarkPlusHighContrastPalette: SemanticColorPalette = {
+export const DarkPlusHighContrastPalette: ThemeColorPalette = {
     Foreground:  "#ffffff",
     Background:  "#000000",
     Errors:      "#f44747",

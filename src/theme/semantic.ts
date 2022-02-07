@@ -1,4 +1,4 @@
-import { SemanticColor } from "@lib"
+import { SemanticColor } from "@types"
 
 export const semanticTokenColors = {
     "newOperator":   SemanticColor.FlowControl,

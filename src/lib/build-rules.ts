@@ -1,10 +1,10 @@
-import { SemanticColor, SemanticColorPalette, TextMateRuleData } from "@lib"
+import { ThemeColorPalette, TextMateRuleData, TextMateRule } from "@types"
 
-export const buildRules = (palette: SemanticColorPalette, rules: TextMateRuleData[]): VsCodeTextMate.TextMateRules => {
+export const buildRules = (palette: ThemeColorPalette, rules: TextMateRuleData[]): TextMateRule[] => {
 
-    let result: VsCodeTextMate.TextMateRules = rules.map((rule) => {
+    let result: TextMateRule[] = rules.map((rule) => {
 
-        let textMateRule: VsCodeTextMate.TextMateRule = {
+        let textMateRule: TextMateRule = {
             scope:    rule.scopes,
             settings: {},
         }

@@ -87,7 +87,8 @@ export enum SemanticColor {
      * ## Used to color the following:
      *
      * - Reserved Language Keywords (`true`, `false`, `null`, `nil`)
-     * - Storage/Declaration Keywords (`var`, `let`, `const`)
+     * - Storage/Declaration Keywords (`var`, `let`, `const`, `class`, `interface`)
+     * - Storage Modifier Keywords (`public`, `private`, `static`)
      * - Boolean values (`[Tt]rue`, `[Ff]alse`)
      *
      * ## Aliases:
@@ -129,27 +130,4 @@ export enum SemanticColor {
      * For values that don't need to stand out (comments, semicolons, etc)
      */
     Noise = "Noise",
-}
-
-/**
- * All the colors we need to make a theme*. (Save for the UI...)
- */
-export type SemanticColorPalette = Record<SemanticColor, string>
-
-export interface TextMateRuleData {
-    name?: string
-    scopes: VsCodeTextMate.TokenScopes
-    /**
-     * Foreground color
-     */
-    foreground?: SemanticColor | string | undefined
-    /**
-     * Any combination of the following values:
-     *
-     * - "italic"
-     * - "bold"
-     * - "underline"
-     * - "strikethrough"
-     */
-    fontStyle?: VsCodeTextMate.FontStyleString | undefined
 }

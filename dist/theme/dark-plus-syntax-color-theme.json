@@ -1,6 +1,8 @@
 {
+    "$schema": "vscode://schemas/color-theme",
     "name": "dark-plus-syntax",
     "type": "dark",
+    "semanticHighlighting": false,
     "colors": {
         "list.dropBackground": "#383b3d",
         "editorLineNumber.activeForeground": "#608b4e",
@@ -12,6 +14,7 @@
         "editorIndentGuide.background": "#404040",
         "activityBarBadge.background": "#007acc",
         "sideBarTitle.foreground": "#bbbbbb",
+        "minimap.selectionOccurrenceHighlight": "#007acc",
         "editorGutter.addedBackground": "#608b4e",
         "editorOverviewRuler.addedForeground": "#608b4e",
         "editorGutter.modifiedBackground": "#d7ba7d",

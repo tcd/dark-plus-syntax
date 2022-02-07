@@ -1,4 +1,4 @@
-import { TextMateRuleData, SemanticColor } from "@lib"
+import { TextMateRuleData, SemanticColor } from "@types"
 
 export const regexp: TextMateRuleData[] = [
     // {

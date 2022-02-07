@@ -1,7 +1,7 @@
 /**
  * - [cstrachan88/vscode-vcard](https://github.com/cstrachan88/vscode-vcard)
  */
-import { TextMateRuleData, SemanticColor } from "@lib"
+import { TextMateRuleData, SemanticColor } from "@types"
 
 export const vcard: TextMateRuleData[] = [
     {

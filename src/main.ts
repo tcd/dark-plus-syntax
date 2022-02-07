@@ -1,3 +1,4 @@
+import { VisualStudioCodeTheme } from "@types"
 import { writeJsonFile, buildRules } from "@lib"
 import { Languages } from "./theme/languages"
 import { defaults } from "./theme/defaults"
@@ -6,7 +7,7 @@ import { DarkPlusPalette } from "./palettes"
 
 const tokenColors = buildRules(DarkPlusPalette, [...defaults, ...Languages])
 
-const theme: VsCodeTextMate.VsCodeTheme = {
+const theme: VisualStudioCodeTheme = {
     $schema:              "vscode://schemas/color-theme",
     name:                 "dark-plus-syntax",
     type:                 "dark",

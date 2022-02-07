@@ -1,8 +1,12 @@
 import { assert } from "chai"
 
 import {
-    TextMateRuleData,
     SemanticColor,
+    TextMateRule,
+    TextMateRuleData,
+} from "@types"
+
+import {
     buildRules,
     DarkPlusPalette,
 } from "@src"
@@ -20,7 +24,7 @@ const viml: TextMateRuleData[] = [
 describe("buildRules", function() {
     it("basic functionality", function() {
         const have = buildRules(DarkPlusPalette, viml)
-        const want: VsCodeTextMate.TextMateRules = [
+        const want: TextMateRule[] = [
             {
                 "scope": [
                     "constant.character.map.viml",

@@ -1,6 +1,6 @@
-import { TextMateRuleData, SemanticColor } from "@lib"
+import { TextMateRuleData, SemanticColor, VisualStudioCodeThemeColors } from "@types"
 
-export const ui = {
+export const ui: VisualStudioCodeThemeColors = {
     // "statusBar.background": "#303030",
     // "statusBar.noFolderBackground": "#303030",
     // "statusBar.debuggingBackground": "#303030",
@@ -42,6 +42,12 @@ export const ui = {
     // "editorOverviewRuler.wordHighlightStrongForeground": "", // Overview ruler marker color for write-access symbol highlights. The color must not be opaque to not hide underlying decorations.
 
     // =========================================================================
+    // Minimap
+    // =========================================================================
+
+    "minimap.selectionOccurrenceHighlight": "#007acc",
+
+    // =========================================================================
     // Change Indicators
     // =========================================================================
 
@@ -51,7 +57,6 @@ export const ui = {
     "editorOverviewRuler.modifiedForeground": "#d7ba7d", // Overview ruler marker color for modified content.
     "editorGutter.deletedBackground":         "#d16969",
     "editorOverviewRuler.deletedForeground":  "#d16969", // Overview ruler marker color for deleted content.
-
 
     // ========================================================================
     // Error, Warning, & Info

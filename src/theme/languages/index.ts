@@ -37,7 +37,7 @@ import { vcard } from "./vcard"
 import { viml } from "./viml"
 import { yaml } from "./yaml"
 
-import { TextMateRuleData } from "@lib"
+import { TextMateRuleData } from "@types"
 
 export const Languages: TextMateRuleData[] = [
     ...Html,
