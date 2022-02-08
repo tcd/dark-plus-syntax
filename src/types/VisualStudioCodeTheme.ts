@@ -1,4 +1,9 @@
-import { ColorMap, TextMateRule, VisualStudioCodeThemeColors } from "@types"
+import {
+    ThemeType,
+    ColorMap,
+    TextMateRule,
+    VisualStudioCodeThemeColors,
+} from "@types"
 
 /**
  * VSCode's syntax highlighting (along with Sublime's) were initially modeled after [TextMate](https://macromates.com/)'s syntax highlighting.
@@ -24,10 +29,8 @@ import { ColorMap, TextMateRule, VisualStudioCodeThemeColors } from "@types"
 export interface VisualStudioCodeTheme {
     $schema: string
     name: string
-    /**
-     * https://github.com/microsoft/vscode/blob/5c2b7b83dfc116c660acea9728129e199ae9f2fd/src/vs/workbench/services/themes/common/colorThemeData.ts#L770
-     */
-    type: "light" | "dark" | "hc"
+    /** Dark, Light, or High Contrast */
+    type: ThemeType
     /**
      * Whether semantic highlighting should be enabled for this theme
      */

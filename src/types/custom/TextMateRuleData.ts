@@ -1,4 +1,4 @@
-import { FontStyleString, SemanticColor, TokenScopes } from "@types"
+import { FontStyleString, ThemeColor, TokenScopes } from "@types"
 
 export interface TextMateRuleData {
     name?: string
@@ -6,7 +6,7 @@ export interface TextMateRuleData {
     /**
      * Foreground color
      */
-    foreground?: SemanticColor
+    foreground?: ThemeColor
     /**
      * Any combination of the following values:
      *

@@ -1,0 +1,119 @@
+import { VisualStudioCodeThemeColors, ThemeColor } from "@types"
+
+export const ui: VisualStudioCodeThemeColors = {
+    // "statusBar.background": "#303030",
+    // "statusBar.noFolderBackground": "#303030",
+    // "statusBar.debuggingBackground": "#303030",
+
+    "list.dropBackground": "#383b3d",
+
+    "editorLineNumber.activeForeground": ThemeColor.Primary,
+
+    "editor.background": ThemeColor.Background,
+    "editor.foreground": ThemeColor.Foreground,
+
+    "editor.selectionHighlightBackground": ThemeColor.Selection,
+    "editor.inactiveSelectionBackground":  "#3a3d41",
+    "editorIndentGuide.activeBackground":  "#707070",
+    "editorIndentGuide.background":        "#404040",
+    "activityBarBadge.background":         ThemeColor.Secondary,
+    "sideBarTitle.foreground":             "#bbbbbb",
+
+    // "diffEditor.insertedTextBorder": ThemeColor.Success,,
+    // "diffEditor.removedTextBorder": ThemeColor.Error,
+
+    // "editor.findMatchBackground": "#cc00b1",
+    // "editor.findMatchHighlightBackground": ThemeColor.Secondary,
+
+    // =========================================================================
+    // Minimap
+    // =========================================================================
+
+    "minimap.selectionOccurrenceHighlight": ThemeColor.Secondary,
+
+    // =========================================================================
+    // Change Indicators
+    // =========================================================================
+
+    "editorGutter.addedBackground":           ThemeColor.Success,
+    "editorOverviewRuler.addedForeground":    ThemeColor.Success,
+    "editorGutter.modifiedBackground":        ThemeColor.Warning,
+    "editorOverviewRuler.modifiedForeground": ThemeColor.Warning,
+    "editorGutter.deletedBackground":         ThemeColor.Error,
+    "editorOverviewRuler.deletedForeground":  ThemeColor.Error,
+
+    // ========================================================================
+    // Error, Warning, & Info
+    // ========================================================================
+
+    // Error
+    "editorError.foreground":              ThemeColor.Error,
+    "editorError.border":                  ThemeColor.Error,
+    "editorOverviewRuler.errorForeground": ThemeColor.Error,
+
+    // Warning
+    "editorWarning.foreground":              ThemeColor.Warning,
+    // "editorWarning.border": "ThemeColor.Warning,
+    "editorOverviewRuler.warningForeground": ThemeColor.Warning,
+
+    // Info
+    "editorInfo.foreground":              ThemeColor.Info,
+    // "editorInfo.border": ThemeColor.Info,
+    "editorOverviewRuler.infoForeground": "#d4d4d4",
+
+    // ========================================================================
+    // Git Colors
+    // ========================================================================
+
+    "gitDecoration.modifiedResourceForeground":    "#608b4e",
+    "gitDecoration.addedResourceForeground":       "#608b4e",
+    "gitDecoration.deletedResourceForeground":     "#d7ba7d",
+    "gitDecoration.untrackedResourceForeground":   "#d7ba7d",
+    "gitDecoration.ignoredResourceForeground":     "#808080",
+    "gitDecoration.conflictingResourceForeground": ThemeColor.Error,
+    // "gitDecoration.submoduleResourceForeground": "",
+
+    // "diffEditor.insertedTextBackground": "#608b4e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
+    // "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
+    // "diffEditor.removedTextBackground": "#d16969",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+    // "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
+    // "diffEditor.border": "",                 // Border color between the two text editors.
+
+    // "merge.currentHeaderBackground": "",                 // Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+    // "merge.currentContentBackground": "",                // Current content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+    // "merge.incomingHeaderBackground": "",                // Incoming header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+    // "merge.incomingContentBackground": "",               // Incoming content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+    // "merge.border": "",                                  // Border color on headers and the splitter in inline merge conflicts.
+    // "merge.commonContentBackground": "",                 // Common ancestor content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+    // "merge.commonHeaderBackground": "",                  // Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+    // "editorOverviewRuler.currentContentForeground": "",  // Current overview ruler foreground for inline merge conflicts.
+    // "editorOverviewRuler.incomingContentForeground": "", // Incoming overview ruler foreground for inline merge conflicts.
+    // "editorOverviewRuler.commonContentForeground": "",   // Common ancestor overview ruler foreground for inline merge conflicts.
+
+    // ========================================================================
+    // Terminal Colors
+    // ========================================================================
+
+    "terminal.selectionBackground": ThemeColor.Selection,
+    "terminalCursor.foreground":    ThemeColor.Foreground,
+
+    "terminal.background": ThemeColor.Background,
+    "terminal.foreground": ThemeColor.Foreground,
+
+    "terminal.ansiBlack":         "#808080",
+    "terminal.ansiBrightBlack":   "#808080",
+    "terminal.ansiRed":           "#d16969",
+    "terminal.ansiBrightRed":     "#d16969",
+    "terminal.ansiBlue":          "#569cd6",
+    "terminal.ansiBrightBlue":    "#9cdcfe",
+    "terminal.ansiGreen":         "#608b4e",
+    "terminal.ansiBrightGreen":   "#b5cea8",
+    "terminal.ansiCyan":          "#4ec9b0",
+    "terminal.ansiBrightCyan":    "#4ec9b0",
+    "terminal.ansiYellow":        "#d7ba7d",
+    "terminal.ansiBrightYellow":  "#ce9178",
+    "terminal.ansiMagenta":       "#c586c0",
+    "terminal.ansiBrightMagenta": "#c586c0",
+    "terminal.ansiWhite":         "#d4d4d4",
+    "terminal.ansiBrightWhite":   "#d4d4d4",
+}

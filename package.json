@@ -57,6 +57,16 @@
                 "label": "dark-plus-syntax",
                 "uiTheme": "vs-dark",
                 "path": "./dist/theme/dark-plus-syntax-color-theme.json"
+            },
+            {
+                "label": "light-plus-syntax",
+                "uiTheme": "vs",
+                "path": "./dist/theme/light-plus-syntax-color-theme.json"
+            },
+            {
+                "label": "dark-plus-high-contrast-syntax",
+                "uiTheme": "hc-black",
+                "path": "./dist/theme/dark-plus-high-contrast-syntax-color-theme.json"
             }
         ]
     },

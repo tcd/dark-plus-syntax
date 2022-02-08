@@ -1,13 +1,13 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "dark-plus-syntax",
-    "type": "dark",
+    "name": "dark-plus-high-contrast-syntax",
+    "type": "hc",
     "semanticHighlighting": false,
     "colors": {
         "list.dropBackground": "#383b3d",
         "editorLineNumber.activeForeground": "#608b4e",
-        "editor.background": "#1e1e1e",
-        "editor.foreground": "#d4d4d4",
+        "editor.background": "#000000",
+        "editor.foreground": "#ffffff",
         "editor.selectionHighlightBackground": "#add6ff26",
         "editor.inactiveSelectionBackground": "#3a3d41",
         "editorIndentGuide.activeBackground": "#707070",
@@ -22,7 +22,6 @@
         "editorGutter.deletedBackground": "#d16969",
         "editorOverviewRuler.deletedForeground": "#d16969",
         "editorError.foreground": "#d16969",
-        "editorError.border": "#d16969",
         "editorOverviewRuler.errorForeground": "#d16969",
         "editorWarning.foreground": "#d7ba7d",
         "editorOverviewRuler.warningForeground": "#d7ba7d",
@@ -35,7 +34,7 @@
         "gitDecoration.ignoredResourceForeground": "#808080",
         "gitDecoration.conflictingResourceForeground": "#d16969",
         "terminal.selectionBackground": "#add6ff26",
-        "terminalCursor.foreground": "#d4d4d4",
+        "terminalCursor.foreground": "#808080",
         "terminal.background": "#1e1e1e",
         "terminal.foreground": "#d4d4d4",
         "terminal.ansiBlack": "#808080",
@@ -110,7 +109,7 @@
                 "meta.embedded.block.sql"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -128,7 +127,7 @@
                 "invalid"
             ],
             "settings": {
-                "foreground": "#d16969"
+                "foreground": "#f44747"
             }
         },
         {
@@ -147,7 +146,7 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#007acc"
+                "foreground": "#569cd6"
             }
         },
         {
@@ -251,7 +250,7 @@
                 "token.info-token"
             ],
             "settings": {
-                "foreground": "#9cdcfe"
+                "foreground": "#569cd6"
             }
         },
         {
@@ -267,7 +266,7 @@
                 "token.error-token"
             ],
             "settings": {
-                "foreground": "#d16969"
+                "foreground": "#f44747"
             }
         },
         {
@@ -337,7 +336,7 @@
                 "text.html.jinja punctuation.separator.comma.js"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -364,7 +363,7 @@
                 "invalid.illegal.bad-angle-bracket.html"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             },
             "name": "don't highlight ejs and erb as errors"
         },
@@ -466,7 +465,7 @@
                 "text.html.ejs punctuation.definition.parameters.end.js"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -483,7 +482,7 @@
                 "text.html.vue-html meta.brace.round.js"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -692,7 +691,7 @@
                 "storage.modifier.package.java"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -866,7 +865,7 @@
                 "constant.other.scss"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -1076,7 +1075,7 @@
                 "punctuation.separator.delimiter.c"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -1219,7 +1218,7 @@
                 "punctuation.definition.parameters.crystal"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -1319,7 +1318,7 @@
                 "string.quoted.double.cs meta.interpolation.cs punctuation.parenthesis.close.cs"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -1519,7 +1518,7 @@
                 "punctuation.section.function.elixir"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -1658,7 +1657,7 @@
                 "punctuation.separator.parameters.erlang"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -1940,7 +1939,7 @@
                 "storage.modifier.package.java"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -2123,7 +2122,7 @@
                 "meta.brace.square.ts"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -2168,7 +2167,7 @@
                 "meta.jsx.children.js"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -2288,7 +2287,7 @@
                 "punctuation.accessor.tsx"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -2643,7 +2642,7 @@
                 "source.nginx constant.character.paren"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -2719,7 +2718,7 @@
                 "meta.function.parameters.end.python"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -2904,7 +2903,7 @@
                 "meta.embedded.line.ruby"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -2977,7 +2976,7 @@
                 "punctuation.section.array.end.ruby"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -3152,7 +3151,7 @@
                 "keyword.operator.path.rust"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -3185,7 +3184,7 @@
                 "comment.punctuation.comma.swift"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -3296,7 +3295,7 @@
                 "meta.item.priority.a.todo"
             ],
             "settings": {
-                "foreground": "#d16969"
+                "foreground": "#f44747"
             }
         },
         {
@@ -3337,7 +3336,7 @@
                 "punctuation.separator.array.toml"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -3464,7 +3463,7 @@
                 "punctuation.separator.mapping.yaml"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
