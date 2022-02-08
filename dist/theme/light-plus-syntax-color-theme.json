@@ -2676,6 +2676,52 @@
         },
         {
             "scope": [
+                "constant.language.proto",
+                "keyword.other.proto",
+                "storage.type.proto",
+                "storage.modifier.proto",
+                "punctuation.definition.typeparameters.begin.proto",
+                "punctuation.definition.typeparameters.end.proto"
+            ],
+            "settings": {
+                "foreground": "#0000ff"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.class.proto",
+                "entity.name.class.message.proto"
+            ],
+            "settings": {
+                "foreground": "#267f99"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.separator.key-value.proto"
+            ],
+            "settings": {
+                "foreground": "#af00db"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.proto"
+            ],
+            "settings": {
+                "foreground": "#0070c1"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric.proto"
+            ],
+            "settings": {
+                "foreground": "#098658"
+            }
+        },
+        {
+            "scope": [
                 "string.quoted.docstring.multi.python",
                 "string.quoted.docstring.multi.python keyword.control.flow.python"
             ],
