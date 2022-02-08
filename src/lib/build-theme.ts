@@ -1,3 +1,5 @@
+import { join } from "path"
+
 import {
     ThemeSettings,
     VisualStudioCodeTheme,
@@ -6,12 +8,23 @@ import {
     writeJsonFile,
     buildRules,
     buildUiColors,
+    Config,
 } from "@lib"
 import {
     Languages,
     defaults,
     ui,
 } from "@src/theme"
+
+const outFilePath = (settings: ThemeSettings): string => {
+    const fileName = settings?.fileName ?? settings.name
+    let root = "./dist/theme"
+    if (Config.Development && Config.buildLocalExt) {
+        root = Config.localExtDistFolder
+    }
+    const file = `${fileName}-color-theme.json`
+    return join(root, file)
+}
 
 export const buildTheme = (settings: ThemeSettings) => {
 
@@ -29,10 +42,9 @@ export const buildTheme = (settings: ThemeSettings) => {
         tokenColors,
     }
 
-    const fileName = settings?.fileName ?? settings.name
-    const outFilePath = `./dist/theme/${fileName}-color-theme.json`
+    const outPath = outFilePath(settings)
 
-    writeJsonFile(outFilePath, themeData)
+    writeJsonFile(outPath, themeData)
 
     return null
 }

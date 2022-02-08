@@ -1,5 +1,5 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "license": "MIT",
     "name": "dark-plus-syntax",
     "engines": {
@@ -8,6 +8,7 @@
     "scripts": {
         "start": "npm run build",
         "build": "ts-node ./src/main.ts",
+        "build:prod": "NODE_ENV=production ts-node ./src/main.ts",
         "watch": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/main.ts",
         "lint": "eslint ./src/**/*.ts --fix",
         "format": "npm run lint",
@@ -79,5 +80,8 @@
         "id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b7f",
         "publisherDisplayName": "dunstontc",
         "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.0"
     }
 }
