@@ -7,6 +7,8 @@
 ### Fixed
 - Remove double error decoration. (don't need a border and squiggles)
 - Fix *Contributing* link in readme.
+### Work in Progress
+- Make UI colors consistent across themes.
 
 
 ## 0.2.4 *(February 7th, 2022)*
