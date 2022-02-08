@@ -22,7 +22,6 @@
         "editorGutter.deletedBackground": "#d16969",
         "editorOverviewRuler.deletedForeground": "#d16969",
         "editorError.foreground": "#d16969",
-        "editorError.border": "#d16969",
         "editorOverviewRuler.errorForeground": "#d16969",
         "editorWarning.foreground": "#d7ba7d",
         "editorOverviewRuler.warningForeground": "#d7ba7d",
