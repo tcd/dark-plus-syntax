@@ -52,7 +52,10 @@
         "terminal.ansiMagenta": "#c586c0",
         "terminal.ansiBrightMagenta": "#c586c0",
         "terminal.ansiWhite": "#d4d4d4",
-        "terminal.ansiBrightWhite": "#d4d4d4"
+        "terminal.ansiBrightWhite": "#d4d4d4",
+        "statusBar.background": "#303030",
+        "statusBar.noFolderBackground": "#303030",
+        "statusBar.debuggingBackground": "#303030"
     },
     "tokenColors": [
         {
