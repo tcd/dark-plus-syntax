@@ -1,8 +1,9 @@
 import { ThemeColorPalette } from "@types"
-import { DarkPlusPalette } from "."
+import { LightPlusPalette } from "."
 
 export const LightPlusHighContrastPalette: ThemeColorPalette = {
-    ...DarkPlusPalette,
+    ...LightPlusPalette,
+    // UI
     Foreground: "#000000",
     Background: "#ffffff",
 }

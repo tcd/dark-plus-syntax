@@ -3,6 +3,7 @@ import { DarkPlusPalette } from "."
 
 export const DarkPlusHighContrastPalette: ThemeColorPalette = {
     ...DarkPlusPalette,
+    // UI
     Foreground: "#ffffff",
     Background: "#000000",
     Primary:    "#f38518",
