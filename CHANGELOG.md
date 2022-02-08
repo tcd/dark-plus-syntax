@@ -1,10 +1,15 @@
 # Changelog
 
+
 ## 0.2.2 *(February 7th, 2022)*
 
 ### Changed
 
 - Reorganize TypeScript types
+
+### Work in Progress
+
+- Add light & high-contrast themes
 
 
 ## 0.2.1 *(February 7th, 2022)*

@@ -64,9 +64,14 @@
                 "path": "./dist/theme/light-plus-syntax-color-theme.json"
             },
             {
-                "label": "dark-plus-high-contrast-syntax",
+                "label": "dark-plus-syntax (high contrast)",
                 "uiTheme": "hc-black",
-                "path": "./dist/theme/dark-plus-high-contrast-syntax-color-theme.json"
+                "path": "./dist/theme/dark-plus-syntax-high-contrast-color-theme.json"
+            },
+            {
+                "label": "light-plus-syntax (high contrast)",
+                "uiTheme": "vs",
+                "path": "./dist/theme/light-plus-syntax-high-contrast-color-theme.json"
             }
         ]
     },
