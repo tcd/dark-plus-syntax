@@ -4,18 +4,23 @@
 >
 > I'm in the process of updating this page accordingly.
 
-The code is split up (mainly by language) into individual TypeScript files, which live in `src/partials`.
-So if you wanted to see the Ruby colors, for example, those are in `src/partials/ruby.js`.
+The code is split up (mainly by language) into individual TypeScript files, which live in `src/theme`.
+So if you wanted to see the Ruby rules, for example, those are in `src/theme/languages/ruby.js`.
+
+The language rules are exported as a single array from `src/theme/languages/index.ts`.
+
 Those files are imported, merged, and written out to `dist/themes/dark-plus-syntax-color-theme.json`
 
-
-## To make changes
+## Building locally
 
 1. Clone the project
 2. Run `npm install` to install development dependencies.
-2. Probably make changes in `src/theme/languages`
 3. Run `npm run build` to build the theme file with the new changes.
-4. Go to  the *Debug* dropdown and click *Start Debugging* to run the new version of the theme locally.
+
+## Developing
+
+It'll be helpful to install the [Highlight](https://github.com/fabiospampinato/vscode-highlight) plugin. \
+There are local vscode settings that configure it to color specific TypeScript constants to match the color values they represent.
 
 
 ## Resources & References

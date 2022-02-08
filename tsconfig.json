@@ -22,13 +22,11 @@
         ],
         "baseUrl": ".",
         "paths": {
-            "@root/*": ["./src/*"],
-            "@src": ["./src/index.ts"],
-            "@colors": ["./src/colors/index.ts"],
+            "@src/*": ["./src/*"],
             "@lib": ["./src/lib/index.ts"],
+            "@types": ["./src/types/index.ts"],
         },
         "typeRoots": [
-            "./src/types",
             "./node_modules/@types"
         ]
     },

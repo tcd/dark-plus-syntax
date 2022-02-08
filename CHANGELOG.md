@@ -1,9 +1,40 @@
 # Changelog
 
-## 0.2.1 *(February 7th, 2022)*
+## 0.2.6 *(February 8th, 2022)*
+### Added
+- Add support for Protocol Buffers.
 
+## 0.2.5 *(February 8th, 2022)*
+### Added
+- Add dotenv & project configuration class.
 ### Fixed
+- Remove double error decoration. (don't need a border and squiggles)
+- Fix *Contributing* link in readme.
+### Work in Progress
+- Make UI colors consistent across themes.
 
+
+## 0.2.4 *(February 7th, 2022)*
+### Changed
+- Update dark status bar color.
+
+
+## 0.2.3 *(February 7th, 2022)*
+### Work in Progress
+- Tweak standard (not high contrast) light theme.
+- Alter primary/secondary colors for dark high contrast.
+
+
+## 0.2.2 *(February 7th, 2022)*
+### Changed
+- Reorganize TypeScript types.
+- Make JSON commas darker.
+### Work in Progress
+- Add light & high-contrast themes.
+
+
+## 0.2.1 *(February 7th, 2022)*
+### Fixed
 - Fix incorrect path to theme file in package.json
 
 

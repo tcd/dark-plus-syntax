@@ -1,4 +1,6 @@
+.github
 .vscode
+.nyc_output
 ignore
 node_modules
 src

@@ -1,5 +1,5 @@
 {
-    "version": "0.2.1",
+    "version": "0.2.6",
     "license": "MIT",
     "name": "dark-plus-syntax",
     "engines": {
@@ -8,6 +8,7 @@
     "scripts": {
         "start": "npm run build",
         "build": "ts-node ./src/main.ts",
+        "build:prod": "NODE_ENV=production ts-node ./src/main.ts",
         "watch": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/main.ts",
         "lint": "eslint ./src/**/*.ts --fix",
         "format": "npm run lint",
@@ -57,6 +58,21 @@
                 "label": "dark-plus-syntax",
                 "uiTheme": "vs-dark",
                 "path": "./dist/theme/dark-plus-syntax-color-theme.json"
+            },
+            {
+                "label": "light-plus-syntax",
+                "uiTheme": "vs",
+                "path": "./dist/theme/light-plus-syntax-color-theme.json"
+            },
+            {
+                "label": "dark-plus-syntax (high contrast)",
+                "uiTheme": "hc-black",
+                "path": "./dist/theme/dark-plus-syntax-high-contrast-color-theme.json"
+            },
+            {
+                "label": "light-plus-syntax (high contrast)",
+                "uiTheme": "vs",
+                "path": "./dist/theme/light-plus-syntax-high-contrast-color-theme.json"
             }
         ]
     },
@@ -64,5 +80,8 @@
         "id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b7f",
         "publisherDisplayName": "dunstontc",
         "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.0"
     }
 }

@@ -68,6 +68,7 @@ So I made a theme that does.
     - JSX
     - TSX
 - Markdown
+- Protocol Buffers
 - Python
 - Ruby
     - Vagrant
@@ -108,6 +109,9 @@ This theme doesn't have italic comments, but you can get them by adding the foll
 }
 ```
 
+Additionally, [UI colors](https://code.visualstudio.com/api/references/theme-color) can be overwritten using the `"workbench.colorCustomizations"` setting.
+
+
 ## Issues
 
 **Please use one of the [issue templates](https://github.com/tcd/dark-plus-syntax/issues/new)** when opening a new issue.
@@ -115,7 +119,7 @@ This theme doesn't have italic comments, but you can get them by adding the foll
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/tcd/dark-plus-syntax/blob/master/LICENSE.md)
+See [CONTRIBUTING.md](https://github.com/tcd/dark-plus-syntax/blob/master/CONTRIBUTING.md)
 
 
 
