@@ -48,7 +48,7 @@ export const ui: VisualStudioCodeThemeColors = {
 
     // Error
     "editorError.foreground":              ThemeColor.Error,
-    "editorError.border":                  ThemeColor.Error,
+    // "editorError.border":                  ThemeColor.Error,
     "editorOverviewRuler.errorForeground": ThemeColor.Error,
 
     // Warning
