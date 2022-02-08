@@ -1,5 +1,10 @@
 import { TextMateRuleData, ThemeColor } from "@types"
 
+/**
+ * ## Extensions
+ *
+ * - [dunstontc/viml](https://github.com/dunstontc/viml)
+ */
 export const viml: TextMateRuleData[] = [
     {
         scopes: [
