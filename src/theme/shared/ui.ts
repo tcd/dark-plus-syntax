@@ -71,24 +71,6 @@ export const ui: VisualStudioCodeThemeColors = {
     "gitDecoration.untrackedResourceForeground":   "#d7ba7d",
     "gitDecoration.ignoredResourceForeground":     "#808080",
     "gitDecoration.conflictingResourceForeground": ThemeColor.Error,
-    // "gitDecoration.submoduleResourceForeground": "",
-
-    // "diffEditor.insertedTextBackground": "#608b4e", /// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
-    // "diffEditor.insertedTextBorder": "#608b4e",     // Outline color for the text that got inserted.
-    // "diffEditor.removedTextBackground": "#d16969",  // Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
-    // "diffEditor.removedTextBorder": "#d16969",      // Outline color for text that got removed.
-    // "diffEditor.border": "",                 // Border color between the two text editors.
-
-    // "merge.currentHeaderBackground": "",                 // Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
-    // "merge.currentContentBackground": "",                // Current content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
-    // "merge.incomingHeaderBackground": "",                // Incoming header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
-    // "merge.incomingContentBackground": "",               // Incoming content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
-    // "merge.border": "",                                  // Border color on headers and the splitter in inline merge conflicts.
-    // "merge.commonContentBackground": "",                 // Common ancestor content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
-    // "merge.commonHeaderBackground": "",                  // Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
-    // "editorOverviewRuler.currentContentForeground": "",  // Current overview ruler foreground for inline merge conflicts.
-    // "editorOverviewRuler.incomingContentForeground": "", // Incoming overview ruler foreground for inline merge conflicts.
-    // "editorOverviewRuler.commonContentForeground": "",   // Common ancestor overview ruler foreground for inline merge conflicts.
 
     // ========================================================================
     // Terminal Colors
