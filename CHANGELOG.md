@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.6 *(February 8th, 2022)*
+### Added
+- Add support for Protocol Buffers.
 
 ## 0.2.5 *(February 8th, 2022)*
 ### Added

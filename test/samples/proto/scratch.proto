@@ -1,0 +1,73 @@
+import "myproject/other_protos.proto";
+
+import public "new.proto";
+import "other.proto";
+
+message Foo {
+    reserved 2, 15, 9 to 11;
+    reserved "foo", "bar";
+}
+
+message SearchRequest {
+    string query = 1;
+    int32 page_number = 2;
+    int32 result_per_page = 3;
+    enum Corpus {
+        UNIVERSAL = 0;
+        WEB = 1;
+        IMAGES = 2;
+        LOCAL = 3;
+        NEWS = 4;
+        PRODUCTS = 5;
+        VIDEO = 6;
+    }
+    Corpus corpus = 4;
+}
+
+enum Foo {
+    reserved 2, 15, 9 to 11, 40 to max;
+    reserved "FOO", "BAR";
+}
+
+message SearchResponse {
+    repeated Result results = 1;
+}
+
+message Result {
+    string url = 1;
+    string title = 2;
+    repeated string snippets = 3;
+}
+
+message SearchResponse {
+    message Result {
+        string url = 1;
+        string title = 2;
+        repeated string snippets = 3;
+    }
+    repeated Result results = 1;
+}
+
+message SomeOtherMessage {
+    SearchResponse.Result result = 1;
+}
+
+message ErrorStatus {
+    string message = 1;
+    repeated google.protobuf.Any details = 2;
+}
+
+message SampleMessage {
+    oneof test_oneof {
+        string name = 4;
+        SubMessage sub_message = 9;
+    }
+}
+
+package foo.bar;
+message Open {}
+
+service FooService {
+    rpc GetSomething(GetSomethingRequest) returns (GetSomethingResponse);
+    rpc ListSomething(ListSomethingRequest) returns (ListSomethingResponse);
+}

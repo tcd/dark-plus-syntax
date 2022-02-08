@@ -68,6 +68,7 @@ So I made a theme that does.
     - JSX
     - TSX
 - Markdown
+- Protocol Buffers
 - Python
 - Ruby
     - Vagrant

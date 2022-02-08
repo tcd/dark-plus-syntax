@@ -14,6 +14,8 @@ export const protobuf: TextMateRuleData[] = [
             "keyword.other.proto",
             "storage.type.proto",
             "storage.modifier.proto",
+            "punctuation.definition.typeparameters.begin.proto",
+            "punctuation.definition.typeparameters.end.proto",
         ],
         foreground: ThemeColor.Keywords,
     },
@@ -23,6 +25,12 @@ export const protobuf: TextMateRuleData[] = [
             "entity.name.class.message.proto",
         ],
         foreground: ThemeColor.Types,
+    },
+    {
+        scopes: [
+            "punctuation.separator.key-value.proto",
+        ],
+        foreground: ThemeColor.FlowControl,
     },
     {
         scopes: [
