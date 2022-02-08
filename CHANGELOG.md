@@ -6,6 +6,7 @@
 - Add dotenv & project configuration class.
 ### Fixed
 - Remove double error decoration. (don't need a border and squiggles)
+- Fix *Contributing* link in readme.
 
 
 ## 0.2.4 *(February 7th, 2022)*
