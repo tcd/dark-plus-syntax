@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.2.4 *(February 7th, 2022)*
+
+### Changed
+
+- Update dark status bar color
+
+
 ## 0.2.3 *(February 7th, 2022)*
 
 ### Work in Progress
