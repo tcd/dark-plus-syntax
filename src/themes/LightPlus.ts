@@ -1,10 +1,10 @@
 import { ThemeSettings, ThemeType } from "@types"
 import { LightPlusPalette } from "@src/palettes"
-import { ui } from "@src/theme/light"
+import { LightHighContrastUi } from "@src/theme"
 
 export const LightPlus: ThemeSettings = {
     name:     "light-plus-syntax",
     type:     ThemeType.Light,
     palette:  LightPlusPalette,
-    uiColors: ui,
+    uiColors: LightHighContrastUi,
 }

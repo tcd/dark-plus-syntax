@@ -12,12 +12,15 @@ export const ui: VisualStudioCodeThemeColors = {
     "editor.background": ThemeColor.Background,
     "editor.foreground": ThemeColor.Foreground,
 
+    "editor.selectionBackground":          ThemeColor.Selection,
     "editor.selectionHighlightBackground": ThemeColor.Selection,
     "editor.inactiveSelectionBackground":  "#3a3d41",
-    "editorIndentGuide.activeBackground":  "#707070",
-    "editorIndentGuide.background":        "#404040",
-    "activityBarBadge.background":         ThemeColor.Secondary,
-    "sideBarTitle.foreground":             "#bbbbbb",
+
+    "editorIndentGuide.activeBackground": "#707070",
+    "editorIndentGuide.background":       "#404040",
+
+    "activityBarBadge.background": ThemeColor.Secondary,
+    "sideBarTitle.foreground":     "#bbbbbb",
 
     // "diffEditor.insertedTextBorder": ThemeColor.Success,,
     // "diffEditor.removedTextBorder": ThemeColor.Error,
@@ -48,17 +51,17 @@ export const ui: VisualStudioCodeThemeColors = {
 
     // Error
     "editorError.foreground":              ThemeColor.Error,
-    // "editorError.border":                  ThemeColor.Error,
+    "editorError.border":                  ThemeColor.Background,
     "editorOverviewRuler.errorForeground": ThemeColor.Error,
 
     // Warning
     "editorWarning.foreground":              ThemeColor.Warning,
-    // "editorWarning.border": "ThemeColor.Warning,
+    "editorWarning.border":                  ThemeColor.Background,
     "editorOverviewRuler.warningForeground": ThemeColor.Warning,
 
     // Info
     "editorInfo.foreground":              ThemeColor.Info,
-    // "editorInfo.border": ThemeColor.Info,
+    "editorInfo.border":                  ThemeColor.Background,
     "editorOverviewRuler.infoForeground": "#d4d4d4",
 
     // ========================================================================

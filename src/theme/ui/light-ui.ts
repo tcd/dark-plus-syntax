@@ -1,7 +1,7 @@
 import { VisualStudioCodeThemeColors, ThemeColor } from "@types"
 import { ui as defaultUiColors } from "@src/theme/shared/ui"
 
-export const ui: VisualStudioCodeThemeColors = {
+export const LightUi: VisualStudioCodeThemeColors = {
     ...defaultUiColors,
     // "sideBar.background": ThemeColor.Background,
     "activityBar.background": ThemeColor.Background,
