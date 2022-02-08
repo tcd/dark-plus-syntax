@@ -17,6 +17,11 @@ Those files are imported, merged, and written out to `dist/themes/dark-plus-synt
 2. Run `npm install` to install development dependencies.
 3. Run `npm run build` to build the theme file with the new changes.
 
+## Developing
+
+It'll be helpful to install the [Highlight](https://github.com/fabiospampinato/vscode-highlight) plugin. \
+There are local vscode settings that configure it to color specific TypeScript constants to match the color values they represent.
+
 
 ## Resources & References
 

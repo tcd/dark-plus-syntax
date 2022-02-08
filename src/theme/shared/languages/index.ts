@@ -24,6 +24,7 @@ import { makefile } from "./makefile"
 import { markdown } from "./markdown"
 import { nginx } from "./nginx"
 import { orgMode } from "./org-mode"
+import { protobuf } from "./protobuf"
 import { python } from "./python"
 import { regexp } from "./regexp"
 import { ruby } from "./ruby"
@@ -66,6 +67,7 @@ export const Languages: TextMateRuleData[] = [
     ...markdown,
     ...nginx,
     ...orgMode,
+    ...protobuf,
     ...python,
     ...regexp,
     ...ruby,
