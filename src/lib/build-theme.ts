@@ -13,7 +13,7 @@ import {
     ui,
 } from "@src/theme"
 
-export const buildTheme  = (settings: ThemeSettings) => {
+export const buildTheme = (settings: ThemeSettings) => {
 
     const tokenColors = buildRules(settings.palette, [...defaults, ...Languages])
 

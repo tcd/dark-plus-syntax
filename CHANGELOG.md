@@ -1,15 +1,24 @@
 # Changelog
 
 
+## 0.2.3 *(February 7th, 2022)*
+
+### Work in Progress
+
+- Tweak standard (not high contrast) light theme.
+- Alter primary/secondary colors for dark high contrast.
+
+
 ## 0.2.2 *(February 7th, 2022)*
 
 ### Changed
 
-- Reorganize TypeScript types
+- Reorganize TypeScript types.
+- Make JSON commas darker.
 
 ### Work in Progress
 
-- Add light & high-contrast themes
+- Add light & high-contrast themes.
 
 
 ## 0.2.1 *(February 7th, 2022)*

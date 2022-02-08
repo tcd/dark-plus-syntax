@@ -5,16 +5,16 @@
     "semanticHighlighting": false,
     "colors": {
         "list.dropBackground": "#383b3d",
-        "editorLineNumber.activeForeground": "#608b4e",
+        "editorLineNumber.activeForeground": "#f38518",
         "editor.background": "#000000",
         "editor.foreground": "#ffffff",
         "editor.selectionHighlightBackground": "#add6ff26",
         "editor.inactiveSelectionBackground": "#3a3d41",
         "editorIndentGuide.activeBackground": "#707070",
         "editorIndentGuide.background": "#404040",
-        "activityBarBadge.background": "#007acc",
+        "activityBarBadge.background": "#9cdcfe",
         "sideBarTitle.foreground": "#bbbbbb",
-        "minimap.selectionOccurrenceHighlight": "#007acc",
+        "minimap.selectionOccurrenceHighlight": "#9cdcfe",
         "editorGutter.addedBackground": "#608b4e",
         "editorOverviewRuler.addedForeground": "#608b4e",
         "editorGutter.modifiedBackground": "#d7ba7d",
@@ -147,7 +147,7 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#007acc"
+                "foreground": "#9cdcfe"
             }
         },
         {
