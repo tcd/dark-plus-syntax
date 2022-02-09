@@ -29,3 +29,21 @@ There are local vscode settings that configure it to color specific TypeScript c
 - [Scope Naming](https://www.sublimetext.com/docs/3/scope_naming.html)
 - [VSCode Theme Colors](https://code.visualstudio.com/api/references/theme-color)
 
+├── dist/
+│   ├── assets/
+│   └── theme/
+├── src/
+│   ├── lib/
+│   ├── palettes/
+│   │   └── scratch/
+│   ├── theme/
+│   │   ├── shared/
+│   │   │   └── languages/
+│   │   └── ui/
+│   ├── themes/
+│   └── types/
+│       └── custom/
+└── test/
+    ├── fixtures/
+    ├── samples/
+    └── tests/
