@@ -1,14 +1,14 @@
 {
     "ts-node": {
         "require": ["tsconfig-paths/register"],
-        "files": true,
+        // "files": true,
     },
     "include": [
         "./src",
     ],
-    "files": [
-        "./src/@types/index.d.ts",
-    ],
+    // "files": [
+    //     "./src/@types/index.d.ts",
+    // ],
     "exclude": [
         "./ignore",
         "./test/samples",
