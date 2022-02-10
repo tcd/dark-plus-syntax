@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.7 *(February 10th, 2022)*
+### Added
+- Fix highlight/selection highlighting.
+
 ## 0.2.6 *(February 8th, 2022)*
 ### Added
 - Add support for Protocol Buffers.
