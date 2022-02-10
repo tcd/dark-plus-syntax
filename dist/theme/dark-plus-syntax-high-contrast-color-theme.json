@@ -2999,8 +2999,7 @@
                 "meta.class.ruby",
                 "support.class.ruby",
                 "entity.name.type.class.ruby",
-                "entity.other.inherited-class.ruby",
-                "punctuation.separator.namespace.ruby"
+                "entity.other.inherited-class.ruby"
             ],
             "settings": {
                 "foreground": "#4ec9b0"
@@ -3020,7 +3019,8 @@
                 "constant.language.symbol.hashkey.ruby punctuation.definition.constant.hashkey.ruby",
                 "constant.language.symbol.hashkey.parameter.function.ruby punctuation.definition.constant.hashkey.ruby",
                 "meta.function.method.with-arguments.ruby constant.other.symbol.hashkey.parameter.function.ruby punctuation.definition.constant.ruby",
-                "source.ruby punctuation.separator.key-value"
+                "source.ruby punctuation.separator.key-value",
+                "punctuation.separator.namespace.ruby"
             ],
             "settings": {
                 "foreground": "#c586c0"
