@@ -6,4 +6,5 @@ export const DarkUi: VisualStudioCodeThemeColors = {
     "statusBar.background":          "#303030",
     "statusBar.noFolderBackground":  "#303030",
     "statusBar.debuggingBackground": "#303030",
+    // "editor.lineHighlightBorder":    ThemeColor.Selection,
 }

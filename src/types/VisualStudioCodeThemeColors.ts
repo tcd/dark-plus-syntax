@@ -1,3 +1,4 @@
+/** [UI Colors](https://code.visualstudio.com/api/references/theme-color) */
 export interface VisualStudioCodeThemeColors {
 
     /** An extra border around active elements to separate them from others for greater contrast. */

@@ -92,7 +92,7 @@ So I made a theme that does.
 >
 > **Please use one of the issue templates.**
 
-## Italic Comments
+## Italic Comments & Overrides
 
 This theme doesn't have italic comments, but you can get them by adding the following snippet to your `settings.json` file:
 
@@ -109,7 +109,16 @@ This theme doesn't have italic comments, but you can get them by adding the foll
 }
 ```
 
-Additionally, [UI colors](https://code.visualstudio.com/api/references/theme-color) can be overwritten using the `"workbench.colorCustomizations"` setting.
+Additionally, [UI colors](https://code.visualstudio.com/api/references/theme-color) can be overwritten using the `"workbench.colorCustomizations"` setting:
+
+```json
+{
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBorder": "#264f78",
+  },
+}
+```
+
 
 
 ## Issues

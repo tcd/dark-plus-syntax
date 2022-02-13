@@ -4,10 +4,10 @@
 >
 > I'm in the process of updating this page accordingly.
 
-The code is split up (mainly by language) into individual TypeScript files, which live in `src/theme`.
-So if you wanted to see the Ruby rules, for example, those are in `src/theme/languages/ruby.js`.
+The code is split up (mainly by language) into individual TypeScript files, which live in `src/theme/shared`.
+So if you wanted to see the Ruby rules, for example, those are in `src/theme/shared/languages/ruby.js`.
 
-The language rules are exported as a single array from `src/theme/languages/index.ts`.
+The language rules are exported as a single array from `src/theme/shared/languages/index.ts`.
 
 Those files are imported, merged, and written out to `dist/themes/dark-plus-syntax-color-theme.json`
 
