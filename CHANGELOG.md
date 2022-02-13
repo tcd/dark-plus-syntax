@@ -4,7 +4,8 @@
 ### Fixed
 - Actually fix selection highlighting.
 ### Changed
-- Update readme.
+- Update `README.md`.
+- Update `CONTRIBUTING.md`.
 
 
 ## 0.2.7 *(February 10th, 2022)*
