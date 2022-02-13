@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.8 *(February 13th, 2022)*
+### Added
+- Actually fix selection highlighting.
+
 ## 0.2.7 *(February 10th, 2022)*
 ### Added
 - Fix highlight/selection highlighting.

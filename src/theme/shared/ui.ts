@@ -12,9 +12,13 @@ export const ui: VisualStudioCodeThemeColors = {
     "editor.background": ThemeColor.Background,
     "editor.foreground": ThemeColor.Foreground,
 
-    // "editor.selectionBackground":          ThemeColor.Selection,
-    "editor.selectionHighlightBackground": ThemeColor.Selection,
-    "editor.inactiveSelectionBackground":  "#3a3d41",
+    // "editor.selectionBackground": "#264f7870",
+    // "editor.inactiveSelectionBackground": "#3a3d41",
+    // "editor.selectionHighlightBackground": "#add6ff26",
+
+    "editor.selectionBackground":         ThemeColor.Selection,
+    // "editor.selectionHighlightBackground": "#264f7850",
+    "editor.inactiveSelectionBackground": "#3a3d41",
 
     "editorIndentGuide.activeBackground": "#707070",
     "editorIndentGuide.background":       "#404040",

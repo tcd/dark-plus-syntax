@@ -9,7 +9,6 @@
         "editor.background": "#d4d4d4",
         "editor.foreground": "#1e1e1e",
         "editor.selectionBackground": "#add6ff80",
-        "editor.selectionHighlightBackground": "#add6ff80",
         "editor.inactiveSelectionBackground": "#3a3d41",
         "editorIndentGuide.activeBackground": "#707070",
         "editorIndentGuide.background": "#404040",

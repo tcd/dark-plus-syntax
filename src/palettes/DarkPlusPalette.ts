@@ -18,7 +18,8 @@ export const DarkPlusPalette: ThemeColorPalette = {
     // UI
     Foreground:  "#d4d4d4",
     Background:  "#1e1e1e",
-    Selection:   "#add6ff26",
+    // Selection:   "#add6ff26",
+    Selection:   "#264f78",
     Primary:     "#608b4e",
     Secondary:   "#007acc",
     Error:       "#d16969",

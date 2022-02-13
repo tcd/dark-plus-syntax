@@ -26,7 +26,7 @@
         "(?<=ThemeColor.)(Secondary)":   { "decorations": [{ "backgroundColor": "#007acc",   "color": "black", "fontStyle": "italic" }] },
         "(?<=ThemeColor.)(Foreground)":  { "decorations": [{ "backgroundColor": "#d4d4d4",   "color": "black", "fontStyle": "italic" }] },
         "(?<=ThemeColor.)(Background)":  { "decorations": [{ "backgroundColor": "#1e1e1e",   "color": "white", "fontStyle": "italic" }] },
-        "(?<=ThemeColor.)(Selection)":   { "decorations": [{ "backgroundColor": "#add6ff26", "color": "black", "fontStyle": "italic" }] },
+        "(?<=ThemeColor.)(Selection)":   { "decorations": [{ "backgroundColor": "#264f78",   "color": "white", "fontStyle": "italic" }] },
         "(?<=ThemeColor.)(Error)":       { "decorations": [{ "backgroundColor": "#d16969",   "color": "black", "fontStyle": "italic" }] },
         "(?<=ThemeColor.)(Warning)":     { "decorations": [{ "backgroundColor": "#d7ba7d",   "color": "black", "fontStyle": "italic" }] },
         "(?<=ThemeColor.)(Info)":        { "decorations": [{ "backgroundColor": "#9cdcfe",   "color": "black", "fontStyle": "italic" }] },
