@@ -20,6 +20,8 @@ export const css: TextMateRuleData[] = [
             "punctuation.section.keyframes.end.bracket.curly.scss",
             "source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.begin.scss",
             "source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.end.scss",
+            "punctuation.section.keyframes.begin.bracket.curly.css",
+            "punctuation.section.keyframes.end.bracket.curly.css",
             "punctuation.section.supports.begin.bracket.curly",
             "punctuation.section.supports.end.bracket.curly",
         ],
