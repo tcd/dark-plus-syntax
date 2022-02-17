@@ -7,6 +7,7 @@ export const semanticTokenColors = {
     "numberLiteral":      ThemeColor.Numbers,
     "operatorOverloaded": ThemeColor.FlowControl,
 
+    "defaultLibrary": ThemeColor.Types,
 
     "*.abstract":      "#ff0000",
     "*.async":         "#ff0000",
