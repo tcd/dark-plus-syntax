@@ -2,6 +2,7 @@ import { Html } from "./html"
 import { Java } from "./java"
 import { Styles } from "./styles"
 
+import batch from "./batch"
 import { c } from "./c"
 import { cfml } from "./cfml"
 import { cpp } from "./cpp"
@@ -44,6 +45,7 @@ export const Languages: TextMateRuleData[] = [
     ...Html,
     ...Java,
     ...Styles,
+    // ...batch,
     ...c,
     ...cfml,
     ...cpp,
