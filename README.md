@@ -41,6 +41,7 @@ So I made a theme that does.
 
 ## Supported Languages
 
+- BATCH/CMD
 - C#
 - C/C++
 - Crystal
