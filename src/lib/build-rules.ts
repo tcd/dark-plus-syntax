@@ -4,8 +4,13 @@ export const buildRules = (palette: ThemeColorPalette, rules: TextMateRuleData[]
 
     let result: TextMateRule[] = rules.map((rule) => {
 
+        const scopes = rule.scopes.map((scope) => {
+            if (Array.isArray(scope)) { return scope.join(" ") }
+            else                      { return scope           }
+        })
+
         let textMateRule: TextMateRule = {
-            scope:    rule.scopes,
+            scope:    scopes,
             settings: {},
         }
 

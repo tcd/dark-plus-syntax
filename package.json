@@ -82,6 +82,9 @@
         "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
     },
     "dependencies": {
-        "dotenv": "^16.0.0"
+        "audit": "^0.0.6",
+        "dotenv": "^16.0.0",
+        "fix": "^0.0.6",
+        "lodash": "^4.17.21"
     }
 }

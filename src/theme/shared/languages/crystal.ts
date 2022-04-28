@@ -23,7 +23,10 @@ export const crystal: TextMateRuleData[] = [
     // },
     {
         scopes: [
-            "string.regexp.group.crystal punctuation.definition.group.crystal",
+            [
+                "string.regexp.group.crystal",
+                "punctuation.definition.group.crystal",
+            ],
         ],
         foreground: ThemeColor.Tags,
     },

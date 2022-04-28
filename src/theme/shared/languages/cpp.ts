@@ -9,7 +9,10 @@ export const cpp: TextMateRuleData[] = [
     },
     {
         scopes: [
-            "source.cpp keyword.operator.bitwise.shift.c",
+            [
+                "source.cpp",
+                "keyword.operator.bitwise.shift.c",
+            ],
         ],
         foreground: ThemeColor.Keywords,
     },

@@ -1,22 +1,22 @@
 import { assert } from "chai"
 
 import {
-    SemanticColor,
+    ThemeColor,
     TextMateRule,
     TextMateRuleData,
-} from "@types"
+} from "../../src/types"
 
 import {
     buildRules,
     DarkPlusPalette,
-} from "@src"
+} from "../../src"
 
 const viml: TextMateRuleData[] = [
     {
         scopes: [
             "constant.character.map.viml",
         ],
-        foreground: SemanticColor.Chars,
+        foreground: ThemeColor.Chars,
         fontStyle:  "italic",
     },
 ]

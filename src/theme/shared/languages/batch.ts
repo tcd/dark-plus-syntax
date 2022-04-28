@@ -2,18 +2,6 @@ import { TextMateRuleData, ThemeColor } from "@types"
 
 const rules: TextMateRuleData[] = [
     {
-        scopes: [
-            "punctuation.separator.namespace.access.cpp",
-        ],
-        foreground: ThemeColor.Types,
-    },
-    {
-        scopes: [
-            "source.cpp keyword.operator.bitwise.shift.c",
-        ],
-        foreground: ThemeColor.Keywords,
-    },
-    {
         "scopes": [
             "punctuation.definition.variable.begin.batchfile",
             "punctuation.definition.variable.end.batchfile",
@@ -57,7 +45,7 @@ const rules: TextMateRuleData[] = [
             [
                 "comment.line.rem.batchfile",
                 "keyword.command.rem.batchfile",
-            ].join(" "),
+            ],
         ],
         "foreground": ThemeColor.Comments,
     },
