@@ -1,12 +1,23 @@
 # Changelog
 
-## 0.2.8 *(February 13th, 2022)*
+## 0.2.8 *(October 13th, 2022)*
 ### Fixed
 - Actually fix selection highlighting.
+- Add tweaks to various HTML templating languages.
+- Add new languages:
+  - Google Sheets
+  - Dictionary
 ### Changed
+<!-- - Adjust light-plus foreground & background colors. -->
+- By Language:
+  - Regex 
+    - mainly escaped characters & group constructs
+  - TypeScript/TSX
+  - YAML
+  - Markdown
+  - Assorted HTML template languages
 - Update `README.md`.
 - Update `CONTRIBUTING.md`.
-
 
 ## 0.2.7 *(February 10th, 2022)*
 ### Fixed

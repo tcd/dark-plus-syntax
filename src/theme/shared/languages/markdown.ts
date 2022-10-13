@@ -154,4 +154,10 @@ export const markdown: TextMateRuleData[] = [
         ],
         foreground: ThemeColor.Strings,
     },
+    {
+        scopes: [
+            "markup.strikethrough.markdown",
+        ],
+        foreground: ThemeColor.Noise,
+    },
 ]
