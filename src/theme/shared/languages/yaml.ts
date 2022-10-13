@@ -80,7 +80,6 @@ export const yaml: TextMateRuleData[] = [
     },
     {
         scopes: [
-            "source.yaml string.quoted.double.yaml",
             "string.unquoted.plain.out.yaml entity.name.tag.yaml",
             "meta.flow-pair.key.yaml string.unquoted.plain.in.yaml entity.name.tag.yaml",
             "meta.flow-mapping.yaml string.quoted.double.yaml",
@@ -89,6 +88,7 @@ export const yaml: TextMateRuleData[] = [
     },
     {
         scopes: [
+            "source.yaml string.quoted.double.yaml",
             "meta.flow-pair.value.yaml string.quoted.double.yaml",
         ],
         foreground: ThemeColor.Strings,

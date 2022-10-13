@@ -32,6 +32,7 @@ export const javaScript: TextMateRuleData[] = [
             "punctuation.definition.bracket.curly.begin.jsdoc",
             "punctuation.definition.bracket.curly.end.jsdoc",
             "storage.type.class.jsdoc",
+            "entity.name.type.instance.jsdoc variable.other.description.jsdoc",
         ],
         foreground: ThemeColor.DocComments,
         fontStyle:  "italic",
@@ -137,6 +138,9 @@ export const javaScript: TextMateRuleData[] = [
             // "variable.other.constant.object.js",
             // "variable.other.constant.property.js",
             // "variable.other.constant.js",
+            "punctuation.destructuring.js",
+            "punctuation.destructuring.ts",
+            "punctuation.destructuring.tsx",
         ],
         foreground: ThemeColor.Keywords,
     },
@@ -203,6 +207,7 @@ export const javaScript: TextMateRuleData[] = [
             "string.quoted.double meta.object-literal.key",
             "meta.decorator.ts meta.objectliteral.ts meta.object.member.ts variable.other.readwrite.ts",
             "meta.decorator.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
+            "meta.object-literal.key.ts meta.array.literal.ts meta.brace.square.ts",
         ],
         foreground: ThemeColor.Variables,
     },
@@ -223,6 +228,7 @@ export const javaScript: TextMateRuleData[] = [
             "support.variable.object.node",
             "support.variable.object.process",
             "support.variable.property.process",
+            "meta.type.declaration.ts meta.type.tuple.ts punctuation.separator.label.ts",
         ],
         foreground: ThemeColor.Types,
     },
@@ -261,8 +267,9 @@ export const javaScript: TextMateRuleData[] = [
     {
         scopes: [
             "string.template.tsx meta.template.expression.tsx meta.embedded.line.tsx meta.brace.round.tsx",
+            "string.template.tsx meta.template.expression.tsx meta.embedded.line.tsx meta.array.literal.tsx meta.brace.square.tsx",
             "punctuation.separator.key-value.tsx",
-            "punctuation.accessor.tsx",
+            // "punctuation.accessor.tsx",
         ],
         foreground: ThemeColor.Foreground,
     },
@@ -313,6 +320,20 @@ export const javaScript: TextMateRuleData[] = [
             "punctuation.accessor.optional.ts",
         ],
         foreground: ThemeColor.FlowControl,
+    },
+    {
+        scopes: [
+            "meta.var.expr.ts cast.expr.ts storage.modifier.ts",
+        ],
+        foreground: ThemeColor.Types,
+        fontStyle: "italic",
+    },
+    {
+        scopes: [
+            "meta.type.declaration.ts meta.type.tuple.ts entity.name.label.ts",
+        ],
+        foreground: ThemeColor.Variables,
+        fontStyle: "italic",
     },
     // =========================================================================
     // Angular

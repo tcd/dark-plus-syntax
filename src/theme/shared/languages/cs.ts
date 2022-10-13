@@ -114,6 +114,12 @@ export const cs: TextMateRuleData[] = [
     },
     {
         scopes: [
+            "punctuation.separator.decimal.cs",
+        ],
+        foreground: ThemeColor.Numbers,
+    },
+    {
+        scopes: [
             // "keyword.other.using.cs",
             // [ "meta.preprocessor.cs", "punctuation.separator.hash.cs"],
             "punctuation.accessor.cs",

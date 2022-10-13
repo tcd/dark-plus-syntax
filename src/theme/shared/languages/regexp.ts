@@ -1,11 +1,23 @@
 import { TextMateRuleData, ThemeColor } from "@types"
 
 export const regexp: TextMateRuleData[] = [
-    // {
-    //     scopes: [
-    //     ],
-    //     foreground: ThemeColor.Variables,,
-    // },
+    {
+        scopes: [
+            "meta.assertion.look-ahead.regexp",
+            "meta.assertion.look-behind.regexp",
+            "punctuation.definition.group.no-capture.regexp",
+        ],
+        foreground: ThemeColor.FlowControl,
+    },
+    {
+        scopes: [
+            "constant.character.escape.backslash.regexp",
+            "string.regexp.ts constant.character.escape.backslash.regexp",
+            "meta.group.assertion.regexp constant.character.escape.backslash.regexp",
+            // "meta.group.assertion.regexp constant.character.escape.backslash.regexp",
+        ],
+        foreground: ThemeColor.Chars,
+    },
     {
         scopes: [
             "keyword.operator.quantifier.regexp",

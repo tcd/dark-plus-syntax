@@ -31,40 +31,40 @@ export const markdown: TextMateRuleData[] = [
         fontStyle: "italic",
     },
     {
-        scopes: ["markup.heading"],
+        scopes:     ["markup.heading"],
         // fontStyle: "bold",
         foreground: ThemeColor.Keywords,
     },
     {
-        scopes: ["markup.inserted"],
+        scopes:     ["markup.inserted"],
         foreground: ThemeColor.Numbers,
     },
     {
-        scopes: ["markup.deleted"],
+        scopes:     ["markup.deleted"],
         foreground: ThemeColor.Strings,
     },
     {
-        scopes: ["markup.changed"],
+        scopes:     ["markup.changed"],
         foreground: ThemeColor.Keywords,
     },
     {
-        scopes: ["markup.inline.raw"],
+        scopes:     ["markup.inline.raw"],
         foreground: ThemeColor.Strings,
     },
     // =========================================================================
     // Markdown
     // =========================================================================
     {
-        scopes: ["fenced_code.block.language"],
+        scopes:     ["fenced_code.block.language"],
         foreground: ThemeColor.Types,
     },
     {
-        scopes: ["markup.italic.markdown"],
-        fontStyle: "italic",
+        scopes:     ["markup.italic.markdown"],
+        fontStyle:  "italic",
         foreground: ThemeColor.Variables,
     },
     {
-        scopes: ["markup.bold.markdown"],
+        scopes:     ["markup.bold.markdown"],
         foreground: ThemeColor.Keywords,
         fontStyle:  "bold",
     },
@@ -153,5 +153,11 @@ export const markdown: TextMateRuleData[] = [
             "meta.link.reference.def.markdown markup.underline.link.markdown",
         ],
         foreground: ThemeColor.Strings,
+    },
+    {
+        scopes: [
+            "markup.strikethrough.markdown",
+        ],
+        foreground: ThemeColor.Noise,
     },
 ]

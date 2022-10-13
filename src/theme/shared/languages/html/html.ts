@@ -6,6 +6,12 @@ import { TextMateRuleData, ThemeColor } from "@types"
  * - HTML
  * - Handlebars
  * - Jinja
+ * - Nunjucks
+ * - Liquid
+ * - Angular Templates
+ * - Slim
+ * - Jade/Pug
+ * - jsont (SquareSpace)
  *
  * ## Extensions
  *
@@ -100,7 +106,7 @@ export const html: TextMateRuleData[] = [
     },
     {
         "name":     "don't highlight ejs and erb as errors",
-        scopes:    ["invalid.illegal.bad-angle-bracket.html"],
+        scopes:     ["invalid.illegal.bad-angle-bracket.html"],
         foreground: ThemeColor.Foreground,
     },
     {
@@ -121,7 +127,7 @@ export const html: TextMateRuleData[] = [
     // Jade/Pug
     // =========================================================================
     {
-        name:  "Mustaches",
+        name:   "Mustaches",
         scopes: [
             "string.interpolated.jade",
         ],
@@ -283,25 +289,32 @@ export const html: TextMateRuleData[] = [
     },
     {
         scopes: [
-            // "punctuation.output.liquid",
-            // "support.class.liquid",
-        ],
-        foreground: ThemeColor.Types,
-    },
-    {
-        scopes: [
             "support.variable.liquid",
             "support.class.liquid",
+            "punctuation.output.liquid",
 
         ],
         foreground: ThemeColor.Variables,
     },
     {
         scopes: [
+            // "punctuation.output.liquid",
+            // "support.class.liquid",
+            "punctuation.tag.liquid punctuation.definition.tag.begin.liquid",
+            "punctuation.tag.liquid punctuation.definition.tag.end.liquid",
+            "punctuation.output.liquid punctuation.definition.tag.begin.liquid",
+            "punctuation.output.liquid punctuation.definition.tag.end.liquid",
+        ],
+        foreground: ThemeColor.Types,
+    },
+    {
+        scopes: [
+            "entity.name.tag.liquid",
+            "keyword.operator.liquid",
+            "keyword.other.colon.liquid",
+            "keyword.separator.pipe.liquid",
             "punctuation.output.liquid",
             "punctuation.tag.liquid",
-            "keyword.operator.liquid",
-            "entity.name.tag.liquid",
         ],
         foreground: ThemeColor.FlowControl,
     },
@@ -372,5 +385,51 @@ export const html: TextMateRuleData[] = [
             "meta.ng-binding.two-way.html punctuation.definition.string.end.html",
         ],
         foreground: ThemeColor.Types,
+    },
+    // =========================================================================
+    // Nunjucks
+    // =========================================================================
+    {
+        scopes: [
+            "punctuation.tag.njk entity.name.tag.njk",
+        ],
+        foreground: ThemeColor.FlowControl,
+    },
+    {
+        scopes: [
+            "punctuation.tag.njk punctuation.definition.tag.begin.njk",
+            "punctuation.tag.njk punctuation.definition.tag.end.njk",
+            "punctuation.output.njk punctuation.definition.tag.begin.njk",
+            "punctuation.output.njk punctuation.definition.tag.end.njk",
+        ],
+        foreground: ThemeColor.Types,
+    },
+    {
+        scopes: [
+            "support.class.njk",
+        ],
+        foreground: ThemeColor.Variables
+    },
+    // =========================================================================
+    // jsont (SquareSpace)
+    // =========================================================================
+    {
+        scopes: [
+            "support.class.jsont",
+        ],
+        foreground: ThemeColor.Functions,
+    },
+    {
+        scopes: [
+            "string.quoted.double.html punctuation.section.tag.jsont",
+            "punctuation.section.tag.jsont",
+        ],
+        foreground: ThemeColor.Types,
+    },
+    {
+        scopes: [
+            "text.html.jsont punctuation.separator.key-value.html",
+        ],
+        foreground: ThemeColor.FlowControl,
     },
 ]

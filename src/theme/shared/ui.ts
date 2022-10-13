@@ -26,6 +26,13 @@ export const ui: VisualStudioCodeThemeColors = {
     "activityBarBadge.background": ThemeColor.Secondary,
     "sideBarTitle.foreground":     "#bbbbbb",
 
+    // "editorBracketHighlight.foreground1": ThemeColor.Foreground,
+    // "editorBracketHighlight.foreground2": ThemeColor.Foreground,
+    // "editorBracketHighlight.foreground3": ThemeColor.Foreground,
+    // "editorBracketHighlight.foreground4": ThemeColor.Foreground,
+    // "editorBracketHighlight.foreground5": ThemeColor.Foreground,
+    // "editorBracketHighlight.foreground6": ThemeColor.Foreground,
+
     // "diffEditor.insertedTextBorder": ThemeColor.Success,,
     // "diffEditor.removedTextBorder": ThemeColor.Error,
 
@@ -104,5 +111,5 @@ export const ui: VisualStudioCodeThemeColors = {
     "terminal.ansiMagenta":       "#c586c0",
     "terminal.ansiBrightMagenta": "#c586c0",
     "terminal.ansiWhite":         "#d4d4d4",
-    "terminal.ansiBrightWhite":   "#d4d4d4",
+    "terminal.ansiBrightWhite":   "#808080",
 }

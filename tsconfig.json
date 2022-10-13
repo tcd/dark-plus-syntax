@@ -4,7 +4,7 @@
         // "files": true,
     },
     "include": [
-        "./src",
+        "./src", "ignore/todo copy.ts", "ignore/rename-settings.ts", "ignore/todo.ts",
     ],
     // "files": [
     //     "./src/@types/index.d.ts",

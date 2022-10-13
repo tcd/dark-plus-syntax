@@ -15,6 +15,7 @@ import { elm } from "./elm"
 import { erlang } from "./erlang"
 import { git } from "./git"
 import { go } from "./go"
+import { googleSheets } from "./google-sheets"
 import { graphql } from "./graphql"
 import { haskell } from "./haskell"
 import { ini } from "./ini"
@@ -58,6 +59,7 @@ export const Languages: TextMateRuleData[] = [
     ...erlang,
     ...git,
     ...go,
+    ...googleSheets,
     ...graphql,
     ...haskell,
     ...ini,

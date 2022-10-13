@@ -17,6 +17,8 @@ export const LightPlusPalette: ThemeColorPalette = {
     Tags:        "#1e1e1e",
     Noise:       "#a4a4a4",
     // UI
+    // Foreground:  "#24292F",
+    // Background:  "#EFF1F3",
     Foreground:  "#1e1e1e",
     Background:  "#d4d4d4",
     Selection:   "#add6ff80",

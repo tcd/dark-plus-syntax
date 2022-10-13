@@ -1,5 +1,19 @@
 # Changelog
 
+
+## 0.3.0 *(October 13th, 2022)*
+### Added
+- Add tweaks to various HTML templating languages.
+- Add new languages:
+  - Google Sheets
+  - Dictionary
+### Fixed
+- Fixes to Regex highlighting (mainly escaped characters & group constructs).
+### Changed
+- Adjust light-plus foreground & background colors.
+- Assorted other updates I've had for a minute but haven't gotten around to applying.
+
+
 ## 0.2.8 *(February 13th, 2022)*
 ### Fixed
 - Actually fix selection highlighting.
