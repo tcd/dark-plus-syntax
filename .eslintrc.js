@@ -19,7 +19,6 @@ module.exports = {
     rules: {
         // Solid
         "no-mixed-spaces-and-tabs":      ["error"], // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
-        "linebreak-style":               ["error", "unix"], // https://eslint.org/docs/rules/linebreak-style
         "eol-last":                      ["warn", "always"], // https://eslint.org/docs/rules/eol-last
         "no-trailing-spaces":            ["warn"], // https://eslint.org/docs/rules/no-trailing-spaces
         "spaced-comment":                ["warn", "always", { "exceptions": ["-", "="] }], // https://eslint.org/docs/rules/spaced-comment
