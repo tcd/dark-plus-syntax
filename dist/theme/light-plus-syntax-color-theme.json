@@ -1512,6 +1512,23 @@
         },
         {
             "scope": [
+                "string.word.dictionary"
+            ],
+            "settings": {
+                "foreground": "#008000"
+            }
+        },
+        {
+            "scope": [
+                "variable.flagged.dictionary",
+                "keyword.operator.flag.dictionary"
+            ],
+            "settings": {
+                "foreground": "#811f3f"
+            }
+        },
+        {
+            "scope": [
                 "comment.wildcard.elixir",
                 "comment.unused.elixir"
             ],
@@ -1809,6 +1826,41 @@
             ],
             "settings": {
                 "foreground": "#0070c1"
+            }
+        },
+        {
+            "scope": [
+                "source.sheets constant.character",
+                "constant.character.format.google-sheets",
+                "punctuation.definition.placeholder.google-sheets"
+            ],
+            "settings": {
+                "foreground": "#0000ff"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.string.google-sheets"
+            ],
+            "settings": {
+                "foreground": "#a31515"
+            }
+        },
+        {
+            "scope": [
+                "variable.sheet.google-sheets"
+            ],
+            "settings": {
+                "foreground": "#267f99"
+            }
+        },
+        {
+            "scope": [
+                "storage.type.reference.absolute.google-sheets",
+                "meta.placeholder.google-sheets"
+            ],
+            "settings": {
+                "foreground": "#267f99"
             }
         },
         {
