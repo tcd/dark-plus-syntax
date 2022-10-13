@@ -1,5 +1,5 @@
 {
-    "version": "0.2.9",
+    "version": "0.2.10",
     "license": "MIT",
     "name": "dark-plus-syntax",
     "engines": {
@@ -12,7 +12,8 @@
         "watch": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/main.ts",
         "lint": "eslint ./src/**/*.ts --fix",
         "format": "npm run lint",
-        "publish": "vsce publish",
+        "publish:latest": "vsce publish",
+        "publish:next": "vsce publish --pre-release",
         "test": "mocha --require ts-node/register --require tsconfig-paths/register ./test/tests/*.test.ts",
         "test:cover": "nyc --require ts-node/register --require tsconfig-paths/register mocha ./test/tests/*.test.ts"
     },

@@ -1,6 +1,10 @@
 # Changelog
 
 
+## 0.2.10 *(October 13th, 2022)*
+- No changes; fixing publishing issue
+
+
 ## 0.2.9 *(October 13th, 2022)*
 ### Fixed
 - Move `dotenv` to `devDependencies`
