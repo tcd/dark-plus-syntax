@@ -1,5 +1,5 @@
 {
-    "version": "0.2.8",
+    "version": "0.2.9",
     "license": "MIT",
     "name": "dark-plus-syntax",
     "engines": {
@@ -26,6 +26,7 @@
         "@typescript-eslint/parser": "^5.10.0",
         "chai": "^4.3.6",
         "cross-env": "^7.0.3",
+        "dotenv": "^16.0.0",
         "eslint": "^8.7.0",
         "eslint-plugin-jsdoc": "^37.6.3",
         "mocha": "^9.2.0",
@@ -80,8 +81,5 @@
         "id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b7f",
         "publisherDisplayName": "dunstontc",
         "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743"
-    },
-    "dependencies": {
-        "dotenv": "^16.0.0"
     }
 }

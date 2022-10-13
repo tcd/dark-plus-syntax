@@ -1,5 +1,11 @@
 # Changelog
 
+
+## 0.2.9 *(October 13th, 2022)*
+### Fixed
+- Move `dotenv` to `devDependencies`
+
+
 ## 0.2.8 *(October 13th, 2022)*
 ### Fixed
 - Actually fix selection highlighting.
@@ -19,13 +25,16 @@
 - Update `README.md`.
 - Update `CONTRIBUTING.md`.
 
+
 ## 0.2.7 *(February 10th, 2022)*
 ### Fixed
 - Fix highlight/selection highlighting.
 
+
 ## 0.2.6 *(February 8th, 2022)*
 ### Added
 - Add support for Protocol Buffers.
+
 
 ## 0.2.5 *(February 8th, 2022)*
 ### Added
