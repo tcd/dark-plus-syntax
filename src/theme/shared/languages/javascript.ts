@@ -331,9 +331,28 @@ export const javaScript: TextMateRuleData[] = [
     {
         scopes: [
             "meta.type.declaration.ts meta.type.tuple.ts entity.name.label.ts",
+            "meta.return.type.arrow.ts meta.type.tuple.ts entity.name.label.ts",
         ],
         foreground: ThemeColor.Variables,
-        fontStyle: "italic",
+        // fontStyle: "italic",
+    },
+    {
+        scopes: [
+            "meta.return.type.arrow.ts meta.type.tuple.ts meta.brace.square.ts",
+        ],
+        foreground: ThemeColor.Keywords,
+    },
+    {
+        scopes: [
+            "meta.return.type.arrow.ts meta.type.tuple.ts meta.type.tuple.ts meta.brace.square.ts",
+        ],
+        foreground: ThemeColor.Foreground,
+    },
+    {
+        scopes: [
+            "meta.return.type.arrow.ts meta.type.tuple.ts punctuation.separator.label.ts",
+        ],
+        foreground: ThemeColor.Types,
     },
     // =========================================================================
     // Angular
