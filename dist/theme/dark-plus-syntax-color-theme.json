@@ -2419,11 +2419,35 @@
         },
         {
             "scope": [
-                "meta.type.declaration.ts meta.type.tuple.ts entity.name.label.ts"
+                "meta.type.declaration.ts meta.type.tuple.ts entity.name.label.ts",
+                "meta.return.type.arrow.ts meta.type.tuple.ts entity.name.label.ts"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#9cdcfe"
+            }
+        },
+        {
+            "scope": [
+                "meta.return.type.arrow.ts meta.type.tuple.ts meta.brace.square.ts"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": [
+                "meta.return.type.arrow.ts meta.type.tuple.ts meta.type.tuple.ts meta.brace.square.ts"
+            ],
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "scope": [
+                "meta.return.type.arrow.ts meta.type.tuple.ts punctuation.separator.label.ts"
+            ],
+            "settings": {
+                "foreground": "#4ec9b0"
             }
         },
         {

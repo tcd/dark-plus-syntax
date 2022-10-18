@@ -6,4 +6,7 @@ export const LightPlusHighContrastPalette: ThemeColorPalette = {
     // UI
     Foreground: "#000000",
     Background: "#ffffff",
+    // Primary: "#af00db",
+    // Error: "#b5200d",
+    // Selection: "#0f4a85",
 }

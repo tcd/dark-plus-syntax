@@ -1,5 +1,5 @@
 {
-    "version": "0.2.10",
+    "version": "0.2.11",
     "license": "MIT",
     "name": "dark-plus-syntax",
     "engines": {
@@ -9,7 +9,7 @@
         "start": "npm run build",
         "build": "ts-node ./src/main.ts",
         "build:prod": "NODE_ENV=production ts-node ./src/main.ts",
-        "watch": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/main.ts",
+        "watch": "cross-env nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/main.ts",
         "lint": "eslint ./src/**/*.ts --fix",
         "format": "npm run lint",
         "publish:latest": "vsce publish",

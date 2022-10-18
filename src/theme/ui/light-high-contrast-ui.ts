@@ -8,4 +8,7 @@ export const LightHighContrastUi: VisualStudioCodeThemeColors = {
     "activityBar.foreground": ThemeColor.Foreground,
     "statusBar.background":   ThemeColor.Background,
     "statusBar.foreground":   ThemeColor.Foreground,
+    "list.activeSelectionIconForeground": "#ffffff",
+    // "editor.selectionForeground": ThemeColor.Foreground,
+    // "selection.background": ThemeColor.Selection,
 }

@@ -1,6 +1,16 @@
 # Changelog
 
 
+## 0.2.11 *(October 17th, 2022)*
+### Fixed
+- Fix swapped light/light-high-contrast UI overrides
+- Improve visibility for certain UI elements in `light-plus-syntax (high contrast)` 
+  - Thanks to [@tennox](https://github.com/tcd/dark-plus-syntax/issues/23) for pointing this out
+  - NOTE: *Plan to review & further improve UI colors for all themes*
+### Added
+- Add further improvements for TypeScript tuple highlighting
+
+
 ## 0.2.10 *(October 13th, 2022)*
 - No changes; fixing publishing issue
 

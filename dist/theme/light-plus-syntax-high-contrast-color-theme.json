@@ -59,7 +59,8 @@
         "activityBar.background": "#ffffff",
         "activityBar.foreground": "#000000",
         "statusBar.background": "#ffffff",
-        "statusBar.foreground": "#000000"
+        "statusBar.foreground": "#000000",
+        "list.activeSelectionIconForeground": "#ffffff"
     },
     "tokenColors": [
         {
@@ -2420,11 +2421,35 @@
         },
         {
             "scope": [
-                "meta.type.declaration.ts meta.type.tuple.ts entity.name.label.ts"
+                "meta.type.declaration.ts meta.type.tuple.ts entity.name.label.ts",
+                "meta.return.type.arrow.ts meta.type.tuple.ts entity.name.label.ts"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#0070c1"
+            }
+        },
+        {
+            "scope": [
+                "meta.return.type.arrow.ts meta.type.tuple.ts meta.brace.square.ts"
+            ],
+            "settings": {
+                "foreground": "#0000ff"
+            }
+        },
+        {
+            "scope": [
+                "meta.return.type.arrow.ts meta.type.tuple.ts meta.type.tuple.ts meta.brace.square.ts"
+            ],
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+        {
+            "scope": [
+                "meta.return.type.arrow.ts meta.type.tuple.ts punctuation.separator.label.ts"
+            ],
+            "settings": {
+                "foreground": "#267f99"
             }
         },
         {
